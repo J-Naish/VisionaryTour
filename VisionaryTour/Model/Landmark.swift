@@ -5,7 +5,10 @@
 //  Created by JinNash on 2024/05/05.
 //
 
-struct Landmark {
+import Foundation
+
+struct Landmark: Identifiable {
+    var id = UUID()
     var coordinate: Coordinate
     var isFavorite: Bool
     var country: Country
