@@ -9,17 +9,18 @@ import SwiftUI
 
 struct RoundedSquareImage: View {
     var image: Image
+    var isWide: Bool
     
     var body: some View {
         image
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 200, height: 200)
+            .frame(minWidth: 200, maxWidth: isWide ? 880 : 200, minHeight: 200, maxHeight: isWide ? 240 : 200, alignment: .center)
             .clipShape(Rectangle())
             .cornerRadius(20)
     }
 }
 
 #Preview {
-    RoundedSquareImage(image: Image("dummy"))
+    RoundedSquareImage(image: Image("dummy"), isWide: true)
 }
