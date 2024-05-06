@@ -16,7 +16,7 @@ struct RoundedSquareImage: View {
             .aspectRatio(contentMode: .fill)
             .frame(width: 200, height: 200)
             .clipShape(Rectangle())
-            .cornerRadius(32)
+            .cornerRadius(20)
     }
 }
 
