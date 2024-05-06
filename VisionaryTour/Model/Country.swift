@@ -15,7 +15,7 @@ enum Region: String {
     case others = "Others"
 }
 
-enum Country: String, CaseIterable {
+enum Country: String, CaseIterable, Codable {
     case afghanistan = "Afghanistan"
     case albania = "Albania"
     case algeria = "Algeria"

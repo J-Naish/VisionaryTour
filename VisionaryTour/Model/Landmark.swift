@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Landmark: Identifiable {
+struct Landmark: Identifiable, Codable {
     var id = UUID()
     var name: String
     var coordinates: Coordinates
