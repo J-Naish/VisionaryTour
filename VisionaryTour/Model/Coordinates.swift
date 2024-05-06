@@ -7,7 +7,7 @@
 
 import MapKit
 
-struct Coordinate: Codable {
-    var latitude: Double
+struct Coordinates: Codable {
     var longitude: Double
+    var latitude: Double
 }

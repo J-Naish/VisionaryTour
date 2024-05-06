@@ -9,9 +9,11 @@ import Foundation
 
 struct Landmark: Identifiable {
     var id = UUID()
-    var coordinate: Coordinate
+    var name: String
+    var coordinates: Coordinates
     var isFavorite: Bool
     var country: Country
+    var state: String
     var description: String
 
     var tags: [Tag]

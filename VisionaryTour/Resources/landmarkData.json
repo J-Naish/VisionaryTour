@@ -1,0 +1,307 @@
+[
+  {
+
+     "name": "Kinkakuji",
+     "coordinates": {
+     "longitude": 135.7292,
+     "latitude": 35.0394
+     },
+     "country": "Japan",
+     "state": "Kyoto",
+     "isFavorite": false,
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "tag": ["countryside", "birds"]
+  },
+  {
+    "name": "Taj Mahal",
+    "coordinates": {
+      "longitude": 78.0421,
+      "latitude": 27.1751
+    },
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "isFavorite": false,
+    "description": "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favourite wife, Mumtaz Mahal.",
+    "tags": [
+      "city",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Machu Picchu",
+    "coordinates": {
+      "longitude": -72.5450,
+      "latitude": -13.1631
+    },
+    "country": "Peru",
+    "state": "Cusco",
+    "isFavorite": false,
+    "description": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it's renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views.",
+    "tags": [
+      "countryside",
+      "birds"
+    ]
+  },
+  {
+    "name": "Angkor Wat",
+    "coordinates": {
+      "longitude": 103.8667,
+      "latitude": 13.4125
+    },
+    "country": "Cambodia",
+    "state": "Siem Reap",
+    "isFavorite": false,
+    "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world, on a site measuring 162.6 hectares. Originally constructed as a Hindu temple dedicated to the god Vishnu for the Khmer Empire, it was gradually transformed into a Buddhist temple towards the end of the 12th century.",
+    "tags": [
+      "forest",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Petra",
+    "coordinates": {
+      "longitude": 35.4444,
+      "latitude": 30.3286
+    },
+    "country": "Jordan",
+    "state": "Ma'an",
+    "isFavorite": false,
+    "description": "Petra is a historic and archaeological city in southern Jordan. It is adjacent to the mountain of Jabal Al-Madbah, in a basin surrounded by mountains forming the eastern flank of the Arabah valley running from the Dead Sea to the Gulf of Aqaba.",
+    "tags": [
+      "countryside"
+    ]
+  },
+  {
+    "name": "Colosseum",
+    "coordinates": {
+      "longitude": 12.4964,
+      "latitude": 41.8902
+    },
+    "country": "Italy",
+    "state": "Rome",
+    "isFavorite": false,
+    "description": "The Colosseum or Coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine, tuff, and brick-faced concrete, it is the largest amphitheatre ever built.",
+    "tags": [
+      "city"
+    ]
+  },
+  {
+    "name": "Chichen Itza",
+    "coordinates": {
+      "longitude": -88.5686,
+      "latitude": 20.6829
+    },
+    "country": "Mexico",
+    "state": "Yucatan",
+    "isFavorite": false,
+    "description": "Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico.",
+    "tags": [
+      "forest",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Acropolis",
+    "coordinates": {
+      "longitude": 23.7263,
+      "latitude": 37.9715
+    },
+    "country": "Greece",
+    "state": "Athens",
+    "isFavorite": false,
+    "description": "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens and contains the remains of several ancient Greek buildings of great architectural and historic significance, the most famous being the Parthenon.",
+    "tags": [
+      "city",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Great Wall of China",
+    "coordinates": {
+      "longitude": 116.5704,
+      "latitude": 40.4319
+    },
+    "country": "China",
+    "state": "Beijing",
+    "isFavorite": false,
+    "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China to protect against nomadic invasions from the Eurasian Steppe.",
+    "tags": [
+      "countryside"
+    ]
+  },
+  {
+    "name": "Alhambra",
+    "coordinates": {
+      "longitude": -3.5881,
+      "latitude": 37.1761
+    },
+    "country": "Spain",
+    "state": "Granada",
+    "isFavorite": false,
+    "description": "The Alhambra is a palace and fortress complex located in Granada, Andalusia, Spain. It was originally constructed as a small fortress in AD 889 on the remains of Roman fortifications, and then largely ignored until its ruins were renovated and rebuilt in the mid-13th century by the Nasrid emir Mohammed ben Al-Ahmar of the Emirate of Granada.",
+    "tags": [
+      "city",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Pyramids of Giza",
+    "coordinates": {
+      "longitude": 31.1342,
+      "latitude": 29.9773
+    },
+    "country": "Egypt",
+    "state": "Giza",
+    "isFavorite": false,
+    "description": "The Giza pyramid complex, also called the Giza Necropolis, is the site on the Giza Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx of Giza.",
+    "tags": [
+      "countryside"
+    ]
+  },
+  {
+    "name": "Statue of Liberty",
+    "coordinates": {
+      "longitude": -74.0445,
+      "latitude": 40.6892
+    },
+    "country": "United States of America",
+    "state": "New York",
+    "isFavorite": false,
+    "description": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel.",
+    "tags": [
+      "seaside",
+      "city"
+    ]
+  },
+  {
+    "name": "Stonehenge",
+    "coordinates": {
+      "longitude": -1.8260,
+      "latitude": 51.1789
+    },
+    "country": "United Kingdom",
+    "state": "Wiltshire",
+    "isFavorite": false,
+    "description": "Stonehenge is a prehistoric monument in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of an outer ring of vertical sarsen standing stones, each around 13 feet (4.0 m) high, seven feet (2.1 m) wide, and weighing around 25 tons, topped by connecting horizontal lintel stones.",
+    "tags": [
+      "countryside"
+    ]
+  },
+  {
+    "name": "Sagrada Familia",
+    "coordinates": {
+      "longitude": 2.1744,
+      "latitude": 41.4036
+    },
+    "country": "Spain",
+    "state": "Barcelona",
+    "isFavorite": false,
+    "description": "The Basílica i Temple Expiatori de la Sagrada Família, shortened as the Sagrada Família, is a large unfinished Roman Catholic minor basilica in the Eixample district of Barcelona, Catalonia, Spain. Designed by the Spanish architect Antoni Gaudí (1852–1926), his work on the building is part of a UNESCO World Heritage Site.",
+    "tags": [
+      "city"
+    ]
+  },
+  {
+    "name": "Mont-Saint-Michel",
+    "coordinates": {
+      "longitude": -1.5105,
+      "latitude": 48.6360
+    },
+    "country": "France",
+    "state": "Normandy",
+    "isFavorite": false,
+    "description": "Le Mont-Saint-Michel is a tidal island and mainland commune in Normandy, France. The island lies approximately one kilometre off the country's north-western coast, at the mouth of the Couesnon River near Avranches and is 7 hectares in area.",
+    "tags": [
+      "seaside",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Borobudur Temple",
+    "coordinates": {
+      "longitude": 110.2039,
+      "latitude": -7.6074
+    },
+    "country": "Indonesia",
+    "state": "Central Java",
+    "isFavorite": false,
+    "description": "Borobudur, or Barabudur, is a 7th-century Mahayana Buddhist temple in Magelang Regency, not far from the town of Muntilan, in Central Java, Indonesia. It is the world's largest Buddhist temple. The temple consists of nine stacked platforms, six square and three circular, topped by a central dome.",
+    "tags": [
+      "forest",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Parthenon",
+    "coordinates": {
+      "longitude": 23.7265,
+      "latitude": 37.9715
+    },
+    "country": "Greece",
+    "state": "Athens",
+    "isFavorite": false,
+    "description": "The Parthenon is a former temple on the Athenian Acropolis, Greece, dedicated to the goddess Athena, whom the people of Athens considered their patron. Construction began in 447 BC when the Athenian Empire was at the peak of its power.",
+    "tags": [
+      "city",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Hagia Sophia",
+    "coordinates": {
+      "longitude": 28.9784,
+      "latitude": 41.0086
+    },
+    "country": "Turkey",
+    "state": "Istanbul",
+    "isFavorite": false,
+    "description": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, and formerly the Church of Hagia Sophia, is a Late Antique place of worship in Istanbul, designed by the Greek geometers Isidore of Miletus and Anthemius of Tralles. Built in 537 as the patriarchal cathedral of the imperial capital of Constantinople, it was the largest Christian church of the eastern Roman Empire and the Eastern Orthodox Church, except during the Latin Empire from 1204 to 1261, when it became the city's Latin Catholic cathedral.",
+    "tags": [
+      "city"
+    ]
+  },
+  {
+    "name": "Moai Statues",
+    "coordinates": {
+      "longitude": -109.3496,
+      "latitude": -27.1127
+    },
+    "country": "Chile",
+    "state": "Easter Island",
+    "isFavorite": false,
+    "description": "Moai, or mo'ai, are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between the years 1250 and 1500. Nearly half are still at Rano Raraku, the main moai quarry, but hundreds were transported from there and set on stone platforms called ahu around the island's perimeter.",
+    "tags": [
+      "seaside",
+      "countryside"
+    ]
+  },
+  {
+    "name": "Pamukkale",
+    "coordinates": {
+      "longitude": 29.1219,
+      "latitude": 37.9218
+    },
+    "country": "Turkey",
+    "state": "Denizli Province",
+    "isFavorite": false,
+    "description": "Pamukkale is a town in western Turkey known for the mineral-rich thermal waters flowing down white travertine terraces on a nearby hillside. It neighbors Hierapolis, an ancient Roman spa city founded around 190 B.C. Ruins there include a well-preserved theater and a necropolis with sarcophagi that stretch for 2km.",
+    "tags": [
+      "countryside"
+    ]
+  },
+  {
+    "name": "Sydney Opera House",
+    "coordinates": {
+      "longitude": 151.2153,
+      "latitude": -33.8568
+    },
+    "country": "Australia",
+    "state": "New South Wales",
+    "isFavorite": false,
+    "description": "The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour located in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings.",
+    "tags": [
+      "seaside",
+      "city"
+    ]
+  }
+]
