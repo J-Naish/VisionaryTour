@@ -17,17 +17,35 @@ struct ListView: View {
             }
             .navigationTitle("List")
         } detail: {
-            VStack {
-                RoundedSquareImage(image: Image("dummy"), size: .large)
-                HStack(spacing: 32) {
-                    RoundedSquareImage(image: Image("dummy"), size: .medium)
-                    RoundedSquareImage(image: Image("dummy"), size: .medium)
-                }
-                HStack(spacing: 24) {
-                    RoundedSquareImage(image: Image("dummy"), size: .small)
-                    RoundedSquareImage(image: Image("dummy"), size: .small)
-                    RoundedSquareImage(image: Image("dummy"), size: .small)
-                    RoundedSquareImage(image: Image("dummy"), size: .small)
+            ScrollView {
+                VStack {
+                    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
+                    HStack(spacing: 32) {
+                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
+                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
+                    }
+                    HStack(spacing: 32) {
+                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
+                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
+                    }
+                    HStack(spacing: 24) {
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                    }
+                    HStack(spacing: 24) {
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                    }
+                    HStack(spacing: 24) {
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                    }
                 }
             }
         }

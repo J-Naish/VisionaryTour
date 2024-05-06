@@ -35,18 +35,39 @@ struct RoundedSquareImage: View {
                 return 200
             }
         }
+        var textFont: Font {
+            switch self {
+            case .small:
+                return .system(size: 18)
+            case .medium:
+                return .system(size: 42)
+            case .large:
+                return .system(size: 64)
+            }
+        }
     }
+    var text: String? = nil
     
     var body: some View {
-        image
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: size.width, height: size.height)
-            .clipShape(Rectangle())
-            .cornerRadius(20)
+        ZStack(alignment: size == .large ? .leading : .bottomLeading) {
+            image
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: size.width, height: size.height)
+                .clipShape(Rectangle())
+                .cornerRadius(20)
+            
+            if let text = text, size == .large || size == .medium {
+                Text(text)
+                    .font(size.textFont)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 48)
+                    .padding(.vertical, size == .medium ? 24 : 0)
+            }
+        }
     }
 }
 
 #Preview {
-    RoundedSquareImage(image: Image("dummy"), size: .large)
+    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Test")
 }
