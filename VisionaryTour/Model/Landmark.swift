@@ -16,13 +16,23 @@ struct Landmark: Identifiable, Codable {
     var state: String
     var description: String
 
-    var tags: [Tag]
-    enum Tag: String, CaseIterable, Codable {
-        case forest = "Forest"
-        case seaside = "Seaside"
-        case city = "City"
-        case countryside = "Countryside"
-        case birds = "Birds"
-        case cars = "Cars"
+    var categories: [Category]
+    enum Category: String, CaseIterable, Codable {
+        case religious
+        case historical
+        case woods
+        case wilderness
+        case sea
+        case river
+        case lake
+        case glacier
+        case worldHeritage
+        case park
+        case mountain
+        case cultural
+        case nature
+        case city
+        case architecture
+        case desert
     }
 }
