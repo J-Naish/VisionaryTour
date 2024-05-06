@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ListView: View {
+    @State private var searchText = ""
+    
     var body: some View {
         NavigationSplitView {
             List {
@@ -17,6 +19,7 @@ struct ListView: View {
         } detail: {
             
         }
+        .searchable(text: $searchText)
     }
 }
 
