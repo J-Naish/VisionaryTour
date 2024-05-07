@@ -52,7 +52,8 @@ struct ToggleButton: View {
         }
         .background(
             Capsule()
-                .fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2))
+                .fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.1))
+                .innerShadow(color: Color.black.opacity(0.3), radius: 2)
         )
     }
 }
@@ -71,6 +72,43 @@ struct CustomButtonStyle: ButtonStyle {
             )
             .contentShape(Capsule())
             .hoverEffect(.lift)
+    }
+}
+
+extension View {
+    func innerShadow(color: Color, radius: CGFloat = 4, offsetX: CGFloat = 0, offsetY: CGFloat = 0) -> some View {
+        modifier(ShadowModifier(color: color, radius: radius, offsetX: offsetX, offsetY: offsetY))
+    }
+}
+
+struct ShadowModifier: ViewModifier {
+    let color: Color
+    let radius: CGFloat
+    let offsetX: CGFloat
+    let offsetY: CGFloat
+    
+    func body(content: Content) -> some View {
+        content
+            .overlay(
+                Capsule()
+                    .stroke(color, lineWidth: 4)
+                    .blur(radius: radius)
+                    .offset(x: offsetX, y: offsetY)
+                    .mask(
+                        Capsule()
+                            .fill(LinearGradient(gradient: Gradient(colors: [Color.black, Color.clear]), startPoint: .top, endPoint: .bottom))
+                    )
+            )
+            .overlay(
+                Capsule()
+                    .stroke(color, lineWidth: 4)
+                    .blur(radius: radius)
+                    .offset(x: offsetX, y: offsetY)
+                    .mask(
+                        Capsule()
+                            .fill(LinearGradient(gradient: Gradient(colors: [Color.clear, Color.black]), startPoint: .top, endPoint: .bottom))
+                    )
+            )
     }
 }
 
