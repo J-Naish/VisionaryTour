@@ -53,6 +53,7 @@ struct RoundedSquareImage: View {
             image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .hoverEffect(.lift)
                 .frame(width: size.width, height: size.height)
                 .clipShape(Rectangle())
                 .cornerRadius(20)
