@@ -17,21 +17,10 @@ struct MapView: View {
             MapViewRepresentable(viewModel: viewModel)
                 .clipShape(RoundedRectangle(cornerRadius: 32))
                 .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
-                .navigationBarItems(leading:
-                    MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel)
-                        .padding(.leading, 8)
-                , trailing: HStack {
-                    Button(action: {
-                        viewModel.zoomIn()
-                    }) {
-                        Image(systemName: "plus")
-                    }
-                    Button(action: {
-                        viewModel.zoomOut()
-                    }) {
-                        Image(systemName: "minus")
-                    }
-                })
+                .navigationBarItems(
+                    leading: MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel),
+                    trailing: ZoomControlButton(viewModel: viewModel)
+                )
         }
         .searchable(text: $searchText)
     }

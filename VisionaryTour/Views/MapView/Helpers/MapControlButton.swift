@@ -83,6 +83,7 @@ struct MapControlButton: View {
             }
             
         }
+        .padding(.leading, 8)
     }
 }
 
