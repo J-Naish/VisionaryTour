@@ -39,33 +39,64 @@ struct ToggleButton: View {
     
     var body: some View {
         ZStack {
-            Capsule()
-                .fill(Color(red:1.0, green: 1.0, blue: 1.0, opacity: 0.1))
-                .innerShadow(color: Color.black.opacity(0.3), radius: 2)
-                .frame(width: 200, height: 48)
             
-            CapsuleBackground(isMapSelected: $isMapSelected)
+            Capsule()
+                .fill(Color(red:1.0, green: 1.0, blue: 1.0, opacity: 0.45))
+                .frame(width: 280, height: 48)
             
             HStack {
-                Button("Map") {
+                Button(action: {
                     withAnimation {
                         viewModel.updateMapType("roadmap")
                         isMapSelected = true
                     }
+                }) {
+                    Text("")
+                        .frame(width: 64, height: 14)
+                        .padding()
+                        .background(
+                            Capsule()
+                                .fill(Color.clear)
+                        )
+                        .contentShape(Capsule())
                 }
-                .buttonStyle(CustomButtonStyle())
-                .foregroundColor(isMapSelected ? Color.black : Color.white)
                 
-                Button("Satellite") {
+                Button(action: {
                     withAnimation {
                         viewModel.updateMapType("satellite")
                         isMapSelected = false
                     }
+                }) {
+                    Text("")
+                        .frame(width: 64, height: 14)
+                        .padding()
+                        .background(
+                            Capsule()
+                                .fill(Color.clear)
+                        )
+                        .contentShape(Capsule())
                 }
-                .buttonStyle(CustomButtonStyle())
-                .foregroundColor(!isMapSelected ? Color.black : Color.white)
             }
             
+            Capsule()
+                .fill(Color.clear)
+                .innerShadow(color: Color.black.opacity(0.2), radius: 2)
+                .frame(width: 280, height: 48)
+                .allowsHitTesting(false)
+            
+            CapsuleBackground(isMapSelected: $isMapSelected)
+                .allowsHitTesting(false)
+            
+            HStack {
+                Text("Map")
+                    .frame(width: 136, height: 14)
+                    .foregroundColor(isMapSelected ? Color.black : Color.white)
+                    .allowsHitTesting(false)
+                Text("Satellite")
+                    .frame(width: 136, height: 14)
+                    .foregroundColor(!isMapSelected ? Color.black : Color.white)
+                    .allowsHitTesting(false)
+            }
             
         }
     }
@@ -77,28 +108,14 @@ struct CapsuleBackground: View {
     var body: some View {
         Capsule()
             .fill(Color.white)
-            .frame(width: 102, height: 48)
-            .offset(x: isMapSelected ? -51 : 51)
+            .frame(width: 136, height: 48)
+            .offset(x: isMapSelected ? -72 : 72)
             .onChange(of: isMapSelected) { newValue, _ in
-                withAnimation(.easeInOut(duration: 0.3)) {}
+                withAnimation(.easeInOut(duration: 0.15)) {}
             }
     }
 }
 
-struct CustomButtonStyle: ButtonStyle {
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(width: 64, height: 14)
-            .padding()
-            .background(
-                Capsule()
-                    .fill(Color.clear)
-            )
-            .contentShape(Capsule())
-            .hoverEffect(.lift)
-    }
-}
 
 extension View {
     func innerShadow(color: Color, radius: CGFloat = 4, offsetX: CGFloat = 0, offsetY: CGFloat = 0) -> some View {
