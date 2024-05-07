@@ -50,9 +50,6 @@ function loadScript() {
     document.head.appendChild(script);
 }
 
-function setMapType(mapType) {
-    
-}
 
 // load the map when the window loads
 window.onload = loadScript;
