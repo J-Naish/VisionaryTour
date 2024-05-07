@@ -20,33 +20,37 @@ struct ListView: View {
             ScrollView {
                 VStack {
                     RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
+                    Spacer(minLength: 48)
                     HStack(spacing: 32) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
                     }
+                    Spacer(minLength: 32)
                     HStack(spacing: 32) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
                     }
+                    Spacer(minLength: 48)
                     HStack(spacing: 24) {
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
                     }
                     HStack(spacing: 24) {
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
                     }
                     HStack(spacing: 24) {
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
-                        RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
                     }
                 }
+                .padding()
             }
         }
         .searchable(text: $searchText)
