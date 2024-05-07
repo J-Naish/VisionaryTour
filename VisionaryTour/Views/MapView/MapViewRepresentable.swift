@@ -9,6 +9,8 @@ import SwiftUI
 import WebKit
 
 struct MapViewRepresentable: UIViewRepresentable {
+    @ObservedObject var viewModel: MapViewModel
+    
     func makeUIView(context: Context) -> WKWebView {
         let webView = WKWebView(frame: .zero)
         
@@ -26,5 +28,7 @@ struct MapViewRepresentable: UIViewRepresentable {
         return webView
     }
     
-    func updateUIView(_ uiView: WKWebView, context: Context) {}
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        uiView.evaluateJavaScript("map.setMapTypeId('\(viewModel.mapType)')")
+    }
 }
