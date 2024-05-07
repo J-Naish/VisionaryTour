@@ -15,6 +15,7 @@ struct ListView: View {
             List {
                 
             }
+            .searchable(text: $searchText)
             .navigationTitle("List")
         } detail: {
             ScrollView {
@@ -53,7 +54,6 @@ struct ListView: View {
                 .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
             }
         }
-        .searchable(text: $searchText)
     }
 }
 
