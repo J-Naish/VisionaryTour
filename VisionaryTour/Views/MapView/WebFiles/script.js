@@ -14,8 +14,38 @@ function initMap() {
         fullscreenControl: false,
         streetViewControl: false,
         clickableIcons: false,
-        mapTypeControl: false
+        mapTypeControl: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP, // Start with ROADMAP
+        styles: [
+            {
+                featureType: "all",
+                elementType: "labels",
+                stylers: [{ visibility: "on" }] // Ensure labels are always on
+            }
+        ]
     });
+    
+    window.updateMapType = function (type) {
+            const mapType = type === "satellite" ? google.maps.MapTypeId.SATELLITE : google.maps.MapTypeId.ROADMAP;
+            map.setMapTypeId(mapType);
+
+            // If satellite, ensure labels are on
+            if (type === "satellite") {
+                map.setOptions({
+                    styles: [
+                        {
+                            featureType: "all",
+                            elementType: "labels",
+                            stylers: [{ visibility: "on" }]
+                        }
+                    ]
+                });
+            } else {
+                map.setOptions({
+                    styles: [] // Reset to default styles for roadmap
+                });
+            }
+        }
 
 
     // add marker lines of street view coverage

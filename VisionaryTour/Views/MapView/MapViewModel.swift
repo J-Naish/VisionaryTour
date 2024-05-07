@@ -12,6 +12,10 @@ class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     
     func updateMapType(_ type: String) {
-        mapType = type
+        if type == "satellite" {
+            mapType = "hybrid"
+        } else {
+            mapType = type
+        }
     }
 }
