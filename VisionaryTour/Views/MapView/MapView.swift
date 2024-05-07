@@ -21,11 +21,15 @@ struct MapView: View {
                     MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel)
                         .padding(.leading, 8)
                 , trailing: HStack {
-                    Button("map") {
-                        viewModel.updateMapType("roadmap")
+                    Button(action: {
+                        viewModel.zoomIn()
+                    }) {
+                        Image(systemName: "plus")
                     }
-                    Button("satellite") {
-                        viewModel.updateMapType("satellite")
+                    Button(action: {
+                        viewModel.zoomOut()
+                    }) {
+                        Image(systemName: "minus")
                     }
                 })
         }

@@ -10,6 +10,7 @@ import Combine
 
 class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
+    @Published var zoomLevel: Int = 10
     
     func updateMapType(_ type: String) {
         if type == "satellite" {
@@ -18,4 +19,13 @@ class MapViewModel: ObservableObject {
             mapType = type
         }
     }
+    
+    func zoomIn() {
+        zoomLevel += 1
+    }
+    
+    func zoomOut() {
+        zoomLevel -= 1
+    }
+    
 }
