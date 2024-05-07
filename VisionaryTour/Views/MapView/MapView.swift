@@ -19,6 +19,7 @@ struct MapView: View {
                 .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
                 .navigationBarItems(leading:
                     ToggleButton(isMapSelected: $isMapSelected, viewModel: viewModel)
+                    .padding(.leading, 8)
                 , trailing: HStack {
                     Text("sample")
                     Text("sample")
@@ -51,7 +52,7 @@ struct ToggleButton: View {
         }
         .background(
             Capsule()
-                .fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.05))
+                .fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2))
         )
     }
 }
@@ -68,6 +69,8 @@ struct CustomButtonStyle: ButtonStyle {
                 Capsule()
                     .fill(isSelected ? Color.white : Color.clear)
             )
+            .contentShape(Capsule())
+            .hoverEffect(.lift)
     }
 }
 
