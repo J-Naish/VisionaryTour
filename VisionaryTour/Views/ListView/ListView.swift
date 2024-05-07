@@ -50,7 +50,7 @@ struct ListView: View {
                         LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
                     }
                 }
-                .padding()
+                .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
             }
         }
         .searchable(text: $searchText)
