@@ -34,6 +34,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: clickedLatLang,
             map: map,
+            draggable: true
         })
     });
 
