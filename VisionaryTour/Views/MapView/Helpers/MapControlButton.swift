@@ -42,7 +42,7 @@ struct MapControlButton: View {
                 
                 Button(action: {
                     withAnimation {
-                        if !isMapSelected {
+                        if isMapSelected {
                             viewModel.updateMapType("satellite")
                         } else {
                             viewModel.updateMapType("roadmap")
