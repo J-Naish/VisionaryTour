@@ -15,6 +15,7 @@ function initMap() {
         streetViewControl: false,
         clickableIcons: false,
         mapTypeControl: false,
+        zoomControl: false
     });
 
 
