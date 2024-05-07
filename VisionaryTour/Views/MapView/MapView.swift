@@ -19,7 +19,7 @@ struct MapView: View {
                 .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
                 .navigationBarItems(leading:
                     ToggleButton(isMapSelected: $isMapSelected, viewModel: viewModel)
-                    .padding(.leading, 8)
+                        .padding(.leading, 8)
                 , trailing: HStack {
                     Button("map") {
                         viewModel.updateMapType("roadmap")
