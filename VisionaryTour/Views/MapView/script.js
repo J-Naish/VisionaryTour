@@ -14,6 +14,7 @@ function initMap() {
         fullscreenControl: false,
         streetViewControl: false,
         clickableIcons: false,
+        mapTypeControl: false
     });
 
 
