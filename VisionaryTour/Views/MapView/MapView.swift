@@ -20,6 +20,6 @@ struct MapView: View {
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview() {
     MapView()
 }
