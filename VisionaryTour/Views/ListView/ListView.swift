@@ -10,6 +10,9 @@ import SwiftUI
 struct ListView: View {
     @State private var searchText = ""
     
+    
+    
+    
     var body: some View {
         NavigationSplitView {
             List {
