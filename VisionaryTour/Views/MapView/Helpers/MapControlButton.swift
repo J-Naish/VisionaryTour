@@ -15,7 +15,7 @@ struct MapControlButton: View {
         ZStack {
             
             Capsule()
-                .fill(Color(red:1.0, green: 1.0, blue: 1.0, opacity: 0.45))
+                .fill(Color(red:1.0, green: 1.0, blue: 1.0, opacity: 0.2))
                 .frame(width: 280, height: 48)
             
             HStack {
@@ -34,6 +34,7 @@ struct MapControlButton: View {
                         )
                         .contentShape(Capsule())
                 }
+                .tint(Color.clear)
                 
                 Button(action: {
                     withAnimation {
@@ -50,6 +51,7 @@ struct MapControlButton: View {
                         )
                         .contentShape(Capsule())
                 }
+                .tint(Color.clear)
             }
             
             Capsule()
