@@ -23,6 +23,9 @@ struct MapView: View {
                 )
         }
         .searchable(text: $searchText)
+        .onSubmit(of: .search) {
+            viewModel.searchLocation(searchText)
+        }
     }
 }
 

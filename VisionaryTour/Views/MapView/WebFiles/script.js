@@ -42,6 +42,18 @@ function initMap() {
 
 }
 
+function setLocation(address) {
+    const geocoder = new google.maps.Geocoder();
+    geocoder.geocode({ address: address }, (results, status) => {
+        if (status == "OK") {
+            const location = results[0].geometry.location;
+            map.setCenter(location);
+        } else {
+            console.error("Geocode was not successful for the following reason: " + status);
+        }
+    });
+}
+
 // load the map
 function loadScript() {
     const script = document.createElement("script");

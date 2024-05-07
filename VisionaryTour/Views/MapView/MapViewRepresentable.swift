@@ -25,6 +25,8 @@ struct MapViewRepresentable: UIViewRepresentable {
         
         webView.loadHTMLString(htmlString, baseURL: baseURL)
         
+        viewModel.webView = webView
+        
         return webView
     }
     
