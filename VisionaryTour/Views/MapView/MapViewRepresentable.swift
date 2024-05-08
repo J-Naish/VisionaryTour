@@ -27,7 +27,29 @@ struct MapViewRepresentable: UIViewRepresentable {
         
         viewModel.webView = webView
         
+        webView.configuration.userContentController.add(context.coordinator, name: "zoomChanged")
+        
         return webView
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    class Coordinator: NSObject, WKScriptMessageHandler {
+        var parent: MapViewRepresentable
+        
+        init(_ parent: MapViewRepresentable) {
+            self.parent = parent
+        }
+        
+        func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+            if message.name == "zoomChanged" {
+                if let zoomLevel = message.body as? Double {
+                    parent.viewModel.zoomLevel = zoomLevel
+                }
+            }
+        }
     }
     
     func updateUIView(_ uiView: WKWebView, context: Context) {

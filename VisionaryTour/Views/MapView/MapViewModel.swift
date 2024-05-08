@@ -11,7 +11,7 @@ import WebKit
 
 class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
-    @Published var zoomLevel: Int = 10
+    @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
     
     var webView: WKWebView?

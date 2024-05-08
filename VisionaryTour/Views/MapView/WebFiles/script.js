@@ -39,6 +39,11 @@ function initMap() {
             draggable: true
         })
     });
+    
+    map.addListener("zoom_changed", () => {
+        const currentZoom = map.getZoom();
+        window.webkit.messageHandlers.zoomChanged.postMessage(currentZoom)
+    })
 
 }
 
