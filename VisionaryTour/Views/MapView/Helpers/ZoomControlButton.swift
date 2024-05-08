@@ -11,11 +11,13 @@ struct ZoomControlButton: View {
     let viewModel: MapViewModel
     var body: some View {
         HStack {
+            Spacer(minLength: 16)
             Button(action: {
                 viewModel.zoomIn()
             }) {
                 Image(systemName: "plus")
             }
+            Spacer(minLength: 16)
             Button(action: {
                 viewModel.zoomOut()
             }) {
