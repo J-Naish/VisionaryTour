@@ -16,13 +16,21 @@ struct ZoomControlButton: View {
                 viewModel.zoomIn()
             }) {
                 Image(systemName: "plus")
+                    .font(.system(size: 24))
             }
+            .frame(width: 48)
+            .clipShape(Circle())
+
             Spacer(minLength: 16)
+
             Button(action: {
                 viewModel.zoomOut()
             }) {
                 Image(systemName: "minus")
+                    .font(.system(size: 24))
             }
+            .frame(width: 48)
+            .clipShape(Circle())
         }
     }
 }
