@@ -12,6 +12,7 @@ import WebKit
 class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Int = 10
+    @Published var zoomLevelChanged = false
     
     var webView: WKWebView?
     
@@ -25,10 +26,12 @@ class MapViewModel: ObservableObject {
     
     func zoomIn() {
         zoomLevel += 1
+        zoomLevelChanged = true
     }
     
     func zoomOut() {
         zoomLevel -= 1
+        zoomLevelChanged = true
     }
     
     func searchLocation(_ location: String) {
