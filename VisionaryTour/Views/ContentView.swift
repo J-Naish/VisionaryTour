@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            ListView()
+            LandmarkView()
                 .tabItem {
                     Label("List", systemImage: "list.bullet")
                 }

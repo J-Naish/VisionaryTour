@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListView: View {
+struct LandmarkView: View {
     @State private var searchText = ""
     
     var body: some View {
@@ -58,5 +58,5 @@ struct ListView: View {
 }
 
 #Preview {
-    ListView()
+    LandmarkView()
 }
