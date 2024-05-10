@@ -9,50 +9,46 @@ import SwiftUI
 
 struct DiscoverView: View {
     @State private var searchText = ""
+    @State private var selection: Selection = .discover
+    
+    enum Selection: String, CaseIterable {
+        case discover = "Discover"
+        case region = "Region"
+        case worldHeritage = "World Heritage"
+        case featured = "Featured"
+        case list = "List"
+        
+        var hasChild: Bool {
+            switch self {
+            case .region, .worldHeritage:
+                return true
+            default:
+                return false
+            }
+        }
+    }
     
     var body: some View {
         NavigationSplitView {
-            List {
-                
+            List(Selection.allCases, id: \.self) { item in
+                NavigationLink(value: item) {
+                    HStack {
+                        Text(item.rawValue)
+                        if item.hasChild {
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                        }
+                    }
+                }
             }
             .searchable(text: $searchText)
-            .navigationTitle("Discover")
         } detail: {
             ScrollView {
                 VStack {
-                    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
-                    Spacer(minLength: 48)
-                    HStack(spacing: 32) {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
-                    }
-                    Spacer(minLength: 32)
-                    HStack(spacing: 32) {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
-                    }
-                    Spacer(minLength: 48)
-                    HStack(spacing: 24) {
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                    }
-                    HStack(spacing: 24) {
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                    }
-                    HStack(spacing: 24) {
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                        LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
-                    }
+                    
                 }
-                .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
             }
+            .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
         }
     }
 }
