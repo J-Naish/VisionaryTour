@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            LandmarkView()
+            DiscoverView()
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }

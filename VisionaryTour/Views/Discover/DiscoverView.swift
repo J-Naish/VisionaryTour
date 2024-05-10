@@ -1,5 +1,5 @@
 //
-//  ListView.swift
+//  DiscoverView.swift
 //  VisionaryTour
 //
 //  Created by JinNash on 2024/05/05.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LandmarkView: View {
+struct DiscoverView: View {
     @State private var searchText = ""
     
     var body: some View {
@@ -58,5 +58,5 @@ struct LandmarkView: View {
 }
 
 #Preview {
-    LandmarkView()
+    DiscoverView()
 }
