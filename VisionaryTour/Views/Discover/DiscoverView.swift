@@ -16,7 +16,7 @@ struct DiscoverView: View {
                 
             }
             .searchable(text: $searchText)
-            .navigationTitle("List")
+            .navigationTitle("Discover")
         } detail: {
             ScrollView {
                 VStack {
