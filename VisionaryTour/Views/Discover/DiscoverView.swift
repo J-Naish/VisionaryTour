@@ -10,22 +10,13 @@ import SwiftUI
 struct DiscoverView: View {
     @State private var searchText = ""
     @State private var selectedItem: Selection = .discover
-    
+
     enum Selection: String, CaseIterable {
         case discover = "Discover"
         case region = "Region"
         case worldHeritage = "World Heritage"
         case featured = "Featured"
         case list = "List"
-        
-        var hasChild: Bool {
-            switch self {
-            case .region, .worldHeritage:
-                return true
-            default:
-                return false
-            }
-        }
     }
     
     var body: some View {
@@ -34,10 +25,6 @@ struct DiscoverView: View {
                 NavigationLink(value: item) {
                     HStack {
                         Text(item.rawValue)
-                        if item.hasChild {
-                            Spacer()
-                            Image(systemName: "chevron.forward")
-                        }
                     }
                 }
                 .navigationTitle("Discover")
