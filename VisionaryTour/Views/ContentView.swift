@@ -22,7 +22,7 @@ struct ContentView: View {
         TabView(selection: $selection) {
             LandmarkView()
                 .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label("Discover", systemImage: "magnifyingglass")
                 }
                 .tag(Tab.list)
             
