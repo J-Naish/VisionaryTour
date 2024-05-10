@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DiscoverView: View {
     @State private var searchText = ""
-    @State private var selection: Selection = .discover
+    @State private var selectedItem: Selection = .discover
     
     enum Selection: String, CaseIterable {
         case discover = "Discover"
@@ -39,6 +39,11 @@ struct DiscoverView: View {
                             Image(systemName: "chevron.forward")
                         }
                     }
+                }
+                .navigationTitle("Discover")
+                .tag(item)
+                .onTapGesture {
+                    selectedItem = item
                 }
             }
             .searchable(text: $searchText)
