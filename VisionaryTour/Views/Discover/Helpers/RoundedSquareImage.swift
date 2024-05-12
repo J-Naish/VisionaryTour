@@ -14,6 +14,7 @@ struct RoundedSquareImage: View {
         case small
         case medium
         case large
+        case extraLarge
         
         var width: CGFloat {
             switch self {
@@ -23,15 +24,15 @@ struct RoundedSquareImage: View {
                 return 420
             case .large:
                 return 880
+            case .extraLarge:
+                return 880
             }
         }
         var height: CGFloat {
             switch self {
-            case .small:
-                return 200
-            case .medium:
-                return 200
-            case .large:
+            case .extraLarge:
+                return 280
+            default:
                 return 200
             }
         }
@@ -43,13 +44,15 @@ struct RoundedSquareImage: View {
                 return .system(size: 42)
             case .large:
                 return .system(size: 64)
+            case .extraLarge:
+                return .system(size: 72)
             }
         }
     }
     var text: String? = nil
     
     var body: some View {
-        ZStack(alignment: size == .large ? .leading : .bottomLeading) {
+        ZStack(alignment: size == .large || size == .extraLarge ? .leading : .bottomLeading) {
             image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
@@ -58,7 +61,7 @@ struct RoundedSquareImage: View {
                 .clipShape(Rectangle())
                 .cornerRadius(20)
             
-            if let text = text, size == .large || size == .medium {
+            if let text = text, size == .large || size == .medium || size == .extraLarge {
                 Text(text)
                     .font(size.textFont)
                     .fontWeight(.bold)

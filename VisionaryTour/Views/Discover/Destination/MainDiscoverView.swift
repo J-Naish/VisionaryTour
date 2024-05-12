@@ -10,7 +10,7 @@ import SwiftUI
 struct MainDiscoverView: View {
     var body: some View {
         NavigationStack {
-            Text("Main Discover View")
+            RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
         }
     }
 }
