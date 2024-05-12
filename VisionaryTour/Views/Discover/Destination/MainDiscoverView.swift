@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainDiscoverView: View {
     var body: some View {
-        NavigationStack {
+        ScrollView {
             RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
         }
     }
