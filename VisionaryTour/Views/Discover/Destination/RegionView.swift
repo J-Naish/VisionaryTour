@@ -10,7 +10,7 @@ import SwiftUI
 struct RegionView: View {
     var body: some View {
         NavigationStack {
-            Text("Region View")
+            RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
         }
     }
 }
