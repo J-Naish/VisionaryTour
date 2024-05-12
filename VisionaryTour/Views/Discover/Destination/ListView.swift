@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        NavigationStack {
+        ScrollView {
             Text("List View")
         }
     }

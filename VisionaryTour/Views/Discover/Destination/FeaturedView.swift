@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturedView: View {
     var body: some View {
-        NavigationStack {
+        ScrollView {
             RoundedSquareImage(image: Image("dummy"), size: .large, text: "Featured")
         }
     }

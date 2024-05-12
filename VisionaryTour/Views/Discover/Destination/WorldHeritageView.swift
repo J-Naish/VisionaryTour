@@ -9,8 +9,15 @@ import SwiftUI
 
 struct WorldHeritageView: View {
     var body: some View {
-        NavigationStack {
-            RoundedSquareImage(image: Image("dummy"), size: .large, text: "World Heritage")
+        ScrollView {
+            VStack {
+                RoundedSquareImage(image: Image("dummy"), size: .large, text: "World Heritage")
+                    .padding(.bottom, 72)
+                HStack(spacing: 32) {
+                    RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Natural")
+                    RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Cultural")
+                }
+            }
         }
     }
 }
