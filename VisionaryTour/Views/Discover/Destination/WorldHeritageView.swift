@@ -10,7 +10,7 @@ import SwiftUI
 struct WorldHeritageView: View {
     var body: some View {
         NavigationStack {
-            
+            Text("World Heritage View")
         }
     }
 }

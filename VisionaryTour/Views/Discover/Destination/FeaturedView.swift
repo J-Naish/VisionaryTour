@@ -10,7 +10,7 @@ import SwiftUI
 struct FeaturedView: View {
     var body: some View {
         NavigationStack {
-            
+            Text("Featured View")
         }
     }
 }

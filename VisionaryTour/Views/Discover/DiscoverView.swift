@@ -29,18 +29,35 @@ struct DiscoverView: View {
                 }
                 .navigationTitle("Discover")
                 .tag(item)
-                .onTapGesture {
-                    selectedItem = item
-                }
             }
             .searchable(text: $searchText)
-        } detail: {
-            ScrollView {
-                VStack {
-                    
+            .navigationDestination(for: Selection.self) { item in
+                switch item {
+                case .discover:
+                    MainDiscoverView()
+                case .region:
+                    RegionView()
+                case .worldHeritage:
+                    WorldHeritageView()
+                case .featured:
+                    FeaturedView()
+                case .list:
+                    ListView()
                 }
             }
-            .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
+        } detail: {
+            switch selectedItem {
+            case .discover:
+                MainDiscoverView()
+            case .region:
+                RegionView()
+            case .worldHeritage:
+                WorldHeritageView()
+            case .featured:
+                FeaturedView()
+            case .list:
+                ListView()
+            }
         }
     }
 }
