@@ -35,4 +35,17 @@ struct Landmark: Identifiable, Codable {
         case architecture
         case desert
     }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        name = try container.decode(String.self, forKey: .name)
+        coordinates = try container.decode(Coordinates.self, forKey: .coordinates)
+        isFavorite = try container.decode(Bool.self, forKey: .isFavorite)
+        country = try container.decode(Country.self, forKey: .country)
+        state = try container.decode(String.self, forKey: .state)
+        description = try container.decode(String.self, forKey: .description)
+        categories = try container.decode([Category].self, forKey: .categories)
+    }
+    
 }
