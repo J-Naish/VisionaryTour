@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RegionListView: View {
     @EnvironmentObject var modelData: ModelData
+    @Environment(\.dismiss) var dismiss
+    
     var region: Region
     
     var filteredLandmarks: [Landmark] {
@@ -24,14 +26,24 @@ struct RegionListView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
+                HStack {
+                    Button(action: {
+                        dismiss()
+                    }) {
+                        Image(systemName: "chevron.left")
+                    }
+                }
+                .padding(.bottom, 32)
+                
                 ForEach(rows, id: \.self) { row in
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
-                            LandmarkCard(landmarkName: landmark.name, region: landmark.country.region.rawValue)
+                            LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
                         }
                     }
                     .padding(.bottom, 48)
                 }
+                .navigationTitle(region.rawValue)
             }
         }
     }

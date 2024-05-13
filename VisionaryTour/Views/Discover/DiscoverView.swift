@@ -37,6 +37,9 @@ struct DiscoverView: View {
                     MainDiscoverView()
                 case .region:
                     RegionView()
+                        .onAppear {
+                            selectedItem = .region
+                        }
                 case .worldHeritage:
                     WorldHeritageView()
                 case .featured:
