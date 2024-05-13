@@ -5,7 +5,7 @@
 //  Created by JinNash on 2024/05/05.
 //
 
-enum Region: String {
+enum Region: String, CaseIterable, Identifiable {
     case asia = "Asia"
     case europe = "Europe"
     case africa = "Africa"
@@ -13,6 +13,8 @@ enum Region: String {
     case latinAmerica = "LatinAmerica"
     case oceania = "Oceania"
     case others = "Others"
+    
+    var id: String { self.rawValue }
 }
 
 enum Country: String, CaseIterable, Codable {
