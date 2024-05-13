@@ -382,5 +382,23 @@
       "city",
       "architecture"
     ]
+  },
+  {
+    "name": "Tokyo",
+    "coordinates": {
+      "longitude": 139.6500,
+      "latitude": 35.6764
+    },
+    "country": "Japan",
+    "state": "Tokyo",
+    "isFavorite": false,
+    "description": "The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour located in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings.",
+    "categories": [
+      "historical",
+      "cultural",
+      "sea",
+      "city",
+      "architecture"
+    ]
   }
 ]
