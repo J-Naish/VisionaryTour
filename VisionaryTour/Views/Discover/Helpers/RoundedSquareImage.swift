@@ -50,13 +50,16 @@ struct RoundedSquareImage: View {
         }
     }
     var text: String? = nil
+    var enableHoverEEffect: Bool = true
     
     var body: some View {
         ZStack(alignment: size == .large || size == .extraLarge ? .leading : .bottomLeading) {
             image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .hoverEffect(.lift)
+                .if(enableHoverEEffect) { view in
+                    view.hoverEffect(.lift)
+                }
                 .frame(width: size.width, height: size.height)
                 .clipShape(Rectangle())
                 .cornerRadius(20)
@@ -71,6 +74,7 @@ struct RoundedSquareImage: View {
         }
     }
 }
+
 
 #Preview {
     RoundedSquareImage(image: Image("dummy"), size: .large, text: "Test")

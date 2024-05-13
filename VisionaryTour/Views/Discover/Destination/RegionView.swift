@@ -14,7 +14,7 @@ struct RegionView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading) {
-                    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
+                    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region", enableHoverEEffect: false)
                         .padding(.bottom, 72)
                     
                     
