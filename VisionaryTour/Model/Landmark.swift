@@ -36,6 +36,8 @@ struct Landmark: Identifiable, Codable, Hashable {
         case desert
     }
     
+    var photoReferences: [String]
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
@@ -46,6 +48,7 @@ struct Landmark: Identifiable, Codable, Hashable {
         state = try container.decode(String.self, forKey: .state)
         description = try container.decode(String.self, forKey: .description)
         categories = try container.decode([Category].self, forKey: .categories)
+        photoReferences = try container.decode([String].self, forKey: .photoReferences)
     }
     
 }
