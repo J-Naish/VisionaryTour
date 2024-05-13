@@ -35,6 +35,9 @@ struct DiscoverView: View {
                 switch item {
                 case .discover:
                     MainDiscoverView()
+                        .onAppear {
+                            selectedItem = .discover
+                        }
                 case .region:
                     RegionView()
                         .onAppear {
@@ -42,10 +45,19 @@ struct DiscoverView: View {
                         }
                 case .worldHeritage:
                     WorldHeritageView()
+                        .onAppear {
+                            selectedItem = .worldHeritage
+                        }
                 case .featured:
                     FeaturedView()
+                        .onAppear {
+                            selectedItem = .featured
+                        }
                 case .list:
                     ListView()
+                        .onAppear {
+                            selectedItem = .list
+                        }
                 }
             }
         } detail: {
