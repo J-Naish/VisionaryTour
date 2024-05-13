@@ -11,10 +11,10 @@ import RealityKitContent
 
 struct ContentView: View {
     
-    @State private var selection: Tab = .list
+    @State private var selection: Tab = .discover
     
     enum Tab {
-        case list
+        case discover
         case map
     }
     
@@ -24,7 +24,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
-                .tag(Tab.list)
+                .tag(Tab.discover)
                 .environmentObject(ModelData())
             
             MapView()
