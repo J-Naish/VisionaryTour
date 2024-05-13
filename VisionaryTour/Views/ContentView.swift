@@ -25,6 +25,7 @@ struct ContentView: View {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
                 .tag(Tab.list)
+                .environmentObject(ModelData())
             
             MapView()
                 .tabItem {

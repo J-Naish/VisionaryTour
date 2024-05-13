@@ -16,28 +16,28 @@ struct RegionView: View {
                 RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region")
                     .padding(.bottom, 72)
                 HStack(spacing: 32) {
-                    NavigationLink(destination: RegionListView(region: .asia)) {
+                    NavigationLink(destination: RegionListView(region: .asia).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
                     }
-                    NavigationLink(destination: RegionListView(region: .europe)) {
+                    NavigationLink(destination: RegionListView(region: .europe).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
                     }
                 }
                 .padding(.bottom, 32)
                 HStack(spacing: 32) {
-                    NavigationLink(destination: RegionListView(region: .northAmerica)) {
+                    NavigationLink(destination: RegionListView(region: .northAmerica).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
                     }
-                    NavigationLink(destination: RegionListView(region: .latinAmerica)) {
+                    NavigationLink(destination: RegionListView(region: .latinAmerica).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
                     }
                 }
                 .padding(.bottom, 32)
                 HStack(spacing: 32) {
-                    NavigationLink(destination: RegionListView(region: .africa)) {
+                    NavigationLink(destination: RegionListView(region: .africa).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Africa")
                     }
-                    NavigationLink(destination: RegionListView(region: .oceania)) {
+                    NavigationLink(destination: RegionListView(region: .oceania).environmentObject(modelData)) {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Oceania")
                     }
                 }

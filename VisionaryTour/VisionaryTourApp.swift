@@ -14,7 +14,6 @@ struct VisionaryTourApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(modelData)
         }
     }
 }
