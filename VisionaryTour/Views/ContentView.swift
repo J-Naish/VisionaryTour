@@ -13,6 +13,8 @@ struct ContentView: View {
     
     @State private var selection: Tab = .discover
     
+    var modelData = ModelData()
+    
     enum Tab {
         case discover
         case map
@@ -25,7 +27,7 @@ struct ContentView: View {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
                 .tag(Tab.discover)
-                .environmentObject(ModelData())
+                .environmentObject(modelData)
             
             MapView()
                 .tabItem {
