@@ -25,16 +25,7 @@ struct RegionListView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
-                HStack {
-                    Button(action: {
-                        dismiss()
-                    }) {
-                        Image(systemName: "chevron.left")
-                    }
-                }
-                .padding(.bottom, 32)
-                
+            VStack(alignment: .leading) {                
                 ForEach(rows, id: \.self) { row in
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
