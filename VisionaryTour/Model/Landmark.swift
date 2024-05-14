@@ -37,7 +37,7 @@ struct Landmark: Identifiable, Codable, Hashable {
         case crowd
     }
     
-    var photoReferences: [String]
+    var panoId: String
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -49,7 +49,7 @@ struct Landmark: Identifiable, Codable, Hashable {
         state = try container.decode(String.self, forKey: .state)
         description = try container.decode(String.self, forKey: .description)
         categories = try container.decode([Category].self, forKey: .categories)
-        photoReferences = try container.decode([String].self, forKey: .photoReferences)
+        panoId = try container.decode(String.self, forKey: .panoId)
     }
     
 }
