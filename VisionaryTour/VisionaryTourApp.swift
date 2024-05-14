@@ -15,5 +15,9 @@ struct VisionaryTourApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        ImmersiveSpace(id: "ImmersiveSpace") {
+            PanoramaView(viewModel: ImmersiveViewModel())
+        }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }
