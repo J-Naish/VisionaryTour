@@ -34,6 +34,7 @@ struct Landmark: Identifiable, Codable, Hashable {
         case city
         case architecture
         case desert
+        case crowd
     }
     
     var photoReferences: [String]
