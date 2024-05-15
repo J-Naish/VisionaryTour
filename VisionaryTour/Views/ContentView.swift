@@ -24,6 +24,8 @@ struct ContentView: View {
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
     
+    @State private var position: MapCameraPosition = .automatic
+    
     var body: some View {
         TabView(selection: $selection) {
             DiscoverView()

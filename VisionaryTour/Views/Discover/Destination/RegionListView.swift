@@ -30,6 +30,9 @@ struct RegionListView: View {
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
                             LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
+                                .onTapGesture {
+                                    modelData.updatePlaceInfo(id: landmark.id, coordinates: landmark.coordinates, panoId: landmark.panoId)
+                                }
                         }
                     }
                     .padding(.bottom, 48)
