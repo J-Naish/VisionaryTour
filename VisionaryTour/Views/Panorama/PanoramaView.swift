@@ -10,18 +10,18 @@ import RealityKit
 
 struct PanoramaView: View {
     
-    var modelData: ModelData
+    var viewModel: ImmersiveViewModel
     
     var body: some View {
         RealityView { content in
-            content.add(modelData.setupContentEntity())
+            content.add(viewModel.setupContentEntity())
         }
         .task {
-            try? await modelData.setSnapshot()
+            try? await viewModel.setSnapshot()
         }
     }
 }
 
 #Preview {
-    PanoramaView(modelData: ModelData())
+    PanoramaView(viewModel: ImmersiveViewModel())
 }

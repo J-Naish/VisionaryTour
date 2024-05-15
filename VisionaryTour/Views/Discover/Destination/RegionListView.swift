@@ -31,7 +31,7 @@ struct RegionListView: View {
                         ForEach(row) { landmark in
                             LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
                                 .onTapGesture {
-                                    modelData.updatePlaceInfo(id: landmark.id, coordinates: landmark.coordinates, panoId: landmark.panoId)
+                                    // do something
                                 }
                         }
                     }
