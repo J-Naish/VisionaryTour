@@ -66,6 +66,10 @@ class ModelData: ObservableObject {
         }
     }
     
+    func updatePlaceInfo(id: UUID, coordinates: Coordinates, panoId: String) {
+        self.selectedPlaceInfo = PlaceInfo(id: id, coordinates: coordinates, panoId: panoId)
+    }
+    
     
     private func fetchImage(panoId: String) async throws -> UIImage {
         
