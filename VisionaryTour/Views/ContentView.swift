@@ -8,17 +8,21 @@
 import SwiftUI
 import RealityKit
 import RealityKitContent
+import MapKit
 
 struct ContentView: View {
     
     @State private var selection: Tab = .discover
-    
-    var modelData: ModelData
-    
     enum Tab {
         case discover
         case map
     }
+    
+    var modelData: ModelData
+    
+    @State private var showImmersiveSpace = false
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
     
     var body: some View {
         TabView(selection: $selection) {
@@ -34,6 +38,15 @@ struct ContentView: View {
                     Label("Map", systemImage: "map")
                 }
                 .tag(Tab.map)
+        }
+        .onChange(of: showImmersiveSpace) { _, newValue in
+            Task {
+                if newValue {
+                    await openImmersiveSpace(id: "ImmersiveSpace")
+                } else {
+                    await dismissImmersiveSpace()
+                }
+            }
         }
     }
 }
