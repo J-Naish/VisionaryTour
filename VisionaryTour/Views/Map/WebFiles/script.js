@@ -1,5 +1,7 @@
 let map;
 let marker;
+let streetViewService;
+let panoId = null;
 
 function initMap() {
 
@@ -26,8 +28,6 @@ function initMap() {
     // add a click event listener to the map
     map.addListener("click", (e) => {
         const clickedLatLang = e.latLng;
-        const latitude = clickedLatLang.lat();
-        const longitude = clickedLatLang.lng();
         
         if (marker) {
             marker.setMap(null);
@@ -37,7 +37,19 @@ function initMap() {
             position: clickedLatLang,
             map: map,
             draggable: true
-        })
+        });
+        
+        streetViewService.getPanorama({
+            location: clickedLatLang,
+            radius: 25
+        }, (data, status) => {
+            if (status === google.maps.StreetViewStatus.OK) {
+                panoId = data.location.pano;
+            } else {
+                panoId = null;
+            }
+        });
+        
     });
     
     map.addListener("zoom_changed", () => {
@@ -54,7 +66,7 @@ function setLocation(address) {
             const location = results[0].geometry.location;
             map.setCenter(location);
         } else {
-            console.error("Geocode was not successful for the following reason: " + status);
+            //console.error("Geocode was not successful for the following reason: " + status);
         }
     });
 }
