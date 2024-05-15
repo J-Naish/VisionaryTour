@@ -128,6 +128,34 @@ class ModelData: ObservableObject {
             return UIImage()
         }
     }
+    
+    private func fetchImageWithCoordinates(coordinates: Coordinates) async throws -> UIImage {
+        
+        let streetViewMetaDataURL = "https://maps.googleapis.com/maps/api/streetview/metadata"
+        let apiKey = "AIzaSyCvNpWrz0mA6MU_NgB7n-WzgD4LU3izPn8"
+        
+        var metadataUrlComponents = URLComponents(string: streetViewMetaDataURL)!
+        metadataUrlComponents.queryItems = [
+            URLQueryItem(name: "location", value: "\(coordinates.latitude),\(coordinates.longitude)"),
+            URLQueryItem(name: "key", value: apiKey)
+        ]
+        
+        let metadataRequest = URLRequest(url: metadataUrlComponents.url!)
+        let (metadataData, metadataResponse) = try await URLSession.shared.data(for: metadataRequest)
+        
+        guard let metadataHttpResponse = metadataResponse as? HTTPURLResponse,
+              (200...299).contains(metadataHttpResponse.statusCode) else {
+            throw APIError.networkError
+        }
+        
+        let metadataJson = try JSONSerialization.jsonObject(with: metadataData, options: []) as? [String: Any]
+        guard let panoId = metadataJson?["pano_id"] as? String else {
+            throw APIError.invalidResponse
+        }
+        
+        return try await fetchImage(panoId: panoId)
+    }
+    
 }
 
 
@@ -135,6 +163,7 @@ class ModelData: ObservableObject {
 enum APIError: Error {
     case networkError
     case unknow
+    case invalidResponse
     
     var title: String {
         switch self {
@@ -142,6 +171,8 @@ enum APIError: Error {
             return "network error"
         case .unknow:
             return "unknow error"
+        case .invalidResponse:
+            return "invalid response"
         }
     }
 }
