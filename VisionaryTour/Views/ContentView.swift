@@ -13,7 +13,7 @@ struct ContentView: View {
     
     @State private var selection: Tab = .discover
     
-    var modelData = ModelData()
+    var modelData: ModelData
     
     enum Tab {
         case discover
@@ -39,5 +39,5 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    ContentView(modelData: ModelData())
 }
