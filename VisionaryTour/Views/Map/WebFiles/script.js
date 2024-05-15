@@ -24,6 +24,9 @@ function initMap() {
     // add marker lines of street view coverage
     const streetViewLayer = new google.maps.StreetViewCoverageLayer();
     streetViewLayer.setMap(map);
+    
+    // initialize the street view service
+    streetViewService = new google.maps.StreetViewService();
 
     // add a click event listener to the map
     map.addListener("click", (e) => {
