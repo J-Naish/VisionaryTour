@@ -13,6 +13,7 @@ class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
+    @Published var panoId: String? = nil
     
     var webView: WKWebView?
     
@@ -42,7 +43,4 @@ class MapViewModel: ObservableObject {
             return
         }
     }
-    
-    
-    
 }

@@ -28,6 +28,7 @@ struct MapViewRepresentable: UIViewRepresentable {
         viewModel.webView = webView
         
         webView.configuration.userContentController.add(context.coordinator, name: "zoomChanged")
+        webView.configuration.userContentController.add(context.coordinator, name: "panoIdChanged")
         
         return webView
     }
@@ -48,6 +49,8 @@ struct MapViewRepresentable: UIViewRepresentable {
                 if let zoomLevel = message.body as? Double {
                     parent.viewModel.zoomLevel = zoomLevel
                 }
+            } else if message.name == "panoIdChanged" {
+                parent.viewModel.panoId = message.body as? String
             }
         }
     }

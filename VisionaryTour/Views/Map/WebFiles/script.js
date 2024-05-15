@@ -36,7 +36,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: clickedLatLang,
             map: map,
-            draggable: true
+            //draggable: true
         });
         
         streetViewService.getPanorama({
@@ -48,15 +48,14 @@ function initMap() {
             } else {
                 panoId = null;
             }
+            window.webkit.messageHandlers.panoIdChanged.postMessage(panoId);
         });
-        
     });
     
     map.addListener("zoom_changed", () => {
         const currentZoom = map.getZoom();
         window.webkit.messageHandlers.zoomChanged.postMessage(currentZoom)
-    })
-
+    });
 }
 
 function setLocation(address) {
