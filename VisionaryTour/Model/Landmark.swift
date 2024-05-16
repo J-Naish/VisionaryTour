@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Landmark: Identifiable, Codable, Hashable {
     var id = UUID()
@@ -50,6 +51,10 @@ struct Landmark: Identifiable, Codable, Hashable {
         description = try container.decode(String.self, forKey: .description)
         categories = try container.decode([Category].self, forKey: .categories)
         panoId = try container.decode(String.self, forKey: .panoId)
+    }
+    
+    var placeInfo: PlaceInfo {
+        PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(coordinates.longitude, coordinates.longitude), panoId: panoId)
     }
     
 }
