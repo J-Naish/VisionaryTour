@@ -33,6 +33,7 @@ struct MapView: View {
                             .frame(width: 240)
                             .foregroundColor(viewModel.placeInfo.panoId == nil ? .red : .white)
                     }
+                    .disabled(viewModel.placeInfo.panoId == nil)
                     .padding(.top, -66)
                     Spacer()
                 }
