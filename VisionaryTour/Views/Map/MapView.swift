@@ -29,8 +29,9 @@ struct MapView: View {
                     Button(action: {
                         // do something
                     }) {
-                        Text("test")
-                            .frame(width: 120)
+                        Text("Open Immersive View")
+                            .frame(width: 240)
+                            .foregroundColor(viewModel.placeInfo.panoId == nil ? .red : .white)
                     }
                     .padding(.top, -66)
                     Spacer()
