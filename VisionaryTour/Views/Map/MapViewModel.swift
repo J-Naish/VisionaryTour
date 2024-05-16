@@ -8,12 +8,13 @@
 import Foundation
 import Combine
 import WebKit
+import MapKit
 
 class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
-    @Published var panoId: String? = nil
+    @Published var placeInfo: PlaceInfo = PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(0, 0), panoId: nil)
     
     var webView: WKWebView?
     

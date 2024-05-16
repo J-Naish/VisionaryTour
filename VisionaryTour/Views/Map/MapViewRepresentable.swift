@@ -50,7 +50,7 @@ struct MapViewRepresentable: UIViewRepresentable {
                     parent.viewModel.zoomLevel = zoomLevel
                 }
             } else if message.name == "panoIdChanged" {
-                parent.viewModel.panoId = message.body as? String
+                parent.viewModel.placeInfo.panoId = message.body as? String
             }
         }
     }

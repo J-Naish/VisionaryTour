@@ -7,6 +7,7 @@
 
 import SwiftUI
 import RealityKit
+import MapKit
 
 struct PanoramaView: View {
     
@@ -23,5 +24,5 @@ struct PanoramaView: View {
 }
 
 #Preview {
-    PanoramaView(viewModel: ImmersiveViewModel())
+    PanoramaView(viewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
 }

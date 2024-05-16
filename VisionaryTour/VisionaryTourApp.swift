@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 @main
 struct VisionaryTourApp: App {
@@ -17,7 +18,7 @@ struct VisionaryTourApp: App {
         }
         
         ImmersiveSpace(id: "ImmersiveSpace") {
-            PanoramaView(viewModel: ImmersiveViewModel())
+            PanoramaView(viewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
         }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }

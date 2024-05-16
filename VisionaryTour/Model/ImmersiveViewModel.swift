@@ -13,7 +13,7 @@ import RealityKit
 @Observable
 class ImmersiveViewModel {
 
-    var panoId: String?
+    var selectedPlaceInfo: PlaceInfo
 
     private let width = 4096
     private let height = 2048
@@ -21,6 +21,11 @@ class ImmersiveViewModel {
     private var contentEntity = Entity()
     private var modelEntity: ModelEntity? = nil
     private var snapshotImage: UIImage = .init()
+    
+    
+    init(placeInfo: PlaceInfo) {
+        self.selectedPlaceInfo = placeInfo
+    }
 
     func setupContentEntity() -> Entity {
         if let modelEntity = self.modelEntity {
@@ -44,7 +49,7 @@ class ImmersiveViewModel {
     }
 
     func setSnapshot() async throws {
-        guard let panoId = panoId else { return }
+        guard let panoId = selectedPlaceInfo.panoId else { return }
 
         Task { @MainActor in
             snapshotImage = try await fetchImage(panoId: panoId)
