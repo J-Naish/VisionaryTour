@@ -14,13 +14,25 @@ struct MapView: View {
     
     var body: some View {
         NavigationStack {
-            MapViewRepresentable(viewModel: viewModel)
-                .clipShape(RoundedRectangle(cornerRadius: 32))
-                .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
-                .navigationBarItems(
-                    leading: MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel),
-                    trailing: ZoomControlButton(viewModel: viewModel)
+            ZStack {
+                MapViewRepresentable(viewModel: viewModel)
+                    .clipShape(RoundedRectangle(cornerRadius: 32))
+                    .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
+                    .navigationBarItems(
+                        leading: MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel),
+                        trailing: ZoomControlButton(viewModel: viewModel)
                 )
+                VStack {
+                    Button(action: {
+                        // do something
+                    }) {
+                        Text("test")
+                            .frame(width: 120)
+                    }
+                    .padding(.top, -66)
+                    Spacer()
+                }
+            }
         }
         .searchable(text: $searchText)
         .onSubmit(of: .search) {
