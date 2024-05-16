@@ -14,7 +14,7 @@ class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
-    @Published var placeInfo: PlaceInfo = PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(0, 0), panoId: nil)
+    @Published var placeInfo: PlaceInfo = PlaceInfo(locationCoordinae: CLLocationCoordinate2D(), panoId: nil)
     
     var webView: WKWebView?
     

@@ -3,6 +3,7 @@ let marker;
 let streetViewService;
 let panoId = null;
 
+
 function initMap() {
 
     // initial position; where Apple HQ is
@@ -51,7 +52,16 @@ function initMap() {
             } else {
                 panoId = null;
             }
-            window.webkit.messageHandlers.panoIdChanged.postMessage(panoId);
+            const lat = data.location.latLng.lat();
+            const lng = data.location.latLng.lng();
+            const accurateLatLng = {
+                latitude: lat,
+                longitude: lng
+            }
+            window.webkit.messageHandlers.panoIdChanged.postMessage({
+                panoId: panoId,
+                latLng: accurateLatLng
+            });
         });
     });
     
