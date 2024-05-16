@@ -18,7 +18,7 @@ struct VisionaryTourApp: App {
         }
         
         ImmersiveSpace(id: "ImmersiveSpace") {
-            PanoramaView(viewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+            PanoramaView(viewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
         }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }

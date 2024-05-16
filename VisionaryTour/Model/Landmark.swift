@@ -54,7 +54,7 @@ struct Landmark: Identifiable, Codable, Hashable {
     }
     
     var placeInfo: PlaceInfo {
-        PlaceInfo(locationCoordinae: CLLocationCoordinate2DMake(coordinates.longitude, coordinates.longitude), panoId: panoId)
+        PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(coordinates.longitude, coordinates.longitude), panoId: panoId)
     }
     
 }

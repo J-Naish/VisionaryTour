@@ -8,6 +8,6 @@
 import MapKit
 
 struct PlaceInfo {
-    var locationCoordinae: CLLocationCoordinate2D
+    var locationCoordinate: CLLocationCoordinate2D
     var panoId: String?
 }

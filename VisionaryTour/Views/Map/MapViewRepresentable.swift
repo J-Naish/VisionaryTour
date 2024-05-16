@@ -58,10 +58,10 @@ struct MapViewRepresentable: UIViewRepresentable {
                    let longitude = latLngDict["longitude"] {
                     let coordinate = CLLocationCoordinate2DMake(latitude, longitude)
                     parent.viewModel.placeInfo.panoId = panoId
-                    parent.viewModel.placeInfo.locationCoordinae = coordinate
+                    parent.viewModel.placeInfo.locationCoordinate = coordinate
                 } else {
                     parent.viewModel.placeInfo.panoId = nil
-                    parent.viewModel.placeInfo.locationCoordinae = CLLocationCoordinate2D()
+                    parent.viewModel.placeInfo.locationCoordinate = CLLocationCoordinate2D()
                 }
             }
         }
