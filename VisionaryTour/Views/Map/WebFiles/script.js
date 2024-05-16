@@ -49,19 +49,29 @@ function initMap() {
         }, (data, status) => {
             if (status === google.maps.StreetViewStatus.OK) {
                 panoId = data.location.pano;
+                const lat = data.location.latLng.lat();
+                const lng = data.location.latLng.lng();
+                const accurateLatLng = {
+                    latitude: lat,
+                    longitude: lng
+                };
+                window.webkit.messageHandlers.panoIdChanged.postMessage({
+                    panoId: panoId,
+                    latLng: accurateLatLng
+                });
             } else {
                 panoId = null;
-            }
-            const lat = data.location.latLng.lat();
-            const lng = data.location.latLng.lng();
-            const accurateLatLng = {
+                const lat = clickedLatLang.lat();
+                const lng = clickedLatLang.lng();
+                const accurateLatLng = {
                 latitude: lat,
                 longitude: lng
+                };
+                window.webkit.messageHandlers.panoIdChanged.postMessage({
+                    panoId: panoId,
+                    latLng: accurateLatLng
+                });
             }
-            window.webkit.messageHandlers.panoIdChanged.postMessage({
-                panoId: panoId,
-                latLng: accurateLatLng
-            });
         });
     });
     
