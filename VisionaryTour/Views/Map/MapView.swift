@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
     @StateObject private var viewModel = MapViewModel()
     @State private var searchText = ""
     @State private var isMapSelected = true
+    
+    @State private var position: MapCameraPosition = .automatic
     
     var body: some View {
         NavigationStack {
@@ -37,6 +40,11 @@ struct MapView: View {
         .searchable(text: $searchText)
         .onSubmit(of: .search) {
             viewModel.searchLocation(searchText)
+        }
+        .onChange(of: viewModel.placeInfo) { oldValue, newValue in
+            let camera = MapCamera(centerCoordinate: newValue.locationCoordinate, distance: 400, heading: 0, pitch: 60)
+            let cameraPosition = MapCameraPosition.camera(camera)
+            self.position = cameraPosition
         }
     }
 }
