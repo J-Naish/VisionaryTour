@@ -9,5 +9,5 @@ import MapKit
 
 struct PlaceInfo {
     let locationCoordinae: CLLocationCoordinate2D
-    let panoId: String
+    let panoId: String?
 }
