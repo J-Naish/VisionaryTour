@@ -13,7 +13,15 @@ import RealityKit
 @Observable
 class ImmersiveViewModel {
 
-    var panoId: String?
+    var selectedPlaceInfo: PlaceInfo {
+        didSet {
+            Task {
+                try await setSnapshot()
+            }
+        }
+    }
+    
+    var progress: Double = 1.0
 
     private let width = 4096
     private let height = 2048
@@ -21,6 +29,11 @@ class ImmersiveViewModel {
     private var contentEntity = Entity()
     private var modelEntity: ModelEntity? = nil
     private var snapshotImage: UIImage = .init()
+    
+    
+    init(placeInfo: PlaceInfo) {
+        self.selectedPlaceInfo = placeInfo
+    }
 
     func setupContentEntity() -> Entity {
         if let modelEntity = self.modelEntity {
@@ -36,6 +49,8 @@ class ImmersiveViewModel {
         ))
         modelEntity.scale *= .init(x: -1, y: 1, z: 1)
         modelEntity.transform.translation += SIMD3<Float>(0.0, 1.0, 0.0)
+        let rotatation = Float.pi / 2
+        modelEntity.transform.rotation *= simd_quatf(angle: rotatation, axis: SIMD3<Float>(0, 1, 0))
 
         contentEntity.addChild(modelEntity)
         self.modelEntity = modelEntity
@@ -44,7 +59,7 @@ class ImmersiveViewModel {
     }
 
     func setSnapshot() async throws {
-        guard let panoId = panoId else { return }
+        guard let panoId = selectedPlaceInfo.panoId else { return }
 
         Task { @MainActor in
             snapshotImage = try await fetchImage(panoId: panoId)
@@ -60,8 +75,10 @@ class ImmersiveViewModel {
 
     
     private func fetchImage(panoId: String) async throws -> UIImage {
-
         var images: [UIImage] = []
+        
+        let totalImages = 32 // 4 * 8
+        var fetchedImages = 0
 
         var baseUrl = URL(string: "https://streetviewpixels-pa.googleapis.com/v1/tile")!
         let paramsCommon: [URLQueryItem] = [
@@ -89,6 +106,8 @@ class ImmersiveViewModel {
 
                 if let image = UIImage(data: data) {
                     images.append(image)
+                    fetchedImages += 1
+                    progress = Double(fetchedImages) / Double(totalImages)
                 }
             }
         }

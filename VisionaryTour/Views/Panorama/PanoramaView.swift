@@ -7,21 +7,27 @@
 
 import SwiftUI
 import RealityKit
+import MapKit
 
 struct PanoramaView: View {
     
-    var viewModel: ImmersiveViewModel
+    var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
         RealityView { content in
-            content.add(viewModel.setupContentEntity())
+            content.add(immersiveViewModel.setupContentEntity())
         }
         .task {
-            try? await viewModel.setSnapshot()
+            try? await immersiveViewModel.setSnapshot()
+        }
+        .onChange(of: immersiveViewModel.selectedPlaceInfo) { newValue, _ in
+            Task {
+                try? await immersiveViewModel.setSnapshot()
+            }
         }
     }
 }
 
 #Preview {
-    PanoramaView(viewModel: ImmersiveViewModel())
+    PanoramaView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
 }

@@ -26,7 +26,12 @@ struct ContentView: View {
     
     @State private var position: MapCameraPosition = .automatic
     
+    var immersiveViewModel: ImmersiveViewModel
+    
     var body: some View {
+        
+        @Bindable var immersiveViewModel = immersiveViewModel
+        
         TabView(selection: $selection) {
             DiscoverView()
                 .tabItem {
@@ -35,9 +40,9 @@ struct ContentView: View {
                 .tag(Tab.discover)
                 .environmentObject(modelData)
             
-            MapView()
+            MapView(immersiveViewModel: immersiveViewModel)
                 .tabItem {
-                    Label("Map", systemImage: "map")
+                    Label("Map", systemImage: "mappin.and.ellipse")
                 }
                 .tag(Tab.map)
         }
@@ -54,5 +59,5 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView(modelData: ModelData())
+    ContentView(modelData: ModelData(), immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
 }
