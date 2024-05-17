@@ -37,6 +37,9 @@ struct MapView: View {
                 VStack {
                     Button(action: {
                         immersiveViewModel.selectedPlaceInfo = viewModel.placeInfo
+                        let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
+                        let cameraPosition = MapCameraPosition.camera(camera)
+                        self.position = cameraPosition
                         showImmersiveSpace = true
                     }) {
                         Text("Open Immersive View")
@@ -52,11 +55,6 @@ struct MapView: View {
         .searchable(text: $searchText)
         .onSubmit(of: .search) {
             viewModel.searchLocation(searchText)
-        }
-        .onChange(of: viewModel.placeInfo) { oldValue, newValue in
-            let camera = MapCamera(centerCoordinate: newValue.locationCoordinate, distance: 400, heading: 0, pitch: 60)
-            let cameraPosition = MapCameraPosition.camera(camera)
-            self.position = cameraPosition
         }
         .onChange(of: showImmersiveSpace) { _, newValue in
             Task {
