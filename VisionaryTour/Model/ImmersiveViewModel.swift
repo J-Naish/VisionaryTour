@@ -20,6 +20,8 @@ class ImmersiveViewModel {
             }
         }
     }
+    
+    var progress: Double = 1.0
 
     private let width = 4096
     private let height = 2048
@@ -73,8 +75,10 @@ class ImmersiveViewModel {
 
     
     private func fetchImage(panoId: String) async throws -> UIImage {
-
         var images: [UIImage] = []
+        
+        let totalImages = 32 // 4 * 8
+        var fetchedImages = 0
 
         var baseUrl = URL(string: "https://streetviewpixels-pa.googleapis.com/v1/tile")!
         let paramsCommon: [URLQueryItem] = [
@@ -102,6 +106,8 @@ class ImmersiveViewModel {
 
                 if let image = UIImage(data: data) {
                     images.append(image)
+                    fetchedImages += 1
+                    progress = Double(fetchedImages) / Double(totalImages)
                 }
             }
         }
