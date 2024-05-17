@@ -36,7 +36,8 @@ struct MapView: View {
                 )
                 VStack {
                     Button(action: {
-                        // do something
+                        immersiveViewModel.selectedPlaceInfo = viewModel.placeInfo
+                        showImmersiveSpace = true
                     }) {
                         Text("Open Immersive View")
                             .frame(width: 240)
@@ -56,6 +57,15 @@ struct MapView: View {
             let camera = MapCamera(centerCoordinate: newValue.locationCoordinate, distance: 400, heading: 0, pitch: 60)
             let cameraPosition = MapCameraPosition.camera(camera)
             self.position = cameraPosition
+        }
+        .onChange(of: showImmersiveSpace) { _, newValue in
+            Task {
+                if newValue {
+                    await openImmersiveSpace(id: "ImmersiveSpace")
+                } else {
+                    await dismissImmersiveSpace()
+                }
+            }
         }
     }
 }
