@@ -42,7 +42,7 @@ struct ContentView: View {
             
             MapView(immersiveViewModel: immersiveViewModel)
                 .tabItem {
-                    Label("Map", systemImage: "map")
+                    Label("Map", systemImage: "mappin.and.ellipse")
                 }
                 .tag(Tab.map)
         }
