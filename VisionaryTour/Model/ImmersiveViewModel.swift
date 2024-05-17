@@ -13,7 +13,13 @@ import RealityKit
 @Observable
 class ImmersiveViewModel {
 
-    var selectedPlaceInfo: PlaceInfo
+    var selectedPlaceInfo: PlaceInfo {
+        didSet {
+            Task {
+                try await setSnapshot()
+            }
+        }
+    }
 
     private let width = 4096
     private let height = 2048

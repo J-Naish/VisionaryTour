@@ -20,6 +20,11 @@ struct PanoramaView: View {
         .task {
             try? await immersiveViewModel.setSnapshot()
         }
+        .onChange(of: immersiveViewModel.selectedPlaceInfo) { newValue, _ in
+            Task {
+                try? await immersiveViewModel.setSnapshot()
+            }
+        }
     }
 }
 

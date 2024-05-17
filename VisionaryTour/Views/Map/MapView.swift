@@ -23,8 +23,6 @@ struct MapView: View {
     
     var body: some View {
         
-        @Bindable var immersiveViewModel = immersiveViewModel
-        
         NavigationStack {
             ZStack {
                 MapViewRepresentable(viewModel: viewModel)
