@@ -11,18 +11,18 @@ import MapKit
 
 struct PanoramaView: View {
     
-    var viewModel: ImmersiveViewModel
+    var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
         RealityView { content in
-            content.add(viewModel.setupContentEntity())
+            content.add(immersiveViewModel.setupContentEntity())
         }
         .task {
-            try? await viewModel.setSnapshot()
+            try? await immersiveViewModel.setSnapshot()
         }
     }
 }
 
 #Preview {
-    PanoramaView(viewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+    PanoramaView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
 }
