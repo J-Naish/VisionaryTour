@@ -41,6 +41,8 @@ class ImmersiveViewModel {
         ))
         modelEntity.scale *= .init(x: -1, y: 1, z: 1)
         modelEntity.transform.translation += SIMD3<Float>(0.0, 1.0, 0.0)
+        let rotatation = Float.pi / 2
+        modelEntity.transform.rotation *= simd_quatf(angle: rotatation, axis: SIMD3<Float>(0, 1, 0))
 
         contentEntity.addChild(modelEntity)
         self.modelEntity = modelEntity
