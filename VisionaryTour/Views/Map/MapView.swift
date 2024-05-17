@@ -15,7 +15,16 @@ struct MapView: View {
     
     @State private var position: MapCameraPosition = .automatic
     
+    @State private var showImmersiveSpace = false
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
+    var immersiveViewModel: ImmersiveViewModel
+    
     var body: some View {
+        
+        @Bindable var immersiveViewModel = immersiveViewModel
+        
         NavigationStack {
             ZStack {
                 MapViewRepresentable(viewModel: viewModel)
@@ -52,5 +61,5 @@ struct MapView: View {
 }
 
 #Preview() {
-    MapView()
+    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
 }
