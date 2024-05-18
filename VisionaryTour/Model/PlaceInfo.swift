@@ -26,3 +26,5 @@ struct PlaceInfo: Identifiable, Hashable {
         lhs.id == rhs.id
     }
 }
+
+let defaultPlace = PlaceInfo(locationCoordinate: CLLocationCoordinate2D(), panoId: nil)

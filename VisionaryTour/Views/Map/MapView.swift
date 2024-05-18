@@ -73,5 +73,5 @@ struct MapView: View {
 }
 
 #Preview() {
-    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }

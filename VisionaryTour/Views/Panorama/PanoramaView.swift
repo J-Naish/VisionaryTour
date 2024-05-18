@@ -29,5 +29,5 @@ struct PanoramaView: View {
 }
 
 #Preview {
-    PanoramaView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+    PanoramaView(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }

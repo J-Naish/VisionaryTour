@@ -12,7 +12,7 @@ import MapKit
 struct VisionaryTourApp: App {
     @StateObject private var modelData = ModelData()
     
-    @State private var immersiveViewModel = ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil))
+    @State private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
     
     var body: some Scene {
         WindowGroup {

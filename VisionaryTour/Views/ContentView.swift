@@ -59,5 +59,5 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView(modelData: ModelData(), immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+    ContentView(modelData: ModelData(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }
