@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MapControlButton: View {
     @Binding var isMapSelected: Bool
-    let viewModel: MapViewModel
+    let mapViewModel: MapViewModel
     
     var body: some View {
         ZStack {
@@ -22,9 +22,9 @@ struct MapControlButton: View {
                 Button(action: {
                     withAnimation {
                         if isMapSelected {
-                            viewModel.updateMapType("satellite")
+                            mapViewModel.updateMapType("satellite")
                         } else {
-                            viewModel.updateMapType("roadmap")
+                            mapViewModel.updateMapType("roadmap")
                         }
                         isMapSelected = !isMapSelected
                     }
@@ -43,9 +43,9 @@ struct MapControlButton: View {
                 Button(action: {
                     withAnimation {
                         if isMapSelected {
-                            viewModel.updateMapType("satellite")
+                            mapViewModel.updateMapType("satellite")
                         } else {
-                            viewModel.updateMapType("roadmap")
+                            mapViewModel.updateMapType("roadmap")
                         }
                         isMapSelected = !isMapSelected
                     }
