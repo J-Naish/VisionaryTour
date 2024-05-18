@@ -12,9 +12,7 @@ extension View {
     func innerShadow(color: Color, radius: CGFloat = 4, offsetX: CGFloat = 0, offsetY: CGFloat = 0) -> some View {
         modifier(ShadowModifier(color: color, radius: radius, offsetX: offsetX, offsetY: offsetY))
     }
-}
-
-extension View {
+    
     @ViewBuilder
     func `if`<Content: View>(_ condition: Bool, transform: (Self) -> Content) -> some View {
         if condition {
@@ -24,6 +22,7 @@ extension View {
         }
     }
 }
+
 
 struct ShadowModifier: ViewModifier {
     let color: Color
