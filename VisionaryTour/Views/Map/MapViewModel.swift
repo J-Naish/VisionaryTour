@@ -14,7 +14,7 @@ class MapViewModel: ObservableObject {
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
-    @Published var placeInfo: PlaceInfo = defaultPlace
+    @Published var pinnedPlace: PlaceInfo = defaultPlace
     
     var webView: WKWebView?
     
