@@ -96,7 +96,6 @@ function setLocation(address) {
 // load the map
 function loadScript() {
     const script = document.createElement("script");
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCvNpWrz0mA6MU_NgB7n-WzgD4LU3izPn8&callback=initMap";
     script.defer = true;
     script.async = true;
     document.head.appendChild(script);

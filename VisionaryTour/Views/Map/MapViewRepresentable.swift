@@ -12,15 +12,21 @@ import MapKit
 struct MapViewRepresentable: UIViewRepresentable {
     @ObservedObject var mapViewModel: MapViewModel
     
+    // environment variable for google map api key
+    private let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
+    
     func makeUIView(context: Context) -> WKWebView {
         let webView = WKWebView(frame: .zero)
         
         guard let html = Bundle.main.url(forResource: "index", withExtension: "html") else {
             return webView
         }
-        guard let htmlString = try? String(contentsOf: html) else {
+        guard var htmlString = try? String(contentsOf: html) else {
             return webView
         }
+        
+        // set api key in html
+        htmlString = htmlString.replacingOccurrences(of: "GOOGLE_MAPS_API_KEY", with: apiKey)
         
         let baseURL = html.deletingLastPathComponent()
         
