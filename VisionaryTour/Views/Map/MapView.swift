@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    @StateObject private var mapViewModel = MapViewModel()
+    @StateObject private var modelData = ModelData()
     @State private var searchText = ""
     @State private var isMapSelected = true
     
@@ -26,16 +26,16 @@ struct MapView: View {
         ZStack {
             NavigationStack {
                 ZStack {
-                    MapViewRepresentable(mapViewModel: mapViewModel)
+                    MapViewRepresentable(modelData: modelData)
                         .clipShape(RoundedRectangle(cornerRadius: 32))
                         .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
                         .navigationBarItems(
-                            leading: MapControlButton(isMapSelected: $isMapSelected, mapViewModel: mapViewModel),
-                            trailing: ZoomControlButton(mapViewModel: mapViewModel)
+                            leading: MapControlButton(isMapSelected: $isMapSelected, modelData: modelData),
+                            trailing: ZoomControlButton(modelData: modelData)
                         )
                     VStack {
                         Button(action: {
-                            immersiveViewModel.selectedPlaceInfo = mapViewModel.pinnedPlace
+                            immersiveViewModel.selectedPlaceInfo = modelData.pinnedPlace
                             immersiveViewModel.progress = 0.0
                             let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
                             let cameraPosition = MapCameraPosition.camera(camera)
@@ -44,9 +44,9 @@ struct MapView: View {
                         }) {
                             Text("Open Immersive View")
                                 .frame(width: 240)
-                                .foregroundColor(mapViewModel.pinnedPlace.panoId == nil ? .red : .white)
+                                .foregroundColor(modelData.pinnedPlace.panoId == nil ? .red : .white)
                         }
-                        .disabled(mapViewModel.pinnedPlace.panoId == nil)
+                        .disabled(modelData.pinnedPlace.panoId == nil)
                         .padding(.top, -66)
                         Spacer()
                     }
@@ -54,7 +54,7 @@ struct MapView: View {
             }
             .searchable(text: $searchText)
             .onSubmit(of: .search) {
-                mapViewModel.searchLocation(searchText)
+                modelData.searchLocation(searchText)
             }
             .onChange(of: showImmersiveSpace) { _, newValue in
                 Task {

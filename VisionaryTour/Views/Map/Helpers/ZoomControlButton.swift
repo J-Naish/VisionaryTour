@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ZoomControlButton: View {
-    let mapViewModel: MapViewModel
+    let modelData: ModelData
     var body: some View {
         HStack {
             Spacer(minLength: 16)
             Button(action: {
-                mapViewModel.zoomIn()
+                modelData.zoomIn()
             }) {
                 Image(systemName: "plus")
                     .font(.system(size: 24))
@@ -24,7 +24,7 @@ struct ZoomControlButton: View {
             Spacer(minLength: 16)
 
             Button(action: {
-                mapViewModel.zoomOut()
+                modelData.zoomOut()
             }) {
                 Image(systemName: "minus")
                     .font(.system(size: 24))
