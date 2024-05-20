@@ -18,7 +18,7 @@ struct ContentView: View {
         case map
     }
     
-    var modelData: ModelData
+    var viewModel: ViewModel
     
     @State private var showImmersiveSpace = false
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
@@ -38,7 +38,7 @@ struct ContentView: View {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
                 .tag(Tab.discover)
-                .environmentObject(modelData)
+                .environmentObject(viewModel)
             
             MapView(immersiveViewModel: immersiveViewModel)
                 .tabItem {
@@ -59,5 +59,5 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView(modelData: ModelData(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+    ContentView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }

@@ -10,7 +10,7 @@ import WebKit
 import MapKit
 
 struct MapViewRepresentable: UIViewRepresentable {
-    @ObservedObject var modelData: ModelData
+    @ObservedObject var viewModel: ViewModel
     
     // environment variable for google map api key
     private let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
@@ -32,7 +32,7 @@ struct MapViewRepresentable: UIViewRepresentable {
         
         webView.loadHTMLString(htmlString, baseURL: baseURL)
         
-        modelData.webView = webView
+        viewModel.webView = webView
         
         webView.configuration.userContentController.add(context.coordinator, name: "zoomChanged")
         webView.configuration.userContentController.add(context.coordinator, name: "panoIdChanged")
@@ -54,7 +54,7 @@ struct MapViewRepresentable: UIViewRepresentable {
         func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
             if message.name == "zoomChanged" {
                 if let zoomLevel = message.body as? Double {
-                    parent.modelData.zoomLevel = zoomLevel
+                    parent.viewModel.zoomLevel = zoomLevel
                 }
             } else if message.name == "panoIdChanged" {
                 if let body = message.body as? [String: Any],
@@ -63,22 +63,22 @@ struct MapViewRepresentable: UIViewRepresentable {
                    let latitude = latLngDict["latitude"],
                    let longitude = latLngDict["longitude"] {
                     let coordinate = CLLocationCoordinate2DMake(latitude, longitude)
-                    parent.modelData.pinnedPlace.panoId = panoId
-                    parent.modelData.pinnedPlace.locationCoordinate = coordinate
+                    parent.viewModel.pinnedPlace.panoId = panoId
+                    parent.viewModel.pinnedPlace.locationCoordinate = coordinate
                 } else {
-                    parent.modelData.pinnedPlace.panoId = nil
-                    parent.modelData.pinnedPlace.locationCoordinate = CLLocationCoordinate2D()
+                    parent.viewModel.pinnedPlace.panoId = nil
+                    parent.viewModel.pinnedPlace.locationCoordinate = CLLocationCoordinate2D()
                 }
             }
         }
     }
     
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.evaluateJavaScript("map.setMapTypeId('\(modelData.mapType)')")
+        uiView.evaluateJavaScript("map.setMapTypeId('\(viewModel.mapType)')")
         
-        if modelData.zoomLevelChanged {
-            uiView.evaluateJavaScript("map.setZoom(\(modelData.zoomLevel))")
-            modelData.zoomLevelChanged = false
+        if viewModel.zoomLevelChanged {
+            uiView.evaluateJavaScript("map.setZoom(\(viewModel.zoomLevel))")
+            viewModel.zoomLevelChanged = false
         }
     }
 }

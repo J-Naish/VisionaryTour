@@ -10,13 +10,13 @@ import MapKit
 
 @main
 struct VisionaryTourApp: App {
-    @StateObject private var modelData = ModelData()
+    @StateObject private var viewModel = ViewModel()
     
     @State private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
     
     var body: some Scene {
         WindowGroup {
-            ContentView(modelData: modelData, immersiveViewModel: immersiveViewModel)
+            ContentView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
         }
         
         ImmersiveSpace(id: "ImmersiveSpace") {

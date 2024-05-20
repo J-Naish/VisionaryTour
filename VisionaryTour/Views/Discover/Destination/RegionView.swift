@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RegionView: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         NavigationStack {
@@ -21,7 +21,7 @@ struct RegionView: View {
                     HStack(spacing: 32) {
                         NavigationLink {
                             RegionListView(region: .asia)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
                         }
@@ -29,7 +29,7 @@ struct RegionView: View {
 
                         NavigationLink {
                             RegionListView(region: .europe)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
                         }
@@ -41,7 +41,7 @@ struct RegionView: View {
                     HStack(spacing: 32) {
                         NavigationLink {
                             RegionListView(region: .northAmerica)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
                         }
@@ -49,7 +49,7 @@ struct RegionView: View {
 
                         NavigationLink {
                             RegionListView(region: .latinAmerica)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
                         }
@@ -61,7 +61,7 @@ struct RegionView: View {
                     HStack(spacing: 32) {
                         NavigationLink {
                             RegionListView(region: .africa)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Africa")
                         }
@@ -69,7 +69,7 @@ struct RegionView: View {
 
                         NavigationLink {
                             RegionListView(region: .oceania)
-                                .environmentObject(modelData)
+                                .environmentObject(viewModel)
                         } label: {
                             RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Oceania")
                         }
@@ -85,6 +85,6 @@ struct RegionView: View {
 struct RegionView_Previews: PreviewProvider {
     static var previews: some View {
         RegionView()
-            .environmentObject(ModelData())
+            .environmentObject(ViewModel())
     }
 }

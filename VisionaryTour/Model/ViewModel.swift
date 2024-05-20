@@ -12,7 +12,7 @@ import RealityKit
 import WebKit
 
 
-class ModelData: ObservableObject {
+class ViewModel: ObservableObject {
     
     // MARK: landmark data
     @Published var landmarks: [Landmark] = load("landmarkData.json")
