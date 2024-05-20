@@ -61,17 +61,19 @@ struct DiscoverView: View {
                 }
             }
         } detail: {
-            switch selectedItem {
-            case .discover:
-                MainDiscoverView()
-            case .region:
-                RegionView()
-            case .worldHeritage:
-                WorldHeritageView()
-            case .featured:
-                FeaturedView()
-            case .list:
-                ListView()
+            NavigationStack {
+                switch selectedItem {
+                case .discover:
+                    MainDiscoverView()
+                case .region:
+                    RegionView()
+                case .worldHeritage:
+                    WorldHeritageView()
+                case .featured:
+                    FeaturedView()
+                case .list:
+                    ListView()
+                }
             }
         }
     }
