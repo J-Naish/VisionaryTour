@@ -20,13 +20,15 @@ struct MapControlButton: View {
             
             HStack {
                 Button(action: {
-                    withAnimation {
-                        if isMapSelected {
-                            viewModel.updateMapType("satellite")
-                        } else {
-                            viewModel.updateMapType("roadmap")
+                    DispatchQueue.main.async {
+                        withAnimation {
+                            if isMapSelected {
+                                viewModel.updateMapType("satellite")
+                            } else {
+                                viewModel.updateMapType("roadmap")
+                            }
+                            isMapSelected = !isMapSelected
                         }
-                        isMapSelected = !isMapSelected
                     }
                 }) {
                     Text("")
@@ -41,13 +43,15 @@ struct MapControlButton: View {
                 .tint(Color.clear)
                 
                 Button(action: {
-                    withAnimation {
-                        if isMapSelected {
-                            viewModel.updateMapType("satellite")
-                        } else {
-                            viewModel.updateMapType("roadmap")
+                    DispatchQueue.main.async {
+                        withAnimation {
+                            if isMapSelected {
+                                viewModel.updateMapType("satellite")
+                            } else {
+                                viewModel.updateMapType("roadmap")
+                            }
+                            isMapSelected = !isMapSelected
                         }
-                        isMapSelected = !isMapSelected
                     }
                 }) {
                     Text("")

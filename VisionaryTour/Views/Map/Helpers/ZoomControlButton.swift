@@ -13,7 +13,9 @@ struct ZoomControlButton: View {
         HStack {
             Spacer(minLength: 16)
             Button(action: {
-                viewModel.zoomIn()
+                DispatchQueue.main.async {
+                    viewModel.zoomIn()
+                }
             }) {
                 Image(systemName: "plus")
                     .font(.system(size: 24))
@@ -24,7 +26,9 @@ struct ZoomControlButton: View {
             Spacer(minLength: 16)
 
             Button(action: {
-                viewModel.zoomOut()
+                DispatchQueue.main.async {
+                    viewModel.zoomOut()
+                }
             }) {
                 Image(systemName: "minus")
                     .font(.system(size: 24))
