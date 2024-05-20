@@ -25,31 +25,28 @@ struct MapView: View {
         
         ZStack {
             NavigationStack {
-                ZStack {
+                VStack {
                     MapViewRepresentable(viewModel: viewModel)
                         .clipShape(RoundedRectangle(cornerRadius: 32))
-                        .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
+                        .padding(EdgeInsets(top: 0, leading: 32, bottom: 16, trailing: 32))
                         .navigationBarItems(
                             leading: MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel),
                             trailing: ZoomControlButton(viewModel: viewModel)
                         )
-                    VStack {
-                        Button(action: {
-                            immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
-                            immersiveViewModel.progress = 0.0
-                            let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
-                            let cameraPosition = MapCameraPosition.camera(camera)
-                            self.position = cameraPosition
-                            showImmersiveSpace = true
-                        }) {
-                            Text("Open Immersive View")
-                                .frame(width: 240)
-                                .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
-                        }
-                        .disabled(viewModel.pinnedPlace.panoId == nil)
-                        .padding(.top, -66)
-                        Spacer()
+                    Button(action: {
+                        immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
+                        immersiveViewModel.progress = 0.0
+                        let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
+                        let cameraPosition = MapCameraPosition.camera(camera)
+                        self.position = cameraPosition
+                        showImmersiveSpace = true
+                    }) {
+                        Text("Open Immersive View")
+                            .frame(width: 240)
+                            .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
                     }
+                    .disabled(viewModel.pinnedPlace.panoId == nil)
+                    .padding(.bottom, 24)
                 }
             }
             .searchable(text: $searchText)
