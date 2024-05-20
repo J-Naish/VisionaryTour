@@ -30,8 +30,6 @@ struct ContentView: View {
     
     var body: some View {
         
-        @Bindable var immersiveViewModel = immersiveViewModel
-        
         TabView(selection: $selection) {
             DiscoverView()
                 .tabItem {
