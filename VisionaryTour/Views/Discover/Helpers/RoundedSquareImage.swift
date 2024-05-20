@@ -77,5 +77,5 @@ struct RoundedSquareImage: View {
 
 
 #Preview {
-    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Test")
+    RoundedSquareImage(image: Image("dummy"), size: .large, text: "Test", enableHoverEEffect: false)
 }

@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct RegionListView: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var viewModel: ViewModel
     @Environment(\.dismiss) var dismiss
     
     var region: Region
     
     var filteredLandmarks: [Landmark] {
-        modelData.landmarks.filter { $0.country.region == region }
+        viewModel.landmarks.filter { $0.country.region == region }
     }
     
     var rows: [[Landmark]] {
@@ -46,6 +46,6 @@ struct RegionListView: View {
 struct RegionListView_Previews: PreviewProvider {
     static var previews: some View {
         RegionListView(region: .asia)
-            .environmentObject(ModelData())
+            .environmentObject(ViewModel())
     }
 }

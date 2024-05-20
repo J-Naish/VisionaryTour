@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    @StateObject private var viewModel = MapViewModel()
+    @StateObject private var viewModel = ViewModel()
     @State private var searchText = ""
     @State private var isMapSelected = true
     
@@ -35,7 +35,7 @@ struct MapView: View {
                         )
                     VStack {
                         Button(action: {
-                            immersiveViewModel.selectedPlaceInfo = viewModel.placeInfo
+                            immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
                             immersiveViewModel.progress = 0.0
                             let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
                             let cameraPosition = MapCameraPosition.camera(camera)
@@ -44,9 +44,9 @@ struct MapView: View {
                         }) {
                             Text("Open Immersive View")
                                 .frame(width: 240)
-                                .foregroundColor(viewModel.placeInfo.panoId == nil ? .red : .white)
+                                .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
                         }
-                        .disabled(viewModel.placeInfo.panoId == nil)
+                        .disabled(viewModel.pinnedPlace.panoId == nil)
                         .padding(.top, -66)
                         Spacer()
                     }
@@ -73,5 +73,5 @@ struct MapView: View {
 }
 
 #Preview() {
-    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(0, 0), panoId: nil)))
+    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }

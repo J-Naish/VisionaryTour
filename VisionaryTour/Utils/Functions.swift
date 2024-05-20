@@ -1,19 +1,11 @@
 //
-//  ModelData.swift
+//  Functions.swift
 //  VisionaryTour
 //
-//  Created by JinNash on 2024/05/06.
+//  Created by JinNash on 2024/05/19.
 //
 
 import Foundation
-import Observation
-import MapKit
-import RealityKit
-
-class ModelData: ObservableObject {
-    @Published var landmarks: [Landmark] = load("landmarkData.json")
-}
-
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

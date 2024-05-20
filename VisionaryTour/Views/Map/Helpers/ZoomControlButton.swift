@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ZoomControlButton: View {
-    let viewModel: MapViewModel
+    let viewModel: ViewModel
     var body: some View {
         HStack {
             Spacer(minLength: 16)

@@ -10,7 +10,10 @@ import WebKit
 import MapKit
 
 struct MapViewRepresentable: UIViewRepresentable {
-    @ObservedObject var viewModel: MapViewModel
+    @ObservedObject var viewModel: ViewModel
+    
+    // environment variable for google map api key
+    private let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
     
     func makeUIView(context: Context) -> WKWebView {
         let webView = WKWebView(frame: .zero)
@@ -18,9 +21,12 @@ struct MapViewRepresentable: UIViewRepresentable {
         guard let html = Bundle.main.url(forResource: "index", withExtension: "html") else {
             return webView
         }
-        guard let htmlString = try? String(contentsOf: html) else {
+        guard var htmlString = try? String(contentsOf: html) else {
             return webView
         }
+        
+        // set api key in html
+        htmlString = htmlString.replacingOccurrences(of: "GOOGLE_MAPS_API_KEY", with: apiKey)
         
         let baseURL = html.deletingLastPathComponent()
         
@@ -57,11 +63,11 @@ struct MapViewRepresentable: UIViewRepresentable {
                    let latitude = latLngDict["latitude"],
                    let longitude = latLngDict["longitude"] {
                     let coordinate = CLLocationCoordinate2DMake(latitude, longitude)
-                    parent.viewModel.placeInfo.panoId = panoId
-                    parent.viewModel.placeInfo.locationCoordinate = coordinate
+                    parent.viewModel.pinnedPlace.panoId = panoId
+                    parent.viewModel.pinnedPlace.locationCoordinate = coordinate
                 } else {
-                    parent.viewModel.placeInfo.panoId = nil
-                    parent.viewModel.placeInfo.locationCoordinate = CLLocationCoordinate2D()
+                    parent.viewModel.pinnedPlace.panoId = nil
+                    parent.viewModel.pinnedPlace.locationCoordinate = CLLocationCoordinate2D()
                 }
             }
         }

@@ -1,20 +1,29 @@
 //
-//  MapViewModel.swift
+//  ModelData.swift
 //  VisionaryTour
 //
-//  Created by JinNash on 2024/05/07.
+//  Created by JinNash on 2024/05/06.
 //
 
 import Foundation
-import Combine
-import WebKit
+import Observation
 import MapKit
+import RealityKit
+import WebKit
 
-class MapViewModel: ObservableObject {
+
+class ViewModel: ObservableObject {
+    
+    // MARK: landmark data
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+    
+    
+    
+    // MARK: map web view data
     @Published var mapType: String = "roadmap"
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
-    @Published var placeInfo: PlaceInfo = PlaceInfo(locationCoordinate: CLLocationCoordinate2D(), panoId: nil)
+    @Published var pinnedPlace: PlaceInfo = defaultPlace
     
     var webView: WKWebView?
     
@@ -44,4 +53,6 @@ class MapViewModel: ObservableObject {
             return
         }
     }
+    
 }
+

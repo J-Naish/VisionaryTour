@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MapControlButton: View {
     @Binding var isMapSelected: Bool
-    let viewModel: MapViewModel
+    let viewModel: ViewModel
     
     var body: some View {
         ZStack {
