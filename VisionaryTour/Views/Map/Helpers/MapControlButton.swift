@@ -19,39 +19,24 @@ struct MapControlButton: View {
                 .frame(width: 280, height: 48)
             
             HStack {
-                Button(action: {
-                    withAnimation {
-                        viewModel.updateMapType(isMapSelected ? "satellite" : "roadmap")
-                        isMapSelected.toggle()
+                ForEach(0..<2) { _ in
+                    Button(action: {
+                        withAnimation {
+                            viewModel.updateMapType(isMapSelected ? "satellite" : "roadmap")
+                            isMapSelected.toggle()
+                        }
+                    }) {
+                        Text("")
+                            .frame(width: 64, height: 14)
+                            .padding()
+                            .background(
+                                Capsule()
+                                    .fill(Color.clear)
+                            )
+                            .contentShape(Capsule())
                     }
-                }) {
-                    Text("")
-                        .frame(width: 64, height: 14)
-                        .padding()
-                        .background(
-                            Capsule()
-                                .fill(Color.clear)
-                        )
-                        .contentShape(Capsule())
+                    .tint(Color.clear)
                 }
-                .tint(Color.clear)
-                
-                Button(action: {
-                    withAnimation {
-                        viewModel.updateMapType(isMapSelected ? "satellite" : "roadmap")
-                        isMapSelected.toggle()
-                    }
-                }) {
-                    Text("")
-                        .frame(width: 64, height: 14)
-                        .padding()
-                        .background(
-                            Capsule()
-                                .fill(Color.clear)
-                        )
-                        .contentShape(Capsule())
-                }
-                .tint(Color.clear)
             }
             
             Capsule()
@@ -87,9 +72,7 @@ struct CapsuleBackground: View {
             .fill(Color.white)
             .frame(width: 136, height: 48)
             .offset(x: isMapSelected ? -72 : 72)
-            .onChange(of: isMapSelected) { newValue, _ in
-                withAnimation(.easeInOut(duration: 0.15)) {}
-            }
+            .animation(.easeInOut(duration: 0.4), value: isMapSelected)
     }
 }
 
