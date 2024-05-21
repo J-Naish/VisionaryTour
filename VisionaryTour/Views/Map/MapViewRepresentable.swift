@@ -74,8 +74,9 @@ struct MapViewRepresentable: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.evaluateJavaScript("map.setMapTypeId('\(viewModel.mapType)')")
-        
+        DispatchQueue.main.async {
+            uiView.evaluateJavaScript("map.setMapTypeId('\(viewModel.mapType)')")
+        }
         if viewModel.zoomLevelChanged {
             DispatchQueue.main.async {
                 uiView.evaluateJavaScript("map.setZoom(\(viewModel.zoomLevel))")
