@@ -22,7 +22,7 @@ struct MapControlButton: View {
                 ForEach(0..<2) { _ in
                     Button(action: {
                         withAnimation {
-                            viewModel.updateMapType(isMapSelected ? "satellite" : "roadmap")
+                            viewModel.updateMapType(isMapSelected ? .hybrid : .roadmap)
                             isMapSelected.toggle()
                         }
                     }) {
