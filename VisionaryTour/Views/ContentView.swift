@@ -20,12 +20,6 @@ struct ContentView: View {
     
     var viewModel: ViewModel
     
-    @State private var showImmersiveSpace = false
-    @Environment(\.openImmersiveSpace) var openImmersiveSpace
-    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
-    
-    @State private var position: MapCameraPosition = .automatic
-    
     var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
@@ -43,15 +37,6 @@ struct ContentView: View {
                     Label("Map", systemImage: "mappin.and.ellipse")
                 }
                 .tag(Tab.map)
-        }
-        .onChange(of: showImmersiveSpace) { _, newValue in
-            Task {
-                if newValue {
-                    await openImmersiveSpace(id: "ImmersiveSpace")
-                } else {
-                    await dismissImmersiveSpace()
-                }
-            }
         }
     }
 }

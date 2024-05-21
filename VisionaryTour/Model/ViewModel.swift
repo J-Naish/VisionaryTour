@@ -20,19 +20,19 @@ class ViewModel: ObservableObject {
     
     
     // MARK: map web view data
-    @Published var mapType: String = "roadmap"
+    @Published var mapType: MapType = .roadmap
+    enum MapType: String {
+        case roadmap
+        case hybrid
+    }
     @Published var zoomLevel: Double = 10.0
     @Published var zoomLevelChanged = false
     @Published var pinnedPlace: PlaceInfo = defaultPlace
     
     var webView: WKWebView?
     
-    func updateMapType(_ type: String) {
-        if type == "satellite" {
-            mapType = "hybrid"
-        } else {
-            mapType = type
-        }
+    func updateMapType(_ type: MapType) {
+        mapType = type
     }
     
     func zoomIn() {
