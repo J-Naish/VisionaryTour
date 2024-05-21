@@ -77,8 +77,10 @@ struct MapViewRepresentable: UIViewRepresentable {
         uiView.evaluateJavaScript("map.setMapTypeId('\(viewModel.mapType)')")
         
         if viewModel.zoomLevelChanged {
-            uiView.evaluateJavaScript("map.setZoom(\(viewModel.zoomLevel))")
-            viewModel.zoomLevelChanged = false
+            DispatchQueue.main.async {
+                uiView.evaluateJavaScript("map.setZoom(\(viewModel.zoomLevel))")
+                viewModel.zoomLevelChanged = false
+            }
         }
     }
 }
