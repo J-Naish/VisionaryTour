@@ -24,7 +24,7 @@ struct RegionView: View {
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         RegionListView(region: .europe)
@@ -32,7 +32,7 @@ struct RegionView: View {
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                 }
                 .padding(.bottom, 32)
                 
@@ -44,7 +44,7 @@ struct RegionView: View {
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         RegionListView(region: .latinAmerica)
@@ -52,7 +52,7 @@ struct RegionView: View {
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                 }
                 .padding(.bottom, 32)
                 
