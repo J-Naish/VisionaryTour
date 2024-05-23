@@ -32,7 +32,7 @@ struct RegionListView: View {
                             NavigationLink {
                                 LandmarkDetailView(landmark: landmark)
                             } label: {
-                                LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
+                                LandmarkCard(landmarkName: landmark.name, country: landmark.country.rawValue)
                             }
                             .buttonStyle(PlainButtonStyle())
                         }

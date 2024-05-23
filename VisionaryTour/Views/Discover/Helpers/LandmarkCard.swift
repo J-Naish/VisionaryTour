@@ -9,21 +9,29 @@ import SwiftUI
 
 struct LandmarkCard: View {
     var landmarkName: String
-    var region: String
+    var country: String
     
     var body: some View {
         VStack(alignment: .leading) {
-            RoundedSquareImage(image: Image("dummy"), size: .small, text: nil)
+            Image("dummy")
+                .resizable()
+                .clipShape(Rectangle())
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 200, height: 200)
+                .cornerRadius(20)
             Text(landmarkName)
                 .padding(.leading, 8)
                 .fontWeight(.bold)
-            Text(region)
+            Text(country)
                 .padding(.leading, 8)
                 .opacity(0.7)
         }
+        .background(Color.clear)
+        .hoverEffect(.lift)
+        .clipShape(RoundedRectangle(cornerRadius: 20))
     }
 }
 
 #Preview {
-    LandmarkCard(landmarkName: "Kinkakuji", region: "Japan")
+    LandmarkCard(landmarkName: "Kinkakuji", country: "Japan")
 }
