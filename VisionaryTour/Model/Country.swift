@@ -46,7 +46,7 @@ enum Country: String, CaseIterable, Codable {
     case bulgaria = "Bulgaria"
     case burkinaFaso = "Burkina Faso"
     case burundi = "Burundi"
-    case cabVerde = "Cabo Verde"
+    case caboVerde = "Cabo Verde"
     case cambodia = "Cambodia"
     case cameroon = "Cameroon"
     case canada = "Canada"
@@ -91,6 +91,7 @@ enum Country: String, CaseIterable, Codable {
     case guineaBissau = "Guinea-Bissau"
     case guyana = "Guyana"
     case haiti = "Haiti"
+    case holySee = "Holy see"
     case honduras = "Honduras"
     case hungary = "Hungary"
     case iceland = "Iceland"
@@ -150,6 +151,7 @@ enum Country: String, CaseIterable, Codable {
     case oman = "Oman"
     case pakistan = "Pakistan"
     case palau = "Palau"
+    case palestine = "Palestine"
     case panama = "Panama"
     case papuaNewGuinea = "Papua New Guinea"
     case paraguay = "Paraguay"
@@ -216,11 +218,11 @@ enum Country: String, CaseIterable, Codable {
     
     var region: Region {
            switch self {
-           case .afghanistan, .armenia, .azerbaijan, .bahrain, .bangladesh, .bhutan, .brunei, .cambodia, .china, .india, .indonesia, .iran, .iraq, .israel, .japan, .jordan, .kazakhstan, .kuwait, .kyrgyzstan, .laos, .lebanon, .malaysia, .maldives, .mongolia, .myanmar, .nepal, .northKorea, .oman, .pakistan, .philippines, .qatar, .saudiArabia, .singapore, .southKorea, .sriLanka, .syria, .tajikistan, .thailand, .timorLeste, .turkey, .turkmenistan, .uae, .uzbekistan, .vietnam, .yemen:
+           case .afghanistan, .armenia, .azerbaijan, .bahrain, .bangladesh, .bhutan, .brunei, .cambodia, .china, .india, .indonesia, .iran, .iraq, .israel, .japan, .jordan, .kazakhstan, .kuwait, .kyrgyzstan, .laos, .lebanon, .malaysia, .maldives, .mongolia, .myanmar, .nepal, .northKorea, .oman, .pakistan, .palestine, .philippines, .qatar, .saudiArabia, .singapore, .southKorea, .sriLanka, .syria, .tajikistan, .thailand, .timorLeste, .turkey, .turkmenistan, .uae, .uzbekistan, .vietnam, .yemen:
                return .asia
-           case .albania, .andorra, .austria, .belarus, .belgium, .bosniaAndHerzegovina, .bulgaria, .croatia, .cyprus, .czechia, .denmark, .estonia, .finland, .france, .georgia, .germany, .greece, .hungary, .iceland, .ireland, .italy, .latvia, .liechtenstein, .lithuania, .luxembourg, .malta, .moldova, .monaco, .montenegro, .netherlands, .norway, .poland, .portugal, .romania, .russia, .sanMarino, .serbia, .slovakia, .slovenia, .spain, .sweden, .switzerland, .ukraine, .uk:
+           case .albania, .andorra, .austria, .belarus, .belgium, .bosniaAndHerzegovina, .bulgaria, .croatia, .cyprus, .czechia, .denmark, .estonia, .finland, .france, .georgia, .germany, .greece, .holySee, .hungary, .iceland, .ireland, .italy, .latvia, .liechtenstein, .lithuania, .luxembourg, .malta, .moldova, .monaco, .montenegro, .netherlands, .norway, .poland, .portugal, .romania, .russia, .sanMarino, .serbia, .slovakia, .slovenia, .spain, .sweden, .switzerland, .ukraine, .uk:
                return .europe
-           case .algeria, .angola, .benin, .botswana, .burkinaFaso, .burundi, .cameroon, .centralAfricanRepublic, .chad, .comoros, .congo, .coteDIvoire, .democraticRepublicOfTheCongo, .djibouti, .egypt, .equatorialGuinea, .eritrea, .eswatini, .ethiopia, .gabon, .gambia, .ghana, .guinea, .guineaBissau, .kenya, .lesotho, .liberia, .libya, .madagascar, .malawi, .mali, .mauritania, .mauritius, .morocco, .mozambique, .namibia, .niger, .nigeria, .rwanda, .saoTomeAndPrincipe, .senegal, .seychelles, .sierraLeone, .somalia, .southAfrica, .southSudan, .sudan, .tanzania, .togo, .tunisia, .uganda, .zambia, .zimbabwe:
+           case .algeria, .angola, .benin, .botswana, .burkinaFaso, .burundi, .cameroon, .caboVerde, .centralAfricanRepublic, .chad, .comoros, .congo, .coteDIvoire, .democraticRepublicOfTheCongo, .djibouti, .egypt, .equatorialGuinea, .eritrea, .eswatini, .ethiopia, .gabon, .gambia, .ghana, .guinea, .guineaBissau, .kenya, .lesotho, .liberia, .libya, .madagascar, .malawi, .mali, .mauritania, .mauritius, .morocco, .mozambique, .namibia, .niger, .nigeria, .rwanda, .saoTomeAndPrincipe, .senegal, .seychelles, .sierraLeone, .somalia, .southAfrica, .southSudan, .sudan, .tanzania, .togo, .tunisia, .uganda, .zambia, .zimbabwe:
                return .africa
            case .antiguaAndBarbuda, .bahamas, .barbados, .belize, .canada, .costaRica, .cuba, .dominica, .dominicanRepublic, .elSalvador, .grenada, .guatemala, .haiti, .honduras, .jamaica, .mexico, .nicaragua, .panama, .saintKittsAndNevis, .saintLucia, .saintVincentAndTheGrenadines, .trinidadAndTobago, .us:
                return .northAmerica
