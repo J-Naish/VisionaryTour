@@ -16,12 +16,12 @@ struct LandmarkDescriptionView: View {
                 HStack {
                     Image("dummy")
                         .resizable()
-                        .frame(width: 120, height: 120)
+                        .frame(width: 160, height: 160)
                         .cornerRadius(12)
                     
                     VStack(alignment: .leading) {
                         Text(landmark.name)
-                            .font(.largeTitle)
+                            .font(.extraLargeTitle)
                         Text("\(landmark.state) / \(landmark.country.rawValue)")
                     }
                     .padding(.leading, 24)
