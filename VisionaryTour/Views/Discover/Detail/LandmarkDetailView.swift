@@ -40,7 +40,7 @@ struct LandmarkDetailView: View {
             .padding(.trailing, 24)
             
             LandmarkMapViewRepresentable()
-                .frame(width: 360, height: 480)
+                .frame(width: 360, height: 420)
                 .cornerRadius(24)
             
         }
