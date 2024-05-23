@@ -9,7 +9,7 @@ function initMap() {
     // create map
     map = new google.maps.Map(document.getElementById("map"), {
         center: center,
-        zoom: 20,
+        zoom: 8,
         fullscreenControl: false,
         streetViewControl: false,
         clickableIcons: false,

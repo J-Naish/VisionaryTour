@@ -37,6 +37,7 @@ struct LandmarkDetailView: View {
                 }
             }
             
+            LandmarkMapViewRepresentable()
             
         }
     }
