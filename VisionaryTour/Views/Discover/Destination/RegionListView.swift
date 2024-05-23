@@ -34,7 +34,7 @@ struct RegionListView: View {
                             } label: {
                                 LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
                             }
-                                
+                            .buttonStyle(PlainButtonStyle())
                         }
                     }
                     .padding(.bottom, 48)
