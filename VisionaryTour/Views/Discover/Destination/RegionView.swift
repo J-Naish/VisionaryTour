@@ -19,7 +19,7 @@ struct RegionView: View {
                 
                 HStack(spacing: 32) {
                     NavigationLink {
-                        RegionListView(region: .asia)
+                        FilteredLandmarkListView(navigationTitle: "Asia", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
@@ -27,7 +27,7 @@ struct RegionView: View {
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
-                        RegionListView(region: .europe)
+                        FilteredLandmarkListView(navigationTitle: "Europe", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
@@ -39,7 +39,7 @@ struct RegionView: View {
                 
                 HStack(spacing: 32) {
                     NavigationLink {
-                        RegionListView(region: .northAmerica)
+                        FilteredLandmarkListView(navigationTitle: "North America", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
@@ -47,7 +47,7 @@ struct RegionView: View {
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
-                        RegionListView(region: .latinAmerica)
+                        FilteredLandmarkListView(navigationTitle: "Latin America", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
@@ -59,7 +59,7 @@ struct RegionView: View {
                 
                 HStack(spacing: 32) {
                     NavigationLink {
-                        RegionListView(region: .africa)
+                        FilteredLandmarkListView(navigationTitle: "Africa", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Africa")
@@ -67,7 +67,7 @@ struct RegionView: View {
                     .frame(width: 420)
                     
                     NavigationLink {
-                        RegionListView(region: .oceania)
+                        FilteredLandmarkListView(navigationTitle: "Oceania", filteredLandmarks: viewModel.landmarks)
                             .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Oceania")

@@ -1,21 +1,16 @@
 //
-//  RegionListView.swift
+//  LandmarkListView.swift
 //  VisionaryTour
 //
-//  Created by JinNash on 2024/05/13.
+//  Created by JinNash on 2024/05/24.
 //
 
 import SwiftUI
 
-struct RegionListView: View {
-    @EnvironmentObject var viewModel: ViewModel
-    @Environment(\.dismiss) var dismiss
+struct FilteredLandmarkListView: View {
+    var navigationTitle: String
     
-    var region: Region
-    
-    var filteredLandmarks: [Landmark] {
-        viewModel.landmarks.filter { $0.country.region == region }
-    }
+    var filteredLandmarks: [Landmark]
     
     var rows: [[Landmark]] {
         stride(from: 0, to: filteredLandmarks.count, by: 4).map {
@@ -25,7 +20,7 @@ struct RegionListView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {                
+            VStack(alignment: .leading) {
                 ForEach(rows, id: \.self) { row in
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
@@ -39,16 +34,13 @@ struct RegionListView: View {
                     }
                     .padding(.bottom, 48)
                 }
-                .navigationTitle(region.rawValue)
+                .navigationTitle(navigationTitle)
             }
         }
         .padding(.horizontal, 24)
     }
 }
 
-struct RegionListView_Previews: PreviewProvider {
-    static var previews: some View {
-        RegionListView(region: .asia)
-            .environmentObject(ViewModel())
-    }
+#Preview {
+    FilteredLandmarkListView(navigationTitle: "Asia", filteredLandmarks: ViewModel().landmarks)
 }
