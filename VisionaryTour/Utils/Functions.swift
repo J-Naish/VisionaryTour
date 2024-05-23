@@ -27,3 +27,18 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
+
+
+enum FilterCase {
+    case region(Region)
+    case category(Category)
+}
+
+func filterLandmarks(landmarks: [Landmark], by filterCase: FilterCase) -> [Landmark] {
+    switch filterCase {
+    case .region(let region):
+        return landmarks.filter { $0.country.region == region }
+    case .category(let category):
+        return landmarks.filter { $0.categories.contains(category) }
+    }
+}
