@@ -31,9 +31,6 @@ struct LandmarkMapViewRepresentable: UIViewRepresentable {
         
         webView.loadHTMLString(htmlString, baseURL: baseURL)
         
-        webView.configuration.userContentController.add(context.coordinator, name: "zoomChanged")
-        webView.configuration.userContentController.add(context.coordinator, name: "panoIdChanged")
-        
         return webView
     }
     
