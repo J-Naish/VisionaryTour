@@ -18,8 +18,9 @@ struct LandmarkDetailView: View {
     var body: some View {
         HStack(alignment: .top) {
             LandmarkDescriptionView(landmark: landmark)
-                .frame(width: 420)
-                .padding(.trailing, 24)
+                .frame(width: 480)
+
+            Spacer()
             
             VStack {
                 LandmarkMapView(landmark: landmark)
@@ -33,7 +34,9 @@ struct LandmarkDetailView: View {
                         .frame(width: 240)
                 }
             }
+            .padding(.trailing, 16)
         }
+        .padding(.horizontal, 24)
     }
 }
 
