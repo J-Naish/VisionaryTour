@@ -29,10 +29,12 @@ struct RegionListView: View {
                 ForEach(rows, id: \.self) { row in
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
-                            LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
-                                .onTapGesture {
-                                    // do something
-                                }
+                            NavigationLink {
+                                LandmarkDetailView(landmark: landmark)
+                            } label: {
+                                LandmarkCard(landmarkName: landmark.name, region: landmark.country.rawValue)
+                            }
+                                
                         }
                     }
                     .padding(.bottom, 48)
