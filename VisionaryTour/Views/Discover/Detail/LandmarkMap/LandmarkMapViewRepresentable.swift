@@ -11,6 +11,8 @@ import MapKit
 
 struct LandmarkMapViewRepresentable: UIViewRepresentable {
     
+    let landmark: Landmark
+    
     // environment variable for google map api key
     private let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
     
@@ -26,6 +28,11 @@ struct LandmarkMapViewRepresentable: UIViewRepresentable {
         
         // set api key in html
         htmlString = htmlString.replacingOccurrences(of: "GOOGLE_MAPS_API_KEY", with: apiKey)
+        
+        // init map with the coordinates of the landmark
+        let coordinesInjectionScript = "initMap(\(landmark.coordinates.latitude), \(landmark.coordinates.longitude));"
+        htmlString = htmlString.replacingOccurrences(of: "</body>", with: "<script>\(coordinesInjectionScript)</script></body>")
+        
         
         let baseURL = html.deletingLastPathComponent()
         
