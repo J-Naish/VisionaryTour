@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LandmarkDetailView: View {
     var landmark: Landmark
+    
+    var placeInfo: PlaceInfo {
+        PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(landmark.coordinates.latitude, landmark.coordinates.longitude), panoId: landmark.panoId)
+    }
     
     var body: some View {
         HStack(alignment: .top) {
@@ -16,8 +21,18 @@ struct LandmarkDetailView: View {
                 .frame(width: 420)
                 .padding(.trailing, 24)
             
-            LandmarkMapView(landmark: landmark)
-                .frame(width: 360, height: 420)
+            VStack {
+                LandmarkMapView(landmark: landmark)
+                    .frame(width: 360, height: 420)
+                
+                
+                Button(action: {
+                    // TODO: 
+                }) {
+                    Text("Open Immersive View")
+                        .frame(width: 240)
+                }
+            }
         }
     }
 }
