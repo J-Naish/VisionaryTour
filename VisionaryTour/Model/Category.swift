@@ -23,4 +23,5 @@ enum Category: String, CaseIterable, Codable {
     case architecture
     case desert
     case crowd
+    case poular
 }
