@@ -42,6 +42,7 @@ struct RegionListView: View {
                 .navigationTitle(region.rawValue)
             }
         }
+        .padding(.horizontal, 24)
     }
 }
 
