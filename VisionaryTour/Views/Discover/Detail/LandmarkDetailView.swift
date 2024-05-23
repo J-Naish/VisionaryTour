@@ -11,7 +11,7 @@ struct LandmarkDetailView: View {
     var landmark: Landmark
     
     var body: some View {
-        HStack {
+        HStack(alignment: .top) {
             ScrollView {
                 VStack(alignment: .leading) {
                     HStack {
@@ -36,8 +36,12 @@ struct LandmarkDetailView: View {
                     Text(landmark.description)
                 }
             }
+            .frame(width: 420)
+            .padding(.trailing, 24)
             
             LandmarkMapViewRepresentable()
+                .frame(width: 360, height: 480)
+                .cornerRadius(24)
             
         }
     }
