@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RegionView: View {
-    @EnvironmentObject var viewModel: ViewModel
+    var viewModel: ViewModel
     
     var body: some View {
         ScrollView {
@@ -20,7 +20,6 @@ struct RegionView: View {
                 HStack(spacing: 32) {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Asia", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.asia)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
                     }
@@ -28,7 +27,6 @@ struct RegionView: View {
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Europe", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.europe)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
                     }
@@ -40,7 +38,6 @@ struct RegionView: View {
                 HStack(spacing: 32) {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "North America", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.northAmerica)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
                     }
@@ -48,7 +45,6 @@ struct RegionView: View {
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Latin America", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.latinAmerica)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
                     }
@@ -60,7 +56,6 @@ struct RegionView: View {
                 HStack(spacing: 32) {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Africa", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.africa)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Africa")
                     }
@@ -68,7 +63,6 @@ struct RegionView: View {
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Oceania", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.oceania)))
-                            .environmentObject(viewModel)
                     } label: {
                         RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Oceania")
                     }
@@ -82,7 +76,6 @@ struct RegionView: View {
 
 struct RegionView_Previews: PreviewProvider {
     static var previews: some View {
-        RegionView()
-            .environmentObject(ViewModel())
+        RegionView(viewModel: ViewModel())
     }
 }

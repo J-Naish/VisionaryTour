@@ -19,6 +19,8 @@ struct DiscoverView: View {
         case list = "List"
     }
     
+    var viewModel: ViewModel
+    
     var body: some View {
         NavigationSplitView {
             List(Selection.allCases, id: \.self) { item in
@@ -39,7 +41,7 @@ struct DiscoverView: View {
                             selectedItem = .discover
                         }
                 case .region:
-                    RegionView()
+                    RegionView(viewModel: viewModel)
                         .onAppear {
                             selectedItem = .region
                         }
@@ -66,7 +68,7 @@ struct DiscoverView: View {
                 case .discover:
                     MainDiscoverView()
                 case .region:
-                    RegionView()
+                    RegionView(viewModel: viewModel)
                 case .worldHeritage:
                     WorldHeritageView()
                 case .featured:
@@ -81,7 +83,6 @@ struct DiscoverView: View {
 
 struct DiscoverView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoverView()
-            .environmentObject(ViewModel())
+        DiscoverView(viewModel: ViewModel())
     }
 }
