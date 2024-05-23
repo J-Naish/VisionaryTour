@@ -24,10 +24,10 @@ struct LandmarkDetailView: View {
             VStack {
                 LandmarkMapView(landmark: landmark)
                     .frame(width: 360, height: 420)
-                
+                    .padding(.bottom, 16)
                 
                 Button(action: {
-                    // TODO: 
+                    // TODO:
                 }) {
                     Text("Open Immersive View")
                         .frame(width: 240)
