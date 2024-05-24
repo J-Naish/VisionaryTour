@@ -13,7 +13,7 @@ struct RegionView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                RoundedSquareImage(image: Image("dummy"), size: .large, text: "Region", enableHoverEEffect: false)
+                RoundedSquareImage(image: Image("region"), size: .large, text: "Region", enableHoverEEffect: false)
                     .padding(.bottom, 72)
                 
                 
@@ -21,14 +21,14 @@ struct RegionView: View {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Asia", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.asia)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Asia")
+                        RoundedSquareImage(image: Image("asia"), size: .medium, text: "Asia")
                     }
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Europe", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.europe)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Europe")
+                        RoundedSquareImage(image: Image("europe"), size: .medium, text: "Europe")
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -39,14 +39,14 @@ struct RegionView: View {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "North America", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.northAmerica)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "North America")
+                        RoundedSquareImage(image: Image("north_america"), size: .medium, text: "North America")
                     }
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Latin America", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.latinAmerica)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Latin America")
+                        RoundedSquareImage(image: Image("latin_america"), size: .medium, text: "Latin America")
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -57,14 +57,14 @@ struct RegionView: View {
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Africa", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.africa)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Africa")
+                        RoundedSquareImage(image: Image("africa"), size: .medium, text: "Africa")
                     }
                     .frame(width: 420)
                     
                     NavigationLink {
                         FilteredLandmarkListView(navigationTitle: "Oceania", filteredLandmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.oceania)))
                     } label: {
-                        RoundedSquareImage(image: Image("dummy"), size: .medium, text: "Oceania")
+                        RoundedSquareImage(image: Image("oceania"), size: .medium, text: "Oceania")
                     }
                     .frame(width: 420)
                 }
