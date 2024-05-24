@@ -14,7 +14,6 @@ struct DiscoverView: View {
     enum Selection: String, CaseIterable {
         case discover = "Discover"
         case region = "Region"
-        case worldHeritage = "World Heritage"
         case featured = "Featured"
         case list = "List"
     }
@@ -45,11 +44,6 @@ struct DiscoverView: View {
                         .onAppear {
                             selectedItem = .region
                         }
-                case .worldHeritage:
-                    WorldHeritageView()
-                        .onAppear {
-                            selectedItem = .worldHeritage
-                        }
                 case .featured:
                     FeaturedView()
                         .onAppear {
@@ -69,8 +63,6 @@ struct DiscoverView: View {
                     MainDiscoverView()
                 case .region:
                     RegionView(viewModel: viewModel)
-                case .worldHeritage:
-                    WorldHeritageView()
                 case .featured:
                     FeaturedView()
                 case .list:
