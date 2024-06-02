@@ -91,7 +91,7 @@ enum Country: String, CaseIterable, Codable {
     case guineaBissau = "Guinea-Bissau"
     case guyana = "Guyana"
     case haiti = "Haiti"
-    case holySee = "Holy see"
+    case holySee = "Holy See"
     case honduras = "Honduras"
     case hungary = "Hungary"
     case iceland = "Iceland"

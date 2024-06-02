@@ -14,6 +14,7 @@ enum Category: String, CaseIterable, Codable {
     case river
     case lake
     case glacier
+    case waterfall
     case worldHeritage
     case park
     case mountain
@@ -23,5 +24,5 @@ enum Category: String, CaseIterable, Codable {
     case architecture
     case desert
     case crowd
-    case poular
+    case popular
 }
