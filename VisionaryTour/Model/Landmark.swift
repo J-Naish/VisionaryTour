@@ -17,6 +17,7 @@ struct Landmark: Identifiable, Codable, Hashable {
     var description: String
     var categories: [Category]
     var panoId: String
+    var imageId: String
     var id: UUID {
         UUID(uuidString: panoId.hashStringToUUID())!
     }

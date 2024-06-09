@@ -16,7 +16,8 @@
       "park",
       "nature"
     ],
-    "panoId": "xHb6DGZmAEe9b3T1XWdCgw"
+    "panoId": "xHb6DGZmAEe9b3T1XWdCgw",
+    "imageId": "e0e11a5f-bdd6-45e4-8b80-b574b3730900"
   },
   {
     "name": "Uluru-Kata Tjuta National Park",
@@ -36,7 +37,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "W5E7gHCeVkeBvTTfR1OILw"
+    "panoId": "W5E7gHCeVkeBvTTfR1OILw",
+    "imageId": "1fa8d0a6-0c6f-4d42-2b18-ddf8890e0600"
   },
   {
     "name": "Royal Exhibition Building and Carlton Gardens",
@@ -54,7 +56,8 @@
       "park",
       "city"
     ],
-    "panoId": "G1anvcdQccJjj-804KsV3A"
+    "panoId": "G1anvcdQccJjj-804KsV3A",
+    "imageId": "67136c78-9853-4b9d-e6e0-76a397eaf200"
   },
   {
     "name": "Sydney Opera House",
@@ -72,7 +75,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "kah0_LVZnWdwDdNTRS9mPA"
+    "panoId": "kah0_LVZnWdwDdNTRS9mPA",
+    "imageId": "e095b08c-fd2e-4cc7-df7a-cc98ac356600"
   },
   {
     "name": "Palace and Gardens of Schönbrunn",
@@ -90,7 +94,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "9L1BMhblCeNWw-kUuKdhVQ"
+    "panoId": "9L1BMhblCeNWw-kUuKdhVQ",
+    "imageId": "4d3b5ebe-390a-4c66-2894-481ca06ae300"
   },
   {
     "name": "Wachau Cultural Landscape",
@@ -110,7 +115,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "tptWaf-3NYDp2aTp9GPuwg"
+    "panoId": "tptWaf-3NYDp2aTp9GPuwg",
+    "imageId": "8e6dcf40-c377-4a1d-ea3e-3f23f5ff4d00"
   },
   {
     "name": "Historic Mosque City of Bagerhat",
@@ -129,7 +135,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "RO1F0HsCksC4_Mf-SySVKg"
+    "panoId": "RO1F0HsCksC4_Mf-SySVKg",
+    "imageId": "5c8d45a7-01fd-4b50-195c-a40e95d54200"
   },
   {
     "name": "Ruins of the Buddhist Vihara at Paharpur",
@@ -148,7 +155,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "TQPayoQ47TJ-1zXUfuhIYQ"
+    "panoId": "TQPayoQ47TJ-1zXUfuhIYQ",
+    "imageId": "f32df94f-8d4a-4684-194f-5b3756718900"
   },
   {
     "name": "La Grand-Place",
@@ -166,7 +174,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "2Qv9AjI8CxpWv-VprzAi7g"
+    "panoId": "2Qv9AjI8CxpWv-VprzAi7g",
+    "imageId": "12a99a6f-1230-408e-2aac-5edbc7d1ff00"
   },
   {
     "name": "Belfries of Belgium and France",
@@ -185,7 +194,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "XIgjdB-nXwrFXCu260xMsg"
+    "panoId": "XIgjdB-nXwrFXCu260xMsg",
+    "imageId": "cac87fd3-1fad-41d5-3214-66cefe781d00"
   },
   {
     "name": "Historic Centre of Brugge",
@@ -203,7 +213,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "wh7Jy8JO5x2J-VmZMlR-Wg"
+    "panoId": "wh7Jy8JO5x2J-VmZMlR-Wg",
+    "imageId": "e7919e8c-2ba5-441f-13e0-e94095827900"
   },
   {
     "name": "Notre-Dame Cathedral in Tournai",
@@ -222,7 +233,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "Dnr61MTsdoac_olWf206_Q"
+    "panoId": "Dnr61MTsdoac_olWf206_Q",
+    "imageId": "65880ea6-aea8-4bee-4c51-ce03d0491200"
   },
   {
     "name": "Stoclet House",
@@ -239,7 +251,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "lGpGAABFsYRK7SS_CHNM-w"
+    "panoId": "lGpGAABFsYRK7SS_CHNM-w",
+    "imageId": "78cbea13-1c75-40c6-f74e-727c2b66e900"
   },
   {
     "name": "City of Potosí",
@@ -257,7 +270,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "f4fU7-CxjPa99bEp8Xf_Vg"
+    "panoId": "f4fU7-CxjPa99bEp8Xf_Vg",
+    "imageId": "f0a46647-42ec-4476-71f7-e33c5032bc00"
   },
   {
     "name": "Jesuit Missions of the Chiquitos",
@@ -275,7 +289,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "-W5zAcJ6Zl1S09ij3rAtww"
+    "panoId": "-W5zAcJ6Zl1S09ij3rAtww",
+    "imageId": "a93cba86-6a77-4a02-cef4-edc08bfbce00"
   },
   {
     "name": "Historic City of Sucre",
@@ -293,7 +308,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "P2FD9_Mr9E74aw9IQ3ukng"
+    "panoId": "P2FD9_Mr9E74aw9IQ3ukng",
+    "imageId": "df0ef60d-d3df-475f-b3c4-bdcd7d5f5100"
   },
   {
     "name": "Fuerte de Samaipata",
@@ -311,7 +327,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "DGZGbP-D37wa8BOBdF1nXA"
+    "panoId": "DGZGbP-D37wa8BOBdF1nXA",
+    "imageId": "13b13e51-5129-4099-ccee-a0a3874e9900"
   },
   {
     "name": "Tiwanaku",
@@ -328,7 +345,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "M9w6QD6hQim-V6PqErd2Zg"
+    "panoId": "M9w6QD6hQim-V6PqErd2Zg",
+    "imageId": "265d8639-2f28-4410-e2c2-a9c72f157e00"
   },
   {
     "name": "Historic Town of Ouro Preto",
@@ -346,7 +364,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "TtxSFhT-0mfr_HUxvNtt7A"
+    "panoId": "TtxSFhT-0mfr_HUxvNtt7A",
+    "imageId": "d13df7a2-f58c-428e-fddf-650caf79a900"
   },
   {
     "name": "Historic Centre of the Town of Olinda",
@@ -363,7 +382,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "E8Tl8A7yTm5QzvWA058Xbw"
+    "panoId": "E8Tl8A7yTm5QzvWA058Xbw",
+    "imageId": "0f01c06a-8a98-4386-15df-f972daa69000"
   },
   {
     "name": "Jesuit Missions of the Guaranis",
@@ -381,7 +401,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "qgjU2eI4qmvmPeybSTJjrw"
+    "panoId": "qgjU2eI4qmvmPeybSTJjrw",
+    "imageId": "007353ef-747e-47a3-73b1-3712ff866000"
   },
   {
     "name": "Historic Centre of Salvador de Bahia",
@@ -399,7 +420,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "viqOFNjqJU88TkHwqTp2Pw"
+    "panoId": "viqOFNjqJU88TkHwqTp2Pw",
+    "imageId": "10afd594-4ea6-4736-afae-683fe3693100"
   },
   {
     "name": "Sanctuary of Bom Jesus do Congonhas",
@@ -417,7 +439,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "1qx8SVA1xINA8WSpFlyDww"
+    "panoId": "1qx8SVA1xINA8WSpFlyDww",
+    "imageId": "3db03447-a4ef-4185-e0ca-7a9b5ce64d00"
   },
   {
     "name": "Iguaçu National Park",
@@ -436,7 +459,8 @@
       "nature",
       "popular"
     ],
-    "panoId": "uEOP7CQgzUsOsuzai9gxsg"
+    "panoId": "uEOP7CQgzUsOsuzai9gxsg",
+    "imageId": "c00e2d00-d3fb-4386-3e3d-e4546e409c00"
   },
   {
     "name": "Brasilia",
@@ -453,7 +477,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "pmfZlniyNolSBq717_V-yQ"
+    "panoId": "pmfZlniyNolSBq717_V-yQ",
+    "imageId": "2972822c-68dc-41a5-d459-e747764dbf00"
   },
   {
     "name": "Historic Centre of São Luís",
@@ -471,7 +496,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "m0bHlyg0KBhy2AoM2Qyp-A"
+    "panoId": "m0bHlyg0KBhy2AoM2Qyp-A",
+    "imageId": "929b5516-049d-43cc-1e2e-8d1b29128300"
   },
   {
     "name": "Historic Centre of the Town of Diamantina",
@@ -488,7 +514,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "qZGkSZ5gzd84Dy1pi1W8NQ"
+    "panoId": "qZGkSZ5gzd84Dy1pi1W8NQ",
+    "imageId": "54193dfb-44b3-4bab-ac6e-8397b44cd000"
   },
   {
     "name": "Brazilian Atlantic Islands",
@@ -505,7 +532,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "6CE3cBmFVq5V_328EPTPgg"
+    "panoId": "6CE3cBmFVq5V_328EPTPgg",
+    "imageId": "c45a8c27-3849-4587-0413-8033f4642800"
   },
   {
     "name": "Historic Centre of the Town of Goiás",
@@ -522,7 +550,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "riIo_S7cwctR2UeVjG73Cg"
+    "panoId": "riIo_S7cwctR2UeVjG73Cg",
+    "imageId": "1261f58e-6813-48de-1aca-08f5aff0e100"
   },
   {
     "name": "São Francisco Square in the Town of São Cristóvão",
@@ -538,7 +567,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "JeM8sBzZXFFIyniJ6Wz3lA"
+    "panoId": "JeM8sBzZXFFIyniJ6Wz3lA",
+    "imageId": "6f8147e0-82f9-422f-9060-1c407a59a100"
   },
   {
     "name": "Rio de Janeiro",
@@ -556,7 +586,8 @@
       "city",
       "popular"
     ],
-    "panoId": "mKIIz_P9mEbtyHrGxgLgWQ"
+    "panoId": "mKIIz_P9mEbtyHrGxgLgWQ",
+    "imageId": "f314ba39-79f7-4912-564f-502eb087db00"
   },
   {
     "name": "Valongo Wharf Archaeological Site",
@@ -573,7 +604,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "wMuCeR76x_sy9i-qXA5n-w"
+    "panoId": "wMuCeR76x_sy9i-qXA5n-w",
+    "imageId": "9d42841d-9607-4f0b-da2e-03cc5edb8b00"
   },
   {
     "name": "Madara Rider",
@@ -590,7 +622,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "dA7PRxprG6eft0XfhCfDxQ"
+    "panoId": "dA7PRxprG6eft0XfhCfDxQ",
+    "imageId": "b4548d76-efe3-4d4c-b0b2-e1d6806dfc00"
   },
   {
     "name": "Ancient City of Nessebar",
@@ -609,7 +642,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "nbwENxRKm1N-cPScsM3_Mg"
+    "panoId": "nbwENxRKm1N-cPScsM3_Mg",
+    "imageId": "85df2f22-ab68-4216-d917-36dbd54e6200"
   },
   {
     "name": "Pirin National Park",
@@ -627,7 +661,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "iCen-ROAOUAWQcjR8apmLQ"
+    "panoId": "iCen-ROAOUAWQcjR8apmLQ",
+    "imageId": "c7ccbf55-8e2f-477e-044e-9355c227d200"
   },
   {
     "name": "Angkor",
@@ -647,7 +682,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "MsFnmhfWu0PPpH1pbvpFlA"
+    "panoId": "MsFnmhfWu0PPpH1pbvpFlA",
+    "imageId": "c97c3c33-ad47-4072-0e96-4cb2be7dca00"
   },
   {
     "name": "Temple Zone of Sambor Prei Kuk",
@@ -665,7 +701,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "WwhIF4kZoANuzWmO2k9KDQ"
+    "panoId": "WwhIF4kZoANuzWmO2k9KDQ",
+    "imageId": "0e6e562b-802e-445e-0b53-54e597af2e00"
   },
   {
     "name": "Koh Ker",
@@ -684,7 +721,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "FCFq3WD6_vD0j12ds-9Irg"
+    "panoId": "FCFq3WD6_vD0j12ds-9Irg",
+    "imageId": "f7f419c6-f1c3-4554-5a1c-a0f319e10400"
   },
   {
     "name": "L’Anse aux Meadows National Historic Site",
@@ -701,7 +739,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "kNKi6zeNdGQfw5TEY3PS6w"
+    "panoId": "kNKi6zeNdGQfw5TEY3PS6w",
+    "imageId": "3e99a5b6-c6df-4930-4284-cab215172300"
   },
   {
     "name": "Dinosaur Provincial Park",
@@ -720,7 +759,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "7EM0Me5-16zS_QkIbOITZQ"
+    "panoId": "7EM0Me5-16zS_QkIbOITZQ",
+    "imageId": "edac9451-dc33-4b62-c8ce-c53094fe5800"
   },
   {
     "name": "SGang Gwaay",
@@ -736,7 +776,8 @@
       "woods",
       "worldHeritage"
     ],
-    "panoId": "dRnCoerZQ4Bldbtq2UD63A"
+    "panoId": "dRnCoerZQ4Bldbtq2UD63A",
+    "imageId": "3798ce54-b3b6-4ff5-f8b2-6f7a70484400"
   },
   {
     "name": "Historic District of Old Québec",
@@ -753,7 +794,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "YfqJaNPr738uxExIHVS7eA"
+    "panoId": "YfqJaNPr738uxExIHVS7eA",
+    "imageId": "c41b7b2c-5351-451d-dd72-d93e789f9600"
   },
   {
     "name": "Old Town Lunenburg",
@@ -770,7 +812,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "0ReZzRBFSDfLyqJuUVKkew"
+    "panoId": "0ReZzRBFSDfLyqJuUVKkew",
+    "imageId": "bfbee66f-7f09-4ec5-9529-349197202f00"
   },
   {
     "name": "Waterton Glacier International Peace Park",
@@ -789,7 +832,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "-tGa0CSVHSWyzD1QcXtsYg"
+    "panoId": "-tGa0CSVHSWyzD1QcXtsYg",
+    "imageId": "831b08a8-6a18-491b-b00e-7ebce374bd00"
   },
   {
     "name": "Rideau Canal",
@@ -806,7 +850,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "EIEcb9I9P6dmE6jFTDkqTQ"
+    "panoId": "EIEcb9I9P6dmE6jFTDkqTQ",
+    "imageId": "cd2c87a2-9af5-474d-cb86-1c48f83c2200"
   },
   {
     "name": "Joggins Fossil Cliffs",
@@ -823,7 +868,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "wO7RUk8lfnYkkZiC5PNhcA"
+    "panoId": "wO7RUk8lfnYkkZiC5PNhcA",
+    "imageId": "420c8d17-334c-4f64-514c-a26acedab600"
   },
   {
     "name": "Churches of Chiloé",
@@ -841,7 +887,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "Q3Ffzn7mvajSWGxyY96IgQ"
+    "panoId": "Q3Ffzn7mvajSWGxyY96IgQ",
+    "imageId": "762e23f6-2966-4a14-d16d-5ddae8051100"
   },
   {
     "name": "Historic Quarter of the Seaport City of Valparaíso",
@@ -858,7 +905,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "TyJ3VVp5Cfk9iAVHi0bMyQ"
+    "panoId": "TyJ3VVp5Cfk9iAVHi0bMyQ",
+    "imageId": "6e655ec2-4926-4b1f-061b-3e249b8c3900"
   },
   {
     "name": "Humberstone and Santa Laura Saltpeter Works",
@@ -876,7 +924,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "EDGo3Zq_OOjRYHTc5v-osQ"
+    "panoId": "EDGo3Zq_OOjRYHTc5v-osQ",
+    "imageId": "026ca7af-ff1c-4d99-7320-6601e8b26900"
   },
   {
     "name": "Sewell Mining Town",
@@ -894,7 +943,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "u-g9e5vj532GXg-mqyd85A"
+    "panoId": "u-g9e5vj532GXg-mqyd85A",
+    "imageId": "c1e9292d-8895-4d71-f1d2-3b571961e400"
   },
   {
     "name": "Historic Centre of Macao",
@@ -912,7 +962,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "_l5PbQp6yYjkiNaO9RAD4Q"
+    "panoId": "_l5PbQp6yYjkiNaO9RAD4Q",
+    "imageId": "dc4959e7-a9b1-42cb-bece-9575f5e38100"
   },
   {
     "name": "Historic Centre of Santa Cruz de Mompox",
@@ -930,7 +981,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "LD1MOKUjej6xhrCGAFXeXQ"
+    "panoId": "LD1MOKUjej6xhrCGAFXeXQ",
+    "imageId": "aeece554-22f6-4695-5458-735fe04b5900"
   },
   {
     "name": "San Agustín Archaeological Park",
@@ -947,7 +999,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "XNBmxRMSwhAjulCYIdCq2w"
+    "panoId": "XNBmxRMSwhAjulCYIdCq2w",
+    "imageId": "a3b3a2a6-4861-46f6-da67-5bdb2c9f5b00"
   },
   {
     "name": "Cocos Island National Park",
@@ -966,7 +1019,8 @@
       "park",
       "nature"
     ],
-    "panoId": "EaHqqVN6Mv0731gtDDCDqw"
+    "panoId": "EaHqqVN6Mv0731gtDDCDqw",
+    "imageId": "213d0364-8172-4907-7c86-4c2c45da6700"
   },
   {
     "name": "Area de Conservación Guanacaste",
@@ -985,7 +1039,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "LH2dgADxChy1kpOeBbMWoQ"
+    "panoId": "LH2dgADxChy1kpOeBbMWoQ",
+    "imageId": "4f82eb1a-61bd-429a-6ac8-e7a6dfa37100"
   },
   {
     "name": "Historical Complex of Split with the Palace of Diocletian",
@@ -1003,7 +1058,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "OzRzZGhqLVuwFLABEbQtmQ"
+    "panoId": "OzRzZGhqLVuwFLABEbQtmQ",
+    "imageId": "e8b717b7-5759-4e1a-a381-ba919cab3a00"
   },
   {
     "name": "Old City of Dubrovnik",
@@ -1021,7 +1077,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "0ngzX_GWDtVdsh6Y6L2DMQ"
+    "panoId": "0ngzX_GWDtVdsh6Y6L2DMQ",
+    "imageId": "f949be03-c2b1-410d-7c4e-e6cd30a74f00"
   },
   {
     "name": "Historic City of Trogir",
@@ -1038,7 +1095,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "lzoSwJZr8Arj7V2XW-67hg"
+    "panoId": "lzoSwJZr8Arj7V2XW-67hg",
+    "imageId": "5abc2b23-44b9-4360-2698-2276bcbb0300"
   },
   {
     "name": "Historic Centre of Český Krumlov",
@@ -1056,7 +1114,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "F4eezSX_r8Kcy5Mothnqnw"
+    "panoId": "F4eezSX_r8Kcy5Mothnqnw",
+    "imageId": "301dccca-a722-4814-6f90-7fc3019d8100"
   },
   {
     "name": "Historic Centre of Prague",
@@ -1074,7 +1133,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "uHPqa1xjq2T47O0kHTqfiw"
+    "panoId": "uHPqa1xjq2T47O0kHTqfiw",
+    "imageId": "d0f2bebf-9b65-4a7f-669f-e5507afd2a00"
   },
   {
     "name": "Historic Centre of Telč",
@@ -1092,7 +1152,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "b9FlKoEPYU48fY9zKL4gfA"
+    "panoId": "b9FlKoEPYU48fY9zKL4gfA",
+    "imageId": "a317f680-699d-42da-6082-595e087c8300"
   },
   {
     "name": "Pilgrimage Church of St John of Nepomuk at Zelená Hora",
@@ -1110,7 +1171,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "9rmDQAD4LBJ4Xp00SNWZOg"
+    "panoId": "9rmDQAD4LBJ4Xp00SNWZOg",
+    "imageId": "ba0e8bfd-0f9c-4902-c495-107607ddde00"
   },
   {
     "name": "Kutná Hora",
@@ -1127,7 +1189,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "FAL_f6_Aq-f3MizPldmmkQ"
+    "panoId": "FAL_f6_Aq-f3MizPldmmkQ",
+    "imageId": "02080eef-b400-42e6-f9f8-473f1437f400"
   },
   {
     "name": "Lednice-Valtice Cultural Landscape",
@@ -1145,7 +1208,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "PkgJKYrWcKSWhCapVftsSA"
+    "panoId": "PkgJKYrWcKSWhCapVftsSA",
+    "imageId": "24739f29-61c9-42a2-43b4-5b6452be9800"
   },
   {
     "name": "Gardens and Castle at Kroměříž",
@@ -1163,7 +1227,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "pShEQb_Z0KXnGQpwD8-oMA"
+    "panoId": "pShEQb_Z0KXnGQpwD8-oMA",
+    "imageId": "39ff938e-70da-48f5-1362-1e1ae1f61400"
   },
   {
     "name": "Holašovice Historic Village",
@@ -1181,7 +1246,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "2SNMZUN91kdS9bSalkhmWg"
+    "panoId": "2SNMZUN91kdS9bSalkhmWg",
+    "imageId": "26ed96e9-676f-4ba6-cdad-e7fd0a6c6800"
   },
   {
     "name": "Litomyšl Castle",
@@ -1199,7 +1265,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "XyFxMuvTLnU2f76414KFyg"
+    "panoId": "XyFxMuvTLnU2f76414KFyg",
+    "imageId": "d713f604-877a-4107-d7d7-bd41222f7100"
   },
   {
     "name": "Holy Trinity Column in Olomouc",
@@ -1218,7 +1285,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "V4TFp2EiUSV5rHfePO5nSA"
+    "panoId": "V4TFp2EiUSV5rHfePO5nSA",
+    "imageId": "21aaa1bd-fa77-45ea-9e78-e1d6822e1b00"
   },
   {
     "name": "Tugendhat Villa in Brno",
@@ -1234,7 +1302,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "9kOP3_74YyfpaLCRLV3IJg"
+    "panoId": "9kOP3_74YyfpaLCRLV3IJg",
+    "imageId": "3b477373-79d0-4b99-f3fc-fee953b2c100"
   },
   {
     "name": "Jewish Quarter and St Procopius' Basilica in Třebíč",
@@ -1252,7 +1321,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "XgW20JS81zaLJVf_IohTRg"
+    "panoId": "XgW20JS81zaLJVf_IohTRg",
+    "imageId": "a5f497f3-ffa3-48a0-c5b9-d6d7b6719e00"
   },
   {
     "name": "Jelling Mounds",
@@ -1270,7 +1340,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "LDVsx8nXZu9CXD9Ig1zSGw"
+    "panoId": "LDVsx8nXZu9CXD9Ig1zSGw",
+    "imageId": "7fadaa7c-4a50-4dc6-05e3-cbe9c75b5e00"
   },
   {
     "name": "Roskilde Cathedral",
@@ -1289,7 +1360,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "ATvSZLK7b4Ep3HM2JamBKA"
+    "panoId": "ATvSZLK7b4Ep3HM2JamBKA",
+    "imageId": "09766e77-e48c-4be8-34e3-b13021526500"
   },
   {
     "name": "Kronborg Castle",
@@ -1306,7 +1378,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "TCtjJU6iTQKDKgQbAb4kSw"
+    "panoId": "TCtjJU6iTQKDKgQbAb4kSw",
+    "imageId": "61edb7c4-6705-4dc5-3477-74f07cb6fe00"
   },
   {
     "name": "Christiansfeld",
@@ -1323,7 +1396,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "-RcPEQ_cUbU8_L9GIU-gOQ"
+    "panoId": "-RcPEQ_cUbU8_L9GIU-gOQ",
+    "imageId": "b87a324e-d527-4700-ca09-f1906b1e0d00"
   },
   {
     "name": "City of Quito",
@@ -1341,7 +1415,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "Ts3QPr2Nk768_3F-37tqvQ"
+    "panoId": "Ts3QPr2Nk768_3F-37tqvQ",
+    "imageId": "eec6ae5e-6fe0-4cf7-08cf-309b7296d300"
   },
   {
     "name": "Galápagos Islands",
@@ -1359,7 +1434,8 @@
       "park",
       "mountain"
     ],
-    "panoId": "013r3et3cQW_ddjsU22gQg"
+    "panoId": "013r3et3cQW_ddjsU22gQg",
+    "imageId": "a2c47cbd-34df-447c-a399-35f0eeedf300"
   },
   {
     "name": "Historic Centre of Santa Ana de los Ríos de Cuenca",
@@ -1377,7 +1453,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "0q_890fiFRR9-RdprnAPww"
+    "panoId": "0q_890fiFRR9-RdprnAPww",
+    "imageId": "69ecc0e3-791a-4cf8-1307-d08592edb700"
   },
   {
     "name": "Abu Mena",
@@ -1394,7 +1471,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "mME7ChGv7RFTt_h540MH2w"
+    "panoId": "mME7ChGv7RFTt_h540MH2w",
+    "imageId": "7bd4dcfe-638c-4627-22fa-cb92f96fd700"
   },
   {
     "name": "Historic Cairo",
@@ -1412,7 +1490,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "6rLI7fIlNczeqnItC_qgVA"
+    "panoId": "6rLI7fIlNczeqnItC_qgVA",
+    "imageId": "8150f4d1-3a45-47f6-b797-97d057e23c00"
   },
   {
     "name": "Memphis",
@@ -1432,7 +1511,8 @@
       "desert",
       "popular"
     ],
-    "panoId": "A2nXIbJtRMlJHg5N_GvhRQ"
+    "panoId": "A2nXIbJtRMlJHg5N_GvhRQ",
+    "imageId": "2d9422d1-ae58-4b88-0240-adf27135c900"
   },
   {
     "name": "Historic Centre of Tallinn",
@@ -1450,7 +1530,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "y-R-_eEBotyePZOuU7TW6w"
+    "panoId": "y-R-_eEBotyePZOuU7TW6w",
+    "imageId": "6e62672e-c27e-48f4-0a2d-299895cf4300"
   },
   {
     "name": "Old Rauma",
@@ -1468,7 +1549,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "tCIaBlZr1OQ9mBRyJvtgIg"
+    "panoId": "tCIaBlZr1OQ9mBRyJvtgIg",
+    "imageId": "a7870b29-55a3-432f-ab80-3381edd00300"
   },
   {
     "name": "Chartres Cathedral",
@@ -1487,7 +1569,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "NVoHW1UJBVd6bkt5xbyytg"
+    "panoId": "NVoHW1UJBVd6bkt5xbyytg",
+    "imageId": "e03e1f74-8d9b-4b4f-8c7c-346973f92200"
   },
   {
     "name": "Mont-Saint-Michel and its Bay",
@@ -1505,7 +1588,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "BlsJJgTivVeyiYU0zxIrYQ"
+    "panoId": "BlsJJgTivVeyiYU0zxIrYQ",
+    "imageId": "a563f82e-9b39-48e2-9193-4d2cc94dfa00"
   },
   {
     "name": "Palace and Park of Versailles",
@@ -1523,7 +1607,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "gO5hI2AXQgOFs6Il4vDmQw"
+    "panoId": "gO5hI2AXQgOFs6Il4vDmQw",
+    "imageId": "63fb9ce7-b851-4b1c-24c0-2efe2ea4ad00"
   },
   {
     "name": "Vézelay",
@@ -1542,7 +1627,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "A_aGqBcBz26_4y-u50WfVw"
+    "panoId": "A_aGqBcBz26_4y-u50WfVw",
+    "imageId": "f0163597-fe49-4a19-af55-2ab2e6e37700"
   },
   {
     "name": "Amiens Cathedral",
@@ -1561,7 +1647,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "mhHGWVPIERfdp5ZmNQZoGg"
+    "panoId": "mhHGWVPIERfdp5ZmNQZoGg",
+    "imageId": "8d986f3a-0e63-4a54-9db6-b1a0dc527700"
   },
   {
     "name": "Arles",
@@ -1579,7 +1666,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "1adG03cePqa3o-Qca9Zmkg"
+    "panoId": "1adG03cePqa3o-Qca9Zmkg",
+    "imageId": "fcb77831-9477-43ab-5f78-611b2daf1800"
   },
   {
     "name": "Cistercian Abbey of Fontenay",
@@ -1597,7 +1685,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "arbVYY7k_9vKkvWEjpWBVw"
+    "panoId": "arbVYY7k_9vKkvWEjpWBVw",
+    "imageId": "4d076443-1892-4e75-1895-920b2f693d00"
   },
   {
     "name": "Palace and Park of Fontainebleau",
@@ -1615,7 +1704,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "TodqKe7JD-8tjmUxwlk0YA"
+    "panoId": "TodqKe7JD-8tjmUxwlk0YA",
+    "imageId": "7102bde9-8cc9-4cb8-dedf-2408a8276800"
   },
   {
     "name": "Roman Theatre and its Surroundings and the \"Triumphal Arch\" of Orange",
@@ -1632,7 +1722,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "QjGRFsxpi6OQheV8jvgqKw"
+    "panoId": "QjGRFsxpi6OQheV8jvgqKw",
+    "imageId": "28bf966c-3490-4927-6752-47724feb1400"
   },
   {
     "name": "From the Great Saltworks of Salins-les-Bains to the Royal Saltworks of Arc-et-Senans",
@@ -1649,7 +1740,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "2EbvgqE5sYqsrqAfPnbr5w"
+    "panoId": "2EbvgqE5sYqsrqAfPnbr5w",
+    "imageId": "6dff1881-db2c-4aff-031c-b7783d7b9400"
   },
   {
     "name": "Abbey Church of Saint-Savin sur Gartempe",
@@ -1667,7 +1759,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "Xpz2DLcpt0KYnSLVJCA86A"
+    "panoId": "Xpz2DLcpt0KYnSLVJCA86A",
+    "imageId": "20bbc8bf-de13-4b95-b918-c805cba52700"
   },
   {
     "name": "Place Stanislas",
@@ -1683,7 +1776,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "2LswZRrV3dyFvgxuDNC3Ng"
+    "panoId": "2LswZRrV3dyFvgxuDNC3Ng",
+    "imageId": "48dc73ac-c1e8-4a40-b207-5705bd615100"
   },
   {
     "name": "Pont du Gard",
@@ -1701,7 +1795,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "AF1QipP39fOJoiUEfopGgwjuL2JEeAPxWzc73y9xlkOl"
+    "panoId": "AF1QipP39fOJoiUEfopGgwjuL2JEeAPxWzc73y9xlkOl",
+    "imageId": "231f9cee-273a-429a-8be5-cb6570046500"
   },
   {
     "name": "Strasbourg",
@@ -1718,7 +1813,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "iMd4J63DZ72qH6-jQKmByg"
+    "panoId": "iMd4J63DZ72qH6-jQKmByg",
+    "imageId": "73eef9a0-ced4-4d4d-2982-50abeea12d00"
   },
   {
     "name": "Cathedral of Notre-Dame, Former Abbey of Saint-Rémi and Palace of Tau, Reims",
@@ -1737,7 +1833,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "EGe1ueFoX1MSH3aYiZ5j2A"
+    "panoId": "EGe1ueFoX1MSH3aYiZ5j2A",
+    "imageId": "50626307-6abe-4cb5-fdad-0197ac12f000"
   },
   {
     "name": "Paris, Banks of the Seine",
@@ -1757,7 +1854,8 @@
       "city",
       "popular"
     ],
-    "panoId": "Nog_1mdkkWZKc3PJmWH-FA"
+    "panoId": "Nog_1mdkkWZKc3PJmWH-FA",
+    "imageId": "b1bd21ad-c9e1-4b0f-2e15-dc7a9f8a2200"
   },
   {
     "name": "Bourges Cathedral",
@@ -1775,7 +1873,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "yIJYYYEwsjefM4u7uAXsLw"
+    "panoId": "yIJYYYEwsjefM4u7uAXsLw",
+    "imageId": "998257b2-8c58-41f2-5430-021a08f55400"
   },
   {
     "name": "Historic Centre of Avignon: Papal Palace",
@@ -1793,7 +1892,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "u6mvvnJtTET8bPEpXwF3Sw"
+    "panoId": "u6mvvnJtTET8bPEpXwF3Sw",
+    "imageId": "74ceb9e9-fe7f-4d2e-5555-9e4b45678a00"
   },
   {
     "name": "Historic Site of Lyon",
@@ -1811,7 +1911,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "RU3tuLad3hYKuz0cYVdltg"
+    "panoId": "RU3tuLad3hYKuz0cYVdltg",
+    "imageId": "4a6c1c03-d785-4581-247d-09f910228900"
   },
   {
     "name": "The Loire Valley between Sully-sur-Loire and Chalonnes",
@@ -1829,7 +1930,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "uryrC1kmJSFKhWFwW4tMHw"
+    "panoId": "uryrC1kmJSFKhWFwW4tMHw",
+    "imageId": "d6c20abe-2579-489a-60a3-2b29d41ab100"
   },
   {
     "name": "Le Havre",
@@ -1844,7 +1946,8 @@
     "categories": [
       "worldHeritage"
     ],
-    "panoId": "q7CWtIKB2cBXt4RdcQndmw"
+    "panoId": "q7CWtIKB2cBXt4RdcQndmw",
+    "imageId": "8b56c9e1-d40c-44bc-6c39-55769f883900"
   },
   {
     "name": "Bordeaux, Port of the Moon",
@@ -1862,7 +1965,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "HeDNmosCg2Gp5zKnSkzXAA"
+    "panoId": "HeDNmosCg2Gp5zKnSkzXAA",
+    "imageId": "0676a0bd-e1f1-4827-fa0f-35c8d6bc5500"
   },
   {
     "name": "Episcopal City of Albi",
@@ -1881,7 +1985,8 @@
       "cultural",
       "nature"
     ],
-    "panoId": "sA10ScysvDjJ0wrYvdlIkQ"
+    "panoId": "sA10ScysvDjJ0wrYvdlIkQ",
+    "imageId": "42bd22b4-a95d-4592-5a06-50d0c3914a00"
   },
   {
     "name": "Pitons, cirques and remparts of Reunion Island",
@@ -1900,7 +2005,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "Nxi6mnpK0tWxzDA9gfBaAw"
+    "panoId": "Nxi6mnpK0tWxzDA9gfBaAw",
+    "imageId": "8f71b3fb-4bdd-4b8c-0fe1-c36df9990b00"
   },
   {
     "name": "Nice, Winter Resort Town of the Riviera",
@@ -1918,7 +2024,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "rWanKHGsUMDRcvE02W2FGw"
+    "panoId": "rWanKHGsUMDRcvE02W2FGw",
+    "imageId": "22a7cfb1-b531-407b-be88-c8af18544500"
   },
   {
     "name": "The Maison Carrée of Nîmes",
@@ -1936,7 +2043,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "OQTWu_N0_UyWOkg8yQBqYw"
+    "panoId": "OQTWu_N0_UyWOkg8yQBqYw",
+    "imageId": "f6ff130a-04dc-4000-5bce-7d77d1945600"
   },
   {
     "name": "Speyer Cathedral",
@@ -1955,7 +2063,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "VT8l_ZhbYXGMlSJ2zrzlXw"
+    "panoId": "VT8l_ZhbYXGMlSJ2zrzlXw",
+    "imageId": "4b0972c1-384c-4bea-b2ce-603a74840d00"
   },
   {
     "name": "Würzburg Residence",
@@ -1973,7 +2082,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "ZDDexl5Es9BWQT-9s7O14Q"
+    "panoId": "ZDDexl5Es9BWQT-9s7O14Q",
+    "imageId": "a5002c8d-42f4-4566-d5bf-7237cc356000"
   },
   {
     "name": "Castles of Augustusburg and Falkenlust",
@@ -1991,7 +2101,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "PgdWRlRbtfOwzICSGnb6og"
+    "panoId": "PgdWRlRbtfOwzICSGnb6og",
+    "imageId": "8831cdb3-5e59-4640-8075-93da53180d00"
   },
   {
     "name": "St Mary's Cathedral and St Michael's Church at Hildesheim",
@@ -2009,7 +2120,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "N_s-ldDcPCrkbEU-jW8p5w"
+    "panoId": "N_s-ldDcPCrkbEU-jW8p5w",
+    "imageId": "8f4e5129-ef14-42ce-171c-595a27d79200"
   },
   {
     "name": "Cathedral of St Peter and Church of Our Lady in Trier",
@@ -2028,7 +2140,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "Bx_zzR1ZWJcAi8A-x05AGA"
+    "panoId": "Bx_zzR1ZWJcAi8A-x05AGA",
+    "imageId": "9de095a4-305d-45a0-dbb7-72a17d8dd500"
   },
   {
     "name": "Palaces and Parks of Potsdam and Berlin",
@@ -2046,7 +2159,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "da_PeSeWbDYYyMo7IsHUEg"
+    "panoId": "da_PeSeWbDYYyMo7IsHUEg",
+    "imageId": "d84c8c29-625c-4b79-d595-b5d6c14ffe00"
   },
   {
     "name": "Völklingen Ironworks",
@@ -2062,7 +2176,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "edSghwd2nGgAAAQvyAVU7Q"
+    "panoId": "edSghwd2nGgAAAQvyAVU7Q",
+    "imageId": "530aae1f-1939-48aa-c85b-aabd88976400"
   },
   {
     "name": "Cologne Cathedral",
@@ -2081,7 +2196,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "Nj7d0b_taCpgqC1WxEJ_ag"
+    "panoId": "Nj7d0b_taCpgqC1WxEJ_ag",
+    "imageId": "f8395768-759a-4fd6-6792-dee0e5521c00"
   },
   {
     "name": "Classical Weimar",
@@ -2099,7 +2215,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "c6trt2nIjAVp4ln6JqWE6A"
+    "panoId": "c6trt2nIjAVp4ln6JqWE6A",
+    "imageId": "5ad8f44e-533c-4d4f-959b-164b54e7db00"
   },
   {
     "name": "Museumsinsel",
@@ -2116,7 +2233,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "snq5u29oJ4VN-LyZ1QSNVA"
+    "panoId": "snq5u29oJ4VN-LyZ1QSNVA",
+    "imageId": "a69be235-734e-4216-ebe6-6f6d7b693c00"
   },
   {
     "name": "Historic Centres of Stralsund and Wismar",
@@ -2134,7 +2252,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "sn33aNLNfxfN3WzpWPtWOw"
+    "panoId": "sn33aNLNfxfN3WzpWPtWOw",
+    "imageId": "9905d885-22af-45e5-a3ac-835de1837700"
   },
   {
     "name": "Speicherstadt and Kontorhaus District with Chilehaus",
@@ -2152,7 +2271,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "ixSj13O_F1GklimJ3pVnFw"
+    "panoId": "ixSj13O_F1GklimJ3pVnFw",
+    "imageId": "65957dc5-6bb8-4d06-ac80-f3e7dfa0c200"
   },
   {
     "name": "Naumburg Cathedral",
@@ -2171,7 +2291,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "OLHG6eN11U7yU2Ce61q8Sg"
+    "panoId": "OLHG6eN11U7yU2Ce61q8Sg",
+    "imageId": "868fe771-3da4-491b-d401-ac7d63971000"
   },
   {
     "name": "Paleochristian and Byzantine Monuments of Thessalonika",
@@ -2188,7 +2309,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "bbop1gGZn3LUnGOhJVNwRg"
+    "panoId": "bbop1gGZn3LUnGOhJVNwRg",
+    "imageId": "698cf9d0-ee98-4993-42dc-18b109b89c00"
   },
   {
     "name": "Old Town of Corfu",
@@ -2206,7 +2328,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "8kF1jii0R5iu9slMOajuWQ"
+    "panoId": "8kF1jii0R5iu9slMOajuWQ",
+    "imageId": "3a69edce-4a8d-4419-022d-44ad2bda0300"
   },
   {
     "name": "Antigua Guatemala",
@@ -2223,7 +2346,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "bXgTaYhomP_lIUhka6Tv9w"
+    "panoId": "bXgTaYhomP_lIUhka6Tv9w",
+    "imageId": "f1b1dcd3-326e-4857-2cec-90813e5a3300"
   },
   {
     "name": "Tikal National Park",
@@ -2241,7 +2365,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "WEhcwYUuefNkXQTvmMg48A"
+    "panoId": "WEhcwYUuefNkXQTvmMg48A",
+    "imageId": "80b5c7bc-a27d-48cb-0232-8bb1d1d74100"
   },
   {
     "name": "Archaeological Park and Ruins of Quirigua",
@@ -2258,7 +2383,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "JZXeVTz_Bwy7IlhnAx0iYg"
+    "panoId": "JZXeVTz_Bwy7IlhnAx0iYg",
+    "imageId": "2e066513-71de-4d3d-9fbb-3ec9c4289000"
   },
   {
     "name": "National Archaeological Park Tak’alik Ab’aj",
@@ -2275,7 +2401,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "DNtCSWwHyP9g7Zn6bfpbCQ"
+    "panoId": "DNtCSWwHyP9g7Zn6bfpbCQ",
+    "imageId": "7a21921c-38eb-4d06-8fc9-d3e5aadbe900"
   },
   {
     "name": "Vatican City",
@@ -2295,7 +2422,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "gtAR9oFbS5Tvbrld-AsqLg"
+    "panoId": "gtAR9oFbS5Tvbrld-AsqLg",
+    "imageId": "5df9fa24-70ec-490b-e842-51fca1a56600"
   },
   {
     "name": "Budapest, including the Banks of the Danube",
@@ -2314,7 +2442,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "v7F_cD-7iN89hpw8fR1hFQ"
+    "panoId": "v7F_cD-7iN89hpw8fR1hFQ",
+    "imageId": "ee8342f2-5e41-4151-9048-7559045ca300"
   },
   {
     "name": "Old Village of Hollókő",
@@ -2332,7 +2461,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "A__skpnVWbZXXiOdpbFyqg"
+    "panoId": "A__skpnVWbZXXiOdpbFyqg",
+    "imageId": "ae843c3b-9bf6-421c-69ea-d8a331e1c800"
   },
   {
     "name": "Caves of Aggtelek Karst and Slovak Karst",
@@ -2348,7 +2478,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "iTbu9wTmpfwAAAQINSOBpw"
+    "panoId": "iTbu9wTmpfwAAAQINSOBpw",
+    "imageId": "9fc9f0f2-1a7b-47d1-ac24-6fa19e1d4c00"
   },
   {
     "name": "Millenary Benedictine Abbey of Pannonhalma",
@@ -2367,7 +2498,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "hL_3Y6sYQpbq5afIpKZDuQ"
+    "panoId": "hL_3Y6sYQpbq5afIpKZDuQ",
+    "imageId": "466df96e-d824-4b67-2da0-aa39923f8d00"
   },
   {
     "name": "Vatnajökull National Park",
@@ -2386,7 +2518,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "UhoJ2vT5ymDNS12Pm75sjg"
+    "panoId": "UhoJ2vT5ymDNS12Pm75sjg",
+    "imageId": "ab2b87de-8c5b-49a0-378f-190bfa165500"
   },
   {
     "name": "Agra Fort",
@@ -2404,7 +2537,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "TD8byccniY-hth0NfqoFYQ"
+    "panoId": "TD8byccniY-hth0NfqoFYQ",
+    "imageId": "928437f2-5168-4d3e-91f0-aa47c1acda00"
   },
   {
     "name": "Ajanta Caves",
@@ -2423,7 +2557,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "zjajEwYSLb4AAAQWjKM7fg"
+    "panoId": "zjajEwYSLb4AAAQWjKM7fg",
+    "imageId": "5e37c07e-901d-4be1-d98b-7b95fb022900"
   },
   {
     "name": "Ellora Caves",
@@ -2442,7 +2577,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "LBOHgs8vu_0AAAGu4uHiVg"
+    "panoId": "LBOHgs8vu_0AAAGu4uHiVg",
+    "imageId": "7b732dc4-141c-482d-a9d2-257302185400"
   },
   {
     "name": "Taj Mahal",
@@ -2462,7 +2598,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "aA6c1-reje3WjVy1xsTRqw"
+    "panoId": "aA6c1-reje3WjVy1xsTRqw",
+    "imageId": "db657011-6932-4782-4cb0-8eb5ef38b300"
   },
   {
     "name": "Group of Monuments at Mahabalipuram",
@@ -2479,7 +2616,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "d1DyFAdQkFKpOBXOjbFEMg"
+    "panoId": "d1DyFAdQkFKpOBXOjbFEMg",
+    "imageId": "78904639-396e-43f4-1b99-4f28d2112100"
   },
   {
     "name": "Sun Temple, Konârak",
@@ -2498,7 +2636,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "qpbj8PEkivhlv2NU6F37UA"
+    "panoId": "qpbj8PEkivhlv2NU6F37UA",
+    "imageId": "c5ff8351-85bf-41dc-bb46-d1e51591cb00"
   },
   {
     "name": "Churches and Convents of Goa",
@@ -2515,7 +2654,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "YfO3vcULX4RIX6n_QMVvQg"
+    "panoId": "YfO3vcULX4RIX6n_QMVvQg",
+    "imageId": "4bd0d98e-da81-4280-d5bb-2e012e3a8600"
   },
   {
     "name": "Fatehpur Sikri",
@@ -2533,7 +2673,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "SijDG12SPvcxSt98lXHOPQ"
+    "panoId": "SijDG12SPvcxSt98lXHOPQ",
+    "imageId": "5f24fbcb-47d4-49a7-377e-5d3755c99900"
   },
   {
     "name": "Group of Monuments at Hampi",
@@ -2551,7 +2692,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "HP_68q7YE18GCb4SyBQ81g"
+    "panoId": "HP_68q7YE18GCb4SyBQ81g",
+    "imageId": "b521cb7f-6936-4c29-f1dd-138704b0ef00"
   },
   {
     "name": "Khajuraho Group of Monuments",
@@ -2569,7 +2711,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "F08yvGpH-d9pDp_v67zS2Q"
+    "panoId": "F08yvGpH-d9pDp_v67zS2Q",
+    "imageId": "5b9d693b-05bb-4cad-1421-a8bff0818900"
   },
   {
     "name": "Elephanta Caves",
@@ -2586,7 +2729,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "dNTbHSQo_sap-U7TA5eHVw"
+    "panoId": "dNTbHSQo_sap-U7TA5eHVw",
+    "imageId": "e146ab3d-b7d8-4f2d-8711-6291c6efb500"
   },
   {
     "name": "Great Living Chola Temples",
@@ -2605,7 +2749,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "kGHFUOdr4TZd_jSF0IzW3Q"
+    "panoId": "kGHFUOdr4TZd_jSF0IzW3Q",
+    "imageId": "96d6968d-cf95-445c-56a9-d8d5dbbfbf00"
   },
   {
     "name": "Group of Monuments at Pattadakal",
@@ -2623,7 +2768,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "mM-p9gkW2TFBwpUK3eTuYA"
+    "panoId": "mM-p9gkW2TFBwpUK3eTuYA",
+    "imageId": "ed5a13a6-debf-4daf-3ed0-6df03d507a00"
   },
   {
     "name": "Buddhist Monuments at Sanchi",
@@ -2641,7 +2787,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "v2SURuGQD8nQesU89kDTUQ"
+    "panoId": "v2SURuGQD8nQesU89kDTUQ",
+    "imageId": "caf6ab2f-2c6b-468f-406e-b31887c77300"
   },
   {
     "name": "Humayun's Tomb",
@@ -2659,7 +2806,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "w9con0Asvgb4SqVLse_4Jg"
+    "panoId": "w9con0Asvgb4SqVLse_4Jg",
+    "imageId": "ca856eee-c8e9-43e0-0f57-8d5f797bf000"
   },
   {
     "name": "Qutb Minar and its Monuments",
@@ -2677,7 +2825,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "V2HvKmyBSxQJt1eN_qDW9A"
+    "panoId": "V2HvKmyBSxQJt1eN_qDW9A",
+    "imageId": "af6258f3-6f7d-4279-93e4-ae23da109400"
   },
   {
     "name": "Champaner-Pavagadh Archaeological Park",
@@ -2695,7 +2844,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "Hv95NRBYXIZNwZjW94SL8g"
+    "panoId": "Hv95NRBYXIZNwZjW94SL8g",
+    "imageId": "06b8ad51-146c-4ba7-899b-e10e7528ad00"
   },
   {
     "name": "Chhatrapati Shivaji Terminus",
@@ -2712,7 +2862,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "yRiNvyriUxZqmszrCZD80w"
+    "panoId": "yRiNvyriUxZqmszrCZD80w",
+    "imageId": "72f5eed1-f045-4337-381e-8a789f7ee900"
   },
   {
     "name": "Red Fort Complex",
@@ -2729,7 +2880,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "z1IXVN5jmBAAAAQJKfXNIw"
+    "panoId": "z1IXVN5jmBAAAAQJKfXNIw",
+    "imageId": "40643801-7455-41b4-16e2-0fa6a6fb6700"
   },
   {
     "name": "Rani-ki-Vav",
@@ -2747,7 +2899,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "G-KIpewQnlmBBvGtq6vAtA"
+    "panoId": "G-KIpewQnlmBBvGtq6vAtA",
+    "imageId": "62aa5097-db26-4727-7648-ba447b407f00"
   },
   {
     "name": "Archaeological Site of Nalanda Mahavihara at Nalanda",
@@ -2764,7 +2917,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "acwlg6U8zDT7P4Uv9bjSHA"
+    "panoId": "acwlg6U8zDT7P4Uv9bjSHA",
+    "imageId": "c2075853-a28b-4786-ad5e-47c5aad0a900"
   },
   {
     "name": "Historic City of Ahmadabad",
@@ -2782,7 +2936,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "2ecu2-rkJw0AAAQphVfOwA"
+    "panoId": "2ecu2-rkJw0AAAQphVfOwA",
+    "imageId": "92c55f7b-6656-42e8-93f8-98a33664c900"
   },
   {
     "name": "Victorian Gothic and Art Deco Ensembles of Mumbai",
@@ -2801,7 +2956,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "SwsH7ZQ7tSUAAAQ4-ffZtA"
+    "panoId": "SwsH7ZQ7tSUAAAQ4-ffZtA",
+    "imageId": "122fcae9-9e43-4254-7417-6d9d81a64c00"
   },
   {
     "name": "Jaipur City, Rajasthan",
@@ -2818,7 +2974,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "1Axyv3l_iqt9yWzC4gIdqg"
+    "panoId": "1Axyv3l_iqt9yWzC4gIdqg",
+    "imageId": "9c8290b9-abb3-4c14-22cb-4b2d07d63c00"
   },
   {
     "name": "Dholavira",
@@ -2835,7 +2992,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "CRmFwP-bQeEKPFNnvsKbzg"
+    "panoId": "CRmFwP-bQeEKPFNnvsKbzg",
+    "imageId": "79e6a8e3-81e9-417d-f0eb-a8c26daec400"
   },
   {
     "name": "Kakatiya Rudreshwara Temple",
@@ -2854,7 +3012,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "h1VsWlDd4VWkn6V8m2RmmA"
+    "panoId": "h1VsWlDd4VWkn6V8m2RmmA",
+    "imageId": "e2a52269-5b47-48ac-f61f-89f679a9e600"
   },
   {
     "name": "Sacred Ensembles of the Hoysalas",
@@ -2873,7 +3032,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "S2Ezc6NTpk5FfyPTWmkVZg"
+    "panoId": "S2Ezc6NTpk5FfyPTWmkVZg",
+    "imageId": "9f0166a9-ad5e-47b0-1a97-7b0f2514c400"
   },
   {
     "name": "Borobudur Temple Compounds",
@@ -2892,7 +3052,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "NW7ioXYRXMTDOceYL79gOw"
+    "panoId": "NW7ioXYRXMTDOceYL79gOw",
+    "imageId": "76252ee9-0263-4b03-94fa-013d9bb14b00"
   },
   {
     "name": "Prambanan Temple Compounds",
@@ -2911,7 +3072,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "FNxh0QTNnzMHkxujau1KkQ"
+    "panoId": "FNxh0QTNnzMHkxujau1KkQ",
+    "imageId": "899af1a4-47f1-4b59-b10d-009c5ae8ce00"
   },
   {
     "name": "Archaeological Ensemble of the Bend of the Boyne",
@@ -2926,7 +3088,8 @@
     "categories": [
       "worldHeritage"
     ],
-    "panoId": "OJ-9G3NltTRCv56rmhW6kg"
+    "panoId": "OJ-9G3NltTRCv56rmhW6kg",
+    "imageId": "0e88a4af-6114-4acd-e9e7-35dfbd943400"
   },
   {
     "name": "Masada",
@@ -2943,7 +3106,8 @@
       "worldHeritage",
       "mountain"
     ],
-    "panoId": "gMOj0DoLxt0AAAQYVV7YjA"
+    "panoId": "gMOj0DoLxt0AAAQYVV7YjA",
+    "imageId": "c11322f6-6ef6-4351-eadf-abaf9d38be00"
   },
   {
     "name": "Church and Dominican Convent of Santa Maria delle Grazie",
@@ -2961,7 +3125,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "l3KFxSMs9T2Vm7epXzeoVg"
+    "panoId": "l3KFxSMs9T2Vm7epXzeoVg",
+    "imageId": "ec0ea1b1-6982-424d-a79a-4c3af32d6400"
   },
   {
     "name": "Historic Centre of Rome",
@@ -2981,7 +3146,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "qLrzSfPUJmELovS3cuw9Ug"
+    "panoId": "qLrzSfPUJmELovS3cuw9Ug",
+    "imageId": "08db91b9-07c9-4b45-3666-4b0c9cd1f600"
   },
   {
     "name": "Historic Centre of Florence",
@@ -3001,7 +3167,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "DS3FRJHvVDScGxY6XqdCzw"
+    "panoId": "DS3FRJHvVDScGxY6XqdCzw",
+    "imageId": "7d77efcb-09ac-49fc-f311-da0a50b0ec00"
   },
   {
     "name": "Piazza del Duomo, Pisa",
@@ -3019,7 +3186,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "6EQ50xTSybUZtxykwmIlyQ"
+    "panoId": "6EQ50xTSybUZtxykwmIlyQ",
+    "imageId": "5c25d22f-e423-4f9f-fee9-76375a534000"
   },
   {
     "name": "Venice and its Lagoon",
@@ -3039,7 +3207,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "3owemmkQafX9r7i5DA2fGQ"
+    "panoId": "3owemmkQafX9r7i5DA2fGQ",
+    "imageId": "d47478bd-7640-46ac-12d0-fbea5e0f6800"
   },
   {
     "name": "Historic Centre of San Gimignano",
@@ -3057,7 +3226,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "GhRsyBDuKvN_92-QAX_fbw"
+    "panoId": "GhRsyBDuKvN_92-QAX_fbw",
+    "imageId": "2c99df47-02c8-4600-3d96-775db1647500"
   },
   {
     "name": "The Sassi and the Park of the Rupestrian Churches of Matera",
@@ -3076,7 +3246,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "Ot2UFKmK0KNoh9Dgn4zsEg"
+    "panoId": "Ot2UFKmK0KNoh9Dgn4zsEg",
+    "imageId": "bd69f6e0-74f6-4576-5af4-f048cfa8fb00"
   },
   {
     "name": "City of Vicenza and the Palladian Villas of the Veneto",
@@ -3093,7 +3264,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "h9KE7jXp9MQ-V2LuxgoHnw"
+    "panoId": "h9KE7jXp9MQ-V2LuxgoHnw",
+    "imageId": "e8d64415-e00c-407c-049e-11956dfb0a00"
   },
   {
     "name": "Ferrara",
@@ -3111,7 +3283,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "eLl0UM1gLrUYHmQlidFOsA"
+    "panoId": "eLl0UM1gLrUYHmQlidFOsA",
+    "imageId": "ac09ad27-843d-49b3-9b99-f883618ef500"
   },
   {
     "name": "Historic Centre of Naples",
@@ -3129,7 +3302,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "FfjjiLsitu4GeK48v6wX-A"
+    "panoId": "FfjjiLsitu4GeK48v6wX-A",
+    "imageId": "aa017917-f3ab-42c5-48a8-d531ae034f00"
   },
   {
     "name": "Historic Centre of Siena",
@@ -3147,7 +3321,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "vzpxxYtaV6QO6y1A7OQFBg"
+    "panoId": "vzpxxYtaV6QO6y1A7OQFBg",
+    "imageId": "d4a331fb-c823-41ec-e652-042f56f68900"
   },
   {
     "name": "Castel del Monte",
@@ -3165,7 +3340,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "VuF9dN-MF9NhG5P9XiENgQ"
+    "panoId": "VuF9dN-MF9NhG5P9XiENgQ",
+    "imageId": "0240732c-8298-4b43-3da8-5ed6184b8b00"
   },
   {
     "name": "Early Christian Monuments of Ravenna",
@@ -3184,7 +3360,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "S4brmSM1REk_DoaVvusfSg"
+    "panoId": "S4brmSM1REk_DoaVvusfSg",
+    "imageId": "b05e3b41-0ee8-474f-1beb-01f876479f00"
   },
   {
     "name": "Historic Centre of the City of Pienza",
@@ -3202,7 +3379,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "V3Xhfb3M3icfRwBGlrd2fg"
+    "panoId": "V3Xhfb3M3icfRwBGlrd2fg",
+    "imageId": "c8d389b2-e0d1-455d-5dc2-3f7c5e4b2a00"
   },
   {
     "name": "The Trulli of Alberobello",
@@ -3221,7 +3399,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "vzD3FzcUj75TWOl-wcvVXw"
+    "panoId": "vzD3FzcUj75TWOl-wcvVXw",
+    "imageId": "22e44502-f893-4d6f-c549-a12490956200"
   },
   {
     "name": "18th-Century Royal Palace at Caserta",
@@ -3239,7 +3418,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "j7jQF5j-DHz1sJrYLw1GZA"
+    "panoId": "j7jQF5j-DHz1sJrYLw1GZA",
+    "imageId": "7e6df49c-0780-4831-47d0-8886bfc78400"
   },
   {
     "name": "Archaeological Area of Agrigento",
@@ -3256,7 +3436,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "49fjKWoVYudRGR6p7bg3ow"
+    "panoId": "49fjKWoVYudRGR6p7bg3ow",
+    "imageId": "20915e3f-c0c7-40d2-f43a-e9a8b36a6200"
   },
   {
     "name": "Archaeological Areas of Pompei",
@@ -3273,7 +3454,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "cZtefxi9yAhdvAa3dSNgRQ"
+    "panoId": "cZtefxi9yAhdvAa3dSNgRQ",
+    "imageId": "29af0dcc-5995-49b1-a593-f772f96c8a00"
   },
   {
     "name": "Botanical Garden",
@@ -3289,7 +3471,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "AYaU191PsR6sPIjtnIyvig"
+    "panoId": "AYaU191PsR6sPIjtnIyvig",
+    "imageId": "fbc82224-c0be-48dc-d028-2614922e3e00"
   },
   {
     "name": "Cathedral, Torre Civica and Piazza Grande",
@@ -3308,7 +3491,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "qRa18Ho-Lh2lb7fo_-1e_Q"
+    "panoId": "qRa18Ho-Lh2lb7fo_-1e_Q",
+    "imageId": "e3efc48b-85f4-4aab-86f3-ae7c004df600"
   },
   {
     "name": "Costiera Amalfitana",
@@ -3325,7 +3509,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "EUSAo_CuWPWTnEYvpYmE7w"
+    "panoId": "EUSAo_CuWPWTnEYvpYmE7w",
+    "imageId": "5e0eaa16-f319-4375-7add-ad946e711300"
   },
   {
     "name": "Residences of the Royal House of Savoy",
@@ -3343,7 +3528,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "7wmrqYrLoRO7PoUzdhw2lQ"
+    "panoId": "7wmrqYrLoRO7PoUzdhw2lQ",
+    "imageId": "fcf33c9c-9bb4-4d48-9680-3260f1f8a700"
   },
   {
     "name": "Archaeological Area and the Patriarchal Basilica of Aquileia",
@@ -3360,7 +3546,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "_1jXWGZIUeMRqgRtEkhVrw"
+    "panoId": "_1jXWGZIUeMRqgRtEkhVrw",
+    "imageId": "5f991d13-289b-4215-2030-371375c27800"
   },
   {
     "name": "Cilento and Vallo di Diano National Park",
@@ -3378,7 +3565,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "4e6q3sA9sWEyzaQtbdv8xQ"
+    "panoId": "4e6q3sA9sWEyzaQtbdv8xQ",
+    "imageId": "20030439-61ea-4109-baa8-3d5dc62b0600"
   },
   {
     "name": "Villa Adriana",
@@ -3395,7 +3583,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "Ngk0vl7ubMMX1_RqGGvvgg"
+    "panoId": "Ngk0vl7ubMMX1_RqGGvvgg",
+    "imageId": "4a0d18e0-f593-469b-d928-b79c02131800"
   },
   {
     "name": "Assisi, the Basilica of San Francesco and Other Franciscan Sites",
@@ -3413,7 +3602,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "hRzqL_Aj4rgte4842SEx5Q"
+    "panoId": "hRzqL_Aj4rgte4842SEx5Q",
+    "imageId": "5f63908a-55c4-482c-2666-c72ce5711f00"
   },
   {
     "name": "City of Verona",
@@ -3430,7 +3620,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "6xb6J_AqlE7Wi9-He93llQ"
+    "panoId": "6xb6J_AqlE7Wi9-He93llQ",
+    "imageId": "669c6543-2fab-4dfb-3db0-96fc8db06900"
   },
   {
     "name": "Villa d'Este",
@@ -3446,7 +3637,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "ClEnjGJQx-1CYdWf8iA6lQ"
+    "panoId": "ClEnjGJQx-1CYdWf8iA6lQ",
+    "imageId": "07242381-5da1-438b-7edb-7f88580bfa00"
   },
   {
     "name": "Late Baroque Towns of the Val di Noto",
@@ -3465,7 +3657,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "TCBFud-OaThWXL5T5TGLRA"
+    "panoId": "TCBFud-OaThWXL5T5TGLRA",
+    "imageId": "44a08a39-8fdf-4eba-c155-c92333b33800"
   },
   {
     "name": "Mantua and Sabbioneta",
@@ -3483,7 +3676,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "twESlgWRwOmidZX7CHGsWw"
+    "panoId": "twESlgWRwOmidZX7CHGsWw",
+    "imageId": "74b89e57-743b-47bb-f868-5cdaf79b3e00"
   },
   {
     "name": "The Dolomites",
@@ -3501,7 +3695,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "2JRHvF_j1Jz4FlUj5_XoOA"
+    "panoId": "2JRHvF_j1Jz4FlUj5_XoOA",
+    "imageId": "480ac885-3a8d-4a9b-0121-c5ebc8ea5600"
   },
   {
     "name": "Mount Etna",
@@ -3518,7 +3713,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "WP-PRXjq8NXSjxtXxYs7nA"
+    "panoId": "WP-PRXjq8NXSjxtXxYs7nA",
+    "imageId": "8c1d8f3c-9e0e-4b06-a037-b7e8436f7300"
   },
   {
     "name": "Arab-Norman Palermo and the Cathedral Churches of Cefalú and Monreale",
@@ -3537,7 +3733,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "RZL7uu8dVB3B8A8iXG63gg"
+    "panoId": "RZL7uu8dVB3B8A8iXG63gg",
+    "imageId": "17d2f2f7-474c-4ec1-03c0-cfd9ac786800"
   },
   {
     "name": "The Porticoes of Bologna",
@@ -3555,7 +3752,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "0s9yxtzBucsr3xXleGnWAQ"
+    "panoId": "0s9yxtzBucsr3xXleGnWAQ",
+    "imageId": "f6eb239c-8ba5-4e9d-117a-994ea71bfc00"
   },
   {
     "name": "Historic Villages of Shirakawa-go and Gokayama",
@@ -3572,7 +3770,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "kI16y6a0QG8PUmZ8VIHU_A"
+    "panoId": "kI16y6a0QG8PUmZ8VIHU_A",
+    "imageId": "5f84ca08-5c72-475a-daed-070cda50cd00"
   },
   {
     "name": "Hiroshima Peace Memorial",
@@ -3589,7 +3788,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "SghUHoWukgHIO8GuD0TuEQ"
+    "panoId": "SghUHoWukgHIO8GuD0TuEQ",
+    "imageId": "780de45c-f67c-4e88-8618-1bc5ec1ad800"
   },
   {
     "name": "Itsukushima Shinto Shrine",
@@ -3607,7 +3807,8 @@
       "sea",
       "worldHeritage"
     ],
-    "panoId": "2MyW1CL3U178tfxRKCaIFg"
+    "panoId": "2MyW1CL3U178tfxRKCaIFg",
+    "imageId": "b2983ae9-b57a-439b-87a3-1ba5c940af00"
   },
   {
     "name": "Historic Monuments of Ancient Nara",
@@ -3625,7 +3826,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "3Lhp7n4SZWnG6wiV8dmG0Q"
+    "panoId": "3Lhp7n4SZWnG6wiV8dmG0Q",
+    "imageId": "7cff1105-cfdd-49e1-e328-f68af71c7800"
   },
   {
     "name": "Iwami Ginzan Silver Mine and its Cultural Landscape",
@@ -3641,7 +3843,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "2TvFv4ILDMiyo4et13jdPQ"
+    "panoId": "2TvFv4ILDMiyo4et13jdPQ",
+    "imageId": "bd641efc-64d8-407d-81d9-05f9e872e800"
   },
   {
     "name": "Ogasawara Islands",
@@ -3658,7 +3861,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "WvDbWV9A2BzXq3ezFlIUYg"
+    "panoId": "WvDbWV9A2BzXq3ezFlIUYg",
+    "imageId": "ae07c017-0ced-4c59-d404-93a146527300"
   },
   {
     "name": "Fujisan",
@@ -3676,7 +3880,8 @@
       "cultural",
       "popular"
     ],
-    "panoId": "RNob_IRr_qC5JE0B5-5sRA"
+    "panoId": "RNob_IRr_qC5JE0B5-5sRA",
+    "imageId": "0d656a60-c7f0-4a1b-8ea4-ffb60f5b5b00"
   },
   {
     "name": "Tomioka Silk Mill and Related Sites",
@@ -3693,7 +3898,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "bicUBn0gPkSEypbYHuCC-A"
+    "panoId": "bicUBn0gPkSEypbYHuCC-A",
+    "imageId": "7ee390ea-cffc-4fd0-c946-cddfcfadde00"
   },
   {
     "name": "Sites of Japan’s Meiji Industrial Revolution",
@@ -3710,7 +3916,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "LlIkD0_NUg5wpQV1o3VQ-w"
+    "panoId": "LlIkD0_NUg5wpQV1o3VQ-w",
+    "imageId": "7f50c4f0-7174-42b9-d51c-d973a61ddf00"
   },
   {
     "name": "Hidden Christian Sites in the Nagasaki Region",
@@ -3728,7 +3935,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "18xRBSz7Htt-GDfso9t7WQ"
+    "panoId": "18xRBSz7Htt-GDfso9t7WQ",
+    "imageId": "5c749b6a-e6e8-4dcc-6c8f-a303bdffb700"
   },
   {
     "name": "Quseir Amra",
@@ -3745,7 +3953,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "BrXN51wIDaYAAAQu3_CCRQ"
+    "panoId": "BrXN51wIDaYAAAQu3_CCRQ",
+    "imageId": "2c82f2bd-c15a-4891-f0e6-ce6571aeae00"
   },
   {
     "name": "Um er-Rasas",
@@ -3763,7 +3972,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "mhX-Ub1EiOUOnPF6C53rQQ"
+    "panoId": "mhX-Ub1EiOUOnPF6C53rQQ",
+    "imageId": "b8b93ba4-3cbf-4230-a1b5-e30c4efd1d00"
   },
   {
     "name": "Baptism Site “Bethany Beyond the Jordan”",
@@ -3781,7 +3991,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "TQsv4A-3iwVVzpNbj7kmuQ"
+    "panoId": "TQsv4A-3iwVVzpNbj7kmuQ",
+    "imageId": "13ea3157-0d12-4536-ce20-feb9931bdf00"
   },
   {
     "name": "Fort Jesus of Mombasa",
@@ -3799,7 +4010,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "VbA5JCQcrLPMDfpJwsufCA"
+    "panoId": "VbA5JCQcrLPMDfpJwsufCA",
+    "imageId": "a0fb09fd-ce3c-49d9-fbe9-be78e97bfe00"
   },
   {
     "name": "Sulaiman-Too Sacred Mountain",
@@ -3815,7 +4027,8 @@
       "worldHeritage",
       "mountain"
     ],
-    "panoId": "05_q-QjKZV-Y9aE6oYmVPw"
+    "panoId": "05_q-QjKZV-Y9aE6oYmVPw",
+    "imageId": "bf8ab190-082f-4f67-8974-4d0033585d00"
   },
   {
     "name": "Town of Luang Prabang",
@@ -3832,7 +4045,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "hkZru1FxE7SwB8f5v_lK9w"
+    "panoId": "hkZru1FxE7SwB8f5v_lK9w",
+    "imageId": "12bab3bd-8ff0-4687-bba6-eb4c79ca2500"
   },
   {
     "name": "Historic Centre of Riga",
@@ -3851,7 +4065,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "80GB27sb8Jsw57gNotvmHA"
+    "panoId": "80GB27sb8Jsw57gNotvmHA",
+    "imageId": "c95db17b-9a80-4fb8-db0b-8d98d7eb4000"
   },
   {
     "name": "Old town of Kuldīga",
@@ -3869,7 +4084,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "hIeBxvrAr361depRm18btQ"
+    "panoId": "hIeBxvrAr361depRm18btQ",
+    "imageId": "8fc82534-9873-4f97-bd22-e547bd8e1f00"
   },
   {
     "name": "Baalbek",
@@ -3887,7 +4103,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "JdccKkI-wSTcdb1iZtIMQQ"
+    "panoId": "JdccKkI-wSTcdb1iZtIMQQ",
+    "imageId": "a9ca2a2e-6f69-4e6f-893b-0b7d97993900"
   },
   {
     "name": "Byblos",
@@ -3905,7 +4122,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "Orpzj4fmapVsCErQO52IFw"
+    "panoId": "Orpzj4fmapVsCErQO52IFw",
+    "imageId": "ec16a066-4c28-4d26-b08e-e163f1bd2300"
   },
   {
     "name": "Tyre",
@@ -3923,7 +4141,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "nfLk8iFSgU-N4y8LKJfwYQ"
+    "panoId": "nfLk8iFSgU-N4y8LKJfwYQ",
+    "imageId": "81725183-bc72-46fc-73d6-0ab16f045a00"
   },
   {
     "name": "Vilnius Historic Centre",
@@ -3941,7 +4160,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "QZlvcQnL8nnUqc2Kp3vkUg"
+    "panoId": "QZlvcQnL8nnUqc2Kp3vkUg",
+    "imageId": "7ba7d20f-6a4e-4896-1af3-c9c22a0d7e00"
   },
   {
     "name": "Kernavė Archaeological Site",
@@ -3957,7 +4177,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "X3BKE7RnUIVApZjlC37thQ"
+    "panoId": "X3BKE7RnUIVApZjlC37thQ",
+    "imageId": "1636aa14-069a-4d2a-11f2-c2f614b46f00"
   },
   {
     "name": "Kinabalu Park",
@@ -3974,7 +4195,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "poj9ls_hQFdd6q4Xew2PNw"
+    "panoId": "poj9ls_hQFdd6q4Xew2PNw",
+    "imageId": "1350807e-2082-4987-f136-73694058e200"
   },
   {
     "name": "Melaka and George Town",
@@ -3991,7 +4213,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "P61Kd7EBblCkBONQaGaEkw"
+    "panoId": "P61Kd7EBblCkBONQaGaEkw",
+    "imageId": "cfbad1bd-bc36-427d-0277-95597cf2a100"
   },
   {
     "name": "Old Towns of Djenné",
@@ -4010,7 +4233,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "JxvJ5PDGTaIAAARAtEXRAg"
+    "panoId": "JxvJ5PDGTaIAAARAtEXRAg",
+    "imageId": "c8501d05-f6ce-41a7-bae6-7d968de8d100"
   },
   {
     "name": "Timbuktu",
@@ -4027,7 +4251,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "uI7DOYZQsOUAAAQrDCILlw"
+    "panoId": "uI7DOYZQsOUAAAQrDCILlw",
+    "imageId": "62e3b4aa-276e-43eb-97d1-0fd5e4f25500"
   },
   {
     "name": "Tomb of Askia",
@@ -4045,7 +4270,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "LP4FFaMtVToAAARAtEWkXg"
+    "panoId": "LP4FFaMtVToAAARAtEWkXg",
+    "imageId": "108af3e8-0cf0-49cb-3db6-983d08654d00"
   },
   {
     "name": "City of Valletta",
@@ -4062,7 +4288,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "1j_96UP_QQDYaQ8XxfY-yg"
+    "panoId": "1j_96UP_QQDYaQ8XxfY-yg",
+    "imageId": "567749e9-91bb-439f-4864-b5fadacb9b00"
   },
   {
     "name": "Ħal Saflieni Hypogeum",
@@ -4080,7 +4307,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "30BMcMRx4W8AAAQvxgQTYg"
+    "panoId": "30BMcMRx4W8AAAQvxgQTYg",
+    "imageId": "5ed540bc-2946-45e0-0277-086bf6d1a700"
   },
   {
     "name": "Megalithic Temples of Malta",
@@ -4098,7 +4326,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "AduSInu6UMqoSU4EM2buCA"
+    "panoId": "AduSInu6UMqoSU4EM2buCA",
+    "imageId": "61a96155-053e-436f-cbde-64d6fa155e00"
   },
   {
     "name": "Historic Centre of Mexico City and Xochimilco",
@@ -4116,7 +4345,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "tcqasBXfLPWWhkpGoKyeCg"
+    "panoId": "tcqasBXfLPWWhkpGoKyeCg",
+    "imageId": "38a3f17b-a711-4a7a-5496-2ab1b1105f00"
   },
   {
     "name": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán",
@@ -4134,7 +4364,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "s-FKWQBXuAhM6KXiZKaAdQ"
+    "panoId": "s-FKWQBXuAhM6KXiZKaAdQ",
+    "imageId": "903de160-a174-4387-395d-1cd11aa31600"
   },
   {
     "name": "Historic Centre of Puebla",
@@ -4151,7 +4382,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "WMmfP5n2ZKEUNiO5cIPsDg"
+    "panoId": "WMmfP5n2ZKEUNiO5cIPsDg",
+    "imageId": "62154a5d-3abf-43c2-8bba-285453971e00"
   },
   {
     "name": "Pre-Hispanic City and National Park of Palenque",
@@ -4168,7 +4400,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "85_MLupHkV-1mZWzdVF_ZQ"
+    "panoId": "85_MLupHkV-1mZWzdVF_ZQ",
+    "imageId": "1385d290-1fc5-4166-7d64-a72f9e2bfa00"
   },
   {
     "name": "Pre-Hispanic City of Teotihuacan",
@@ -4186,7 +4419,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "v75RtdRHCsUhLeWl8qUi2w"
+    "panoId": "v75RtdRHCsUhLeWl8qUi2w",
+    "imageId": "803d3bea-9c68-4fc9-2cb9-4ebe5e0b0800"
   },
   {
     "name": "Sian Ka'an",
@@ -4203,7 +4437,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "SJ8DSdKaeiURbO5jrqcxAQ"
+    "panoId": "SJ8DSdKaeiURbO5jrqcxAQ",
+    "imageId": "620fd097-5bc6-4a38-4129-e3872a335300"
   },
   {
     "name": "Historic Town of Guanajuato and Adjacent Mines",
@@ -4221,7 +4456,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "BmSm5wLFh4s8BTM0iLw2RQ"
+    "panoId": "BmSm5wLFh4s8BTM0iLw2RQ",
+    "imageId": "582911e9-d07e-4115-c6b5-683833a96300"
   },
   {
     "name": "Pre-Hispanic City of Chichen-Itza",
@@ -4239,7 +4475,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "ELE9L_h7eDOHAW7FAZ_4pQ"
+    "panoId": "ELE9L_h7eDOHAW7FAZ_4pQ",
+    "imageId": "5e523b5b-c408-487a-e235-3ac83b490100"
   },
   {
     "name": "Historic Centre of Morelia",
@@ -4256,7 +4493,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "oaaUm6NiH8wQPQr5BM7E6A"
+    "panoId": "oaaUm6NiH8wQPQr5BM7E6A",
+    "imageId": "1312ab0c-32a9-41b0-bb96-58663c898f00"
   },
   {
     "name": "El Tajin",
@@ -4274,7 +4512,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "i_A7Up3YxQEqiW2j5dHPag"
+    "panoId": "i_A7Up3YxQEqiW2j5dHPag",
+    "imageId": "3020f865-0144-49e6-98b1-330c07c5d100"
   },
   {
     "name": "Historic Centre of Zacatecas",
@@ -4292,7 +4531,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "OFfjtr_E52N5SmUgMcI89g"
+    "panoId": "OFfjtr_E52N5SmUgMcI89g",
+    "imageId": "7c01ce26-f6df-43d3-d843-ad09477a1400"
   },
   {
     "name": "Historic Monuments Zone of Querétaro",
@@ -4309,7 +4549,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "11tYwGU28aIyOkVYXS8nMQ"
+    "panoId": "11tYwGU28aIyOkVYXS8nMQ",
+    "imageId": "9d5bb909-cf10-4dbd-13d0-566db6cb2f00"
   },
   {
     "name": "Pre-Hispanic Town of Uxmal",
@@ -4327,7 +4568,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "3eBUbKGRjMgdkQgFGJSLAQ"
+    "panoId": "3eBUbKGRjMgdkQgFGJSLAQ",
+    "imageId": "3f072eb7-024a-42dc-f1b9-513ff181fd00"
   },
   {
     "name": "Hospicio Cabañas",
@@ -4344,7 +4586,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "M2XqbpiyDE4CBvxcSiVHaQ"
+    "panoId": "M2XqbpiyDE4CBvxcSiVHaQ",
+    "imageId": "fe686ecd-130b-4dfb-540c-8916fe358900"
   },
   {
     "name": "Archaeological Zone of Paquimé",
@@ -4361,7 +4604,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "iQ3wLWvblGxx6Z8JTYj9eg"
+    "panoId": "iQ3wLWvblGxx6Z8JTYj9eg",
+    "imageId": "e42526a7-ff7a-4ecc-e1b7-e453e9f0ff00"
   },
   {
     "name": "Historic Monuments Zone of Tlacotalpan",
@@ -4378,7 +4622,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "IoXGBEwVorHCU0quEW82Jg"
+    "panoId": "IoXGBEwVorHCU0quEW82Jg",
+    "imageId": "1a6a8e47-78c2-489e-df97-ab83b4a4b100"
   },
   {
     "name": "Archaeological Monuments Zone of Xochicalco",
@@ -4396,7 +4641,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "re_sYRqnaiTO0zTl79oOag"
+    "panoId": "re_sYRqnaiTO0zTl79oOag",
+    "imageId": "fbf972f7-68a2-4aa2-8b68-3c3924a34f00"
   },
   {
     "name": "Historic Fortified Town of Campeche",
@@ -4413,7 +4659,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "OUCt0XaK3QWrhhhYtPaRag"
+    "panoId": "OUCt0XaK3QWrhhhYtPaRag",
+    "imageId": "5a6339db-a0c6-4ba2-ac7f-5808c9ac0d00"
   },
   {
     "name": "Ancient Maya City and Protected Tropical Forests of Calakmul",
@@ -4433,7 +4680,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "2O8PiM9wlY1ywxD-X7tnDg"
+    "panoId": "2O8PiM9wlY1ywxD-X7tnDg",
+    "imageId": "0e51b627-5f5a-4295-4cad-923a75f1e700"
   },
   {
     "name": "Central University City Campus of the Universidad Nacional Autónoma de México",
@@ -4450,7 +4698,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "SiG4fk0rwtnF7juyA7j-3g"
+    "panoId": "SiG4fk0rwtnF7juyA7j-3g",
+    "imageId": "094f49d3-7625-4543-7b91-68213c4a3f00"
   },
   {
     "name": "Protective town of San Miguel and the Sanctuary of Jesús Nazareno de Atotonilco",
@@ -4468,7 +4717,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "GByPpptEO0i5DsViCHtccA"
+    "panoId": "GByPpptEO0i5DsViCHtccA",
+    "imageId": "7ea9e35e-8260-44bd-a339-e28c74b20700"
   },
   {
     "name": "Aqueduct of Padre Tembleque Hydraulic System",
@@ -4487,7 +4737,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "Kc8u2CfWLIHTDBUymDigcw"
+    "panoId": "Kc8u2CfWLIHTDBUymDigcw",
+    "imageId": "c8031f09-820c-48fa-633c-5ef64b485600"
   },
   {
     "name": "Tehuacán-Cuicatlán Valley",
@@ -4506,7 +4757,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "xRPsuQAUdhsApWPl0LXicg"
+    "panoId": "xRPsuQAUdhsApWPl0LXicg",
+    "imageId": "49a813c5-8121-4b5c-0461-ceaf13f6dc00"
   },
   {
     "name": "Uvs Nuur Basin",
@@ -4524,7 +4776,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "sHeWnWQYhG90b_AFtZ5bRQ"
+    "panoId": "sHeWnWQYhG90b_AFtZ5bRQ",
+    "imageId": "50ed1921-eb5c-4a93-9b99-de4a90b1f100"
   },
   {
     "name": "Historic Area of Willemstad, Inner City and Harbour, Curaçao",
@@ -4543,7 +4796,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "cp12IpdwVBCWsRM_PPvKKg"
+    "panoId": "cp12IpdwVBCWsRM_PPvKKg",
+    "imageId": "40079625-7b3c-44e5-1dd8-b4a8ff8cef00"
   },
   {
     "name": "D.F. Wouda Steam Pumping Station",
@@ -4560,7 +4814,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "185BmF5fYCqU3CnJtowfHQ"
+    "panoId": "185BmF5fYCqU3CnJtowfHQ",
+    "imageId": "e4afb343-5d31-49b0-c521-c7dbad185900"
   },
   {
     "name": "Rietveld Schröderhuis",
@@ -4577,7 +4832,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "j7DcmFddDwJ0wYY2sk8MqQ"
+    "panoId": "j7DcmFddDwJ0wYY2sk8MqQ",
+    "imageId": "1d8653e5-f1f3-4656-7569-c8d5f5eec500"
   },
   {
     "name": "Van Nellefabriek",
@@ -4593,7 +4849,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "qwmmbMpD-QxV2Zq_CfRFEg"
+    "panoId": "qwmmbMpD-QxV2Zq_CfRFEg",
+    "imageId": "1db108e3-1041-440d-4f3c-b616bccc9100"
   },
   {
     "name": "León Cathedral",
@@ -4612,7 +4869,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "KGb3Q2IXMw7NOYqKf9PKNg"
+    "panoId": "KGb3Q2IXMw7NOYqKf9PKNg",
+    "imageId": "f25012c8-f303-44f0-e3a1-36e5e1683c00"
   },
   {
     "name": "Sukur Cultural Landscape",
@@ -4630,7 +4888,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "WjCPHqI0qUgAAARjxsRykw"
+    "panoId": "WjCPHqI0qUgAAARjxsRykw",
+    "imageId": "bf1b4808-b225-445b-42ac-66021df84d00"
   },
   {
     "name": "Osun-Osogbo Sacred Grove",
@@ -4649,7 +4908,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "_vyXOTcQVCoAAARXuRoffw"
+    "panoId": "_vyXOTcQVCoAAARXuRoffw",
+    "imageId": "1e4bfc4d-d712-4f0a-5762-98d73f150b00"
   },
   {
     "name": "Bryggen",
@@ -4667,7 +4927,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "rq_oDFFVjLRTJBNwqPZJjA"
+    "panoId": "rq_oDFFVjLRTJBNwqPZJjA",
+    "imageId": "b88ee78c-ccca-4806-62b8-e5335ddfcc00"
   },
   {
     "name": "Røros Mining Town and the Circumference",
@@ -4685,7 +4946,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "C__UGkjRY_CtLVRAsPFRIw"
+    "panoId": "C__UGkjRY_CtLVRAsPFRIw",
+    "imageId": "1366eeeb-9057-416e-a8f1-15f7d012b700"
   },
   {
     "name": "Vegaøyan",
@@ -4701,7 +4963,8 @@
       "sea",
       "worldHeritage"
     ],
-    "panoId": "hAwfw1gNB-MCiOQD5akbog"
+    "panoId": "hAwfw1gNB-MCiOQD5akbog",
+    "imageId": "9c7930dd-11cb-4090-8cdf-188cb75e9b00"
   },
   {
     "name": "West Norwegian Fjords",
@@ -4721,7 +4984,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "667RsKcYsLkISKGHm5MLog"
+    "panoId": "667RsKcYsLkISKGHm5MLog",
+    "imageId": "b961acf1-6a44-4002-8238-c4b1a99b5000"
   },
   {
     "name": "Rjukan-Notodden Industrial Heritage Site",
@@ -4738,7 +5002,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "LVPi6C4MIiTNT5_j-oAOUw"
+    "panoId": "LVPi6C4MIiTNT5_j-oAOUw",
+    "imageId": "e639ee68-d19d-41c1-65cc-448582cc5500"
   },
   {
     "name": "Fort and Shalamar Gardens in Lahore",
@@ -4755,7 +5020,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "04sT8FfEitlI-aL9Kk01-w"
+    "panoId": "04sT8FfEitlI-aL9Kk01-w",
+    "imageId": "b7a02bdc-a91a-492f-6089-5a5e62fe6700"
   },
   {
     "name": "Rohtas Fort",
@@ -4771,7 +5037,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "fn10abRq2U8FW8bCaxwo6A"
+    "panoId": "fn10abRq2U8FW8bCaxwo6A",
+    "imageId": "dcdd2c05-f83d-461b-1b9b-d3318413fd00"
   },
   {
     "name": "City of Cuzco",
@@ -4788,7 +5055,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "i8-eLGHpFaVsRICpfHCCtA"
+    "panoId": "i8-eLGHpFaVsRICpfHCCtA",
+    "imageId": "b9f36d63-89f6-4ee3-5906-df066987cd00"
   },
   {
     "name": "Machu Picchu",
@@ -4809,7 +5077,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "8rOQ_-YeNsGyYGDZe4LgrQ"
+    "panoId": "8rOQ_-YeNsGyYGDZe4LgrQ",
+    "imageId": "912bfb64-a161-4955-6ee7-f3581836b800"
   },
   {
     "name": "Historic Centre of Lima",
@@ -4825,7 +5094,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "SXI8xMBbQ7iePZEzGYEMXA"
+    "panoId": "SXI8xMBbQ7iePZEzGYEMXA",
+    "imageId": "331b6bf1-81a1-4f0f-cb0c-02bede8b8900"
   },
   {
     "name": "Historical Centre of the City of Arequipa",
@@ -4842,7 +5112,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "XFKIgMGvHkEfjhkwB-kdhQ"
+    "panoId": "XFKIgMGvHkEfjhkwB-kdhQ",
+    "imageId": "af09a4dd-89f2-4899-e0b6-80cbf791bb00"
   },
   {
     "name": "Baroque Churches of the Philippines",
@@ -4860,7 +5131,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "KI263ju33EHICSJKjRO6Gw"
+    "panoId": "KI263ju33EHICSJKjRO6Gw",
+    "imageId": "a7c50e2e-3beb-453f-dfb3-0120ab468600"
   },
   {
     "name": "Historic City of Vigan",
@@ -4877,7 +5149,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "12cQo6t-V4TDEZGPpZqsBA"
+    "panoId": "12cQo6t-V4TDEZGPpZqsBA",
+    "imageId": "621084b8-aacc-4048-6b5c-2c805e009100"
   },
   {
     "name": "Puerto-Princesa Subterranean River National Park",
@@ -4894,7 +5167,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "vWzdFBdsbz5OlTajnJ4LMQ"
+    "panoId": "vWzdFBdsbz5OlTajnJ4LMQ",
+    "imageId": "4dc653fb-9cbf-4d5e-c5eb-623c09b43000"
   },
   {
     "name": "Historic Centre of Kraków",
@@ -4911,7 +5185,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "NvPrESSj0M_InTbJSuJ2IA"
+    "panoId": "NvPrESSj0M_InTbJSuJ2IA",
+    "imageId": "1b63c6c1-c371-44aa-d469-866080843500"
   },
   {
     "name": "Auschwitz Birkenau",
@@ -4927,7 +5202,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "cz1nlpKQaPTlmUURI9KSNA"
+    "panoId": "cz1nlpKQaPTlmUURI9KSNA",
+    "imageId": "16c50b46-9b18-4341-0125-159c54ef2500"
   },
   {
     "name": "Historic Centre of Warsaw",
@@ -4944,7 +5220,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "7op-bjaiQGBxBSuizhKa0w"
+    "panoId": "7op-bjaiQGBxBSuizhKa0w",
+    "imageId": "b1c90646-72ee-4b27-4c83-29562f60ba00"
   },
   {
     "name": "Old City of Zamość",
@@ -4962,7 +5239,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "2u6zCSCUNa6WZUdSnnKaoA"
+    "panoId": "2u6zCSCUNa6WZUdSnnKaoA",
+    "imageId": "c05ed2c5-944c-46da-b299-0aa87d3d6800"
   },
   {
     "name": "Castle of the Teutonic Order in Malbork",
@@ -4980,7 +5258,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "I2RZ_5utpZ2Yljt4Aj4obw"
+    "panoId": "I2RZ_5utpZ2Yljt4Aj4obw",
+    "imageId": "af5fdcd4-f6f4-451a-b6d6-33e303958400"
   },
   {
     "name": "Medieval Town of Toruń",
@@ -4997,7 +5276,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "HZE-HyQDNPHPIYwl1DW0zg"
+    "panoId": "HZE-HyQDNPHPIYwl1DW0zg",
+    "imageId": "e307a232-b429-4cfc-c914-4641ba10cc00"
   },
   {
     "name": "Churches of Peace in Jawor and Świdnica",
@@ -5015,7 +5295,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "1mzUAgpk0FLyL-IRIc1FXw"
+    "panoId": "1mzUAgpk0FLyL-IRIc1FXw",
+    "imageId": "d9e470bb-f5e2-4387-486e-e9249d8dc200"
   },
   {
     "name": "Centennial Hall in Wrocław",
@@ -5031,7 +5312,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "vK2EQecWzNDB_Wfe7TSNDw"
+    "panoId": "vK2EQecWzNDB_Wfe7TSNDw",
+    "imageId": "731e7084-216f-4e71-3f80-1cbcd1b26c00"
   },
   {
     "name": "Convent of Christ in Tomar",
@@ -5048,7 +5330,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "GGz8R276tSb9SX_jAmdOpQ"
+    "panoId": "GGz8R276tSb9SX_jAmdOpQ",
+    "imageId": "364eb313-b79c-40f6-7531-f2c395076300"
   },
   {
     "name": "Monastery of Batalha",
@@ -5064,7 +5347,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "OMJVEbTwpZoPQe-tXM63Vw"
+    "panoId": "OMJVEbTwpZoPQe-tXM63Vw",
+    "imageId": "cdfce925-b639-46b2-2aec-96a93fa0e000"
   },
   {
     "name": "Monastery of the Hieronymites and Tower of Belém",
@@ -5080,7 +5364,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "48BnTzbuBjKEl24AKnGT5A"
+    "panoId": "48BnTzbuBjKEl24AKnGT5A",
+    "imageId": "4e50086c-b2a0-4c8b-62e5-c7fa9cba0d00"
   },
   {
     "name": "Historic Centre of Évora",
@@ -5096,7 +5381,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "bLzQy7No8hovhbggNximsg"
+    "panoId": "bLzQy7No8hovhbggNximsg",
+    "imageId": "ce841f14-cca7-4127-4151-1081fd24d200"
   },
   {
     "name": "Monastery of Alcobaça",
@@ -5112,7 +5398,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "wg-xJsnBDLiNuyCrTM0IVg"
+    "panoId": "wg-xJsnBDLiNuyCrTM0IVg",
+    "imageId": "0dc709b1-bb2c-4ba4-0430-b13ccf601b00"
   },
   {
     "name": "Cultural Landscape of Sintra",
@@ -5128,7 +5415,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "piR4dM9GuebdGfJUdG2-mw"
+    "panoId": "piR4dM9GuebdGfJUdG2-mw",
+    "imageId": "4f275179-5da6-44ea-8a91-c1d520316100"
   },
   {
     "name": "Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar",
@@ -5144,7 +5432,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "v5FHwTO917IUNMKmIbF40w"
+    "panoId": "v5FHwTO917IUNMKmIbF40w",
+    "imageId": "483623b1-de58-4973-cd92-d68e238bfb00"
   },
   {
     "name": "Historic Centre of Guimarães and Couros Zone",
@@ -5161,7 +5450,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "P69wyLuE5-zrz9Cfdb-Gfw"
+    "panoId": "P69wyLuE5-zrz9Cfdb-Gfw",
+    "imageId": "ffe63bf0-b511-434b-ab11-bc0ccf335d00"
   },
   {
     "name": "University of Coimbra",
@@ -5177,7 +5467,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "rGsah7o1lRV8npTS7YoX7Q"
+    "panoId": "rGsah7o1lRV8npTS7YoX7Q",
+    "imageId": "128c2139-82ad-4811-22bb-31b240509b00"
   },
   {
     "name": "Royal Building of Mafra",
@@ -5192,7 +5483,8 @@
     "categories": [
       "worldHeritage"
     ],
-    "panoId": "FkCW8a0n3ZKV7W0RmKAEPg"
+    "panoId": "FkCW8a0n3ZKV7W0RmKAEPg",
+    "imageId": "fb7d5642-0cae-47c8-e7a2-368427550b00"
   },
   {
     "name": "Sanctuary of Bom Jesus do Monte in Braga",
@@ -5210,7 +5502,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "BzcwetwJHoMdIVPAAwsB1w"
+    "panoId": "BzcwetwJHoMdIVPAAwsB1w",
+    "imageId": "9abd795d-f6ec-40bf-861a-9cc48e3a4e00"
   },
   {
     "name": "Jongmyo Shrine",
@@ -5228,7 +5521,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "P_v3BWRvKrL9HoNmTBQMLQ"
+    "panoId": "P_v3BWRvKrL9HoNmTBQMLQ",
+    "imageId": "cc759d98-2e33-4f8b-29c4-bb8341d9ca00"
   },
   {
     "name": "Changdeokgung Palace Complex",
@@ -5245,7 +5539,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "ebkK4bg2iNQNi-zW09fTUg"
+    "panoId": "ebkK4bg2iNQNi-zW09fTUg",
+    "imageId": "7e445306-c857-47ee-50a7-029641295100"
   },
   {
     "name": "Hwaseong Fortress",
@@ -5262,7 +5557,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "o01pJIR9y9asYMtplN38Qg"
+    "panoId": "o01pJIR9y9asYMtplN38Qg",
+    "imageId": "5aff2b86-43dd-4b56-e8d5-45b356c86600"
   },
   {
     "name": "Gochang, Hwasun and Ganghwa Dolmen Sites",
@@ -5279,7 +5575,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "aQhem_J4MllK6eckjx3BPA"
+    "panoId": "aQhem_J4MllK6eckjx3BPA",
+    "imageId": "c66fca98-06aa-48ae-4e7c-0111d57c1b00"
   },
   {
     "name": "Namhansanseong",
@@ -5296,7 +5593,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "Tg9y7r6zHketaZBuOYcHgw"
+    "panoId": "Tg9y7r6zHketaZBuOYcHgw",
+    "imageId": "6f874c30-9b6f-4465-36e4-2a8d9418e000"
   },
   {
     "name": "Monastery of Horezu",
@@ -5312,7 +5610,8 @@
       "religious",
       "worldHeritage"
     ],
-    "panoId": "X8NKIWSp599sEfCl3KzwXA"
+    "panoId": "X8NKIWSp599sEfCl3KzwXA",
+    "imageId": "a7a6ffbb-827c-439f-f057-fd22cd818600"
   },
   {
     "name": "Historic Centre of Sighişoara",
@@ -5330,7 +5629,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "UX8RxAmd42kCcv6M4_PwTA"
+    "panoId": "UX8RxAmd42kCcv6M4_PwTA",
+    "imageId": "878aa253-8b82-421b-015b-679724a07600"
   },
   {
     "name": "Wooden Churches of Maramureş",
@@ -5348,7 +5648,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "UIVyDG7nu6dEqZm2Ffasqw"
+    "panoId": "UIVyDG7nu6dEqZm2Ffasqw",
+    "imageId": "68876a6e-0351-4897-c0c5-cb556a045900"
   },
   {
     "name": "Historic Centre of Saint Petersburg and Related Groups of Monuments",
@@ -5365,7 +5666,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "lYGBkX3z2u9ViusXcOjFbA"
+    "panoId": "lYGBkX3z2u9ViusXcOjFbA",
+    "imageId": "ef7a2a45-a7bb-4b2c-7c8f-b50a27a10400"
   },
   {
     "name": "Kremlin and Red Square",
@@ -5383,7 +5685,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "56i0Inq4LBPUVVDJYNXDCw"
+    "panoId": "56i0Inq4LBPUVVDJYNXDCw",
+    "imageId": "7d924afc-0723-495d-9dcc-90f91fc9b400"
   },
   {
     "name": "Architectural Ensemble of the Trinity Sergius Lavra",
@@ -5401,7 +5704,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "x51arduR3RHYVRlFHp3ZZA"
+    "panoId": "x51arduR3RHYVRlFHp3ZZA",
+    "imageId": "09c129ae-2d57-4fbc-b58d-8930e5316b00"
   },
   {
     "name": "Church of the Ascension",
@@ -5419,7 +5723,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "2dACwR8lu2Qyt7niDbQ2cQ"
+    "panoId": "2dACwR8lu2Qyt7niDbQ2cQ",
+    "imageId": "018f26ab-2690-4723-3886-9089f1c67600"
   },
   {
     "name": "Lake Baikal",
@@ -5437,7 +5742,8 @@
       "worldHeritage",
       "nature"
     ],
-    "panoId": "zyEAOcY0n0j6RY9rT1OmPQ"
+    "panoId": "zyEAOcY0n0j6RY9rT1OmPQ",
+    "imageId": "f3e0199a-4df2-4ae9-2ce4-f9c9e7300b00"
   },
   {
     "name": "Kazan Kremlin",
@@ -5454,7 +5760,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "jedxYm0bayuTdDIPvp53PQ"
+    "panoId": "jedxYm0bayuTdDIPvp53PQ",
+    "imageId": "98447c3c-d6b2-4c1d-3996-1d5789c91200"
   },
   {
     "name": "Citadel, Ancient City and Fortress Buildings of Derbent",
@@ -5471,7 +5778,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "Z9WWRmrbfDX4EMElhsGoNw"
+    "panoId": "Z9WWRmrbfDX4EMElhsGoNw",
+    "imageId": "a93969a1-dc9b-463f-a6aa-70a85e1f1c00"
   },
   {
     "name": "Historical Centre of the City of Yaroslavl",
@@ -5488,7 +5796,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "_v5EUSJ4owPkg0ZQAEzceQ"
+    "panoId": "_v5EUSJ4owPkg0ZQAEzceQ",
+    "imageId": "34087cd3-727f-4b9c-aae1-b3539f4dac00"
   },
   {
     "name": "Island of Saint-Louis",
@@ -5505,7 +5814,8 @@
       "river",
       "worldHeritage"
     ],
-    "panoId": "cqeQ7GT2Rh7Qly0qojBNMw"
+    "panoId": "cqeQ7GT2Rh7Qly0qojBNMw",
+    "imageId": "bcb04b05-60b0-4585-09bf-20bba3832b00"
   },
   {
     "name": "Singapore Botanic Gardens",
@@ -5523,7 +5833,8 @@
       "park",
       "nature"
     ],
-    "panoId": "wovkdLpW244Gl6QNpnBrDg"
+    "panoId": "wovkdLpW244Gl6QNpnBrDg",
+    "imageId": "017b34d5-6349-48fe-f059-b5ec1efc6e00"
   },
   {
     "name": "Bardejov Town Conservation Reserve",
@@ -5540,7 +5851,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "M0QmrypvHvtGlPaaoq6Lrw"
+    "panoId": "M0QmrypvHvtGlPaaoq6Lrw",
+    "imageId": "0ee89044-c171-4b41-6da2-5692982ab000"
   },
   {
     "name": "Barberton Makhonjwa Mountains",
@@ -5557,7 +5869,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "mA3Oj9ou3AAJiHGhyMNTdw"
+    "panoId": "mA3Oj9ou3AAJiHGhyMNTdw",
+    "imageId": "9444c767-cf05-4030-3b97-3b65a4ddb700"
   },
   {
     "name": "Burgos Cathedral",
@@ -5575,7 +5888,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "ZMCL0y50o41uEYfOnKj2Rg"
+    "panoId": "ZMCL0y50o41uEYfOnKj2Rg",
+    "imageId": "2d37d4f0-afab-4905-f585-4c4722d81700"
   },
   {
     "name": "Historic Centre of Cordoba",
@@ -5593,7 +5907,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "hmlIEyjid92ZrLDqYxjQ6w"
+    "panoId": "hmlIEyjid92ZrLDqYxjQ6w",
+    "imageId": "17e0e1c4-793f-46e3-d7a3-9656f49cfc00"
   },
   {
     "name": "Monastery and Site of the Escurial",
@@ -5609,7 +5924,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "QbJ47LJHxMEN_DkYMe9wHQ"
+    "panoId": "QbJ47LJHxMEN_DkYMe9wHQ",
+    "imageId": "24e7bc6b-f589-424d-f427-c862a673ca00"
   },
   {
     "name": "Works of Antoni Gaudí",
@@ -5627,7 +5943,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "zISSDt5Xvc2em51Zg-9EhQ"
+    "panoId": "zISSDt5Xvc2em51Zg-9EhQ",
+    "imageId": "9abee6c6-c550-49ed-4f12-62e04c5af600"
   },
   {
     "name": "Monuments of Oviedo and the Kingdom of the Asturias",
@@ -5644,7 +5961,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "RFn8jZNHIZF-ly683i5I2g"
+    "panoId": "RFn8jZNHIZF-ly683i5I2g",
+    "imageId": "3b714788-bed0-44c6-d2f9-a16d25d62c00"
   },
   {
     "name": "Old Town of Segovia",
@@ -5662,7 +5980,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "7WPOv_Tx5M721ddO68BRNw"
+    "panoId": "7WPOv_Tx5M721ddO68BRNw",
+    "imageId": "497986e3-b9c5-4e23-81c6-e62e7d45c500"
   },
   {
     "name": "Cathedral, Alcázar and Archivo de Indias",
@@ -5680,7 +5999,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "5Zzo4i9ESQYFpZOfkaLOfg"
+    "panoId": "5Zzo4i9ESQYFpZOfkaLOfg",
+    "imageId": "309bcfcc-0e5f-4920-bbff-1d34b0038f00"
   },
   {
     "name": "Salamanca",
@@ -5698,7 +6018,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "eHOPZp7d4qpYF2k10WjuSA"
+    "panoId": "eHOPZp7d4qpYF2k10WjuSA",
+    "imageId": "6cfb15bc-bdd6-463d-8e4b-d004480daf00"
   },
   {
     "name": "Poblet Monastery",
@@ -5716,7 +6037,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "rKjlwZ0JxQhc7NmASZ-Dug"
+    "panoId": "rKjlwZ0JxQhc7NmASZ-Dug",
+    "imageId": "05d99f06-830a-4969-97e0-cce537e52100"
   },
   {
     "name": "Royal Monastery of Santa María de Guadalupe",
@@ -5734,7 +6056,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "V34DZ24JU67usaUAsAsRUA"
+    "panoId": "V34DZ24JU67usaUAsAsRUA",
+    "imageId": "5a861c61-1563-4171-903e-70d3c0bd9b00"
   },
   {
     "name": "La Lonja de la Seda de Valencia",
@@ -5751,7 +6074,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "TV5PJL-giFPg12oIhvLLbQ"
+    "panoId": "TV5PJL-giFPg12oIhvLLbQ",
+    "imageId": "5e31c7da-7581-4064-79f7-0d6a80a73500"
   },
   {
     "name": "Pyrénées",
@@ -5768,7 +6092,8 @@
       "worldHeritage",
       "mountain"
     ],
-    "panoId": "_pqb6mN2c8U0s7o_-2hIoQ"
+    "panoId": "_pqb6mN2c8U0s7o_-2hIoQ",
+    "imageId": "03534348-ea6d-454a-1075-da611d18e400"
   },
   {
     "name": "Alcalá de Henares",
@@ -5785,7 +6110,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "pT3702soGbl8PpLvr8r2ww"
+    "panoId": "pT3702soGbl8PpLvr8r2ww",
+    "imageId": "a199dcbc-e8ff-49e5-d921-4a972a651700"
   },
   {
     "name": "Archaeological Ensemble of Tarraco",
@@ -5801,7 +6127,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "ldfJxiEHC4taO0nfcel-bg"
+    "panoId": "ldfJxiEHC4taO0nfcel-bg",
+    "imageId": "a0965c91-1b02-41ab-4582-77874a5d7300"
   },
   {
     "name": "Archaeological Site of Atapuerca",
@@ -5818,7 +6145,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "LU_wYMFZvf5Laz1ibAQDRw"
+    "panoId": "LU_wYMFZvf5Laz1ibAQDRw",
+    "imageId": "3cc4187b-03df-4457-5fa6-2651465d5f00"
   },
   {
     "name": "Palmeral of Elche",
@@ -5834,7 +6162,8 @@
       "woods",
       "worldHeritage"
     ],
-    "panoId": "j9jvWj2OEtSWs-cUbDPRYg"
+    "panoId": "j9jvWj2OEtSWs-cUbDPRYg",
+    "imageId": "de91ea50-e1aa-4198-300f-07457a42a400"
   },
   {
     "name": "Roman Walls of Lugo",
@@ -5851,7 +6180,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "FCjctE4ENplLYegw99y2rA"
+    "panoId": "FCjctE4ENplLYegw99y2rA",
+    "imageId": "84f64f10-b031-4d62-ecda-3287e2d39200"
   },
   {
     "name": "Aranjuez Cultural Landscape",
@@ -5867,7 +6197,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "5vv-6hjahJslGB6vdX1dZQ"
+    "panoId": "5vv-6hjahJslGB6vdX1dZQ",
+    "imageId": "d70ae944-c744-41d0-0721-c33e03f56a00"
   },
   {
     "name": "Renaissance Monumental Ensembles of Úbeda and Baeza",
@@ -5885,7 +6216,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "lsaZ_xQIuZvxC2FgKTZRWg"
+    "panoId": "lsaZ_xQIuZvxC2FgKTZRWg",
+    "imageId": "856cf1df-ffcd-498a-84b2-8bb9b7823500"
   },
   {
     "name": "Vizcaya Bridge",
@@ -5902,7 +6234,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "5UWPVWjGJjxnOfY2PT1lUA"
+    "panoId": "5UWPVWjGJjxnOfY2PT1lUA",
+    "imageId": "dd110439-21c3-495b-1e72-7a850de54b00"
   },
   {
     "name": "Teide National Park",
@@ -5920,7 +6253,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "7_pHqrmfHfPf2Rfp07orIQ"
+    "panoId": "7_pHqrmfHfPf2Rfp07orIQ",
+    "imageId": "f01e8606-4307-413c-6ddd-c9a49ec7da00"
   },
   {
     "name": "Tower of Hercules",
@@ -5937,7 +6271,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "yjm1GrW6X-GyeD4Z2q_eQw"
+    "panoId": "yjm1GrW6X-GyeD4Z2q_eQw",
+    "imageId": "29762727-4185-41c1-9ec8-3c9f55675b00"
   },
   {
     "name": "Heritage of Mercury",
@@ -5953,7 +6288,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "PiP4pPamfFtucHNhPdQ05g"
+    "panoId": "PiP4pPamfFtucHNhPdQ05g",
+    "imageId": "6a2e076e-308a-43c9-3ffe-ebb9fe415400"
   },
   {
     "name": "Antequera Dolmens Site",
@@ -5969,7 +6305,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "rZBrtqSH0EYAAAQvvLi9Mw"
+    "panoId": "rZBrtqSH0EYAAAQvvLi9Mw",
+    "imageId": "520404bb-9cc6-4347-26f7-d2f09231bc00"
   },
   {
     "name": "Medina Azahara",
@@ -5987,7 +6324,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "qcXVfhbrZDfW8yYpDfSVXQ"
+    "panoId": "qcXVfhbrZDfW8yYpDfSVXQ",
+    "imageId": "0af741b4-b685-4dec-da63-550aea140f00"
   },
   {
     "name": "Paseo del Prado and Buen Retiro",
@@ -6005,7 +6343,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "4y3kTX4Esp-0jZdYj7D6Wg"
+    "panoId": "4y3kTX4Esp-0jZdYj7D6Wg",
+    "imageId": "7a32a0ac-373f-490f-f510-6e9ea68a2a00"
   },
   {
     "name": "Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route",
@@ -6023,7 +6362,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "Qd0YO2LLquYC72ZzvNyubg"
+    "panoId": "Qd0YO2LLquYC72ZzvNyubg",
+    "imageId": "bd18ceb3-05d5-4b4c-59d0-d7cb1bb60d00"
   },
   {
     "name": "Engelsberg Ironworks",
@@ -6039,7 +6379,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "eI0CVz-UWnoLDCKPkRADgA"
+    "panoId": "eI0CVz-UWnoLDCKPkRADgA",
+    "imageId": "90c27ff1-74d0-41e7-81ac-0f61e022a900"
   },
   {
     "name": "Skogskyrkogården",
@@ -6056,7 +6397,8 @@
       "woods",
       "worldHeritage"
     ],
-    "panoId": "t3_ObUBbEpE47bGrctwrGA"
+    "panoId": "t3_ObUBbEpE47bGrctwrGA",
+    "imageId": "8c6d31d6-2c44-4f9f-c2d2-510eb50b2300"
   },
   {
     "name": "Visby",
@@ -6072,7 +6414,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "Snfp-eUth2ToYcuPm6KUbg"
+    "panoId": "Snfp-eUth2ToYcuPm6KUbg",
+    "imageId": "7a23a3e1-d143-42bf-bff1-70c5c21f3200"
   },
   {
     "name": "Church Town of Gammelstad",
@@ -6090,7 +6433,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "_TP-xnob4naaOD5bXzThrA"
+    "panoId": "_TP-xnob4naaOD5bXzThrA",
+    "imageId": "1ebd0274-9e92-49f0-833b-fc6431168c00"
   },
   {
     "name": "The Great Copper Mountain",
@@ -6105,7 +6449,8 @@
     "categories": [
       "worldHeritage"
     ],
-    "panoId": "wsii7qBGTSzxdG01fi2nuw"
+    "panoId": "wsii7qBGTSzxdG01fi2nuw",
+    "imageId": "bf147cce-4a51-4659-a835-f582e7d24b00"
   },
   {
     "name": "Grimeton Radio Station",
@@ -6121,7 +6466,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "O20NGNXnkaJ3qsvUQfOunw"
+    "panoId": "O20NGNXnkaJ3qsvUQfOunw",
+    "imageId": "3227a2dc-8d01-47ba-f8b6-f0a0155c8a00"
   },
   {
     "name": "Abbey of St Gall",
@@ -6139,7 +6485,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "R3PrQyOpLk7qY8vmF318og"
+    "panoId": "R3PrQyOpLk7qY8vmF318og",
+    "imageId": "92946e59-f616-439f-4935-bd3a5ef0e400"
   },
   {
     "name": "Benedictine Convent of St John",
@@ -6157,7 +6504,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "XWzS1nB8dVpsZAa5K6dUyQ"
+    "panoId": "XWzS1nB8dVpsZAa5K6dUyQ",
+    "imageId": "8efc3106-4b47-46a2-c620-e27b25a8dc00"
   },
   {
     "name": "Berne",
@@ -6175,7 +6523,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "And25ppTjN4CCv9YZDyAKg"
+    "panoId": "And25ppTjN4CCv9YZDyAKg",
+    "imageId": "f0baa3b6-c84c-48ab-9f11-5bb460e96d00"
   },
   {
     "name": "Swiss Alps Jungfrau-Aletsch",
@@ -6193,7 +6542,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "xFLRurYsBvB9f4JZwyA3CA"
+    "panoId": "xFLRurYsBvB9f4JZwyA3CA",
+    "imageId": "527a0e0b-6827-4afd-bafd-2e34512b6e00"
   },
   {
     "name": "Lavaux",
@@ -6210,7 +6560,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "u7-HU-kjhB1bUT93v9x7Aw"
+    "panoId": "u7-HU-kjhB1bUT93v9x7Aw",
+    "imageId": "a418858d-e608-4501-0ec4-c5e18ba4be00"
   },
   {
     "name": "Ayutthaya",
@@ -6229,7 +6580,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "p6MGMgByrZd8x7ubdExmmA"
+    "panoId": "p6MGMgByrZd8x7ubdExmmA",
+    "imageId": "acde72f7-4225-48d8-1c89-8908edc75c00"
   },
   {
     "name": "Historic Town of Sukhothai",
@@ -6247,7 +6599,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "HnMnLV_r0wZ6Lm9nDd5kIw"
+    "panoId": "HnMnLV_r0wZ6Lm9nDd5kIw",
+    "imageId": "5af22e50-844e-4ad0-2b52-4365abdc7800"
   },
   {
     "name": "Amphitheatre of El Jem",
@@ -6265,7 +6618,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "hd8Q1cUHup9Y14BuEcN54g"
+    "panoId": "hd8Q1cUHup9Y14BuEcN54g",
+    "imageId": "91f937bd-1846-4e9f-16e6-ab6d2c1fb100"
   },
   {
     "name": "Ichkeul National Park",
@@ -6285,7 +6639,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "4X1oUvFI_LZ_-A9-R_lbGQ"
+    "panoId": "4X1oUvFI_LZ_-A9-R_lbGQ",
+    "imageId": "9ff64dc0-a387-4568-1c60-2b5242517400"
   },
   {
     "name": "Kerkouane",
@@ -6301,7 +6656,8 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "p_o81fOofHKhVOL3qCmzXg"
+    "panoId": "p_o81fOofHKhVOL3qCmzXg",
+    "imageId": "4d5caecd-fcd3-4aca-be68-666045c0c500"
   },
   {
     "name": "Dougga",
@@ -6319,7 +6675,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "8mzVgRew6b2VXOZgr6C54A"
+    "panoId": "8mzVgRew6b2VXOZgr6C54A",
+    "imageId": "37e44b88-c397-4265-1f55-3cbdb2125500"
   },
   {
     "name": "Nemrut Dağ",
@@ -6337,7 +6694,8 @@
       "mountain",
       "cultural"
     ],
-    "panoId": "9NJCoC95zyMAAARhgGpfEQ"
+    "panoId": "9NJCoC95zyMAAARhgGpfEQ",
+    "imageId": "fc7d0f80-ce2e-4f2c-3b4a-37f7eb0d6d00"
   },
   {
     "name": "Selimiye Mosque",
@@ -6356,7 +6714,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "aldxkIndvb1kG-mjZuLuGg"
+    "panoId": "aldxkIndvb1kG-mjZuLuGg",
+    "imageId": "ef48e88f-f05e-45d6-4dc4-d6abbbe44300"
   },
   {
     "name": "Kiev",
@@ -6374,7 +6733,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "02xfzWDGcI0Nq1pH9Sd7xg"
+    "panoId": "02xfzWDGcI0Nq1pH9Sd7xg",
+    "imageId": "d5aebf6b-bfa6-45d8-dd89-1ce71314b700"
   },
   {
     "name": "Residence of Bukovinian and Dalmatian Metropolitans",
@@ -6391,7 +6751,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "V6Ge3v3Mj-ECLzFMC2c67Q"
+    "panoId": "V6Ge3v3Mj-ECLzFMC2c67Q",
+    "imageId": "b4e5dde8-07f7-41c9-ea4d-885b538fcc00"
   },
   {
     "name": "Odesa",
@@ -6407,7 +6768,8 @@
       "worldHeritage",
       "city"
     ],
-    "panoId": "6J-SBruZv3t6XDvsofCZ2w"
+    "panoId": "6J-SBruZv3t6XDvsofCZ2w",
+    "imageId": "3d117047-7376-4386-5e72-23240e2bda00"
   },
   {
     "name": "Durham Castle and Cathedral",
@@ -6425,7 +6787,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "h6zOOE-Eik9CuDc3JyK_Kw"
+    "panoId": "h6zOOE-Eik9CuDc3JyK_Kw",
+    "imageId": "69a7dbfe-bf89-4e44-b29e-98e9a755fc00"
   },
   {
     "name": "Stonehenge",
@@ -6442,7 +6805,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "zg9qJQSJhiaGp33o1s0KSA"
+    "panoId": "zg9qJQSJhiaGp33o1s0KSA",
+    "imageId": "ff52c0b2-34e1-413c-2c6e-0ccc0d0e3c00"
   },
   {
     "name": "Studley Royal Park",
@@ -6459,7 +6823,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "6CjMrVHsm4fFWdpkd_Yd6w"
+    "panoId": "6CjMrVHsm4fFWdpkd_Yd6w",
+    "imageId": "948365f9-5a77-44ef-5362-fc7ce7710b00"
   },
   {
     "name": "Blenheim Palace",
@@ -6476,7 +6841,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "Ji4fHSGuYXCl0p38IzMDlQ"
+    "panoId": "Ji4fHSGuYXCl0p38IzMDlQ",
+    "imageId": "be527a94-e02d-4de8-6527-f93b28b78f00"
   },
   {
     "name": "City of Bath",
@@ -6493,7 +6859,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "oUj3jbJFKlINqpUK01BLZw"
+    "panoId": "oUj3jbJFKlINqpUK01BLZw",
+    "imageId": "bf0912ca-1771-400d-6401-524d6a8aa600"
   },
   {
     "name": "Westminster Abbey",
@@ -6510,7 +6877,8 @@
       "cultural",
       "city"
     ],
-    "panoId": "qc-s9l6z84rRzLcla-lmrQ"
+    "panoId": "qc-s9l6z84rRzLcla-lmrQ",
+    "imageId": "f2099690-f409-4b2f-95c5-dfa189947c00"
   },
   {
     "name": "St Augustine's Abbey",
@@ -6527,7 +6895,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "wy83edzIdLEod0cyGhrqqg"
+    "panoId": "wy83edzIdLEod0cyGhrqqg",
+    "imageId": "5d3936a8-84cf-4e04-e510-254807924100"
   },
   {
     "name": "Old and New Towns of Edinburgh",
@@ -6546,7 +6915,8 @@
       "city",
       "architecture"
     ],
-    "panoId": "A4Bcw4CKlU9xRN5nbxVAhA"
+    "panoId": "A4Bcw4CKlU9xRN5nbxVAhA",
+    "imageId": "b86d6920-ffc2-447e-a301-fb864622cd00"
   },
   {
     "name": "Maritime Greenwich",
@@ -6564,7 +6934,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "Txg83t07yydDh4hIsVCQHQ"
+    "panoId": "Txg83t07yydDh4hIsVCQHQ",
+    "imageId": "750417ae-9ce4-459e-1396-2214ccafb100"
   },
   {
     "name": "Historic Town of St George",
@@ -6581,7 +6952,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "fKkolFiIEIRriPTgEmffEA"
+    "panoId": "fKkolFiIEIRriPTgEmffEA",
+    "imageId": "fe791949-6bba-4579-0d83-139ca58d4700"
   },
   {
     "name": "Derwent Valley Mills",
@@ -6598,7 +6970,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "v9y7SiX2Nhaf9blyszDgkA"
+    "panoId": "v9y7SiX2Nhaf9blyszDgkA",
+    "imageId": "e12e89d7-2d50-4584-d710-35f2d38a7300"
   },
   {
     "name": "New Lanark",
@@ -6614,7 +6987,8 @@
       "worldHeritage",
       "cultural"
     ],
-    "panoId": "3JUFoMQqaWZQI0kQBWjJNQ"
+    "panoId": "3JUFoMQqaWZQI0kQBWjJNQ",
+    "imageId": "54226d5a-c81f-4fb5-51a5-3dbfc7389000"
   },
   {
     "name": "Saltaire",
@@ -6632,7 +7006,8 @@
       "cultural",
       "architecture"
     ],
-    "panoId": "k7l_N7MNNO5m-6svhCnvbQ"
+    "panoId": "k7l_N7MNNO5m-6svhCnvbQ",
+    "imageId": "c40c1c67-799a-4731-fe54-917753232000"
   },
   {
     "name": "Liverpool",
@@ -6648,7 +7023,8 @@
       "sea",
       "city"
     ],
-    "panoId": "a4vdBN24rCDkgqcmoAZoGA"
+    "panoId": "a4vdBN24rCDkgqcmoAZoGA",
+    "imageId": "61d16e17-2167-4c23-58e0-1940076d7c00"
   },
   {
     "name": "Pontcysyllte Aqueduct and Canal",
@@ -6665,7 +7041,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "1JF6LarUe-nuZ0J4k51TSw"
+    "panoId": "1JF6LarUe-nuZ0J4k51TSw",
+    "imageId": "2bfd84c2-b784-43ea-95d1-9b39df707600"
   },
   {
     "name": "The Forth Bridge",
@@ -6682,7 +7059,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "3NcZ5cTGHU4mk5lXvLZUHQ"
+    "panoId": "3NcZ5cTGHU4mk5lXvLZUHQ",
+    "imageId": "c4e31a17-a293-495e-0092-b345dbeb5c00"
   },
   {
     "name": "The Slate Landscape of Northwest Wales",
@@ -6699,7 +7077,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "h0B51-PoJWcjwAMF8dQnLQ"
+    "panoId": "h0B51-PoJWcjwAMF8dQnLQ",
+    "imageId": "a899ad45-75ab-401f-c82f-e8d91bb61600"
   },
   {
     "name": "Mesa Verde National Park",
@@ -6718,7 +7097,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "Fuvl4-CI94BYiyJrdcaV_g"
+    "panoId": "Fuvl4-CI94BYiyJrdcaV_g",
+    "imageId": "fb775633-dd83-4f34-c9d5-3991b8bdc100"
   },
   {
     "name": "Grand Canyon National Park",
@@ -6739,7 +7119,8 @@
       "nature",
       "popular"
     ],
-    "panoId": "u7k-J-opWBM0CBworT251g"
+    "panoId": "u7k-J-opWBM0CBworT251g",
+    "imageId": "932587c9-c430-4dbe-af0f-e64c6c0f4200"
   },
   {
     "name": "Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek",
@@ -6759,7 +7140,8 @@
       "mountain",
       "nature"
     ],
-    "panoId": "OlPRjFhB9qNzpT-Nb0pYZQ"
+    "panoId": "OlPRjFhB9qNzpT-Nb0pYZQ",
+    "imageId": "810f66eb-3a02-4d69-a708-eb2368322400"
   },
   {
     "name": "Statue of Liberty",
@@ -6778,7 +7160,8 @@
       "architecture",
       "popular"
     ],
-    "panoId": "BPgwAKSoNKzPJFwYbuxydg"
+    "panoId": "BPgwAKSoNKzPJFwYbuxydg",
+    "imageId": "a36d7346-dcf6-4166-349b-73887df31300"
   },
   {
     "name": "Waterton Glacier International Peace Park",
@@ -6793,7 +7176,8 @@
     "categories": [
       "worldHeritage"
     ],
-    "panoId": "6r2O_UJAiuOzsB88h4WfbA"
+    "panoId": "6r2O_UJAiuOzsB88h4WfbA",
+    "imageId": "a92efdee-3d99-4fbf-b64e-be74ebdf6000\\"
   },
   {
     "name": "Architecture of Frank Lloyd Wright",
@@ -6809,7 +7193,8 @@
       "worldHeritage",
       "architecture"
     ],
-    "panoId": "fwiiSj5vXhHnvEKwiXbpcg"
+    "panoId": "fwiiSj5vXhHnvEKwiXbpcg",
+    "imageId": "2a32f321-caa2-43bd-bed3-4131d3593d00"
   },
   {
     "name": "Church of Atlántida",
@@ -6826,6 +7211,7 @@
       "historical",
       "worldHeritage"
     ],
-    "panoId": "3lsVcWU4DSHtAEtfvdMlRA"
+    "panoId": "3lsVcWU4DSHtAEtfvdMlRA",
+    "imageId": "e5508c2e-b024-4c07-d9b3-70862c94ef00"
   }
 ]
