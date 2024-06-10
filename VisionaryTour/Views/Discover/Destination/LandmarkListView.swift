@@ -27,7 +27,7 @@ struct LandmarkListView: View {
                             NavigationLink {
                                 LandmarkDetailView(landmark: landmark)
                             } label: {
-                                LandmarkCard(landmarkName: landmark.name, country: landmark.country.rawValue)
+                                LandmarkCard(landmark: landmark)
                             }
                             .buttonStyle(PlainButtonStyle())
                         }

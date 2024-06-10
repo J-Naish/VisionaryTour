@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct LandmarkCard: View {
-    var landmarkName: String
-    var country: String
+    var landmark: Landmark
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,10 +18,10 @@ struct LandmarkCard: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 200, height: 200)
                 .cornerRadius(20)
-            Text(landmarkName)
+            Text(landmark.name)
                 .padding(.leading, 8)
                 .fontWeight(.bold)
-            Text(country)
+            Text(landmark.country.rawValue)
                 .padding(.leading, 8)
                 .opacity(0.7)
         }
@@ -33,5 +32,5 @@ struct LandmarkCard: View {
 }
 
 #Preview {
-    LandmarkCard(landmarkName: "Kinkakuji", country: "Japan")
+    LandmarkCard(landmark: ViewModel().landmarks.first!)
 }
