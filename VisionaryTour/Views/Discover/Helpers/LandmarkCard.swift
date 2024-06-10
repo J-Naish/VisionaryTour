@@ -12,12 +12,15 @@ struct LandmarkCard: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image("dummy")
-                .resizable()
-                .clipShape(Rectangle())
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 200, height: 200)
-                .cornerRadius(20)
+            AsyncImage(url: landmark.imageURL) { image in
+                image.resizable()
+                    .clipShape(Rectangle())
+                    .cornerRadius(20)
+                    .aspectRatio(contentMode: .fill)
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 200, height: 200)
             Text(landmark.name)
                 .padding(.leading, 8)
                 .fontWeight(.bold)

@@ -24,12 +24,12 @@ struct Landmark: Identifiable, Codable, Hashable {
     var placeInfo: PlaceInfo {
         PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(coordinates.longitude, coordinates.longitude), panoId: panoId)
     }
-//    var imageURL: URL {
-//        let apiKey = ProcessInfo.processInfo.environment["CLOUDFLARE_APY_KEY"]!
-//        let imageUrlString = "https://imagedelivery.net/\(apiKey)/\(imageId)/large"
-//        guard let url = URL(string: imageUrlString) else {
-//            fatalError("Invalid URL string")
-//        }
-//        return url
-//    }
+    var imageURL: URL {
+        let apiKey = ProcessInfo.processInfo.environment["CLOUDFLARE_API_KEY"]!
+        let imageUrlString = "https://imagedelivery.net/\(apiKey)/\(imageId)/public"
+        guard let url = URL(string: imageUrlString) else {
+            fatalError("Invalid URL string")
+        }
+        return url
+    }
 }
