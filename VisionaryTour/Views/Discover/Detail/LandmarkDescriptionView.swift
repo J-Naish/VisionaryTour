@@ -37,6 +37,7 @@ struct LandmarkDescriptionView: View {
                 
                 Text(landmark.description)
             }
+            .padding(.bottom, 48)
         }
     }
 }
