@@ -25,7 +25,7 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $selection) {
-            DiscoverView(viewModel: viewModel)
+            DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }

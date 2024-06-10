@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LandmarkListView: View {
     var navigationTitle: String
+    var immersiveViewModel: ImmersiveViewModel
     
     var landmarks: [Landmark]
     
@@ -25,7 +26,7 @@ struct LandmarkListView: View {
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
                             NavigationLink {
-                                LandmarkDetailView(landmark: landmark)
+                                LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel)
                             } label: {
                                 LandmarkCard(landmark: landmark)
                             }
@@ -42,5 +43,5 @@ struct LandmarkListView: View {
 }
 
 #Preview {
-    LandmarkListView(navigationTitle: "Asia", landmarks: ViewModel().landmarks)
+    LandmarkListView(navigationTitle: "Asia", immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), landmarks: ViewModel().landmarks)
 }

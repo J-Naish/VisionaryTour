@@ -19,6 +19,7 @@ struct DiscoverView: View {
     }
     
     var viewModel: ViewModel
+    var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
         NavigationSplitView {
@@ -40,7 +41,7 @@ struct DiscoverView: View {
                             selectedItem = .discover
                         }
                 case .region:
-                    RegionView(viewModel: viewModel)
+                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
                         .onAppear {
                             selectedItem = .region
                         }
@@ -62,7 +63,7 @@ struct DiscoverView: View {
                 case .discover:
                     MainDiscoverView()
                 case .region:
-                    RegionView(viewModel: viewModel)
+                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
                 case .featured:
                     FeaturedView()
                 case .list:
@@ -75,6 +76,6 @@ struct DiscoverView: View {
 
 struct DiscoverView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoverView(viewModel: ViewModel())
+        DiscoverView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
     }
 }

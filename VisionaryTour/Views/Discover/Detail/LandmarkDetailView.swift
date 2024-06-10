@@ -10,6 +10,7 @@ import MapKit
 
 struct LandmarkDetailView: View {
     var landmark: Landmark
+    var immersiveViewModel: ImmersiveViewModel
     
     var placeInfo: PlaceInfo {
         PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(landmark.coordinates.latitude, landmark.coordinates.longitude), panoId: landmark.panoId)
@@ -41,5 +42,5 @@ struct LandmarkDetailView: View {
 }
 
 #Preview {
-    LandmarkDetailView(landmark: ViewModel().landmarks.first!)
+    LandmarkDetailView(landmark: ViewModel().landmarks.first!, immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
 }
