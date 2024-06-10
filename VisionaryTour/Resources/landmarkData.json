@@ -554,7 +554,7 @@
     "imageId": "1261f58e-6813-48de-1aca-08f5aff0e100"
   },
   {
-    "name": "São Francisco Square in the Town of São Cristóvão",
+    "name": "São Francisco Square",
     "coordinates": {
       "longitude": -37.2055076,
       "latitude": -11.0140661
@@ -725,7 +725,7 @@
     "imageId": "f7f419c6-f1c3-4554-5a1c-a0f319e10400"
   },
   {
-    "name": "L’Anse aux Meadows National Historic Site",
+    "name": "L’Anse aux Meadows",
     "coordinates": {
       "longitude": -55.5332164,
       "latitude": 51.5962037
@@ -891,7 +891,7 @@
     "imageId": "762e23f6-2966-4a14-d16d-5ddae8051100"
   },
   {
-    "name": "Historic Quarter of the Seaport City of Valparaíso",
+    "name": "Seaport City of Valparaíso",
     "coordinates": {
       "longitude": -71.6084749,
       "latitude": -33.053744
@@ -909,7 +909,7 @@
     "imageId": "6e655ec2-4926-4b1f-061b-3e249b8c3900"
   },
   {
-    "name": "Humberstone and Santa Laura Saltpeter Works",
+    "name": "Santa Laura Saltpeter Works",
     "coordinates": {
       "longitude": -69.7981527,
       "latitude": -20.2046529
@@ -1043,7 +1043,7 @@
     "imageId": "4f82eb1a-61bd-429a-6ac8-e7a6dfa37100"
   },
   {
-    "name": "Historical Complex of Split with the Palace of Diocletian",
+    "name": "Palace of Diocletian",
     "coordinates": {
       "longitude": 16.4401917,
       "latitude": 43.5083966
@@ -1156,7 +1156,7 @@
     "imageId": "a317f680-699d-42da-6082-595e087c8300"
   },
   {
-    "name": "Pilgrimage Church of St John of Nepomuk at Zelená Hora",
+    "name": "Pilgrimage Church of St John of Nepomuk",
     "coordinates": {
       "longitude": 15.9428288,
       "latitude": 49.5800457
@@ -1306,7 +1306,7 @@
     "imageId": "3b477373-79d0-4b99-f3fc-fee953b2c100"
   },
   {
-    "name": "Jewish Quarter and St Procopius' Basilica in Třebíč",
+    "name": "St Procopius' Basilica in Třebíč",
     "coordinates": {
       "longitude": 15.8741313,
       "latitude": 49.2167497
@@ -1438,7 +1438,7 @@
     "imageId": "a2c47cbd-34df-447c-a399-35f0eeedf300"
   },
   {
-    "name": "Historic Centre of Santa Ana de los Ríos de Cuenca",
+    "name": "Santa Ana de los Ríos de Cuenca",
     "coordinates": {
       "longitude": -79.0047922,
       "latitude": -2.8977982
@@ -1708,7 +1708,7 @@
     "imageId": "7102bde9-8cc9-4cb8-dedf-2408a8276800"
   },
   {
-    "name": "Roman Theatre and its Surroundings and the \"Triumphal Arch\" of Orange",
+    "name": "\"Triumphal Arch\" of Orange",
     "coordinates": {
       "longitude": 4.8046525,
       "latitude": 44.1427064
@@ -1726,7 +1726,7 @@
     "imageId": "28bf966c-3490-4927-6752-47724feb1400"
   },
   {
-    "name": "From the Great Saltworks of Salins-les-Bains to the Royal Saltworks of Arc-et-Senans",
+    "name": "The Great Saltworks of Salins-les-Bains",
     "coordinates": {
       "longitude": 5.7777772,
       "latitude": 47.0329216
@@ -1744,7 +1744,7 @@
     "imageId": "6dff1881-db2c-4aff-031c-b7783d7b9400"
   },
   {
-    "name": "Abbey Church of Saint-Savin sur Gartempe",
+    "name": "Abbey Church of Saint-Savin",
     "coordinates": {
       "longitude": 0.8652099,
       "latitude": 46.564627
@@ -1817,7 +1817,7 @@
     "imageId": "73eef9a0-ced4-4d4d-2982-50abeea12d00"
   },
   {
-    "name": "Cathedral of Notre-Dame, Former Abbey of Saint-Rémi and Palace of Tau, Reims",
+    "name": "Basilica of Saint-Remi",
     "coordinates": {
       "longitude": 4.0404824,
       "latitude": 49.2427876
@@ -1877,7 +1877,7 @@
     "imageId": "998257b2-8c58-41f2-5430-021a08f55400"
   },
   {
-    "name": "Historic Centre of Avignon: Papal Palace",
+    "name": "Papal Palace",
     "coordinates": {
       "longitude": 4.8065545,
       "latitude": 43.9507906
@@ -1915,7 +1915,7 @@
     "imageId": "4a6c1c03-d785-4581-247d-09f910228900"
   },
   {
-    "name": "The Loire Valley between Sully-sur-Loire and Chalonnes",
+    "name": "The Loire Valley",
     "coordinates": {
       "longitude": 1.5185295,
       "latitude": 47.6150628
@@ -1989,7 +1989,7 @@
     "imageId": "42bd22b4-a95d-4592-5a06-50d0c3914a00"
   },
   {
-    "name": "Pitons, cirques and remparts of Reunion Island",
+    "name": "Pitons",
     "coordinates": {
       "longitude": 55.7191978,
       "latitude": -21.2457403
@@ -2105,7 +2105,7 @@
     "imageId": "8831cdb3-5e59-4640-8075-93da53180d00"
   },
   {
-    "name": "St Mary's Cathedral and St Michael's Church at Hildesheim",
+    "name": "St Michael's Church",
     "coordinates": {
       "longitude": 9.9438891,
       "latitude": 52.1522771
@@ -2124,7 +2124,7 @@
     "imageId": "8f4e5129-ef14-42ce-171c-595a27d79200"
   },
   {
-    "name": "Cathedral of St Peter and Church of Our Lady in Trier",
+    "name": "Porta Nigra",
     "coordinates": {
       "longitude": 6.6447101,
       "latitude": 49.7597565
@@ -2256,7 +2256,7 @@
     "imageId": "9905d885-22af-45e5-a3ac-835de1837700"
   },
   {
-    "name": "Speicherstadt and Kontorhaus District with Chilehaus",
+    "name": "Speicherstadt and Kontorhaus District",
     "coordinates": {
       "longitude": 10.003565,
       "latitude": 53.5483052
@@ -2295,7 +2295,7 @@
     "imageId": "868fe771-3da4-491b-d401-ac7d63971000"
   },
   {
-    "name": "Paleochristian and Byzantine Monuments of Thessalonika",
+    "name": "Paleochristian and Byzantine Monuments",
     "coordinates": {
       "longitude": 22.9527159,
       "latitude": 40.6327901
@@ -2369,7 +2369,7 @@
     "imageId": "80b5c7bc-a27d-48cb-0232-8bb1d1d74100"
   },
   {
-    "name": "Archaeological Park and Ruins of Quirigua",
+    "name": "Ruins of Quirigua",
     "coordinates": {
       "longitude": -89.0403466,
       "latitude": 15.2687564
@@ -2387,7 +2387,7 @@
     "imageId": "2e066513-71de-4d3d-9fbb-3ec9c4289000"
   },
   {
-    "name": "National Archaeological Park Tak’alik Ab’aj",
+    "name": "Tak’alik Ab’aj",
     "coordinates": {
       "longitude": -91.7336071,
       "latitude": 14.6363747
@@ -2426,7 +2426,7 @@
     "imageId": "5df9fa24-70ec-490b-e842-51fca1a56600"
   },
   {
-    "name": "Budapest, including the Banks of the Danube",
+    "name": "Budapest",
     "coordinates": {
       "longitude": 19.0439713,
       "latitude": 47.4975594
@@ -2903,7 +2903,7 @@
     "imageId": "62aa5097-db26-4727-7648-ba447b407f00"
   },
   {
-    "name": "Archaeological Site of Nalanda Mahavihara at Nalanda",
+    "name": "Archaeological Site of Nalanda Mahavihara",
     "coordinates": {
       "longitude": 85.4423173,
       "latitude": 25.1353972
@@ -2940,7 +2940,7 @@
     "imageId": "92c55f7b-6656-42e8-93f8-98a33664c900"
   },
   {
-    "name": "Victorian Gothic and Art Deco Ensembles of Mumbai",
+    "name": "Art Deco Ensembles of Mumbai",
     "coordinates": {
       "longitude": 72.8349561,
       "latitude": 18.9397823
@@ -3076,7 +3076,7 @@
     "imageId": "899af1a4-47f1-4b59-b10d-009c5ae8ce00"
   },
   {
-    "name": "Archaeological Ensemble of the Bend of the Boyne",
+    "name": "Archaeological Ensemble of the Bend",
     "coordinates": {
       "longitude": -6.4743131,
       "latitude": 53.6938533
@@ -3110,7 +3110,7 @@
     "imageId": "c11322f6-6ef6-4351-eadf-abaf9d38be00"
   },
   {
-    "name": "Church and Dominican Convent of Santa Maria delle Grazie",
+    "name": "Dominican Convent of Santa Maria delle Grazie",
     "coordinates": {
       "longitude": 9.1702824,
       "latitude": 45.4660492
@@ -3230,7 +3230,7 @@
     "imageId": "2c99df47-02c8-4600-3d96-775db1647500"
   },
   {
-    "name": "The Sassi and the Park of the Rupestrian Churches of Matera",
+    "name": "The Sassi",
     "coordinates": {
       "longitude": 16.6119673,
       "latitude": 40.6639621
@@ -3250,7 +3250,7 @@
     "imageId": "bd69f6e0-74f6-4576-5af4-f048cfa8fb00"
   },
   {
-    "name": "City of Vicenza and the Palladian Villas of the Veneto",
+    "name": "City of Vicenza",
     "coordinates": {
       "longitude": 11.5469381,
       "latitude": 45.5466116
@@ -3475,7 +3475,7 @@
     "imageId": "fbc82224-c0be-48dc-d028-2614922e3e00"
   },
   {
-    "name": "Cathedral, Torre Civica and Piazza Grande",
+    "name": "Torre Civica and Piazza Grande",
     "coordinates": {
       "longitude": 10.9255447,
       "latitude": 44.6457822
@@ -3532,7 +3532,7 @@
     "imageId": "fcf33c9c-9bb4-4d48-9680-3260f1f8a700"
   },
   {
-    "name": "Archaeological Area and the Patriarchal Basilica of Aquileia",
+    "name": "Archaeological Area of Aquileia",
     "coordinates": {
       "longitude": 13.3662019,
       "latitude": 45.7730941
@@ -3587,7 +3587,7 @@
     "imageId": "4a0d18e0-f593-469b-d928-b79c02131800"
   },
   {
-    "name": "Assisi, the Basilica of San Francesco and Other Franciscan Sites",
+    "name": "Assisi",
     "coordinates": {
       "longitude": 12.6068628,
       "latitude": 43.0742542
@@ -3717,7 +3717,7 @@
     "imageId": "8c1d8f3c-9e0e-4b06-a037-b7e8436f7300"
   },
   {
-    "name": "Arab-Norman Palermo and the Cathedral Churches of Cefalú and Monreale",
+    "name": "Arab-Norman Palermo",
     "coordinates": {
       "longitude": 14.0225098,
       "latitude": 38.039915
@@ -3756,7 +3756,7 @@
     "imageId": "f6eb239c-8ba5-4e9d-117a-994ea71bfc00"
   },
   {
-    "name": "Historic Villages of Shirakawa-go and Gokayama",
+    "name": "Shirakawa-go",
     "coordinates": {
       "longitude": 136.9010642,
       "latitude": 36.2552915
@@ -3830,7 +3830,7 @@
     "imageId": "7cff1105-cfdd-49e1-e328-f68af71c7800"
   },
   {
-    "name": "Iwami Ginzan Silver Mine and its Cultural Landscape",
+    "name": "Iwami Ginzan Silver Mine",
     "coordinates": {
       "longitude": 132.4391143,
       "latitude": 35.1054248
@@ -3920,7 +3920,7 @@
     "imageId": "7f50c4f0-7174-42b9-d51c-d973a61ddf00"
   },
   {
-    "name": "Hidden Christian Sites in the Nagasaki Region",
+    "name": "Hidden Christian Sites in Nagasaki",
     "coordinates": {
       "longitude": 129.8697495,
       "latitude": 32.7345908
@@ -3976,7 +3976,7 @@
     "imageId": "b8b93ba4-3cbf-4230-a1b5-e30c4efd1d00"
   },
   {
-    "name": "Baptism Site “Bethany Beyond the Jordan”",
+    "name": "Bethany Beyond the Jordan",
     "coordinates": {
       "longitude": 35.5501665,
       "latitude": 31.8372884
@@ -4330,7 +4330,7 @@
     "imageId": "61a96155-053e-436f-cbde-64d6fa155e00"
   },
   {
-    "name": "Historic Centre of Mexico City and Xochimilco",
+    "name": "Historic Centre of Mexico City",
     "coordinates": {
       "longitude": -99.1414179,
       "latitude": 19.4343793
@@ -4349,7 +4349,7 @@
     "imageId": "38a3f17b-a711-4a7a-5496-2ab1b1105f00"
   },
   {
-    "name": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán",
+    "name": "Archaeological Site of Monte Albán",
     "coordinates": {
       "longitude": -96.7678385,
       "latitude": 17.042965
@@ -4386,7 +4386,7 @@
     "imageId": "62154a5d-3abf-43c2-8bba-285453971e00"
   },
   {
-    "name": "Pre-Hispanic City and National Park of Palenque",
+    "name": "Pre-Hispanic City of Palenque",
     "coordinates": {
       "longitude": -92.0466624,
       "latitude": 17.4843521
@@ -4441,7 +4441,7 @@
     "imageId": "620fd097-5bc6-4a38-4129-e3872a335300"
   },
   {
-    "name": "Historic Town of Guanajuato and Adjacent Mines",
+    "name": "Historic Town of Guanajuato",
     "coordinates": {
       "longitude": -101.2542231,
       "latitude": 21.0161783
@@ -4626,7 +4626,7 @@
     "imageId": "1a6a8e47-78c2-489e-df97-ab83b4a4b100"
   },
   {
-    "name": "Archaeological Monuments Zone of Xochicalco",
+    "name": "Xochicalco",
     "coordinates": {
       "longitude": -99.2963574,
       "latitude": 18.8025807
@@ -4663,7 +4663,7 @@
     "imageId": "5a6339db-a0c6-4ba2-ac7f-5808c9ac0d00"
   },
   {
-    "name": "Ancient Maya City and Protected Tropical Forests of Calakmul",
+    "name": "Ancient Maya City",
     "coordinates": {
       "longitude": -89.4669783,
       "latitude": 18.5180486
@@ -4684,7 +4684,7 @@
     "imageId": "0e51b627-5f5a-4295-4cad-923a75f1e700"
   },
   {
-    "name": "Central University City Campus of the Universidad Nacional Autónoma de México",
+    "name": "The Universidad Nacional Autónoma de México",
     "coordinates": {
       "longitude": -99.1873672,
       "latitude": 19.3326899
@@ -4702,7 +4702,7 @@
     "imageId": "094f49d3-7625-4543-7b91-68213c4a3f00"
   },
   {
-    "name": "Protective town of San Miguel and the Sanctuary of Jesús Nazareno de Atotonilco",
+    "name": "Protective town of San Miguel",
     "coordinates": {
       "longitude": -100.7437707,
       "latitude": 20.9139776
@@ -4721,7 +4721,7 @@
     "imageId": "7ea9e35e-8260-44bd-a339-e28c74b20700"
   },
   {
-    "name": "Aqueduct of Padre Tembleque Hydraulic System",
+    "name": "Padre Tembleque Hydraulic System",
     "coordinates": {
       "longitude": -98.6623967,
       "latitude": 19.8343623
@@ -4780,7 +4780,7 @@
     "imageId": "50ed1921-eb5c-4a93-9b99-de4a90b1f100"
   },
   {
-    "name": "Historic Area of Willemstad, Inner City and Harbour, Curaçao",
+    "name": "Historic Area of Willemstad",
     "coordinates": {
       "longitude": -68.9265016,
       "latitude": 12.1023109
@@ -4931,7 +4931,7 @@
     "imageId": "b88ee78c-ccca-4806-62b8-e5335ddfcc00"
   },
   {
-    "name": "Røros Mining Town and the Circumference",
+    "name": "Røros Mining Town",
     "coordinates": {
       "longitude": 11.3883266,
       "latitude": 62.5770212
@@ -5153,7 +5153,7 @@
     "imageId": "621084b8-aacc-4048-6b5c-2c805e009100"
   },
   {
-    "name": "Puerto-Princesa Subterranean River National Park",
+    "name": "Puerto-Princesa Subterranean River",
     "coordinates": {
       "longitude": 118.9259751,
       "latitude": 10.1992223
@@ -5351,7 +5351,7 @@
     "imageId": "cdfce925-b639-46b2-2aec-96a93fa0e000"
   },
   {
-    "name": "Monastery of the Hieronymites and Tower of Belém",
+    "name": "Monastery of the Hieronymites",
     "coordinates": {
       "longitude": -9.2151275,
       "latitude": 38.6920544
@@ -5419,7 +5419,7 @@
     "imageId": "4f275179-5da6-44ea-8a91-c1d520316100"
   },
   {
-    "name": "Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar",
+    "name": "Historic Centre of Oporto",
     "coordinates": {
       "longitude": -8.6084254,
       "latitude": 41.1410909
@@ -5436,7 +5436,7 @@
     "imageId": "483623b1-de58-4973-cd92-d68e238bfb00"
   },
   {
-    "name": "Historic Centre of Guimarães and Couros Zone",
+    "name": "Historic Centre of Guimarães",
     "coordinates": {
       "longitude": -8.2899462,
       "latitude": 41.4481772
@@ -5487,7 +5487,7 @@
     "imageId": "fb7d5642-0cae-47c8-e7a2-368427550b00"
   },
   {
-    "name": "Sanctuary of Bom Jesus do Monte in Braga",
+    "name": "Bom Jesus do Monte",
     "coordinates": {
       "longitude": -8.379328,
       "latitude": 41.5544643
@@ -5561,7 +5561,7 @@
     "imageId": "5aff2b86-43dd-4b56-e8d5-45b356c86600"
   },
   {
-    "name": "Gochang, Hwasun and Ganghwa Dolmen Sites",
+    "name": "Gochang",
     "coordinates": {
       "longitude": 126.4374944,
       "latitude": 37.7735667
@@ -5652,7 +5652,7 @@
     "imageId": "68876a6e-0351-4897-c0c5-cb556a045900"
   },
   {
-    "name": "Historic Centre of Saint Petersburg and Related Groups of Monuments",
+    "name": "Historic Centre of Saint Petersburg",
     "coordinates": {
       "longitude": 30.3150082,
       "latitude": 59.9396142
@@ -5689,7 +5689,7 @@
     "imageId": "7d924afc-0723-495d-9dcc-90f91fc9b400"
   },
   {
-    "name": "Architectural Ensemble of the Trinity Sergius Lavra",
+    "name": "The Trinity Sergius Lavra",
     "coordinates": {
       "longitude": 38.12945,
       "latitude": 56.3102092
@@ -5764,7 +5764,7 @@
     "imageId": "98447c3c-d6b2-4c1d-3996-1d5789c91200"
   },
   {
-    "name": "Citadel, Ancient City and Fortress Buildings of Derbent",
+    "name": "Derbent",
     "coordinates": {
       "longitude": 48.2753087,
       "latitude": 42.0523679
@@ -5947,7 +5947,7 @@
     "imageId": "9abee6c6-c550-49ed-4f12-62e04c5af600"
   },
   {
-    "name": "Monuments of Oviedo and the Kingdom of the Asturias",
+    "name": "Monuments of Oviedo",
     "coordinates": {
       "longitude": -5.865459,
       "latitude": 43.3792337
@@ -6041,7 +6041,7 @@
     "imageId": "05d99f06-830a-4969-97e0-cce537e52100"
   },
   {
-    "name": "Royal Monastery of Santa María de Guadalupe",
+    "name": "Santa María de Guadalupe",
     "coordinates": {
       "longitude": -5.3272997,
       "latitude": 39.4519511
@@ -6201,7 +6201,7 @@
     "imageId": "d70ae944-c744-41d0-0721-c33e03f56a00"
   },
   {
-    "name": "Renaissance Monumental Ensembles of Úbeda and Baeza",
+    "name": "Baeza",
     "coordinates": {
       "longitude": -3.4689516,
       "latitude": 37.9906274
@@ -6347,7 +6347,7 @@
     "imageId": "7a32a0ac-373f-490f-f510-6e9ea68a2a00"
   },
   {
-    "name": "Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route",
+    "name": "Birthplace of Jesus",
     "coordinates": {
       "longitude": 35.2063518,
       "latitude": 31.704478
@@ -7123,7 +7123,7 @@
     "imageId": "932587c9-c430-4dbe-af0f-e64c6c0f4200"
   },
   {
-    "name": "Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek",
+    "name": "Kluane",
     "coordinates": {
       "longitude": -138.8125937,
       "latitude": 61.2558988
