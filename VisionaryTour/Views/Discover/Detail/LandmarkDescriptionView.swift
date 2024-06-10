@@ -14,10 +14,13 @@ struct LandmarkDescriptionView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 HStack {
-                    Image("dummy")
-                        .resizable()
-                        .frame(width: 160, height: 160)
-                        .cornerRadius(12)
+                    AsyncImage(url: landmark.imageURL) { image in
+                        image.resizable()
+                            .cornerRadius(12)
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .frame(width: 160, height: 160)
                     
                     VStack(alignment: .leading) {
                         Text(landmark.name)
