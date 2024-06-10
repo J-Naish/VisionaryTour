@@ -24,7 +24,7 @@ struct LandmarkDescriptionView: View {
                     
                     VStack(alignment: .leading) {
                         Text(landmark.name)
-                            .font(.extraLargeTitle)
+                            .font(.largeTitle)
                         Text("\(landmark.state) / \(landmark.country.rawValue)")
                     }
                     .padding(.leading, 24)
