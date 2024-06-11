@@ -23,7 +23,7 @@ struct LandmarkListView: View {
         ScrollView {
             LazyVStack(alignment: .center, spacing: 48) {
                 ForEach(rows, id: \.self) { row in
-                    HStack(spacing: 32) {
+                    HStack(alignment: .top, spacing: 32) {
                         ForEach(row) { landmark in
                             NavigationLink {
                                 LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel)
