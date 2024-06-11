@@ -38,6 +38,7 @@ struct LandmarkCard: View {
                 .padding(.leading, 8)
                 .opacity(0.7)
         }
+        .frame(width: 200)
         .background(Color.clear)
         .hoverEffect(.lift)
         .clipShape(RoundedRectangle(cornerRadius: 20))
