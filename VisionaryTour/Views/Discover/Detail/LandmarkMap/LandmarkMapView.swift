@@ -12,6 +12,7 @@ struct LandmarkMapView: View {
     
     var body: some View {
         LandmarkMapViewRepresentable(landmark: landmark)
+            .allowsHitTesting(false)
             .cornerRadius(24)
     }
 }
