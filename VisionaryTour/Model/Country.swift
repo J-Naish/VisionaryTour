@@ -224,9 +224,9 @@ enum Country: String, CaseIterable, Codable {
                return .europe
            case .algeria, .angola, .benin, .botswana, .burkinaFaso, .burundi, .cameroon, .caboVerde, .centralAfricanRepublic, .chad, .comoros, .congo, .coteDIvoire, .democraticRepublicOfTheCongo, .djibouti, .egypt, .equatorialGuinea, .eritrea, .eswatini, .ethiopia, .gabon, .gambia, .ghana, .guinea, .guineaBissau, .kenya, .lesotho, .liberia, .libya, .madagascar, .malawi, .mali, .mauritania, .mauritius, .morocco, .mozambique, .namibia, .niger, .nigeria, .rwanda, .saoTomeAndPrincipe, .senegal, .seychelles, .sierraLeone, .somalia, .southAfrica, .southSudan, .sudan, .tanzania, .togo, .tunisia, .uganda, .zambia, .zimbabwe:
                return .africa
-           case .antiguaAndBarbuda, .bahamas, .barbados, .belize, .canada, .costaRica, .cuba, .dominica, .dominicanRepublic, .elSalvador, .grenada, .guatemala, .haiti, .honduras, .jamaica, .mexico, .nicaragua, .panama, .saintKittsAndNevis, .saintLucia, .saintVincentAndTheGrenadines, .trinidadAndTobago, .us:
+           case .canada, .mexico, .us:
                return .northAmerica
-           case .argentina, .bolivia, .brazil, .chile, .colombia, .ecuador, .guyana, .paraguay, .peru, .suriname, .uruguay, .venezuela:
+           case .argentina, .bolivia, .brazil, .chile, .colombia, .ecuador, .guyana, .paraguay, .peru, .suriname, .uruguay, .venezuela, .nicaragua, .panama, .saintKittsAndNevis, .saintLucia, .saintVincentAndTheGrenadines, .trinidadAndTobago, .costaRica, .cuba, .dominica, .dominicanRepublic, .elSalvador, .grenada, .guatemala, .haiti, .honduras, .jamaica, .antiguaAndBarbuda, .bahamas, .barbados, .belize:
                return .latinAmerica
            case .australia, .fiji, .kiribati, .marshallIslands, .micronesia, .nauru, .newZealand, .palau, .papuaNewGuinea, .samoa, .solomonIslands, .tonga, .tuvalu, .vanuatu:
                return .oceania
