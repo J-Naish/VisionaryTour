@@ -32,6 +32,9 @@ struct LandmarkListView: View {
                             }
                             .buttonStyle(PlainButtonStyle())
                         }
+                        if row.count < 4 {
+                            Spacer()
+                        }
                     }
                 }
                 .navigationTitle(navigationTitle)
@@ -39,6 +42,7 @@ struct LandmarkListView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .padding(.bottom, 48)
         }
+        .padding(.horizontal, 32)
     }
 }
 
