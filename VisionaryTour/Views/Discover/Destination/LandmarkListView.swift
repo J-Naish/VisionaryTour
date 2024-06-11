@@ -37,6 +37,7 @@ struct LandmarkListView: View {
                 .navigationTitle(navigationTitle)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.bottom, 48)
         }
     }
 }
