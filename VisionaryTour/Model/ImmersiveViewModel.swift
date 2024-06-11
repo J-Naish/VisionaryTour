@@ -77,7 +77,10 @@ class ImmersiveViewModel {
     private func fetchImage(panoId: String) async throws -> UIImage {
         var images: [UIImage] = []
         
-        let totalImages = 32 // 4 * 8
+        let yNum = 4
+        let xNum = 8
+        
+        let totalImages = yNum * xNum
         var fetchedImages = 0
 
         var baseUrl = URL(string: "https://streetviewpixels-pa.googleapis.com/v1/tile")!
@@ -88,8 +91,8 @@ class ImmersiveViewModel {
         ]
         baseUrl.append(queryItems: paramsCommon)
 
-        for y in 0..<4 {
-            for x in 0..<8 {
+        for y in 0 ..< yNum {
+            for x in 0 ..< xNum {
                 var _url = baseUrl
                 let params: [URLQueryItem] = [
                     URLQueryItem(name: "x", value: "\(x)"),
