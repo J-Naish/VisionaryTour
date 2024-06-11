@@ -1,5 +1,24 @@
 [
   {
+    "name": "Jesuit Missions of the Guaranis",
+    "coordinates": {
+      "longitude": -55.5807514,
+      "latitude": -27.3909413
+    },
+    "country": "Argentina",
+    "state": "Misiones",
+    "isFavorite": false,
+    "description": "Jesuit Missions of the Guaranis, a serial transnational property, consists of the ruins of São Miguel Arcanjo in Brazil, and those of San Ignacio Miní, Santa Ana, Nuestra Señora de Loreto, and Santa María la Mayor in Argentina. These are the impressive remains of Jesuit Mission settlements established in the 17th and 18th centuries on lands originally occupied by Guarani indigenous communities. In Brazil, the ruins of the São Miguel Arcanjo church constitute the most intact and complete structure among this period’s designated heritage properties. In Argentina, the four Jesuit-Guarani Missions, located in the southern Misiones province, provide an exceptional example of systematic and organized territorial occupation. \n\nThe properties’ surviving ruins depict the experience of the Society of Jesus in South America, where there emerged a singular system of spatial, economic, social, and cultural relations in 30 settlements – referred to as reducciones – that included ranches, mate plantations, and networks of trails and waterways extending across the Uruguay River and its tributaries. This particular model of the reducciones also included smaller structures and constructions designed to support the basic functions of the settlements. Together, these elements, each closely integrated within productive lands, and each manifesting the distinct potential and complementary traits of the various settlements and the other Jesuit provinces in the region, inform this underlying interpretation, reflected by the serial heritage property in a singular and specific fashion. \n\nAn integral part of the evangelization campaigns, the Missions stand as an important testament to the systematic occupation of the area and to the cultural relations forged between the area’s indigenous populations, mostly Guarani, and the European Jesuit missionaries.",
+    "categories": [
+      "religious",
+      "historical",
+      "worldHeritage",
+      "cultural"
+    ],
+    "panoId": "qgjU2eI4qmvmPeybSTJjrw",
+    "imageId": "007353ef-747e-47a3-73b1-3712ff866000"
+  },
+  {
     "name": "Kakadu National Park",
     "coordinates": {
       "longitude": 132.7794761,
@@ -386,25 +405,6 @@
     "imageId": "0f01c06a-8a98-4386-15df-f972daa69000"
   },
   {
-    "name": "Jesuit Missions of the Guaranis",
-    "coordinates": {
-      "longitude": -55.5807514,
-      "latitude": -27.3909413
-    },
-    "country": "Argentina",
-    "state": "Misiones",
-    "isFavorite": false,
-    "description": "Jesuit Missions of the Guaranis, a serial transnational property, consists of the ruins of São Miguel Arcanjo in Brazil, and those of San Ignacio Miní, Santa Ana, Nuestra Señora de Loreto, and Santa María la Mayor in Argentina. These are the impressive remains of Jesuit Mission settlements established in the 17th and 18th centuries on lands originally occupied by Guarani indigenous communities. In Brazil, the ruins of the São Miguel Arcanjo church constitute the most intact and complete structure among this period’s designated heritage properties. In Argentina, the four Jesuit-Guarani Missions, located in the southern Misiones province, provide an exceptional example of systematic and organized territorial occupation. \n\nThe properties’ surviving ruins depict the experience of the Society of Jesus in South America, where there emerged a singular system of spatial, economic, social, and cultural relations in 30 settlements – referred to as reducciones – that included ranches, mate plantations, and networks of trails and waterways extending across the Uruguay River and its tributaries. This particular model of the reducciones also included smaller structures and constructions designed to support the basic functions of the settlements. Together, these elements, each closely integrated within productive lands, and each manifesting the distinct potential and complementary traits of the various settlements and the other Jesuit provinces in the region, inform this underlying interpretation, reflected by the serial heritage property in a singular and specific fashion. \n\nAn integral part of the evangelization campaigns, the Missions stand as an important testament to the systematic occupation of the area and to the cultural relations forged between the area’s indigenous populations, mostly Guarani, and the European Jesuit missionaries.",
-    "categories": [
-      "religious",
-      "historical",
-      "worldHeritage",
-      "cultural"
-    ],
-    "panoId": "qgjU2eI4qmvmPeybSTJjrw",
-    "imageId": "007353ef-747e-47a3-73b1-3712ff866000"
-  },
-  {
     "name": "Historic Centre of Salvador de Bahia",
     "coordinates": {
       "longitude": -38.510283,
@@ -725,6 +725,27 @@
     "imageId": "f7f419c6-f1c3-4554-5a1c-a0f319e10400"
   },
   {
+    "name": "Kluane",
+    "coordinates": {
+      "longitude": -138.8125937,
+      "latitude": 61.2558988
+    },
+    "country": "Canada",
+    "state": "Yukon",
+    "isFavorite": false,
+    "description": "The Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek national parks and protected areas along the boundary of Canada and the United States of America contain the largest non-polar icefield in the world as well as examples of some of the world’s longest and most spectacular glaciers. Characterized by high mountains, icefields and glaciers, the property transitions from northern interior to coastal biogeoclimatic zones, resulting in high biodiversity with plant and animal communities ranging from marine, coastal forest, montane, sub-alpine and alpine tundra, all in various successional stages. The Tatshenshini and Alsek river valleys are pivotal because they allow ice-free linkages from coast to interior for plant and animal migration. The parks demonstrate some of the best examples of glaciation and modification of landscape by glacial action in a region still tectonically active, spectacularly beautiful, and where natural processes prevail.",
+    "categories": [
+      "woods",
+      "lake",
+      "worldHeritage",
+      "park",
+      "mountain",
+      "nature"
+    ],
+    "panoId": "OlPRjFhB9qNzpT-Nb0pYZQ",
+    "imageId": "810f66eb-3a02-4d69-a708-eb2368322400"
+  },
+  {
     "name": "L’Anse aux Meadows",
     "coordinates": {
       "longitude": -55.5332164,
@@ -833,7 +854,7 @@
       "nature"
     ],
     "panoId": "-tGa0CSVHSWyzD1QcXtsYg",
-    "imageId": "a92efdee-3d99-4fbf-b64e-be74ebdf6000"
+    "imageId": "831b08a8-6a18-491b-b00e-7ebce374bd00"
   },
   {
     "name": "Rideau Canal",
@@ -5041,6 +5062,25 @@
     "imageId": "dcdd2c05-f83d-461b-1b9b-d3318413fd00"
   },
   {
+    "name": "Birthplace of Jesus",
+    "coordinates": {
+      "longitude": 35.2063518,
+      "latitude": 31.704478
+    },
+    "country": "Palestine",
+    "state": "Bethlehem",
+    "isFavorite": false,
+    "description": "Bethlehem lies 10 kilometres south of the city of Jerusalem, in the fertile limestone hill country of the Holy Land. Since at least the 2nd century AD people have believed that the place where the Church of the Nativity, Bethlehem, now stands is where Jesus was born. One particular cave, over which the first Church was built, is traditionally believed to be the Birthplace itself. In locating the Nativity, the place both marks the beginnings of Christianity and is one of the holiest spots in Christendom. The original basilica church of 339 AD (St Helena), parts of which survive below ground, was arranged so that its octagonal eastern end surrounded, and provided a view of, the cave. This church is overlaid by the present Church of the Nativity, essentially of the mid-6th century AD (Justinian), though with later alterations. It is the oldest Christian church in daily use. Since early medieval times the Church has been increasingly incorporated into a complex of other ecclesiastical buildings, mainly monastic. As a result, today it is embedded in an extraordinary architectural ensemble, overseen by members of the Greek Orthodox Church, the Custody of the Holy Land and the Armenian Church, under the provisions of the Status Quo of the Holy Places established by the Treaty of Berlin (1878).\n\nDuring various periods over the past 1700 years, Bethlehem and the Church of the Nativity have been, and still are, a pilgrim destination. The eastern end of the traditional route from Jerusalem to the Church, known as the Pilgrimage route, marks the road that connects the traditional entrance of Bethlehem, near King David’s Wells with the Church of the Nativity, and extends along the Star Street through the Damascus Gate, or Qos Al-Zarara, the historical gate of the town, towards the Manger Square. The Route continues to be celebrated as the path followed by Joseph and Mary during their trip in Bethlehem during Christmas ceremonies each year, and is followed ceremonially by Patriarchs of the three churches at their several Christmases, and during their official visits to Bethlehem.\n\nThe outstanding universal value of the Church of the Nativity and the Pilgrimage Route, Bethlehem, lies, in its association with the birthplace of the founder of a great religion, which for Believers saw the Son of God made man in Bethlehem.\n\nAnd for the way the fabric of the Church of the Nativity and its associations have combined to reflect the extraordinary influence of Christianity in spiritual and political terms over 1500 years.",
+    "categories": [
+      "religious",
+      "historical",
+      "worldHeritage",
+      "cultural"
+    ],
+    "panoId": "Qd0YO2LLquYC72ZzvNyubg",
+    "imageId": "bd18ceb3-05d5-4b4c-59d0-d7cb1bb60d00"
+  },
+  {
     "name": "City of Cuzco",
     "coordinates": {
       "longitude": -71.9790044,
@@ -5506,97 +5546,6 @@
     "imageId": "9abd795d-f6ec-40bf-861a-9cc48e3a4e00"
   },
   {
-    "name": "Jongmyo Shrine",
-    "coordinates": {
-      "longitude": 126.9938201,
-      "latitude": 37.5745981
-    },
-    "country": "South Korea",
-    "state": "Seoul",
-    "isFavorite": false,
-    "description": "Jongmyo is a shrine housing the spirit tablets of the former kings and queens of the Joseon Dynasty. The shrine is a symbolic structure that conveys the legitimacy of the royal family, where the king visited regularly to participate in the ancestral rites to wish for the safety and security of the people and state. Jongmyo is the oldest and most authentic of the Confucian royal ancestral shrines, with a unique spatial layout that has been preserved in its entirety. It was originally built in the late 14th century, but was destroyed during the Japanese invasion during the 16th century, and was rebuilt in the early 17th century with a few expansions made to the buildings thereafter.\n\nJongmyo and its grounds occupy a 19.4 ha oval site. The buildings are set in valleys and surrounded by low hills, with artificial additions built to reinforce the site’s balance of natural elements, in accordance with traditional pungsu principles. The main features of Jongmyo are Jeongjeon (the main shrine), and Yeongnyeongjeon (the Hall of Eternal Peace, an auxiliary shrine). Other features include Mangmyoru, a wooden structure where the king thought about the ancestral kings in memory; Gongmingdang, the shrine to the Goryeo King Gongmin, built by the Joseon King Taejo; Hyangdaecheong, the storage building for ritual utensils; and Jaegung, a main hall with two wings, where the King and participants waited for the rites to take place. Jongmyo was built faithfully abiding by the Confucian ideology of ancestral worship and its ritual formalities under strict royal supervision, and still maintains its original form dating from the Joseon Dynasty.\n\nTraditions of ancestral worship rites – Jongmyo Jerye, are still carried out, together with the accompanying ritual music and dance performance. Construction and management of Jongmyo, and the operations of Jongmyo Jerye rituals, are all meticulously recorded in the royal protocols of the Joseon Dynasty.",
-    "categories": [
-      "religious",
-      "historical",
-      "worldHeritage",
-      "architecture"
-    ],
-    "panoId": "P_v3BWRvKrL9HoNmTBQMLQ",
-    "imageId": "cc759d98-2e33-4f8b-29c4-bb8341d9ca00"
-  },
-  {
-    "name": "Changdeokgung Palace Complex",
-    "coordinates": {
-      "longitude": 126.9912057,
-      "latitude": 37.5786602
-    },
-    "country": "South Korea",
-    "state": "Seoul",
-    "isFavorite": false,
-    "description": "Constructed in the 15th century during the Joseon Dynasty, the Changdeokgung Palace Complex occupies a 57.9 ha site in Jongno-gu, in northern Seoul at the foot of Ungbong Peak of Mount Baegaksan, the main geomantic guardian mountain.\n\nChangdeokgung is an exceptional example of official and residential buildings that were integrated into and harmonized with their natural setting. The complex was originally built as a secondary palace to the main palace of Gyeongbokgung, differentiated from it in its purpose and spatial layout within the capital. Situated at the foot of a mountain range, it was designed to embrace the topography in accordance with pungsu principles, by placing the palace structures to the south and incorporating an extensive rear garden to the north called Biwon, the Secret Garden. Adaptation to the natural terrain distinguished Changdeokgung from conventional palace architecture.\n\nThe official and residential buildings that make up the complex were designed in accordance with traditional palace layout principles. The buildings and structures include three gates and three courts (an administrative court, royal residential court and official audience court), with the residential area to rear of the administrative area reflecting the principles of ‘sammun samjo (三門三朝)’ and ‘jeonjo huchim (前朝後寢)’. The buildings are constructed of wood and set on stone platforms, and many feature tiled hipped roofs with a corbelled multi-bracket system and ornamental carvings.\n\nThe garden was landscaped with a series of terraces planted with lawns, flowering trees, flowers, a lotus pool and pavilions set against a wooded background. There are over 56,000 specimens of various species of trees and plants in the garden, including walnut, white oak, zelkova, plum, maple, chestnut, hornbeam, yew, gingko, and pine.\n\nChangdeokgung was used as the secondary palace to Gyeongbokgung for 200 years, but after the palaces were burnt down during the Japanese invasion in the late 16th century, it was the first to be reconstructed and since then served as the main seat of the dynasty for 250 years. The property had a great influence on the development of Korean architecture, garden and landscape planning, and related arts, for many centuries. It reflects sophisticated architectural values, harmonized with beautiful surroundings.",
-    "categories": [
-      "historical",
-      "worldHeritage",
-      "architecture"
-    ],
-    "panoId": "ebkK4bg2iNQNi-zW09fTUg",
-    "imageId": "7e445306-c857-47ee-50a7-029641295100"
-  },
-  {
-    "name": "Hwaseong Fortress",
-    "coordinates": {
-      "longitude": 127.009789,
-      "latitude": 37.2855928
-    },
-    "country": "South Korea",
-    "state": "Gyeonggi",
-    "isFavorite": false,
-    "description": "Hwaseong is a piled-stone and brick fortress of the Joseon Dynasty that surrounds the centre of Suwon City, of Gyeonggi-do Province. It was built in the late 18th century by King Jeongjo for defensive purposes, to form a new political basis and to house the remains of his father, Crown Prince Jangheon. The massive walls of the fortress, which are 5.74 km in length, enclose an area of 130 ha and follow the topography of the land. The Suwoncheon, the main stream in Suwon, flows through the centre of the fortress.\n\nThe walls incorporate a number of defensive features, most of which are intact. These include floodgates, observation towers, command posts, multiple arrow launcher towers, firearm bastions, angle towers, secret gates, beacon towers, bastions and bunkers. There are four main gates at the cardinal points. The Paldalmun Gate in the south and the Janganmun Gate in the north are impressive two-storey wooden structures on stone bases, flanked by gated platforms and shielded by half-moon ravelins built of fired brick. They are linked to the main road running through the complex. The west (Hwaseomun) and east (Changnyongmun) gates are single-storey structures, also protected by ravelins.\n\nThe Hwaseong Fortress has had a great influence on the development of Korean architecture, urban planning, and landscaping and related arts. It differed from the fortresses in China and Japan in that it combined military, political and commercial functions. Its design by Jeong Yakyong, a leading scholar of the School of Practical Learning, was characterized by careful planning, the combination of residential and defensive features, and the application of the latest scientific knowledge. It represents the pinnacle of 18th century military architecture, incorporating ideas from some of the best examples in Europe and East Asia. Hwaseong is also unique in that it covers both flat and hilly land, making use of the terrain for maximum defensive efficacy.\n\nA completion report for the building of Hwaseong Fortress, Hwaseong seongyeok uigwe, was published in 1801, which provides the details and particulars about its design and construction process.",
-    "categories": [
-      "historical",
-      "worldHeritage",
-      "architecture"
-    ],
-    "panoId": "o01pJIR9y9asYMtplN38Qg",
-    "imageId": "5aff2b86-43dd-4b56-e8d5-45b356c86600"
-  },
-  {
-    "name": "Gochang",
-    "coordinates": {
-      "longitude": 126.4374944,
-      "latitude": 37.7735667
-    },
-    "country": "South Korea",
-    "state": "Jeonbuk",
-    "isFavorite": false,
-    "description": "The Gochang, Hwasun and Ganghwa Dolmen sites contain the highest density and greatest variety of dolmens in Korea, and indeed of any country. Dolmens are megalithic funerary monuments, which figured prominently in Neolithic and Bronze Age cultures across the world during the 2nd and 1st millennia BCE. Usually consisting of two or more undressed stone slabs supporting a huge capstone, it is generally accepted that they were simply burial chambers, erected over the bodies or bones of deceased worthies. They are usually found in cemeteries on elevated sites and are of great archaeological value for the information that they provide about the prehistoric people who built them and their social and political systems, beliefs and rituals, and arts and ceremonies.\n\nThe property encompasses three distinct areas.\n\nThe Gochang Dolmen Site (8.38 ha) features the largest and most diversified group, and is centered in the village of Maesan, along the southern foot of a group of hills running east/west. Over 440 dolmens of various types have been recorded in this location.\nThe Hwasun Dolmen Site (31 ha) is situated on the slopes of a low range of hills, along the Jiseokgang River. There are more than 500 dolmens in this group. In a number of cases, the stone outcrops from which the stones making up these dolmens have been identified.\nThe Ganghwa Dolmen Sites (12.27 ha) are on the offshore island of Ganghwa, on mountain slopes. They tend to be situated at a higher level than the dolmens of the other sites and are stylistically early, in particular those at Bugeun-ri and Gocheon-ri.\nThe Gochang, Hwasun and Ganghwa Dolmen Sites preserve important evidence of how stones were quarried, transported and raised and of how dolmen types changed over time in northeast Asia.",
-    "categories": [
-      "historical",
-      "worldHeritage",
-      "architecture"
-    ],
-    "panoId": "aQhem_J4MllK6eckjx3BPA",
-    "imageId": "c66fca98-06aa-48ae-4e7c-0111d57c1b00"
-  },
-  {
-    "name": "Namhansanseong",
-    "coordinates": {
-      "longitude": 127.1817956,
-      "latitude": 37.4788574
-    },
-    "country": "South Korea",
-    "state": "Seoul",
-    "isFavorite": false,
-    "description": "Namhansanseong was designed as an emergency capital for the Joseon dynasty (1392-1910), in a mountainous site 25 km south-east of Seoul. Its earliest remains date from the 7th century, but it was rebuilt several times, notably in anticipation of an attack by the Sino-Manchu Qing dynasty, in the early 17th century. Built and defended by Buddhist soldier-monks, it embodies a synthesis of the defensive military engineering concepts of the period, drawing on Chinese and Japanese influences, and changes in the art of fortification following the introduction of firearms from the West. A permanently inhabited city that was the provincial capital over a long period, it includes inside its fortified walls evidence of various types of military, civil and religious buildings. It has become a symbol of Korean sovereignty. ",
-    "categories": [
-      "historical",
-      "worldHeritage",
-      "cultural"
-    ],
-    "panoId": "Tg9y7r6zHketaZBuOYcHgw",
-    "imageId": "6f874c30-9b6f-4465-36e4-2a8d9418e000"
-  },
-  {
     "name": "Monastery of Horezu",
     "coordinates": {
       "longitude": 24.0070973,
@@ -5871,6 +5820,97 @@
     ],
     "panoId": "mA3Oj9ou3AAJiHGhyMNTdw",
     "imageId": "9444c767-cf05-4030-3b97-3b65a4ddb700"
+  },
+  {
+    "name": "Jongmyo Shrine",
+    "coordinates": {
+      "longitude": 126.9938201,
+      "latitude": 37.5745981
+    },
+    "country": "South Korea",
+    "state": "Seoul",
+    "isFavorite": false,
+    "description": "Jongmyo is a shrine housing the spirit tablets of the former kings and queens of the Joseon Dynasty. The shrine is a symbolic structure that conveys the legitimacy of the royal family, where the king visited regularly to participate in the ancestral rites to wish for the safety and security of the people and state. Jongmyo is the oldest and most authentic of the Confucian royal ancestral shrines, with a unique spatial layout that has been preserved in its entirety. It was originally built in the late 14th century, but was destroyed during the Japanese invasion during the 16th century, and was rebuilt in the early 17th century with a few expansions made to the buildings thereafter.\n\nJongmyo and its grounds occupy a 19.4 ha oval site. The buildings are set in valleys and surrounded by low hills, with artificial additions built to reinforce the site’s balance of natural elements, in accordance with traditional pungsu principles. The main features of Jongmyo are Jeongjeon (the main shrine), and Yeongnyeongjeon (the Hall of Eternal Peace, an auxiliary shrine). Other features include Mangmyoru, a wooden structure where the king thought about the ancestral kings in memory; Gongmingdang, the shrine to the Goryeo King Gongmin, built by the Joseon King Taejo; Hyangdaecheong, the storage building for ritual utensils; and Jaegung, a main hall with two wings, where the King and participants waited for the rites to take place. Jongmyo was built faithfully abiding by the Confucian ideology of ancestral worship and its ritual formalities under strict royal supervision, and still maintains its original form dating from the Joseon Dynasty.\n\nTraditions of ancestral worship rites – Jongmyo Jerye, are still carried out, together with the accompanying ritual music and dance performance. Construction and management of Jongmyo, and the operations of Jongmyo Jerye rituals, are all meticulously recorded in the royal protocols of the Joseon Dynasty.",
+    "categories": [
+      "religious",
+      "historical",
+      "worldHeritage",
+      "architecture"
+    ],
+    "panoId": "P_v3BWRvKrL9HoNmTBQMLQ",
+    "imageId": "cc759d98-2e33-4f8b-29c4-bb8341d9ca00"
+  },
+  {
+    "name": "Changdeokgung Palace Complex",
+    "coordinates": {
+      "longitude": 126.9912057,
+      "latitude": 37.5786602
+    },
+    "country": "South Korea",
+    "state": "Seoul",
+    "isFavorite": false,
+    "description": "Constructed in the 15th century during the Joseon Dynasty, the Changdeokgung Palace Complex occupies a 57.9 ha site in Jongno-gu, in northern Seoul at the foot of Ungbong Peak of Mount Baegaksan, the main geomantic guardian mountain.\n\nChangdeokgung is an exceptional example of official and residential buildings that were integrated into and harmonized with their natural setting. The complex was originally built as a secondary palace to the main palace of Gyeongbokgung, differentiated from it in its purpose and spatial layout within the capital. Situated at the foot of a mountain range, it was designed to embrace the topography in accordance with pungsu principles, by placing the palace structures to the south and incorporating an extensive rear garden to the north called Biwon, the Secret Garden. Adaptation to the natural terrain distinguished Changdeokgung from conventional palace architecture.\n\nThe official and residential buildings that make up the complex were designed in accordance with traditional palace layout principles. The buildings and structures include three gates and three courts (an administrative court, royal residential court and official audience court), with the residential area to rear of the administrative area reflecting the principles of ‘sammun samjo (三門三朝)’ and ‘jeonjo huchim (前朝後寢)’. The buildings are constructed of wood and set on stone platforms, and many feature tiled hipped roofs with a corbelled multi-bracket system and ornamental carvings.\n\nThe garden was landscaped with a series of terraces planted with lawns, flowering trees, flowers, a lotus pool and pavilions set against a wooded background. There are over 56,000 specimens of various species of trees and plants in the garden, including walnut, white oak, zelkova, plum, maple, chestnut, hornbeam, yew, gingko, and pine.\n\nChangdeokgung was used as the secondary palace to Gyeongbokgung for 200 years, but after the palaces were burnt down during the Japanese invasion in the late 16th century, it was the first to be reconstructed and since then served as the main seat of the dynasty for 250 years. The property had a great influence on the development of Korean architecture, garden and landscape planning, and related arts, for many centuries. It reflects sophisticated architectural values, harmonized with beautiful surroundings.",
+    "categories": [
+      "historical",
+      "worldHeritage",
+      "architecture"
+    ],
+    "panoId": "ebkK4bg2iNQNi-zW09fTUg",
+    "imageId": "7e445306-c857-47ee-50a7-029641295100"
+  },
+  {
+    "name": "Hwaseong Fortress",
+    "coordinates": {
+      "longitude": 127.009789,
+      "latitude": 37.2855928
+    },
+    "country": "South Korea",
+    "state": "Gyeonggi",
+    "isFavorite": false,
+    "description": "Hwaseong is a piled-stone and brick fortress of the Joseon Dynasty that surrounds the centre of Suwon City, of Gyeonggi-do Province. It was built in the late 18th century by King Jeongjo for defensive purposes, to form a new political basis and to house the remains of his father, Crown Prince Jangheon. The massive walls of the fortress, which are 5.74 km in length, enclose an area of 130 ha and follow the topography of the land. The Suwoncheon, the main stream in Suwon, flows through the centre of the fortress.\n\nThe walls incorporate a number of defensive features, most of which are intact. These include floodgates, observation towers, command posts, multiple arrow launcher towers, firearm bastions, angle towers, secret gates, beacon towers, bastions and bunkers. There are four main gates at the cardinal points. The Paldalmun Gate in the south and the Janganmun Gate in the north are impressive two-storey wooden structures on stone bases, flanked by gated platforms and shielded by half-moon ravelins built of fired brick. They are linked to the main road running through the complex. The west (Hwaseomun) and east (Changnyongmun) gates are single-storey structures, also protected by ravelins.\n\nThe Hwaseong Fortress has had a great influence on the development of Korean architecture, urban planning, and landscaping and related arts. It differed from the fortresses in China and Japan in that it combined military, political and commercial functions. Its design by Jeong Yakyong, a leading scholar of the School of Practical Learning, was characterized by careful planning, the combination of residential and defensive features, and the application of the latest scientific knowledge. It represents the pinnacle of 18th century military architecture, incorporating ideas from some of the best examples in Europe and East Asia. Hwaseong is also unique in that it covers both flat and hilly land, making use of the terrain for maximum defensive efficacy.\n\nA completion report for the building of Hwaseong Fortress, Hwaseong seongyeok uigwe, was published in 1801, which provides the details and particulars about its design and construction process.",
+    "categories": [
+      "historical",
+      "worldHeritage",
+      "architecture"
+    ],
+    "panoId": "o01pJIR9y9asYMtplN38Qg",
+    "imageId": "5aff2b86-43dd-4b56-e8d5-45b356c86600"
+  },
+  {
+    "name": "Gochang",
+    "coordinates": {
+      "longitude": 126.4374944,
+      "latitude": 37.7735667
+    },
+    "country": "South Korea",
+    "state": "Jeonbuk",
+    "isFavorite": false,
+    "description": "The Gochang, Hwasun and Ganghwa Dolmen sites contain the highest density and greatest variety of dolmens in Korea, and indeed of any country. Dolmens are megalithic funerary monuments, which figured prominently in Neolithic and Bronze Age cultures across the world during the 2nd and 1st millennia BCE. Usually consisting of two or more undressed stone slabs supporting a huge capstone, it is generally accepted that they were simply burial chambers, erected over the bodies or bones of deceased worthies. They are usually found in cemeteries on elevated sites and are of great archaeological value for the information that they provide about the prehistoric people who built them and their social and political systems, beliefs and rituals, and arts and ceremonies.\n\nThe property encompasses three distinct areas.\n\nThe Gochang Dolmen Site (8.38 ha) features the largest and most diversified group, and is centered in the village of Maesan, along the southern foot of a group of hills running east/west. Over 440 dolmens of various types have been recorded in this location.\nThe Hwasun Dolmen Site (31 ha) is situated on the slopes of a low range of hills, along the Jiseokgang River. There are more than 500 dolmens in this group. In a number of cases, the stone outcrops from which the stones making up these dolmens have been identified.\nThe Ganghwa Dolmen Sites (12.27 ha) are on the offshore island of Ganghwa, on mountain slopes. They tend to be situated at a higher level than the dolmens of the other sites and are stylistically early, in particular those at Bugeun-ri and Gocheon-ri.\nThe Gochang, Hwasun and Ganghwa Dolmen Sites preserve important evidence of how stones were quarried, transported and raised and of how dolmen types changed over time in northeast Asia.",
+    "categories": [
+      "historical",
+      "worldHeritage",
+      "architecture"
+    ],
+    "panoId": "aQhem_J4MllK6eckjx3BPA",
+    "imageId": "c66fca98-06aa-48ae-4e7c-0111d57c1b00"
+  },
+  {
+    "name": "Namhansanseong",
+    "coordinates": {
+      "longitude": 127.1817956,
+      "latitude": 37.4788574
+    },
+    "country": "South Korea",
+    "state": "Seoul",
+    "isFavorite": false,
+    "description": "Namhansanseong was designed as an emergency capital for the Joseon dynasty (1392-1910), in a mountainous site 25 km south-east of Seoul. Its earliest remains date from the 7th century, but it was rebuilt several times, notably in anticipation of an attack by the Sino-Manchu Qing dynasty, in the early 17th century. Built and defended by Buddhist soldier-monks, it embodies a synthesis of the defensive military engineering concepts of the period, drawing on Chinese and Japanese influences, and changes in the art of fortification following the introduction of firearms from the West. A permanently inhabited city that was the provincial capital over a long period, it includes inside its fortified walls evidence of various types of military, civil and religious buildings. It has become a symbol of Korean sovereignty. ",
+    "categories": [
+      "historical",
+      "worldHeritage",
+      "cultural"
+    ],
+    "panoId": "Tg9y7r6zHketaZBuOYcHgw",
+    "imageId": "6f874c30-9b6f-4465-36e4-2a8d9418e000"
   },
   {
     "name": "Burgos Cathedral",
@@ -6345,25 +6385,6 @@
     ],
     "panoId": "4y3kTX4Esp-0jZdYj7D6Wg",
     "imageId": "7a32a0ac-373f-490f-f510-6e9ea68a2a00"
-  },
-  {
-    "name": "Birthplace of Jesus",
-    "coordinates": {
-      "longitude": 35.2063518,
-      "latitude": 31.704478
-    },
-    "country": "Palestine",
-    "state": "Bethlehem",
-    "isFavorite": false,
-    "description": "Bethlehem lies 10 kilometres south of the city of Jerusalem, in the fertile limestone hill country of the Holy Land. Since at least the 2nd century AD people have believed that the place where the Church of the Nativity, Bethlehem, now stands is where Jesus was born. One particular cave, over which the first Church was built, is traditionally believed to be the Birthplace itself. In locating the Nativity, the place both marks the beginnings of Christianity and is one of the holiest spots in Christendom. The original basilica church of 339 AD (St Helena), parts of which survive below ground, was arranged so that its octagonal eastern end surrounded, and provided a view of, the cave. This church is overlaid by the present Church of the Nativity, essentially of the mid-6th century AD (Justinian), though with later alterations. It is the oldest Christian church in daily use. Since early medieval times the Church has been increasingly incorporated into a complex of other ecclesiastical buildings, mainly monastic. As a result, today it is embedded in an extraordinary architectural ensemble, overseen by members of the Greek Orthodox Church, the Custody of the Holy Land and the Armenian Church, under the provisions of the Status Quo of the Holy Places established by the Treaty of Berlin (1878).\n\nDuring various periods over the past 1700 years, Bethlehem and the Church of the Nativity have been, and still are, a pilgrim destination. The eastern end of the traditional route from Jerusalem to the Church, known as the Pilgrimage route, marks the road that connects the traditional entrance of Bethlehem, near King David’s Wells with the Church of the Nativity, and extends along the Star Street through the Damascus Gate, or Qos Al-Zarara, the historical gate of the town, towards the Manger Square. The Route continues to be celebrated as the path followed by Joseph and Mary during their trip in Bethlehem during Christmas ceremonies each year, and is followed ceremonially by Patriarchs of the three churches at their several Christmases, and during their official visits to Bethlehem.\n\nThe outstanding universal value of the Church of the Nativity and the Pilgrimage Route, Bethlehem, lies, in its association with the birthplace of the founder of a great religion, which for Believers saw the Son of God made man in Bethlehem.\n\nAnd for the way the fabric of the Church of the Nativity and its associations have combined to reflect the extraordinary influence of Christianity in spiritual and political terms over 1500 years.",
-    "categories": [
-      "religious",
-      "historical",
-      "worldHeritage",
-      "cultural"
-    ],
-    "panoId": "Qd0YO2LLquYC72ZzvNyubg",
-    "imageId": "bd18ceb3-05d5-4b4c-59d0-d7cb1bb60d00"
   },
   {
     "name": "Engelsberg Ironworks",
@@ -7123,27 +7144,6 @@
     "imageId": "932587c9-c430-4dbe-af0f-e64c6c0f4200"
   },
   {
-    "name": "Kluane",
-    "coordinates": {
-      "longitude": -138.8125937,
-      "latitude": 61.2558988
-    },
-    "country": "Canada",
-    "state": "Yukon",
-    "isFavorite": false,
-    "description": "The Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek national parks and protected areas along the boundary of Canada and the United States of America contain the largest non-polar icefield in the world as well as examples of some of the world’s longest and most spectacular glaciers. Characterized by high mountains, icefields and glaciers, the property transitions from northern interior to coastal biogeoclimatic zones, resulting in high biodiversity with plant and animal communities ranging from marine, coastal forest, montane, sub-alpine and alpine tundra, all in various successional stages. The Tatshenshini and Alsek river valleys are pivotal because they allow ice-free linkages from coast to interior for plant and animal migration. The parks demonstrate some of the best examples of glaciation and modification of landscape by glacial action in a region still tectonically active, spectacularly beautiful, and where natural processes prevail.",
-    "categories": [
-      "woods",
-      "lake",
-      "worldHeritage",
-      "park",
-      "mountain",
-      "nature"
-    ],
-    "panoId": "OlPRjFhB9qNzpT-Nb0pYZQ",
-    "imageId": "810f66eb-3a02-4d69-a708-eb2368322400"
-  },
-  {
     "name": "Statue of Liberty",
     "coordinates": {
       "longitude": -74.0438353,
@@ -7162,6 +7162,22 @@
     ],
     "panoId": "BPgwAKSoNKzPJFwYbuxydg",
     "imageId": "a36d7346-dcf6-4166-349b-73887df31300"
+  },
+  {
+    "name": "Waterton Glacier International Peace Park",
+    "coordinates": {
+      "longitude": -113.9074341,
+      "latitude": 49.0525964
+    },
+    "country": "United States of America",
+    "state": "Alberta",
+    "isFavorite": false,
+    "description": "Waterton-Glacier International Peace Park has a distinctive climate, physiographic setting, mountain-prairie interface and tri-ocean hydrographical divide.  It is an area of significant scenic values with abundant and diverse flora and fauna.",
+    "categories": [
+      "worldHeritage"
+    ],
+    "panoId": "6r2O_UJAiuOzsB88h4WfbA",
+    "imageId": "a92efdee-3d99-4fbf-b64e-be74ebdf6000\\"
   },
   {
     "name": "Architecture of Frank Lloyd Wright",
