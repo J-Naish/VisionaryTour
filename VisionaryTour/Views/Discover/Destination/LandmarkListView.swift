@@ -19,6 +19,8 @@ struct LandmarkListView: View {
         }
     }
     
+    @Binding var showImmersiveSpace: Bool
+    
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .center, spacing: 48) {
@@ -26,7 +28,7 @@ struct LandmarkListView: View {
                     HStack(alignment: .top, spacing: 32) {
                         ForEach(row) { landmark in
                             NavigationLink {
-                                LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel)
+                                LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                             } label: {
                                 LandmarkCard(landmark: landmark)
                             }
@@ -46,6 +48,8 @@ struct LandmarkListView: View {
     }
 }
 
-#Preview {
-    LandmarkListView(navigationTitle: "Asia", immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), landmarks: ViewModel().landmarks)
+struct LandmarkListView_Previews: PreviewProvider {
+    static var previews: some View {
+        LandmarkListView(navigationTitle: "Asia", immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), landmarks: ViewModel().landmarks, showImmersiveSpace: .constant(false))
+    }
 }

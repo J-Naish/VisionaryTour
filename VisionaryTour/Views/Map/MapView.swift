@@ -15,9 +15,7 @@ struct MapView: View {
     
     @State private var position: MapCameraPosition = .automatic
     
-    @State private var showImmersiveSpace = false
-    @Environment(\.openImmersiveSpace) var openImmersiveSpace
-    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    @Binding var showImmersiveSpace: Bool
     
     var immersiveViewModel: ImmersiveViewModel
     
@@ -53,15 +51,6 @@ struct MapView: View {
             .onSubmit(of: .search) {
                 viewModel.searchLocation(searchText)
             }
-            .onChange(of: showImmersiveSpace) { _, newValue in
-                Task {
-                    if newValue {
-                        await openImmersiveSpace(id: "ImmersiveSpace")
-                    } else {
-                        await dismissImmersiveSpace()
-                    }
-                }
-            }
             
             Loading(immersiveViewModel: immersiveViewModel)
             
@@ -69,6 +58,8 @@ struct MapView: View {
     }
 }
 
-#Preview() {
-    MapView(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+struct MapView_Previews: PreviewProvider {
+    static var previews: some View {
+        MapView(showImmersiveSpace: .constant(false), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+    }
 }

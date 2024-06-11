@@ -22,20 +22,33 @@ struct ContentView: View {
     
     var immersiveViewModel: ImmersiveViewModel
     
+    @State private var showImmersiveSpace =  false
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
     var body: some View {
         
         TabView(selection: $selection) {
-            DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
+            DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
                 .tag(Tab.discover)
             
-            MapView(immersiveViewModel: immersiveViewModel)
+            MapView(showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
                 .tabItem {
                     Label("Map", systemImage: "mappin.and.ellipse")
                 }
                 .tag(Tab.map)
+        }
+        .onChange(of: showImmersiveSpace) { _, newValue in
+            Task {
+                if newValue {
+                    await openImmersiveSpace(id: "ImmersiveSpace")
+                } else {
+                    await dismissImmersiveSpace()
+                }
+            }
         }
     }
 }

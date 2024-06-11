@@ -21,6 +21,8 @@ struct DiscoverView: View {
     var viewModel: ViewModel
     var immersiveViewModel: ImmersiveViewModel
     
+    @Binding var showImmersiveSpace: Bool
+    
     var body: some View {
         NavigationSplitView {
             List(Selection.allCases, id: \.self) { item in
@@ -41,7 +43,7 @@ struct DiscoverView: View {
                             selectedItem = .discover
                         }
                 case .region:
-                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
+                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                         .onAppear {
                             selectedItem = .region
                         }
@@ -63,7 +65,7 @@ struct DiscoverView: View {
                 case .discover:
                     MainDiscoverView()
                 case .region:
-                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
+                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 case .featured:
                     FeaturedView()
                 case .list:
@@ -76,6 +78,6 @@ struct DiscoverView: View {
 
 struct DiscoverView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoverView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+        DiscoverView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
     }
 }
