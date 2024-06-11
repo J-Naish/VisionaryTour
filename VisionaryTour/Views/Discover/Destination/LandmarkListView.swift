@@ -21,7 +21,7 @@ struct LandmarkListView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
+            LazyVStack(alignment: .leading) {
                 ForEach(rows, id: \.self) { row in
                     HStack(spacing: 32) {
                         ForEach(row) { landmark in
