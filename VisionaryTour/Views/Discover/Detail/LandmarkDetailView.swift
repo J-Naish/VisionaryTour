@@ -16,28 +16,52 @@ struct LandmarkDetailView: View {
         PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(landmark.coordinates.latitude, landmark.coordinates.longitude), panoId: landmark.panoId)
     }
     
+    @State private var position: MapCameraPosition = .automatic
+    
+    @State private var showImmersiveSpace = false
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
     var body: some View {
-        HStack(alignment: .top) {
-            LandmarkDescriptionView(landmark: landmark)
-                .frame(width: 480)
+        ZStack {
+            HStack(alignment: .top) {
+                LandmarkDescriptionView(landmark: landmark)
+                    .frame(width: 480)
 
-            Spacer()
-            
-            VStack {
-                LandmarkMapView(landmark: landmark)
-                    .frame(width: 360, height: 420)
-                    .padding(.bottom, 16)
+                Spacer()
                 
-                Button(action: {
-                    // TODO:
-                }) {
-                    Text("Open Immersive View")
-                        .frame(width: 240)
+                VStack {
+                    LandmarkMapView(landmark: landmark)
+                        .frame(width: 360, height: 420)
+                        .padding(.bottom, 16)
+                    
+                    Button(action: {
+                        immersiveViewModel.selectedPlaceInfo = landmark.placeInfo
+                        immersiveViewModel.progress = 0.0
+                        let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
+                        let cameraPosition = MapCameraPosition.camera(camera)
+                        self.position = cameraPosition
+                        showImmersiveSpace = true
+                    }) {
+                        Text("Open Immersive View")
+                            .frame(width: 240)
+                    }
+                }
+                .padding(.trailing, 16)
+            }
+            .padding(.horizontal, 24)
+            .onChange(of: showImmersiveSpace) { _, newValue in
+                Task {
+                    if newValue {
+                        await openImmersiveSpace(id: "ImmersiveSpace")
+                    } else {
+                        await dismissImmersiveSpace()
+                    }
                 }
             }
-            .padding(.trailing, 16)
+            
+            Loading(immersiveViewModel: immersiveViewModel)
         }
-        .padding(.horizontal, 24)
     }
 }
 
