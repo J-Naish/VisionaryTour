@@ -126,8 +126,8 @@ class ImmersiveViewModel {
         let size = 512
 
         for (index, image) in images.enumerated() {
-            let yIndex = index / 8
-            let xIndex = index - yIndex * 8
+            let yIndex = index / xNum
+            let xIndex = index % xNum
             let cgImage = image.cgImage?.cropping(to: CGRect(x: 0, y: 0, width: size, height: size))
             UIImage(cgImage: cgImage!).draw(at: CGPoint(x: CGFloat(xIndex * size), y: CGFloat(yIndex * size)))
         }
