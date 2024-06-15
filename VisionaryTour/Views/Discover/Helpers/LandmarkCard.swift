@@ -16,8 +16,7 @@ struct LandmarkCard: View {
             if shouldLoadImage {
                 AsyncImage(url: landmark.imageURL) { image in
                     image.resizable()
-                        .clipShape(Rectangle())
-                        .cornerRadius(20)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
                         .aspectRatio(contentMode: .fill)
                 } placeholder: {
                     ProgressView()
@@ -27,7 +26,7 @@ struct LandmarkCard: View {
                 Rectangle()
                     .fill(Color.gray.opacity(0.3))
                     .frame(width: 200, height: 200)
-                    .cornerRadius(20)
+                    .clipShape(RoundedRectangle(cornerRadius: 20))
             }
             Text(landmark.name)
                 .padding(.leading, 8)

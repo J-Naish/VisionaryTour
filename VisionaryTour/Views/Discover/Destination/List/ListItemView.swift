@@ -27,7 +27,7 @@ struct ListItemView: View {
                 Rectangle()
                     .fill(Color.gray.opacity(0.3))
                     .frame(width: 200, height: 200)
-                    .cornerRadius(20)
+                    .clipShape(CustomRoundedShape(cornerRadius: 16))
             }
         }
         .onAppear {

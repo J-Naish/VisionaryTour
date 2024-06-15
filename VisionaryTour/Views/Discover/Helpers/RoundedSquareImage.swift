@@ -61,8 +61,7 @@ struct RoundedSquareImage: View {
                     view.hoverEffect(.lift)
                 }
                 .frame(width: size.width, height: size.height)
-                .clipShape(Rectangle())
-                .cornerRadius(20)
+                .clipShape(RoundedRectangle(cornerRadius: 20))
             
             if let text = text, size == .large || size == .medium || size == .extraLarge {
                 Text(text)

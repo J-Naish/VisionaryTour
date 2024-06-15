@@ -16,7 +16,7 @@ struct LandmarkDescriptionView: View {
                 HStack {
                     AsyncImage(url: landmark.imageURL) { image in
                         image.resizable()
-                            .cornerRadius(12)
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
                     } placeholder: {
                         ProgressView()
                     }
