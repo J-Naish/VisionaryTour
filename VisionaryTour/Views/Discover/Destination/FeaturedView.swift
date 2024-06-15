@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeaturedView: View {
+struct PupularView: View {
     var body: some View {
         ScrollView {
             RoundedSquareImage(image: Image("dummy"), size: .large, text: "Featured")
@@ -16,5 +16,5 @@ struct FeaturedView: View {
 }
 
 #Preview {
-    FeaturedView()
+    PupularView()
 }

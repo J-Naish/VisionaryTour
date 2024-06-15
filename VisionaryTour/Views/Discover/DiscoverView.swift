@@ -48,7 +48,7 @@ struct DiscoverView: View {
                             selectedItem = .region
                         }
                 case .featured:
-                    FeaturedView()
+                    PupularView()
                         .onAppear {
                             selectedItem = .featured
                         }
@@ -67,7 +67,7 @@ struct DiscoverView: View {
                 case .region:
                     RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 case .featured:
-                    FeaturedView()
+                    PupularView()
                 case .list:
                     ListView()
                 }
