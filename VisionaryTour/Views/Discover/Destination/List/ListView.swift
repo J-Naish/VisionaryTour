@@ -9,15 +9,21 @@ import SwiftUI
 
 struct ListView: View {
     
-    var viewModel: ViewModel
+    var landmarks: [Landmark]
     
     var body: some View {
         ScrollView {
-            ListItemView(landmark: viewModel.landmarks.first!)
+            LazyVStack {
+                ForEach(landmarks, id: \.self) { landmark in
+                    ListItemView(landmark: landmark)
+                        .padding(.bottom, 16)
+                }
+            }
         }
+        .padding(.bottom, 32)
     }
 }
 
 #Preview {
-    ListView(viewModel: ViewModel())
+    ListView(landmarks: ViewModel().landmarks)
 }
