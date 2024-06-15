@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    var viewModel: ViewModel
+    
     var body: some View {
         ScrollView {
-            Text("List View")
+            ListItemView(landmark: viewModel.landmarks.first!)
         }
     }
 }
 
 #Preview {
-    ListView()
+    ListView(viewModel: ViewModel())
 }
