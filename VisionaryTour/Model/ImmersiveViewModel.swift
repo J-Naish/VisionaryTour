@@ -13,7 +13,7 @@ import RealityKit
 @Observable
 class ImmersiveViewModel {
     
-    let apiKey = ProcessInfo.processInfo.environment["GoOGLE_MAPS_API_KEY"]!
+    let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
 
     var selectedPlaceInfo: PlaceInfo {
         didSet {
@@ -76,38 +76,38 @@ class ImmersiveViewModel {
     }
 
 
-    private func createSession() -> String? {
-        let url = URL(string: "https://tile.googleapis.com/v1/createSession?key=\(apiKey)")!
-        let body = ["mapType": "streetview", "language": "en-US", "region": "US"]
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.httpBody = try? JSONSerialization.data(withJSONObject: body)
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        
-        let semaphore = DispatchSemaphore(value: 0)
-        var sessionId: String?
-        
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            if let error = error {
-                print("Error: \(error)")
-            } else if let data = data {
-                do {
-                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                       let session = json["session"] as? String {
-                        sessionId = session
-                    }
-                } catch {
-                    print("Error decoding response: \(error)")
-                }
-            }
-            semaphore.signal()
-        }
-        
-        task.resume()
-        semaphore.wait()
-        
-        return sessionId
-    }
+//    private func createSession() -> String? {
+//        let url = URL(string: "https://tile.googleapis.com/v1/createSession?key=\(apiKey)")!
+//        let body = ["mapType": "streetview", "language": "en-US", "region": "US"]
+//        var request = URLRequest(url: url)
+//        request.httpMethod = "POST"
+//        request.httpBody = try? JSONSerialization.data(withJSONObject: body)
+//        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+//        
+//        let semaphore = DispatchSemaphore(value: 0)
+//        var sessionId: String?
+//        
+//        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+//            if let error = error {
+//                print("Error: \(error)")
+//            } else if let data = data {
+//                do {
+//                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
+//                       let session = json["session"] as? String {
+//                        sessionId = session
+//                    }
+//                } catch {
+//                    print("Error decoding response: \(error)")
+//                }
+//            }
+//            semaphore.signal()
+//        }
+//        
+//        task.resume()
+//        semaphore.wait()
+//        
+//        return sessionId
+//    }
 
     
     private func fetchImage(panoId: String) async throws -> UIImage {
