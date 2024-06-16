@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct PopularView: View {
+    
+    var viewModel: ViewModel
+    
     var body: some View {
-        HStack {
-            Text("Popular")
-                .font(.largeTitle)
+        VStack(alignment: .leading) {
+            HStack {
+                Text("Popular")
+                    .font(.largeTitle)
+                
+                Image(systemName: "chevron.right")
+                    .font(.largeTitle)
+            }
             
-            Image(systemName: "chevron.right")
-                .font(.largeTitle)
+            ScrollView(.horizontal) {
+                LazyHStack {
+                    let popularLandmarks = filterLandmarks(landmarks: viewModel.landmarks, by: .category(.popular))
+                    ForEach(popularLandmarks, id: \.self) { landmark in
+                        LandmarkCard(landmark: landmark)
+                            .padding(.trailing, 40)
+                    }
+                }
+            }
         }
     }
 }
 
 #Preview {
-    PopularView()
+    PopularView(viewModel: ViewModel())
 }

@@ -8,25 +8,22 @@
 import SwiftUI
 
 struct Discover: View {
+    
+    var viewModel: ViewModel
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
                 RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
                     .padding(.bottom, 72)
                 
-                HStack {
-                    Text("Popular")
-                        .font(.largeTitle)
-                    
-                    Image(systemName: "chevron.right")
-                        .font(.largeTitle)
-                }
-                
+                PopularView(viewModel: viewModel)
             }
+            .padding(.horizontal, 48)
         }
     }
 }
 
 #Preview {
-    Discover()
+    Discover(viewModel: ViewModel())
 }
