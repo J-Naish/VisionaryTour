@@ -12,7 +12,7 @@ struct HomeView: View {
     @State private var selectedItem: Selection = .discover
 
     enum Selection: String, CaseIterable {
-        case discover = "Home"
+        case discover = "Discover"
         case region = "Region"
         case featured = "Featured"
         case list = "List"
