@@ -42,3 +42,7 @@ func filterLandmarks(landmarks: [Landmark], by filterCase: FilterCase) -> [Landm
         return landmarks.filter { $0.categories.contains(category) }
     }
 }
+
+func convertToLowerCaseWithUnderscore(_ input: String) -> String {
+    return input.lowercased().replacingOccurrences(of: " ", with: "_")
+}
