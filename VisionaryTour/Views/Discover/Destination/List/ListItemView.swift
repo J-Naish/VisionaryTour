@@ -48,7 +48,7 @@ struct ListItemView: View {
         }
         .overlay(
             CustomRoundedBorderShape(cornerRadius: 16, corners: [.topLeft, .bottomLeft, .topRight, .bottomRight])
-                .stroke(Color(red: 1, green: 1, blue: 1, opacity: 0.6), lineWidth: 1)
+                .stroke(Color(red: 1, green: 1, blue: 1, opacity: 0.6), lineWidth: 0.5)
         )
         .hoverEffect(.lift)
         .clipShape(RoundedRectangle(cornerRadius: 16))
