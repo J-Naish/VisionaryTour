@@ -10,6 +10,8 @@ import SwiftUI
 struct PopularView: View {
     
     var viewModel: ViewModel
+    var immersiveViewModel: ImmersiveViewModel
+    @Binding var showImmersiveSpace: Bool
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -21,12 +23,17 @@ struct PopularView: View {
                     .font(.largeTitle)
             }
             
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
                     let popularLandmarks = filterLandmarks(landmarks: viewModel.landmarks, by: .category(.popular))
                     ForEach(popularLandmarks, id: \.self) { landmark in
-                        LandmarkCard(landmark: landmark)
-                            .padding(.trailing, 40)
+                        NavigationLink {
+                            LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                        } label: {
+                            LandmarkCard(landmark: landmark)
+                                .padding(.trailing, 40)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }
@@ -35,5 +42,5 @@ struct PopularView: View {
 }
 
 #Preview {
-    PopularView(viewModel: ViewModel())
+    PopularView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }
