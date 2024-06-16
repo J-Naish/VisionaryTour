@@ -62,14 +62,14 @@ struct RegionView: View {
                     } label: {
                         RoundedSquareImage(image: Image("africa"), size: .medium, text: "Africa")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Oceania", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.oceania)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
                         RoundedSquareImage(image: Image("oceania"), size: .medium, text: "Oceania")
                     }
-                    .frame(width: 420)
+                    .buttonStyle(PlainButtonStyle())
                 }
                 .padding(.bottom, 48)
             }
