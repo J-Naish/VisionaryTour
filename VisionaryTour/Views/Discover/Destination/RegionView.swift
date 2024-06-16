@@ -32,10 +32,10 @@ struct RegionView: View {
                     let (region, imageName) = regionInfo
                     if index % 2 == 0 {
                         HStack(spacing: 32) {
-                            createNavigationLink(for: region, imageName: imageName)
+                            createNavigationLink(for: region, name: imageName)
                             if index + 1 < regions.count {
                                 let nextRegionInfo = regions[index + 1]
-                                createNavigationLink(for: nextRegionInfo.0, imageName: nextRegionInfo.1)
+                                createNavigationLink(for: nextRegionInfo.0, name: nextRegionInfo.1)
                             }
                         }
                         .padding(.bottom, 32)
@@ -47,7 +47,7 @@ struct RegionView: View {
     }
     
     @ViewBuilder
-    private func createNavigationLink(for region: Region, imageName: String) -> some View {
+    private func createNavigationLink(for region: Region, name: String) -> some View {
         NavigationLink {
             LandmarkListView(
                 navigationTitle: region.rawValue,
@@ -56,7 +56,7 @@ struct RegionView: View {
                 showImmersiveSpace: $showImmersiveSpace
             )
         } label: {
-            RoundedSquareImage(image: Image(imageName), size: .medium, text: region.rawValue)
+            RoundedSquareImage(image: Image(convertToLowerCaseWithUnderscore(name)), size: .medium, text: region.rawValue)
         }
         .buttonStyle(PlainButtonStyle())
     }
