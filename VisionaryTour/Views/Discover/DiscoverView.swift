@@ -53,7 +53,7 @@ struct DiscoverView: View {
                             selectedItem = .featured
                         }
                 case .list:
-                    ListView(landmarks: viewModel.landmarks)
+                    ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                         .onAppear {
                             selectedItem = .list
                         }
@@ -69,7 +69,7 @@ struct DiscoverView: View {
                 case .featured:
                     PupularView()
                 case .list:
-                    ListView(landmarks: viewModel.landmarks)
+                    ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 }
             }
         }

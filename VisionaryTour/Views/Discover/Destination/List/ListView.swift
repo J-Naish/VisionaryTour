@@ -11,12 +11,21 @@ struct ListView: View {
     
     var landmarks: [Landmark]
     
+    var immersiveViewModel: ImmersiveViewModel
+    
+    @Binding var showImmersiveSpace: Bool
+    
     var body: some View {
         ScrollView {
             LazyVStack {
                 ForEach(landmarks, id: \.self) { landmark in
-                    ListItemView(landmark: landmark)
-                        .padding(.bottom, 16)
+                    NavigationLink {
+                        LandmarkDetailView(landmark: landmark, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                    } label: {
+                        ListItemView(landmark: landmark)
+                            .padding(.bottom, 16)
+                    }
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
         }
@@ -25,5 +34,5 @@ struct ListView: View {
 }
 
 #Preview {
-    ListView(landmarks: ViewModel().landmarks)
+    ListView(landmarks: ViewModel().landmarks, immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }
