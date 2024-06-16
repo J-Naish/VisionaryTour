@@ -12,9 +12,9 @@ import MapKit
 
 struct ContentView: View {
     
-    @State private var selection: Tab = .discover
+    @State private var selection: Tab = .home
     enum Tab {
-        case discover
+        case home
         case map
     }
     
@@ -29,11 +29,11 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $selection) {
-            DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+            HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
-                .tag(Tab.discover)
+                .tag(Tab.home)
             
             MapView(showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
                 .tabItem {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DiscoverView: View {
+struct HomeView: View {
     @State private var searchText = ""
     @State private var selectedItem: Selection = .discover
 
@@ -78,6 +78,6 @@ struct DiscoverView: View {
 
 struct DiscoverView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoverView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
+        HomeView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
     }
 }
