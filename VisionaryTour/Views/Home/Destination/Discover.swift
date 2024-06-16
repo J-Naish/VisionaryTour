@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainDiscoverView: View {
+struct Discover: View {
     var body: some View {
         ScrollView {
             RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
@@ -16,5 +16,5 @@ struct MainDiscoverView: View {
 }
 
 #Preview {
-    MainDiscoverView()
+    Discover()
 }

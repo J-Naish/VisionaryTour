@@ -38,7 +38,7 @@ struct HomeView: View {
             .navigationDestination(for: Selection.self) { item in
                 switch item {
                 case .discover:
-                    MainDiscoverView()
+                    Discover()
                         .onAppear {
                             selectedItem = .discover
                         }
@@ -63,7 +63,7 @@ struct HomeView: View {
             NavigationStack {
                 switch selectedItem {
                 case .discover:
-                    MainDiscoverView()
+                    Discover()
                 case .region:
                     RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 case .featured:
