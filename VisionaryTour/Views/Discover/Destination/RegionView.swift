@@ -24,14 +24,14 @@ struct RegionView: View {
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Asia", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.asia)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("asia"), size: .medium, text: "Asia")
+                        RoundedSquareImage(image: Image("Asia"), size: .medium, text: "Asia")
                     }
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Europe", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.europe)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("europe"), size: .medium, text: "Europe")
+                        RoundedSquareImage(image: Image("Europe"), size: .medium, text: "Europe")
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -42,14 +42,14 @@ struct RegionView: View {
                     NavigationLink {
                         LandmarkListView(navigationTitle: "North America", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.northAmerica)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("north_america"), size: .medium, text: "North America")
+                        RoundedSquareImage(image: Image("North America"), size: .medium, text: "North America")
                     }
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Latin America", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.latinAmerica)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("latin_america"), size: .medium, text: "Latin America")
+                        RoundedSquareImage(image: Image("Latin America"), size: .medium, text: "Latin America")
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -60,14 +60,14 @@ struct RegionView: View {
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Africa", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.africa)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("africa"), size: .medium, text: "Africa")
+                        RoundedSquareImage(image: Image("Africa"), size: .medium, text: "Africa")
                     }
                     .buttonStyle(PlainButtonStyle())
                     
                     NavigationLink {
                         LandmarkListView(navigationTitle: "Oceania", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.oceania)), showImmersiveSpace: $showImmersiveSpace)
                     } label: {
-                        RoundedSquareImage(image: Image("oceania"), size: .medium, text: "Oceania")
+                        RoundedSquareImage(image: Image("Oceania"), size: .medium, text: "Oceania")
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
