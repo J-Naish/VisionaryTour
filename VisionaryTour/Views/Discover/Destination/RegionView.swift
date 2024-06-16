@@ -19,61 +19,46 @@ struct RegionView: View {
                 RoundedSquareImage(image: Image("region"), size: .large, text: "Region", enableHoverEEffect: false)
                     .padding(.bottom, 72)
                 
+                let regions: [(Region, String)] = [
+                    (.asia, "Asia"),
+                    (.europe, "Europe"),
+                    (.northAmerica, "North America"),
+                    (.latinAmerica, "Latin America"),
+                    (.africa, "Africa"),
+                    (.oceania, "Oceania")
+                ]
                 
-                HStack(spacing: 32) {
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "Asia", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.asia)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("Asia"), size: .medium, text: "Asia")
+                ForEach(Array(regions.enumerated()), id: \.element.0) { index, regionInfo in
+                    let (region, imageName) = regionInfo
+                    if index % 2 == 0 {
+                        HStack(spacing: 32) {
+                            createNavigationLink(for: region, imageName: imageName)
+                            if index + 1 < regions.count {
+                                let nextRegionInfo = regions[index + 1]
+                                createNavigationLink(for: nextRegionInfo.0, imageName: nextRegionInfo.1)
+                            }
+                        }
+                        .padding(.bottom, 32)
                     }
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "Europe", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.europe)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("Europe"), size: .medium, text: "Europe")
-                    }
-                    .buttonStyle(PlainButtonStyle())
                 }
-                .padding(.bottom, 32)
-                
-                
-                HStack(spacing: 32) {
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "North America", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.northAmerica)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("North America"), size: .medium, text: "North America")
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "Latin America", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.latinAmerica)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("Latin America"), size: .medium, text: "Latin America")
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                }
-                .padding(.bottom, 32)
-                
-                
-                HStack(spacing: 32) {
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "Africa", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.africa)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("Africa"), size: .medium, text: "Africa")
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    NavigationLink {
-                        LandmarkListView(navigationTitle: "Oceania", immersiveViewModel: immersiveViewModel, landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(.oceania)), showImmersiveSpace: $showImmersiveSpace)
-                    } label: {
-                        RoundedSquareImage(image: Image("Oceania"), size: .medium, text: "Oceania")
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                }
-                .padding(.bottom, 48)
             }
+            .padding(.bottom, 48)
         }
+    }
+    
+    @ViewBuilder
+    private func createNavigationLink(for region: Region, imageName: String) -> some View {
+        NavigationLink {
+            LandmarkListView(
+                navigationTitle: region.rawValue,
+                immersiveViewModel: immersiveViewModel,
+                landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(region)),
+                showImmersiveSpace: $showImmersiveSpace
+            )
+        } label: {
+            RoundedSquareImage(image: Image(imageName), size: .medium, text: region.rawValue)
+        }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
