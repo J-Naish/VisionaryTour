@@ -31,7 +31,7 @@ struct ContentView: View {
         TabView(selection: $selection) {
             HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 .tabItem {
-                    Label("Discover", systemImage: "magnifyingglass")
+                    Label("Discover", systemImage: "house")
                 }
                 .tag(Tab.home)
             
