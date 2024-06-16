@@ -43,6 +43,11 @@ func filterLandmarks(landmarks: [Landmark], by filterCase: FilterCase) -> [Landm
     }
 }
 
-func convertToLowerCaseWithUnderscore(_ input: String) -> String {
-    return input.lowercased().replacingOccurrences(of: " ", with: "_")
+func getImageURL(imageId: String) -> URL {
+    let apiKey = ProcessInfo.processInfo.environment["CLOUDFLARE_API_KEY"]!
+    let imageUrlString = "https://imagedelivery.net/\(apiKey)/\(imageId)/public"
+    guard let url = URL(string: imageUrlString) else {
+        fatalError("Invalid URL string")
+    }
+    return url
 }
