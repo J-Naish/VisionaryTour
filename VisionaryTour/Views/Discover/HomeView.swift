@@ -12,7 +12,7 @@ struct HomeView: View {
     @State private var selectedItem: Selection = .discover
 
     enum Selection: String, CaseIterable {
-        case discover = "Discover"
+        case discover = "Home"
         case region = "Region"
         case featured = "Featured"
         case list = "List"
@@ -31,7 +31,7 @@ struct HomeView: View {
                         Text(item.rawValue)
                     }
                 }
-                .navigationTitle("Discover")
+                .navigationTitle("Home")
                 .tag(item)
             }
             .searchable(text: $searchText)
