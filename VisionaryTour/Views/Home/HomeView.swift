@@ -14,7 +14,6 @@ struct HomeView: View {
     enum Selection: String, CaseIterable {
         case discover = "Discover"
         case region = "Region"
-        case featured = "Featured"
         case list = "List"
     }
     
@@ -47,11 +46,6 @@ struct HomeView: View {
                         .onAppear {
                             selectedItem = .region
                         }
-                case .featured:
-                    PupularView()
-                        .onAppear {
-                            selectedItem = .featured
-                        }
                 case .list:
                     ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                         .onAppear {
@@ -66,8 +60,6 @@ struct HomeView: View {
                     Discover()
                 case .region:
                     RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                case .featured:
-                    PupularView()
                 case .list:
                     ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                 }

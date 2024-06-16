@@ -10,7 +10,10 @@ import SwiftUI
 struct Discover: View {
     var body: some View {
         ScrollView {
-            RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
+            VStack {
+                RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
+                
+            }
         }
     }
 }
