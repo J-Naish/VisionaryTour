@@ -15,13 +15,7 @@ struct FamousView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                Text("Famous")
-                    .font(.largeTitle)
-                
-                Image(systemName: "chevron.right")
-                    .font(.largeTitle)
-            }
+            SectionTitleView(title: "Famous")
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
