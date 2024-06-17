@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SectionTitle: View {
-    var title: String
+    var title: LocalizedStringResource
 
     var body: some View {
         HStack {

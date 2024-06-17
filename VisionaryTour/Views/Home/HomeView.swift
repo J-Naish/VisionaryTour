@@ -11,7 +11,7 @@ struct HomeView: View {
     @State private var searchText = ""
     @State private var selectedItem: Selection = .discover
 
-    enum Selection: String, CaseIterable {
+    enum Selection: LocalizedStringResource, CaseIterable {
         case discover = "Discover"
         case region = "Region"
         case list = "List"
