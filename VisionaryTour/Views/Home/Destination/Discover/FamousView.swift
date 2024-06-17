@@ -15,7 +15,7 @@ struct FamousView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            SectionTitleView(title: "Famous")
+            SectionTitle(title: "Famous")
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {

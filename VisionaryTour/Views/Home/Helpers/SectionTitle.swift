@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SectionTitleView: View {
+struct SectionTitle: View {
     var title: String
 
     var body: some View {
@@ -22,5 +22,5 @@ struct SectionTitleView: View {
 }
 
 #Preview {
-    SectionTitleView(title: "Famous")
+    SectionTitle(title: "Famous")
 }

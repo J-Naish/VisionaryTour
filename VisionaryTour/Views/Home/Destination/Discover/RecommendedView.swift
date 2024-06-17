@@ -10,7 +10,7 @@ import SwiftUI
 struct RecommendedView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            SectionTitleView(title: "Recommended")
+            SectionTitle(title: "Recommended")
             
             ScrollView(.horizontal) {
                 
