@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Discover: View {
+struct DiscoverView: View {
     
     var viewModel: ViewModel
     var immersiveViewModel: ImmersiveViewModel
@@ -27,5 +27,5 @@ struct Discover: View {
 }
 
 #Preview {
-    Discover(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
+    DiscoverView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }
