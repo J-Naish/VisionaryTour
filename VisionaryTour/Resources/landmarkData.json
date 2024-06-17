@@ -33,7 +33,8 @@
       "river",
       "worldHeritage",
       "park",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "xHb6DGZmAEe9b3T1XWdCgw",
     "imageId": "e0e11a5f-bdd6-45e4-8b80-b574b3730900"
@@ -191,7 +192,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "2Qv9AjI8CxpWv-VprzAi7g",
     "imageId": "12a99a6f-1230-408e-2aac-5edbc7d1ff00"
@@ -457,7 +459,8 @@
       "worldHeritage",
       "park",
       "nature",
-      "popular"
+      "popular",
+      "recommended"
     ],
     "panoId": "uEOP7CQgzUsOsuzai9gxsg",
     "imageId": "c00e2d00-d3fb-4386-3e3d-e4546e409c00"
@@ -530,7 +533,8 @@
     "categories": [
       "sea",
       "worldHeritage",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "6CE3cBmFVq5V_328EPTPgg",
     "imageId": "c45a8c27-3849-4587-0413-8033f4642800"
@@ -584,7 +588,8 @@
       "worldHeritage",
       "cultural",
       "city",
-      "popular"
+      "popular",
+      "recommended"
     ],
     "panoId": "mKIIz_P9mEbtyHrGxgLgWQ",
     "imageId": "f314ba39-79f7-4912-564f-502eb087db00"
@@ -659,7 +664,8 @@
       "woods",
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "iCen-ROAOUAWQcjR8apmLQ",
     "imageId": "c7ccbf55-8e2f-477e-044e-9355c227d200"
@@ -778,7 +784,8 @@
       "worldHeritage",
       "park",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "7EM0Me5-16zS_QkIbOITZQ",
     "imageId": "edac9451-dc33-4b62-c8ce-c53094fe5800"
@@ -851,7 +858,8 @@
       "lake",
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "-tGa0CSVHSWyzD1QcXtsYg",
     "imageId": "831b08a8-6a18-491b-b00e-7ebce374bd00"
@@ -1152,7 +1160,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "city"
+      "city",
+      "recommended"
     ],
     "panoId": "uHPqa1xjq2T47O0kHTqfiw",
     "imageId": "d0f2bebf-9b65-4a7f-669f-e5507afd2a00"
@@ -1304,7 +1313,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "V4TFp2EiUSV5rHfePO5nSA",
     "imageId": "21aaa1bd-fa77-45ea-9e78-e1d6822e1b00"
@@ -1453,7 +1463,8 @@
       "sea",
       "worldHeritage",
       "park",
-      "mountain"
+      "mountain",
+      "recommended"
     ],
     "panoId": "013r3et3cQW_ddjsU22gQg",
     "imageId": "a2c47cbd-34df-447c-a399-35f0eeedf300"
@@ -1509,7 +1520,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "city"
+      "city",
+      "recommended"
     ],
     "panoId": "6rLI7fIlNczeqnItC_qgVA",
     "imageId": "8150f4d1-3a45-47f6-b797-97d057e23c00"
@@ -1588,7 +1600,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "NVoHW1UJBVd6bkt5xbyytg",
     "imageId": "e03e1f74-8d9b-4b4f-8c7c-346973f92200"
@@ -1832,7 +1845,8 @@
     "categories": [
       "worldHeritage",
       "cultural",
-      "city"
+      "city",
+      "recommended"
     ],
     "panoId": "iMd4J63DZ72qH6-jQKmByg",
     "imageId": "73eef9a0-ced4-4d4d-2982-50abeea12d00"
@@ -2024,7 +2038,8 @@
       "worldHeritage",
       "park",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "Nxi6mnpK0tWxzDA9gfBaAw",
     "imageId": "8f71b3fb-4bdd-4b8c-0fe1-c36df9990b00"
@@ -2043,7 +2058,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "city"
+      "city",
+      "recommended"
     ],
     "panoId": "rWanKHGsUMDRcvE02W2FGw",
     "imageId": "22a7cfb1-b531-407b-be88-c8af18544500"
@@ -2215,7 +2231,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "Nj7d0b_taCpgqC1WxEJ_ag",
     "imageId": "f8395768-759a-4fd6-6792-dee0e5521c00"
@@ -2497,7 +2514,8 @@
     "description": "The Caves of Aggtelek Karst and Slovak Karst are outstanding for the large number of complex, diverse and relatively intact caves concentrated into a relatively small area. Located at the north-eastern border of Hungary and the south-eastern border of Slovakia, this exceptional group of 712 caves, recorded at time of inscription, lies under a protected area of 56,651 ha and a larger buffer zone. Today more than 1000 caves are known. Karst processes have produced a rich diversity of structures and habitats that are important from a biological, geological and paleontological point of view. While the karst continues to develop in mountains of medium height and under temperate climate conditions, sediments and fossil landforms provide ample evidence of Late Cretaceous and early Tertiary subtropical and tropical climatic conditions as well as periglacial denudational activity during the Quaternary. Shaped over tens of millions of years, the area provides an excellent demonstration of karst formation during both tropical and glacial climates, which is very unusual and probably better documented here than anywhere else in the world.\n\nThe most significant cave system in the property is that of Baradla-Domica, a cross-border network richly decorated with stalagmites and stalactites, which is an important active stream cave in the temperate climatic zone and a Ramsar site. Also worth mentioning is the Dobsina Ice Cave, one of the most beautiful in the world. Among the ice-filled caves in the property, the Silica Ice Cave is located at the lowest latitude within the temperate climatic zone. The close proximity of many different types of caves of diverse morphology, including vadose and epiphreatic stream caves, vertical shafts and hypogenic or mixing corrosion caves, as well as important archaeological remains, makes the property an outstanding subterranean museum. Its ecosystems provide habitat for more than 500 troglobiont or troglophil species, including some which are endemic. The interactions between geological karst processes occurring on the surface with those occurring beneath make this area a natural field laboratory.",
     "categories": [
       "worldHeritage",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "iTbu9wTmpfwAAAQINSOBpw",
     "imageId": "9fc9f0f2-1a7b-47d1-ac24-6fa19e1d4c00"
@@ -2537,7 +2555,8 @@
       "worldHeritage",
       "park",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "UhoJ2vT5ymDNS12Pm75sjg",
     "imageId": "ab2b87de-8c5b-49a0-378f-190bfa165500"
@@ -2576,7 +2595,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "zjajEwYSLb4AAAQWjKM7fg",
     "imageId": "5e37c07e-901d-4be1-d98b-7b95fb022900"
@@ -2881,7 +2901,8 @@
     "categories": [
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "yRiNvyriUxZqmszrCZD80w",
     "imageId": "72f5eed1-f045-4337-381e-8a789f7ee900"
@@ -3226,7 +3247,8 @@
       "cultural",
       "city",
       "architecture",
-      "popular"
+      "popular",
+      "recommended"
     ],
     "panoId": "3owemmkQafX9r7i5DA2fGQ",
     "imageId": "d47478bd-7640-46ac-12d0-fbea5e0f6800"
@@ -3265,7 +3287,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "city"
+      "city",
+      "recommended"
     ],
     "panoId": "Ot2UFKmK0KNoh9Dgn4zsEg",
     "imageId": "bd69f6e0-74f6-4576-5af4-f048cfa8fb00"
@@ -3547,7 +3570,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "7wmrqYrLoRO7PoUzdhw2lQ",
     "imageId": "fcf33c9c-9bb4-4d48-9680-3260f1f8a700"
@@ -3714,7 +3738,8 @@
       "woods",
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "2JRHvF_j1Jz4FlUj5_XoOA",
     "imageId": "480ac885-3a8d-4a9b-0121-c5ebc8ea5600"
@@ -3732,7 +3757,8 @@
     "categories": [
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "WP-PRXjq8NXSjxtXxYs7nA",
     "imageId": "8c1d8f3c-9e0e-4b06-a037-b7e8436f7300"
@@ -3789,7 +3815,8 @@
     "categories": [
       "historical",
       "worldHeritage",
-      "cultural"
+      "cultural",
+      "recommended"
     ],
     "panoId": "kI16y6a0QG8PUmZ8VIHU_A",
     "imageId": "5f84ca08-5c72-475a-daed-070cda50cd00"
@@ -3880,7 +3907,8 @@
     "categories": [
       "sea",
       "worldHeritage",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "WvDbWV9A2BzXq3ezFlIUYg",
     "imageId": "ae07c017-0ced-4c59-d404-93a146527300"
@@ -3917,7 +3945,8 @@
     "categories": [
       "historical",
       "worldHeritage",
-      "cultural"
+      "cultural",
+      "recommended"
     ],
     "panoId": "bicUBn0gPkSEypbYHuCC-A",
     "imageId": "7ee390ea-cffc-4fd0-c946-cddfcfadde00"
@@ -4046,7 +4075,8 @@
     "description": "Sulaiman-Too Mountain dominates the surrounding landscape of the Fergana Valley and forms the backdrop to the city of Osh. In mediaeval times Osh was one of the largest cities of the fertile Fergana valley at the crossroads of important routes on the Central Asian Silk Roads system, and Sulaiman-Too was a beacon for travellers. For at least a millennium and a half Sulaiman-Too has been revered as a sacred mountain. Its five peaks and slopes contain a large assembly of ancient cult places and caves with petroglyphs, all interconnected with a network of ancient paths, as well as later mosques. The mountain is an exceptional spiritual landscape reflecting both Islamic and pre-Islamic beliefs and particularly the cult of the horse. Sulaiman-Too corresponds closely to iconic images in the Universe of Avesta and Vedic traditions: a single mountain with a peak dominating four others, standing in the virtual centre of a vast river valley, and surrounded by and related to other mountains in the landscape system.",
     "categories": [
       "worldHeritage",
-      "mountain"
+      "mountain",
+      "recommended"
     ],
     "panoId": "05_q-QjKZV-Y9aE6oYmVPw",
     "imageId": "bf8ab190-082f-4f67-8974-4d0033585d00"
@@ -4214,7 +4244,8 @@
     "categories": [
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "poj9ls_hQFdd6q4Xew2PNw",
     "imageId": "1350807e-2082-4987-f136-73694058e200"
@@ -4326,7 +4357,8 @@
       "historical",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "30BMcMRx4W8AAAQvxgQTYg",
     "imageId": "5ed540bc-2946-45e0-0277-086bf6d1a700"
@@ -4456,7 +4488,8 @@
     "categories": [
       "sea",
       "worldHeritage",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "SJ8DSdKaeiURbO5jrqcxAQ",
     "imageId": "620fd097-5bc6-4a38-4129-e3872a335300"
@@ -4756,7 +4789,8 @@
       "wilderness",
       "worldHeritage",
       "cultural",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "Kc8u2CfWLIHTDBUymDigcw",
     "imageId": "c8031f09-820c-48fa-633c-5ef64b485600"
@@ -5003,7 +5037,8 @@
       "lake",
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "667RsKcYsLkISKGHm5MLog",
     "imageId": "b961acf1-6a44-4002-8238-c4b1a99b5000"
@@ -5205,7 +5240,8 @@
     "categories": [
       "sea",
       "worldHeritage",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "vWzdFBdsbz5OlTajnJ4LMQ",
     "imageId": "4dc653fb-9cbf-4d5e-c5eb-623c09b43000"
@@ -5333,7 +5369,8 @@
       "religious",
       "historical",
       "worldHeritage",
-      "cultural"
+      "cultural",
+      "recommended"
     ],
     "panoId": "1mzUAgpk0FLyL-IRIc1FXw",
     "imageId": "d9e470bb-f5e2-4387-486e-e9249d8dc200"
@@ -5981,7 +6018,9 @@
       "worldHeritage",
       "cultural",
       "city",
-      "architecture"
+      "architecture",
+      "popular",
+      "recommended"
     ],
     "panoId": "zISSDt5Xvc2em51Zg-9EhQ",
     "imageId": "9abee6c6-c550-49ed-4f12-62e04c5af600"
@@ -6561,7 +6600,8 @@
       "woods",
       "worldHeritage",
       "mountain",
-      "nature"
+      "nature",
+      "recommended"
     ],
     "panoId": "xFLRurYsBvB9f4JZwyA3CA",
     "imageId": "527a0e0b-6827-4afd-bafd-2e34512b6e00"
@@ -6934,7 +6974,8 @@
       "worldHeritage",
       "cultural",
       "city",
-      "architecture"
+      "architecture",
+      "recommended"
     ],
     "panoId": "A4Bcw4CKlU9xRN5nbxVAhA",
     "imageId": "b86d6920-ffc2-447e-a301-fb864622cd00"
@@ -7162,6 +7203,22 @@
     ],
     "panoId": "BPgwAKSoNKzPJFwYbuxydg",
     "imageId": "a36d7346-dcf6-4166-349b-73887df31300"
+  },
+  {
+    "name": "Waterton Glacier International Peace Park",
+    "coordinates": {
+      "longitude": -113.9074341,
+      "latitude": 49.0525964
+    },
+    "country": "United States of America",
+    "state": "Alberta",
+    "isFavorite": false,
+    "description": "Waterton-Glacier International Peace Park has a distinctive climate, physiographic setting, mountain-prairie interface and tri-ocean hydrographical divide.  It is an area of significant scenic values with abundant and diverse flora and fauna.",
+    "categories": [
+      "worldHeritage"
+    ],
+    "panoId": "6r2O_UJAiuOzsB88h4WfbA",
+    "imageId": "a92efdee-3d99-4fbf-b64e-be74ebdf6000\\"
   },
   {
     "name": "Architecture of Frank Lloyd Wright",

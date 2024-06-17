@@ -25,4 +25,5 @@ enum Category: String, CaseIterable, Codable {
     case desert
     case crowd
     case popular
+    case recommended
 }
