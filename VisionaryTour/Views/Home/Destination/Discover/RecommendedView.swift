@@ -24,6 +24,7 @@ struct RecommendedView: View {
                         VStack {
                             if index * 2 < recommendedLandmarks.count {
                                 LandmarkCard(landmark: recommendedLandmarks[index * 2])
+                                    .padding(.bottom, 16)
                             }
                             if index * 2 + 1 < recommendedLandmarks.count {
                                 LandmarkCard(landmark: recommendedLandmarks[index * 2 + 1])
