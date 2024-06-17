@@ -10,7 +10,7 @@ enum Region: String, CaseIterable, Identifiable {
     case europe = "Europe"
     case africa = "Africa"
     case northAmerica = "NorthAmerica"
-    case latinAmerica = "LatinAmerica"
+    case southAmerica = "SouthAmerica"
     case oceania = "Oceania"
     case others = "Others"
     
@@ -227,7 +227,7 @@ enum Country: String, CaseIterable, Codable {
            case .canada, .mexico, .us:
                return .northAmerica
            case .argentina, .bolivia, .brazil, .chile, .colombia, .ecuador, .guyana, .paraguay, .peru, .suriname, .uruguay, .venezuela, .nicaragua, .panama, .saintKittsAndNevis, .saintLucia, .saintVincentAndTheGrenadines, .trinidadAndTobago, .costaRica, .cuba, .dominica, .dominicanRepublic, .elSalvador, .grenada, .guatemala, .haiti, .honduras, .jamaica, .antiguaAndBarbuda, .bahamas, .barbados, .belize:
-               return .latinAmerica
+               return .southAmerica
            case .australia, .fiji, .kiribati, .marshallIslands, .micronesia, .nauru, .newZealand, .palau, .papuaNewGuinea, .samoa, .solomonIslands, .tonga, .tuvalu, .vanuatu:
                return .oceania
            default:

@@ -38,7 +38,7 @@ struct RegionView: View {
                     (.asia, "Asia", "7ef80a7f-b5a3-4184-f34e-79c27ab3c100"),
                     (.europe, "Europe", "3efd1212-4ee4-4af7-b8af-5a5d23eca200"),
                     (.northAmerica, "North America", "9e818f37-f598-47e1-9a99-8e8bd8fc2600"),
-                    (.latinAmerica, "Latin America", "772508f4-b291-4415-1fd9-01a270811200"),
+                    (.southAmerica, "Latin America", "772508f4-b291-4415-1fd9-01a270811200"),
                     (.africa, "Africa", "703a25a1-4692-4d17-ffe4-64d4c2fc6800"),
                     (.oceania, "Oceania", "852517f4-b88a-4f41-5242-3370d6b79a00")
                 ]
