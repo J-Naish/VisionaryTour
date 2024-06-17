@@ -8,17 +8,35 @@
 import SwiftUI
 
 struct RecommendedView: View {
+    
+    var viewModel: ViewModel
+    var immersiveViewModel: ImmersiveViewModel
+    @Binding var showImmersiveSpace: Bool
+    
     var body: some View {
         VStack(alignment: .leading) {
             SectionTitle(title: "Recommended")
             
-            ScrollView(.horizontal) {
-                
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack {
+                    let recommendedLandmarks = filterLandmarks(landmarks: viewModel.landmarks, by: .category(.recommended))
+                    ForEach(0 ..< recommendedLandmarks.count / 2 + recommendedLandmarks.count % 2, id: \.self) { index in
+                        VStack {
+                            if index * 2 < recommendedLandmarks.count {
+                                LandmarkCard(landmark: recommendedLandmarks[index * 2])
+                            }
+                            if index * 2 + 1 < recommendedLandmarks.count {
+                                LandmarkCard(landmark: recommendedLandmarks[index * 2 + 1])
+                            }
+                        }
+                        .padding(.trailing, 40)
+                    }
+                }
             }
         }
     }
 }
 
 #Preview {
-    RecommendedView()
+    RecommendedView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }
