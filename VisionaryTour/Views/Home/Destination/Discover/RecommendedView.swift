@@ -23,11 +23,21 @@ struct RecommendedView: View {
                     ForEach(0 ..< recommendedLandmarks.count / 2 + recommendedLandmarks.count % 2, id: \.self) { index in
                         VStack {
                             if index * 2 < recommendedLandmarks.count {
-                                LandmarkCard(landmark: recommendedLandmarks[index * 2])
-                                    .padding(.bottom, 16)
+                                NavigationLink {
+                                    LandmarkDetailView(landmark: recommendedLandmarks[index * 2], immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                                } label: {
+                                    LandmarkCard(landmark: recommendedLandmarks[index * 2])
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                                .padding(.bottom, 16)
                             }
                             if index * 2 + 1 < recommendedLandmarks.count {
-                                LandmarkCard(landmark: recommendedLandmarks[index * 2 + 1])
+                                NavigationLink {
+                                    LandmarkDetailView(landmark: recommendedLandmarks[index * 2 + 1], immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                                } label: {
+                                    LandmarkCard(landmark: recommendedLandmarks[index * 2 + 1])
+                                }
+                                .buttonStyle(PlainButtonStyle())
                             }
                         }
                         .padding(.trailing, 40)
