@@ -55,5 +55,5 @@ struct ContentView: View {
 
 #Preview(windowStyle: .automatic) {
     ContentView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
-        .environment(\.locale, .init(identifier: "ja"))
+        .environment(\.locale, .init(identifier: "fr"))
 }

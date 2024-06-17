@@ -33,7 +33,7 @@ struct LandmarkCard: View {
                 .fontWeight(.bold)
                 .lineLimit(1)
                 .truncationMode(.tail)
-            Text(landmark.country.rawValue)
+            Text(LocalizedStringKey(landmark.country.rawValue))
                 .padding(.leading, 8)
                 .opacity(0.7)
         }
