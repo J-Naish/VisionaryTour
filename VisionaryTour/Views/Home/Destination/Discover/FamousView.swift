@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PopularView: View {
+struct FamousView: View {
     
     var viewModel: ViewModel
     var immersiveViewModel: ImmersiveViewModel
@@ -16,7 +16,7 @@ struct PopularView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Text("Popular")
+                Text("Famous")
                     .font(.largeTitle)
                 
                 Image(systemName: "chevron.right")
@@ -42,5 +42,5 @@ struct PopularView: View {
 }
 
 #Preview {
-    PopularView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
+    FamousView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }

@@ -19,7 +19,7 @@ struct Discover: View {
                 RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
                     .padding(.bottom, 72)
                 
-                PopularView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                FamousView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
             }
             .padding(.horizontal, 48)
         }
