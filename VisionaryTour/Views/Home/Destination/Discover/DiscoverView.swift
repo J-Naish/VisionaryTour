@@ -16,8 +16,20 @@ struct DiscoverView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                RoundedSquareImage(image: Image("dummy"), size: .extraLarge, text: "Discover")
-                    .padding(.bottom, 72)
+                ZStack(alignment: .leading) {
+                    Image("dummy")
+                        .resizable()
+                        .frame(width: 880, height: 280)
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .frame(width: 880, height: 280)
+                    
+                    Text("Discover")
+                        .font(.system(size: 72))
+                        .fontWeight(.bold)
+                        .padding(.leading, 32)
+                }
+                .padding(.bottom, 72)
                 
                 RecommendedView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
                     .padding(.bottom, 64)
