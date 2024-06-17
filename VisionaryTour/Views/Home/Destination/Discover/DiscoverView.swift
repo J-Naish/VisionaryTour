@@ -37,6 +37,7 @@ struct DiscoverView: View {
                 FamousView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
             }
             .padding(.horizontal, 48)
+            .padding(.bottom, 72)
         }
     }
 }
