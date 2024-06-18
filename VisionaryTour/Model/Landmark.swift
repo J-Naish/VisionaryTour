@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 
 struct Landmark: Identifiable, Codable, Hashable {
-    var name: String
+    var name: Localization
     var coordinates: Coordinates
     var isFavorite: Bool
     var country: Country

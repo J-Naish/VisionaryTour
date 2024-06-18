@@ -10,6 +10,8 @@ import SwiftUI
 struct LandmarkDescriptionView: View {
     var landmark: Landmark
     
+    var language = Locale.current.language.languageCode?.identifier ?? "en"
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -23,7 +25,7 @@ struct LandmarkDescriptionView: View {
                     .frame(width: 160, height: 160)
                     
                     VStack(alignment: .leading) {
-                        Text(landmark.name)
+                        Text(landmark.name[language] ?? landmark.name.en)
                             .font(.largeTitle)
                         Text(LocalizedStringKey(landmark.country.rawValue))
                     }

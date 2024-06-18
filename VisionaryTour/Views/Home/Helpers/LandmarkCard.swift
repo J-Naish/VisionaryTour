@@ -11,6 +11,8 @@ struct LandmarkCard: View {
     var landmark: Landmark
     @State private var shouldLoadImage = false
     
+    var language = Locale.current.language.languageCode?.identifier ?? "en"
+    
     var body: some View {
         VStack(alignment: .leading) {
             if shouldLoadImage {
@@ -28,7 +30,7 @@ struct LandmarkCard: View {
                     .frame(width: 200, height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
             }
-            Text(landmark.name)
+            Text(landmark.name[language] ?? landmark.name.en)
                 .padding(.leading, 8)
                 .fontWeight(.bold)
                 .lineLimit(1)

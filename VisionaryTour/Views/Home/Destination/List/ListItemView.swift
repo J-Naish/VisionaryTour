@@ -12,6 +12,8 @@ struct ListItemView: View {
     var landmark: Landmark
     @State private var shouldLoadImage = false
     
+    var language = Locale.current.language.languageCode?.identifier ?? "en"
+    
     var body: some View {
         HStack(spacing: 0) {
             if shouldLoadImage {
@@ -30,7 +32,7 @@ struct ListItemView: View {
             
             ZStack(alignment: .leading) {
                 VStack(alignment: .leading) {
-                    Text(landmark.name)
+                    Text(landmark.name[language] ?? landmark.name.en)
                         .font(.largeTitle)
                         .lineLimit(1)
                     Text(LocalizedStringKey(landmark.country.rawValue))

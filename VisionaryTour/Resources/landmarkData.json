@@ -1,6 +1,14 @@
 [
   {
-    "name": "Jesuit Missions of the Guaranis",
+    "name": {
+      "en": "Jesuit Missions of the Guaranis",
+      "zh": "耶稣会减肥尼斯任务区",
+      "fr": "Missions jésuites des Guaranis",
+      "de": "Jesuitenmissionen der Guaraní",
+      "ja": "グアラニのイエズス会伝道所群",
+      "pt": "Missões Jesuíticas dos Guaranis",
+      "es": "Misiones Jesuíticas de los Guaraníes"
+    },
     "coordinates": {
       "longitude": -55.5807514,
       "latitude": -27.3909413
@@ -18,7 +26,15 @@
     "imageId": "007353ef-747e-47a3-73b1-3712ff866000"
   },
   {
-    "name": "Kakadu National Park",
+    "name": {
+      "en": "Kakadu National Park",
+      "zh": "卡卡杜国家公园",
+      "fr": "Parc national de Kakadu",
+      "de": "Kakadu-Nationalpark",
+      "ja": "カカドゥ国立公園",
+      "pt": "Parque Nacional Kakadu",
+      "es": "Parque Nacional Kakadu"
+    },
     "coordinates": {
       "longitude": 132.7794761,
       "latitude": -13.3160366
@@ -38,7 +54,15 @@
     "imageId": "e0e11a5f-bdd6-45e4-8b80-b574b3730900"
   },
   {
-    "name": "Uluru-Kata Tjuta National Park",
+    "name": {
+      "en": "Uluru-Kata Tjuta National Park",
+      "zh": "乌卢鲁-卡塔丘塔国家公园",
+      "fr": "Parc national d'Uluru-Kata Tjuta",
+      "de": "Uluru-Kata Tjuta Nationalpark",
+      "ja": "ウルル＝カタ・ジュタ国立公園",
+      "pt": "Parque Nacional de Uluru-Kata Tjuta",
+      "es": "Parque Nacional Uluru-Kata Tjuta"
+    },
     "coordinates": {
       "longitude": 131.0334173,
       "latitude": -25.3539545
@@ -58,7 +82,15 @@
     "imageId": "1fa8d0a6-0c6f-4d42-2b18-ddf8890e0600"
   },
   {
-    "name": "Royal Exhibition Building and Carlton Gardens",
+    "name": {
+      "en": "Royal Exhibition Building and Carlton Gardens",
+      "zh": "皇家展览馆与卡尔顿花园",
+      "fr": "Bâtiment Royal Exhibition et jardins de Carlton",
+      "de": "Königliches Ausstellungsgebäude und Carlton-Gärten",
+      "ja": "ロイヤル・エキシビション・ビルディングとカールトン・ガーデンズ",
+      "pt": "Edifício da Exposição Real e Jardins de Carlton",
+      "es": "Edificio Real de Exhibiciones y Jardines Carlton"
+    },
     "coordinates": {
       "longitude": 144.9713597,
       "latitude": -37.8056854
@@ -76,7 +108,15 @@
     "imageId": "67136c78-9853-4b9d-e6e0-76a397eaf200"
   },
   {
-    "name": "Sydney Opera House",
+    "name": {
+      "en": "Sydney Opera House",
+      "zh": "悉尼歌剧院",
+      "fr": "Opéra de Sydney",
+      "de": "Sydneyer Opernhaus",
+      "ja": "シドニーオペラハウス",
+      "pt": "Casa de Ópera de Sydney",
+      "es": "Casa de la Ópera de Sídney"
+    },
     "coordinates": {
       "longitude": 151.2149271,
       "latitude": -33.8577088
@@ -94,7 +134,15 @@
     "imageId": "e095b08c-fd2e-4cc7-df7a-cc98ac356600"
   },
   {
-    "name": "Palace and Gardens of Schönbrunn",
+    "name": {
+      "en": "Palace and Gardens of Schönbrunn",
+      "zh": "绍恩布伦宫及花园",
+      "fr": "Palais et jardins de Schönbrunn",
+      "de": "Schloss und Gärten von Schönbrunn",
+      "ja": "シェーンブルン宮殿と庭園",
+      "pt": "Palácio e Jardins de Schönbrunn",
+      "es": "Palacio y Jardines de Schönbrünn"
+    },
     "coordinates": {
       "longitude": 16.3133945,
       "latitude": 48.1869082
@@ -112,7 +160,15 @@
     "imageId": "4d3b5ebe-390a-4c66-2894-481ca06ae300"
   },
   {
-    "name": "Wachau Cultural Landscape",
+    "name": {
+      "en": "Wachau Cultural Landscape",
+      "zh": "瓦豪文化景观",
+      "fr": "Paysage culturel de la Wachau",
+      "de": "Wachau Kulturlandschaft",
+      "ja": "ヴァッハウ渓谷の文化的景観",
+      "pt": "Paisagem Cultural de Wachau",
+      "es": "Paisaje Cultural de Wachau"
+    },
     "coordinates": {
       "longitude": 15.3283865,
       "latitude": 48.2277027
@@ -132,7 +188,15 @@
     "imageId": "8e6dcf40-c377-4a1d-ea3e-3f23f5ff4d00"
   },
   {
-    "name": "Historic Mosque City of Bagerhat",
+    "name": {
+      "en": "Historic Mosque City of Bagerhat",
+      "zh": "巴格尔哈特历史清真寺城",
+      "fr": "Cité historique des mosquées de Bagerhat",
+      "de": "Historische Moscheenstadt Bagerhat",
+      "ja": "バゲラットの歴史的なモスク都市",
+      "pt": "Cidade Histórica dos Mesquitas de Bagerhat",
+      "es": "Ciudad Histórica de Bagerhat"
+    },
     "coordinates": {
       "longitude": 89.7556574,
       "latitude": 22.6585108
@@ -151,7 +215,15 @@
     "imageId": "5c8d45a7-01fd-4b50-195c-a40e95d54200"
   },
   {
-    "name": "Ruins of the Buddhist Vihara at Paharpur",
+    "name": {
+      "en": "Ruins of the Buddhist Vihara at Paharpur",
+      "zh": "帕哈普尔的佛教寺院遗址",
+      "fr": "Ruines du monastère bouddhique de Paharpur",
+      "de": "Ruinen des buddhistischen Vihara in Paharpur",
+      "ja": "パハールプルの仏教僧院の遺跡",
+      "pt": "Ruínas do Mosteiro Budista de Paharpur",
+      "es": "Ruinas del monasterio budista de Paharpur."
+    },
     "coordinates": {
       "longitude": 88.9767182,
       "latitude": 25.0302154
@@ -170,7 +242,15 @@
     "imageId": "f32df94f-8d4a-4684-194f-5b3756718900"
   },
   {
-    "name": "La Grand-Place",
+    "name": {
+      "en": "La Grand-Place",
+      "zh": "布鲁塞尔大广场",
+      "fr": "La Grand-Place",
+      "de": "Der Grote Markt",
+      "ja": "グラン＝プラス",
+      "pt": "Praça Central",
+      "es": "La Gran Plaza"
+    },
     "coordinates": {
       "longitude": 4.3524946,
       "latitude": 50.8468805
@@ -189,7 +269,15 @@
     "imageId": "12a99a6f-1230-408e-2aac-5edbc7d1ff00"
   },
   {
-    "name": "Belfries of Belgium and France",
+    "name": {
+      "en": "Belfries of Belgium and France",
+      "zh": "比利时和法国的钟楼",
+      "fr": "Beffrois de Belgique et de France",
+      "de": "Belfriede von Belgien und Frankreich",
+      "ja": "ベルギーとフランスの鐘楼群",
+      "pt": "Campanários da Bélgica e da França",
+      "es": "Campanarios de Bélgica y Francia"
+    },
     "coordinates": {
       "longitude": 4.0388298,
       "latitude": 50.938307
@@ -208,7 +296,15 @@
     "imageId": "cac87fd3-1fad-41d5-3214-66cefe781d00"
   },
   {
-    "name": "Historic Centre of Brugge",
+    "name": {
+      "en": "Historic Centre of Brugge",
+      "zh": "布鲁日历史中心",
+      "fr": "Centre historique de Bruges",
+      "de": "Historisches Zentrum von Brügge",
+      "ja": "ブルッヘの歴史地区",
+      "pt": "Centro Histórico de Bruges",
+      "es": "Centro Histórico de Brujas"
+    },
     "coordinates": {
       "longitude": 3.2266856,
       "latitude": 51.2086869
@@ -226,7 +322,15 @@
     "imageId": "e7919e8c-2ba5-441f-13e0-e94095827900"
   },
   {
-    "name": "Notre-Dame Cathedral in Tournai",
+    "name": {
+      "en": "Notre-Dame Cathedral in Tournai",
+      "zh": "图尔奈圣母大教堂",
+      "fr": "Cathédrale Notre-Dame de Tournai",
+      "de": "Kathedrale von Tournai",
+      "ja": "トゥルネーのノートルダム大聖堂",
+      "pt": "Catedral de Notre-Dame em Tournai",
+      "es": "Catedral de Notre-Dame en Tournai"
+    },
     "coordinates": {
       "longitude": 3.3877131,
       "latitude": 50.6071535
@@ -245,7 +349,15 @@
     "imageId": "65880ea6-aea8-4bee-4c51-ce03d0491200"
   },
   {
-    "name": "Stoclet House",
+    "name": {
+      "en": "Stoclet House",
+      "zh": "斯托克莱特别墅",
+      "fr": "Maison Stoclet",
+      "de": "Stoclet-Palais",
+      "ja": "ストックレ邸",
+      "pt": "Casa Stoclet",
+      "es": "Casa Stoclet"
+    },
     "coordinates": {
       "longitude": 4.4160555,
       "latitude": 50.8356251
@@ -262,7 +374,15 @@
     "imageId": "78cbea13-1c75-40c6-f74e-727c2b66e900"
   },
   {
-    "name": "City of Potosí",
+    "name": {
+      "en": "City of Potosí",
+      "zh": "波托西市",
+      "fr": "Ville de Potosí",
+      "de": "Stadt Potosí",
+      "ja": "ポトシ市",
+      "pt": "Cidade de Potosí",
+      "es": "Ciudad de Potosí"
+    },
     "coordinates": {
       "longitude": -65.7479467,
       "latitude": -19.5738992
@@ -280,7 +400,15 @@
     "imageId": "f0a46647-42ec-4476-71f7-e33c5032bc00"
   },
   {
-    "name": "Jesuit Missions of the Chiquitos",
+    "name": {
+      "en": "Jesuit Missions of the Chiquitos",
+      "zh": "奇基托斯的耶稣会传教区",
+      "fr": "Missions jésuites des Chiquitos",
+      "de": "Jesuitenmissionen der Chiquitos",
+      "ja": "チキトスのイエズス会伝道所群",
+      "pt": "Missões Jesuítas dos Chiquitos",
+      "es": "Misiones Jesuíticas de los Chiquitos"
+    },
     "coordinates": {
       "longitude": -62.505087,
       "latitude": -16.2745978
@@ -298,7 +426,15 @@
     "imageId": "a93cba86-6a77-4a02-cef4-edc08bfbce00"
   },
   {
-    "name": "Historic City of Sucre",
+    "name": {
+      "en": "Historic City of Sucre",
+      "zh": "苏克雷历史城市",
+      "fr": "Cité Historique de Sucre",
+      "de": "Historische Stadt Sucre",
+      "ja": "スクレの歴史地区",
+      "pt": "Cidade Histórica de Sucre",
+      "es": "Ciudad Histórica de Sucre"
+    },
     "coordinates": {
       "longitude": -68.1334271,
       "latitude": -16.4960485
@@ -316,7 +452,15 @@
     "imageId": "df0ef60d-d3df-475f-b3c4-bdcd7d5f5100"
   },
   {
-    "name": "Fuerte de Samaipata",
+    "name": {
+      "en": "Fuerte de Samaipata",
+      "zh": "萨迈帕塔要塞",
+      "fr": "Fort de Samaipata",
+      "de": "Festung von Samaipata",
+      "ja": "サマイパタの要塞",
+      "pt": "Forte de Samaipata",
+      "es": "Fuerte de Samaipata"
+    },
     "coordinates": {
       "longitude": -63.8195583,
       "latitude": -18.1789665
@@ -334,7 +478,15 @@
     "imageId": "13b13e51-5129-4099-ccee-a0a3874e9900"
   },
   {
-    "name": "Tiwanaku",
+    "name": {
+      "en": "Tiwanaku",
+      "zh": "提瓦纳库",
+      "fr": "Tiwanaku ",
+      "de": "Tiwanaku",
+      "ja": "ティワナク",
+      "pt": "Tiwanaku",
+      "es": "Tiwanaku"
+    },
     "coordinates": {
       "longitude": -68.6738105,
       "latitude": -16.5552038
@@ -351,7 +503,15 @@
     "imageId": "265d8639-2f28-4410-e2c2-a9c72f157e00"
   },
   {
-    "name": "Historic Town of Ouro Preto",
+    "name": {
+      "en": "Historic Town of Ouro Preto",
+      "zh": "奥鲁普雷图历叜城",
+      "fr": "Ville historique d'Ouro Preto",
+      "de": "Historische Stadt Ouro Preto",
+      "ja": "オウロ・プレット歴史地区",
+      "pt": "Cidade Histórica de Ouro Preto",
+      "es": "Ciudad histórica de Ouro Preto"
+    },
     "coordinates": {
       "longitude": -43.5036148,
       "latitude": -20.3855696
@@ -369,7 +529,15 @@
     "imageId": "d13df7a2-f58c-428e-fddf-650caf79a900"
   },
   {
-    "name": "Historic Centre of the Town of Olinda",
+    "name": {
+      "en": "Historic Centre of the Town of Olinda",
+      "zh": "奥林达历史城区",
+      "fr": "Centre historique de la ville d'Olinda",
+      "de": "Historisches Zentrum der Stadt Olinda",
+      "ja": "オリンダ歴史地区",
+      "pt": "Centro Histórico de Olinda",
+      "es": "Centro Histórico de la Ciudad de Olinda"
+    },
     "coordinates": {
       "longitude": -34.8519786,
       "latitude": -8.0154681
@@ -386,7 +554,15 @@
     "imageId": "0f01c06a-8a98-4386-15df-f972daa69000"
   },
   {
-    "name": "Historic Centre of Salvador de Bahia",
+    "name": {
+      "en": "Historic Centre of Salvador de Bahia",
+      "zh": "萨尔瓦多历史中心",
+      "fr": "Centre historique de Salvador de Bahia",
+      "de": "Historisches Zentrum von Salvador de Bahia",
+      "ja": "サルバドール・デ・バイーアの歴史地区",
+      "pt": "Centro Histórico de Salvador da Bahia",
+      "es": "Centro Histórico de Salvador de Bahía"
+    },
     "coordinates": {
       "longitude": -38.510283,
       "latitude": -12.9730564
@@ -404,7 +580,15 @@
     "imageId": "10afd594-4ea6-4736-afae-683fe3693100"
   },
   {
-    "name": "Sanctuary of Bom Jesus do Congonhas",
+    "name": {
+      "en": "Sanctuary of Bom Jesus do Congonhas",
+      "zh": "康贡哈斯的圣佑耶稣圣地",
+      "fr": "Sanctuaire du Bon Jésus de Congonhas",
+      "de": "Heiligtum des Bom Jesus do Congonhas",
+      "ja": "コンゴニャスのボン・ジェズス聖域",
+      "pt": "Santuário do Bom Jesus de Matosinhos",
+      "es": "Santuario del Bom Jesus do Congonhas."
+    },
     "coordinates": {
       "longitude": -43.8605477,
       "latitude": -20.507578
@@ -422,7 +606,15 @@
     "imageId": "3db03447-a4ef-4185-e0ca-7a9b5ce64d00"
   },
   {
-    "name": "Iguaçu National Park",
+    "name": {
+      "en": "Iguaçu National Park",
+      "zh": "伊瓜苏国家公园",
+      "fr": "Parc national d'Iguaçu",
+      "de": "Nationalpark Iguaçu",
+      "ja": "イグアス国立公園",
+      "pt": "Parque Nacional do Iguaçu",
+      "es": "Parque Nacional de Iguazú"
+    },
     "coordinates": {
       "longitude": -54.4438358,
       "latitude": -25.6876669
@@ -442,7 +634,15 @@
     "imageId": "c00e2d00-d3fb-4386-3e3d-e4546e409c00"
   },
   {
-    "name": "Brasilia",
+    "name": {
+      "en": "Brasilia",
+      "zh": "巴西利亚",
+      "fr": "Brasilia",
+      "de": "Brasília",
+      "ja": "ブラジリア",
+      "pt": "Brasília",
+      "es": "Brasilia"
+    },
     "coordinates": {
       "longitude": -47.8753406,
       "latitude": -15.7973702
@@ -459,7 +659,15 @@
     "imageId": "2972822c-68dc-41a5-d459-e747764dbf00"
   },
   {
-    "name": "Historic Centre of São Luís",
+    "name": {
+      "en": "Historic Centre of São Luís",
+      "zh": "圣路易斯历叜中心",
+      "fr": "Centre historique de São Luís",
+      "de": "Historisches Zentrum von São Luís",
+      "ja": "サン・ルイスの歴史地区",
+      "pt": "Centro Histórico de São Luís",
+      "es": "Centro Histórico de São Luís"
+    },
     "coordinates": {
       "longitude": -44.3048634,
       "latitude": -2.5287133
@@ -477,7 +685,15 @@
     "imageId": "929b5516-049d-43cc-1e2e-8d1b29128300"
   },
   {
-    "name": "Historic Centre of the Town of Diamantina",
+    "name": {
+      "en": "Historic Centre of the Town of Diamantina",
+      "zh": "戴亚曼蒂纳镇历史中心",
+      "fr": "Centre historique de la ville de Diamantina",
+      "de": "Historisches Zentrum der Stadt Diamantina",
+      "ja": "ディアマンティーナの町の歴史地区",
+      "pt": "Centro Histórico da Cidade de Diamantina",
+      "es": "Centro Histórico de la Ciudad de Diamantina"
+    },
     "coordinates": {
       "longitude": -43.5948583,
       "latitude": -18.245787
@@ -494,7 +710,15 @@
     "imageId": "54193dfb-44b3-4bab-ac6e-8397b44cd000"
   },
   {
-    "name": "Brazilian Atlantic Islands",
+    "name": {
+      "en": "Brazilian Atlantic Islands",
+      "zh": "巴西大西洋群岛",
+      "fr": "Îles atlantiques brésiliennes",
+      "de": "Brasilianische Atlantikinseln",
+      "ja": "ブラジルの大西洋諸島",
+      "pt": "Ilhas Atlânticas Brasileiras",
+      "es": "Islas Atlánticas Brasileñas"
+    },
     "coordinates": {
       "longitude": -33.791819,
       "latitude": -3.8629303
@@ -512,7 +736,15 @@
     "imageId": "c45a8c27-3849-4587-0413-8033f4642800"
   },
   {
-    "name": "Historic Centre of the Town of Goiás",
+    "name": {
+      "en": "Historic Centre of the Town of Goiás",
+      "zh": "戈亚斯历史城区",
+      "fr": "Centre historique de la ville de Goiás",
+      "de": "Historisches Zentrum der Stadt Goiás",
+      "ja": "ゴイアスの歴史地区",
+      "pt": "Centro Histórico da Cidade de Goiás",
+      "es": "Centro Histórico de la Ciudad de Goiás"
+    },
     "coordinates": {
       "longitude": -50.1398708,
       "latitude": -15.9345184
@@ -529,7 +761,15 @@
     "imageId": "1261f58e-6813-48de-1aca-08f5aff0e100"
   },
   {
-    "name": "São Francisco Square",
+    "name": {
+      "en": "São Francisco Square",
+      "zh": "圣弗朗西斯科广场",
+      "fr": "Place São Francisco",
+      "de": "Franziskusplatz",
+      "ja": "サンフランシスコ広場",
+      "pt": "Praça de São Francisco",
+      "es": "Plaza de San Francisco"
+    },
     "coordinates": {
       "longitude": -37.2055076,
       "latitude": -11.0140661
@@ -545,7 +785,15 @@
     "imageId": "b13a0077-0551-461b-a9a6-45062fbb5c00"
   },
   {
-    "name": "Rio de Janeiro",
+    "name": {
+      "en": "Rio de Janeiro",
+      "zh": "里约热内卢",
+      "fr": "Rio de Janeiro est un patrimoine mondial.",
+      "de": "Rio de Janeiro",
+      "ja": "リオデジャネイロ",
+      "pt": "Rio de Janeiro",
+      "es": "Río de Janeiro"
+    },
     "coordinates": {
       "longitude": -43.2105047,
       "latitude": -22.9518103
@@ -564,7 +812,15 @@
     "imageId": "f314ba39-79f7-4912-564f-502eb087db00"
   },
   {
-    "name": "Valongo Wharf Archaeological Site",
+    "name": {
+      "en": "Valongo Wharf Archaeological Site",
+      "zh": "瓦隆戈码头考古遗址",
+      "fr": "Site archéologique du quai de Valongo",
+      "de": "Archäologische Stätte Cais do Valongo",
+      "ja": "ヴァロンゴ埠頭考古遺跡",
+      "pt": "Sítio Arqueológico Cais do Valongo",
+      "es": "Sitio Arqueológico del Cais do Valongo"
+    },
     "coordinates": {
       "longitude": -43.1870275,
       "latitude": -22.896595
@@ -581,7 +837,15 @@
     "imageId": "9d42841d-9607-4f0b-da2e-03cc5edb8b00"
   },
   {
-    "name": "Madara Rider",
+    "name": {
+      "en": "Madara Rider",
+      "zh": "马达拉骑手",
+      "fr": "Cavalier de Madara",
+      "de": "Madara-Reiter",
+      "ja": "マダラの騎士像",
+      "pt": "Cavaleiro de Madara",
+      "es": "Jinete de Madara"
+    },
     "coordinates": {
       "longitude": 27.1188553,
       "latitude": 43.2774018
@@ -598,7 +862,15 @@
     "imageId": "b4548d76-efe3-4d4c-b0b2-e1d6806dfc00"
   },
   {
-    "name": "Ancient City of Nessebar",
+    "name": {
+      "en": "Ancient City of Nessebar",
+      "zh": "内塞巴尔古城",
+      "fr": "Cité ancienne de Nessebar",
+      "de": "Antike Stadt Nessebar",
+      "ja": "ネセバル旧市街",
+      "pt": "Cidade Antiga de Nessebar",
+      "es": "Ciudad Antigua de Nesebar"
+    },
     "coordinates": {
       "longitude": 27.7335495,
       "latitude": 42.6584972
@@ -617,7 +889,15 @@
     "imageId": "85df2f22-ab68-4216-d917-36dbd54e6200"
   },
   {
-    "name": "Pirin National Park",
+    "name": {
+      "en": "Pirin National Park",
+      "zh": "皮林国家公园",
+      "fr": "Parc National de Pirin",
+      "de": "Nationalpark Pirin",
+      "ja": "ピリン国立公園",
+      "pt": "Parque Nacional de Pirin",
+      "es": "Parque Nacional Pirin"
+    },
     "coordinates": {
       "longitude": 23.4134768,
       "latitude": 41.7448943
@@ -636,7 +916,15 @@
     "imageId": "c7ccbf55-8e2f-477e-044e-9355c227d200"
   },
   {
-    "name": "Angkor",
+    "name": {
+      "en": "Angkor",
+      "zh": "吴哥窟",
+      "fr": "Angkor",
+      "de": "Angkor Wat",
+      "ja": "アンコール遺跡",
+      "pt": "Angkor é um Patrimônio Mundial.",
+      "es": "Angkor es un nombre para un patrimonio de la humanidad."
+    },
     "coordinates": {
       "longitude": 103.8648097,
       "latitude": 13.4124697
@@ -656,7 +944,15 @@
     "imageId": "c97c3c33-ad47-4072-0e96-4cb2be7dca00"
   },
   {
-    "name": "Temple Zone of Sambor Prei Kuk",
+    "name": {
+      "en": "Temple Zone of Sambor Prei Kuk",
+      "zh": "三波尔裴库考古遗址公园",
+      "fr": "Zone du temple de Sambor Prei Kuk",
+      "de": "Tempelzone von Sambor Prei Kuk",
+      "ja": "サンボール・プレイ・クックの寺院地域",
+      "pt": "Zona do Templo de Sambor Prei Kuk",
+      "es": "Zona del templo de Sambor Prei Kuk"
+    },
     "coordinates": {
       "longitude": 105.0434862,
       "latitude": 12.8710136
@@ -674,7 +970,15 @@
     "imageId": "0e6e562b-802e-445e-0b53-54e597af2e00"
   },
   {
-    "name": "Koh Ker",
+    "name": {
+      "en": "Koh Ker",
+      "zh": "柯尔古迹",
+      "fr": "Koh Ker",
+      "de": "Koh Ker",
+      "ja": "コーケー",
+      "pt": "Koh Ker",
+      "es": "Koh Ker"
+    },
     "coordinates": {
       "longitude": 104.5382102,
       "latitude": 13.7833508
@@ -693,7 +997,15 @@
     "imageId": "f7f419c6-f1c3-4554-5a1c-a0f319e10400"
   },
   {
-    "name": "Kluane",
+    "name": {
+      "en": "Kluane",
+      "zh": "克卢阿尼",
+      "fr": "Kluane",
+      "de": "Kluane-Welterbe",
+      "ja": "クルアニ",
+      "pt": "Kluane",
+      "es": "Kluane"
+    },
     "coordinates": {
       "longitude": -138.8125937,
       "latitude": 61.2558988
@@ -713,7 +1025,15 @@
     "imageId": "810f66eb-3a02-4d69-a708-eb2368322400"
   },
   {
-    "name": "L’Anse aux Meadows",
+    "name": {
+      "en": "L’Anse aux Meadows",
+      "zh": "兰斯角草场遗址",
+      "fr": "L'Anse aux Meadows",
+      "de": "L'Anse aux Meadows",
+      "ja": "ランス・オー・メドウズ",
+      "pt": "L'Anse aux Meadows",
+      "es": "L'Anse aux Meadows"
+    },
     "coordinates": {
       "longitude": -55.5332164,
       "latitude": 51.5962037
@@ -730,7 +1050,15 @@
     "imageId": "3e99a5b6-c6df-4930-4284-cab215172300"
   },
   {
-    "name": "Dinosaur Provincial Park",
+    "name": {
+      "en": "Dinosaur Provincial Park",
+      "zh": "恐龙省级公园",
+      "fr": "Parc provincial des Dinosaures",
+      "de": "Dinosaurier-Provinzpark",
+      "ja": "ダイナソー州立公園",
+      "pt": "Parque Provincial dos Dinossauros.",
+      "es": "Parque Provincial de los Dinosaurios"
+    },
     "coordinates": {
       "longitude": -111.482813,
       "latitude": 50.7539324
@@ -750,7 +1078,15 @@
     "imageId": "edac9451-dc33-4b62-c8ce-c53094fe5800"
   },
   {
-    "name": "SGang Gwaay",
+    "name": {
+      "en": "SGang Gwaay",
+      "zh": "斯干各位",
+      "fr": "SGang Gwaay est inscrit au patrimoine mondial.",
+      "de": "SGang Gwaay Weltkulturerbe",
+      "ja": "スガンガイ",
+      "pt": "SGang Gwaay",
+      "es": "SGang Gwaay es un Patrimonio de la Humanidad."
+    },
     "coordinates": {
       "longitude": -131.2165246,
       "latitude": 52.0984935
@@ -766,7 +1102,15 @@
     "imageId": "3798ce54-b3b6-4ff5-f8b2-6f7a70484400"
   },
   {
-    "name": "Historic District of Old Québec",
+    "name": {
+      "en": "Historic District of Old Québec",
+      "zh": "魁北克老城历叺区",
+      "fr": "Arrondissement historique du Vieux-Québec",
+      "de": "Historisches Viertel von Alt-Québec",
+      "ja": "ケベック旧市街歴史地区",
+      "pt": "Distrito Histórico do Velho Québec",
+      "es": "Distrito Histórico del Viejo Quebec"
+    },
     "coordinates": {
       "longitude": -71.2070038,
       "latitude": 46.8117649
@@ -783,7 +1127,15 @@
     "imageId": "c41b7b2c-5351-451d-dd72-d93e789f9600"
   },
   {
-    "name": "Old Town Lunenburg",
+    "name": {
+      "en": "Old Town Lunenburg",
+      "zh": "伦嫩堡老城",
+      "fr": "Vieux Lunenburg",
+      "de": "Alte Stadt Lunenburg",
+      "ja": "ルーネンブルク旧市街",
+      "pt": "Centro Histórico de Lunenburg",
+      "es": "Casco Antiguo de Lunenburg"
+    },
     "coordinates": {
       "longitude": -64.3088496,
       "latitude": 44.3749486
@@ -800,7 +1152,15 @@
     "imageId": "bfbee66f-7f09-4ec5-9529-349197202f00"
   },
   {
-    "name": "Waterton Glacier International Peace Park",
+    "name": {
+      "en": "Waterton Glacier International Peace Park",
+      "zh": "沃特顿-冰川国际和平公园",
+      "fr": "Parc international de la paix Waterton-Glacier",
+      "de": "Waterton-Glacier Internationaler Friedenspark",
+      "ja": "ワートン・グレーシャー国際平和公園",
+      "pt": "Parque Internacional da Paz Waterton-Glacier",
+      "es": "Parque Internacional de la Paz Waterton-Glacier"
+    },
     "coordinates": {
       "longitude": -113.9071169,
       "latitude": 49.055054
@@ -820,7 +1180,15 @@
     "imageId": "831b08a8-6a18-491b-b00e-7ebce374bd00"
   },
   {
-    "name": "Rideau Canal",
+    "name": {
+      "en": "Rideau Canal",
+      "zh": "里多运河",
+      "fr": "Canal Rideau",
+      "de": "Rideau-Kanal",
+      "ja": "ライドー運河",
+      "pt": "Canal Rideau",
+      "es": "Canal Rideau"
+    },
     "coordinates": {
       "longitude": -75.6965874,
       "latitude": 45.425159
@@ -837,7 +1205,15 @@
     "imageId": "cd2c87a2-9af5-474d-cb86-1c48f83c2200"
   },
   {
-    "name": "Joggins Fossil Cliffs",
+    "name": {
+      "en": "Joggins Fossil Cliffs",
+      "zh": "乔金斯化石崖",
+      "fr": "Falaises fossilifères de Joggins",
+      "de": "Joggins Fossilklippen",
+      "ja": "ジョギンズ化石断崖",
+      "pt": "Falésias Fósseis de Joggins",
+      "es": "Acantilados Fósiles de Joggins"
+    },
     "coordinates": {
       "longitude": -64.451382,
       "latitude": 45.6914829
@@ -854,7 +1230,15 @@
     "imageId": "420c8d17-334c-4f64-514c-a26acedab600"
   },
   {
-    "name": "Churches of Chiloé",
+    "name": {
+      "en": "Churches of Chiloé",
+      "zh": "智利奇洛埃教堂群",
+      "fr": "Églises de Chiloé",
+      "de": "Kirchen von Chiloé",
+      "ja": "チロエの教会群",
+      "pt": "Igrejas de Chiloé",
+      "es": "Iglesias de Chiloé"
+    },
     "coordinates": {
       "longitude": -73.7635028,
       "latitude": -42.4820049
@@ -872,7 +1256,15 @@
     "imageId": "762e23f6-2966-4a14-d16d-5ddae8051100"
   },
   {
-    "name": "Seaport City of Valparaíso",
+    "name": {
+      "en": "Seaport City of Valparaíso",
+      "zh": "瓦尔帕莱索海港城市",
+      "fr": "Ville portuaire de Valparaíso",
+      "de": "Hafenstadt Valparaíso",
+      "ja": "バルパライソ港湾都市",
+      "pt": "Cidade Portuária de Valparaíso",
+      "es": "Ciudad Puerto de Valparaíso"
+    },
     "coordinates": {
       "longitude": -71.6084749,
       "latitude": -33.053744
@@ -889,7 +1281,15 @@
     "imageId": "6e655ec2-4926-4b1f-061b-3e249b8c3900"
   },
   {
-    "name": "Santa Laura Saltpeter Works",
+    "name": {
+      "en": "Santa Laura Saltpeter Works",
+      "zh": "圣劳拉硝石厂",
+      "fr": "Salitreras de Santa Laura",
+      "de": "Salpeterwerk Santa Laura",
+      "ja": "サンタ・ラウラ硝石工場",
+      "pt": "Salitreiras de Santa Laura",
+      "es": "Oficinas Salitreras Santa Laura"
+    },
     "coordinates": {
       "longitude": -69.7981527,
       "latitude": -20.2046529
@@ -907,7 +1307,15 @@
     "imageId": "026ca7af-ff1c-4d99-7320-6601e8b26900"
   },
   {
-    "name": "Sewell Mining Town",
+    "name": {
+      "en": "Sewell Mining Town",
+      "zh": "塞维尔矿业镇",
+      "fr": "Ville minière de Sewell",
+      "de": "Sewell-Bergbaustadt",
+      "ja": "セウェル鉱山町",
+      "pt": "Cidade Mineira de Sewell",
+      "es": "Pueblo Minero Sewell"
+    },
     "coordinates": {
       "longitude": -70.3819261,
       "latitude": -34.0846471
@@ -925,7 +1333,15 @@
     "imageId": "c1e9292d-8895-4d71-f1d2-3b571961e400"
   },
   {
-    "name": "Historic Centre of Macao",
+    "name": {
+      "en": "Historic Centre of Macao",
+      "zh": "澳门历史城区",
+      "fr": "Centre historique de Macao",
+      "de": "Historisches Zentrum von Macao",
+      "ja": "マカオ歴史地区",
+      "pt": "Centro Histórico de Macau",
+      "es": "Centro Histórico de Macao"
+    },
     "coordinates": {
       "longitude": 113.5410675,
       "latitude": 22.1972569
@@ -943,7 +1359,15 @@
     "imageId": "dc4959e7-a9b1-42cb-bece-9575f5e38100"
   },
   {
-    "name": "Historic Centre of Santa Cruz de Mompox",
+    "name": {
+      "en": "Historic Centre of Santa Cruz de Mompox",
+      "zh": "蒙波克斯圣克鲁斯历史中心",
+      "fr": "Centre historique de Santa Cruz de Mompox",
+      "de": "Historisches Zentrum von Santa Cruz de Mompox",
+      "ja": "サンタ・クルス・デ・モンポスの歴史地区",
+      "pt": "Centro Histórico de Santa Cruz de Mompox",
+      "es": "Centro Histórico de Santa Cruz de Mompox"
+    },
     "coordinates": {
       "longitude": -74.4199495,
       "latitude": 9.2368199
@@ -961,7 +1385,15 @@
     "imageId": "aeece554-22f6-4695-5458-735fe04b5900"
   },
   {
-    "name": "San Agustín Archaeological Park",
+    "name": {
+      "en": "San Agustín Archaeological Park",
+      "zh": "圣奥古斯丁考古公园",
+      "fr": "Parc archéologique de San Agustín",
+      "de": "Archäologischer Park San Agustín",
+      "ja": "サン・アグスティン考古学公園",
+      "pt": "Parque Arqueológico de San Agustín",
+      "es": "Parque Arqueológico de San Agustín"
+    },
     "coordinates": {
       "longitude": -76.2960046,
       "latitude": 1.8842203
@@ -978,7 +1410,15 @@
     "imageId": "a3b3a2a6-4861-46f6-da67-5bdb2c9f5b00"
   },
   {
-    "name": "Cocos Island National Park",
+    "name": {
+      "en": "Cocos Island National Park",
+      "zh": "科科斯岛国家公固",
+      "fr": "Parc national de l'île Cocos",
+      "de": "Nationalpark Cocos-Insel",
+      "ja": "ココス島国立公園",
+      "pt": "Parque Nacional da Ilha do Coco",
+      "es": "Parque Nacional Isla del Coco"
+    },
     "coordinates": {
       "longitude": -87.0570484,
       "latitude": 5.5435441
@@ -997,7 +1437,15 @@
     "imageId": "213d0364-8172-4907-7c86-4c2c45da6700"
   },
   {
-    "name": "Area de Conservación Guanacaste",
+    "name": {
+      "en": "Area de Conservación Guanacaste",
+      "zh": "瓜纳卡斯特保护区",
+      "fr": "Aire de Conservation Guanacaste",
+      "de": "Naturschutzgebiet Guanacaste",
+      "ja": "グアナカステ保全地域",
+      "pt": "Área de Conservação Guanacaste",
+      "es": "Área de Conservación Guanacaste "
+    },
     "coordinates": {
       "longitude": -85.6114906,
       "latitude": 10.8342594
@@ -1016,7 +1464,15 @@
     "imageId": "4f82eb1a-61bd-429a-6ac8-e7a6dfa37100"
   },
   {
-    "name": "Palace of Diocletian",
+    "name": {
+      "en": "Palace of Diocletian",
+      "zh": "戴克里先宫",
+      "fr": "Palais de Dioclétien",
+      "de": "Diokletianspalast",
+      "ja": "ディオクレティアヌス宮殿",
+      "pt": "Palácio de Diocleciano",
+      "es": "Palacio de Diocleciano"
+    },
     "coordinates": {
       "longitude": 16.4401917,
       "latitude": 43.5083966
@@ -1034,7 +1490,15 @@
     "imageId": "e8b717b7-5759-4e1a-a381-ba919cab3a00"
   },
   {
-    "name": "Old City of Dubrovnik",
+    "name": {
+      "en": "Old City of Dubrovnik",
+      "zh": "杜布罗夫尼克老城",
+      "fr": "Vieille ville de Dubrovnik",
+      "de": "Altstadt von Dubrovnik",
+      "ja": "ドゥブロヴニク旧市街",
+      "pt": "Cidade Antiga de Dubrovnik",
+      "es": "Ciudad Antigua de Dubrovnik"
+    },
     "coordinates": {
       "longitude": 18.1102627,
       "latitude": 42.6410471
@@ -1052,7 +1516,15 @@
     "imageId": "f949be03-c2b1-410d-7c4e-e6cd30a74f00"
   },
   {
-    "name": "Historic City of Trogir",
+    "name": {
+      "en": "Historic City of Trogir",
+      "zh": "特罗吉尔历史城区",
+      "fr": "Cité historique de Trogir.",
+      "de": "Historische Stadt Trogir",
+      "ja": "トロギールの歴史的市街",
+      "pt": "Cidade Histórica de Trogir",
+      "es": "Ciudad Histórica de Trogir"
+    },
     "coordinates": {
       "longitude": 16.2510392,
       "latitude": 43.5169145
@@ -1069,7 +1541,15 @@
     "imageId": "5abc2b23-44b9-4360-2698-2276bcbb0300"
   },
   {
-    "name": "Historic Centre of Český Krumlov",
+    "name": {
+      "en": "Historic Centre of Český Krumlov",
+      "zh": "克鲁姆洛夫历叽中心",
+      "fr": "Centre historique de Český Krumlov",
+      "de": "Historisches Zentrum von Český Krumlov",
+      "ja": "チェスキー・クルムロフ歴史地区",
+      "pt": "Centro Histórico de Český Krumlov",
+      "es": "Centro Histórico de Český Krumlov"
+    },
     "coordinates": {
       "longitude": 14.3147959,
       "latitude": 48.8107661
@@ -1087,7 +1567,15 @@
     "imageId": "301dccca-a722-4814-6f90-7fc3019d8100"
   },
   {
-    "name": "Historic Centre of Prague",
+    "name": {
+      "en": "Historic Centre of Prague",
+      "zh": "布拉格历史中心",
+      "fr": "Centre historique de Prague",
+      "de": "Historisches Zentrum von Prag",
+      "ja": "プラハ歴史地区",
+      "pt": "Centro Histórico de Praga",
+      "es": "Centro Histórico de Praga"
+    },
     "coordinates": {
       "longitude": 14.4216976,
       "latitude": 50.0874334
@@ -1106,7 +1594,15 @@
     "imageId": "d0f2bebf-9b65-4a7f-669f-e5507afd2a00"
   },
   {
-    "name": "Historic Centre of Telč",
+    "name": {
+      "en": "Historic Centre of Telč",
+      "zh": "特尔奇历史中心",
+      "fr": "Centre historique de Telč",
+      "de": "Historisches Zentrum von Telč",
+      "ja": "テルチ歴史地区",
+      "pt": "Centro Histórico de Telč",
+      "es": "Centro Histórico de Telč"
+    },
     "coordinates": {
       "longitude": 15.454114,
       "latitude": 49.1839344
@@ -1124,7 +1620,15 @@
     "imageId": "a317f680-699d-42da-6082-595e087c8300"
   },
   {
-    "name": "Pilgrimage Church of St John of Nepomuk",
+    "name": {
+      "en": "Pilgrimage Church of St John of Nepomuk",
+      "zh": "圣约翰内波穆克朝圣教堂",
+      "fr": "Église de pèlerinage de Saint-Jean-Népomucène",
+      "de": "Wallfahrtskirche St. Johannes von Nepomuk",
+      "ja": "ネポムクの聖ヨハネ巡礼教会",
+      "pt": "Igreja de Peregrinação de São João Nepomuceno",
+      "es": "Iglesia de Peregrinación de San Juan Nepomuceno"
+    },
     "coordinates": {
       "longitude": 15.9428288,
       "latitude": 49.5800457
@@ -1142,7 +1646,15 @@
     "imageId": "ba0e8bfd-0f9c-4902-c495-107607ddde00"
   },
   {
-    "name": "Kutná Hora",
+    "name": {
+      "en": "Kutná Hora",
+      "zh": "库特纳霍拉",
+      "fr": "Kutná Hora",
+      "de": "Kuttenberg",
+      "ja": "クトナー・ホラ",
+      "pt": "Kutná Hora",
+      "es": "Kutná Hora"
+    },
     "coordinates": {
       "longitude": 15.2621259,
       "latitude": 49.9449307
@@ -1159,7 +1671,15 @@
     "imageId": "02080eef-b400-42e6-f9f8-473f1437f400"
   },
   {
-    "name": "Lednice-Valtice Cultural Landscape",
+    "name": {
+      "en": "Lednice-Valtice Cultural Landscape",
+      "zh": "列支敦士登-瓦尔蒂采文化景观",
+      "fr": "Paysage culturel de Lednice-Valtice",
+      "de": "Kulturlandschaft Lednice-Valtice",
+      "ja": "レドニツェ＝ヴァルティツェ文化的景覦",
+      "pt": "Paisagem Cultural de Lednice-Valtice",
+      "es": "Paisaje Cultural de Lednice-Valtice"
+    },
     "coordinates": {
       "longitude": 16.8064476,
       "latitude": 48.8012262
@@ -1177,7 +1697,15 @@
     "imageId": "24739f29-61c9-42a2-43b4-5b6452be9800"
   },
   {
-    "name": "Gardens and Castle at Kroměříž",
+    "name": {
+      "en": "Gardens and Castle at Kroměříž",
+      "zh": "克罗梅日的花园和城堡",
+      "fr": "Jardins et château de Kroměříž",
+      "de": "Gärten und Schloss in Kroměříž",
+      "ja": "クロムニェジーシュの庭園と城",
+      "pt": "Jardins e Castelo em Kroměříž",
+      "es": "Jardines y Castillo de Kroměříž"
+    },
     "coordinates": {
       "longitude": 17.3800492,
       "latitude": 49.2978239
@@ -1195,7 +1723,15 @@
     "imageId": "39ff938e-70da-48f5-1362-1e1ae1f61400"
   },
   {
-    "name": "Holašovice Historic Village",
+    "name": {
+      "en": "Holašovice Historic Village",
+      "zh": "霍拉索维采历史村庄",
+      "fr": "Village historique de Holašovice",
+      "de": "Historisches Dorf Holašovice",
+      "ja": "ホラショヴィツェ歴史村",
+      "pt": "Aldeia Histórica de Holašovice",
+      "es": "Aldea Histórica de Holašovice"
+    },
     "coordinates": {
       "longitude": 14.2729185,
       "latitude": 48.969998
@@ -1213,7 +1749,15 @@
     "imageId": "26ed96e9-676f-4ba6-cdad-e7fd0a6c6800"
   },
   {
-    "name": "Litomyšl Castle",
+    "name": {
+      "en": "Litomyšl Castle",
+      "zh": "利托米什尔城堡",
+      "fr": "Château de Litomyšl",
+      "de": "Schloss Litomyšl",
+      "ja": "リトミシュル城",
+      "pt": "Castelo de Litomyšl",
+      "es": "Castillo de Litomyšl"
+    },
     "coordinates": {
       "longitude": 16.3125672,
       "latitude": 49.8727437
@@ -1231,7 +1775,15 @@
     "imageId": "d713f604-877a-4107-d7d7-bd41222f7100"
   },
   {
-    "name": "Holy Trinity Column in Olomouc",
+    "name": {
+      "en": "Holy Trinity Column in Olomouc",
+      "zh": "奥洛穆茨的圣三一柱",
+      "fr": "Colonne de la Sainte Trinité à Olomouc",
+      "de": "Dreifaltigkeitssäule in Olmütz",
+      "ja": "オロモウツの聖三位一体の柱",
+      "pt": "Coluna da Santíssima Trindade em Olomouc",
+      "es": "Columna de la Santísima Trinidad en Olomouc"
+    },
     "coordinates": {
       "longitude": 17.2501991,
       "latitude": 49.5940072
@@ -1251,7 +1803,15 @@
     "imageId": "21aaa1bd-fa77-45ea-9e78-e1d6822e1b00"
   },
   {
-    "name": "Tugendhat Villa in Brno",
+    "name": {
+      "en": "Tugendhat Villa in Brno",
+      "zh": "图根哈特别墅",
+      "fr": "Villa Tugendhat à Brno",
+      "de": "Villa Tugendhat in Brno",
+      "ja": "トゥーゲントハット・ヴィラ",
+      "pt": "Vila Tugendhat em Brno",
+      "es": "Villa Tugendhat en Brno"
+    },
     "coordinates": {
       "longitude": 16.6158969,
       "latitude": 49.2070273
@@ -1267,7 +1827,15 @@
     "imageId": "3b477373-79d0-4b99-f3fc-fee953b2c100"
   },
   {
-    "name": "St Procopius' Basilica in Třebíč",
+    "name": {
+      "en": "St Procopius' Basilica in Třebíč",
+      "zh": "特雷比奇的圣普罗科皮乌斯大教堂",
+      "fr": "Basilique Saint-Procope de Třebíč",
+      "de": "St.-Prokop-Basilika in Třebíč",
+      "ja": "トシェビーチの聖プロコピウス聖堂",
+      "pt": "Basílica de São Procopius em Třebíč",
+      "es": "Basílica de San Procopio en Třebíč"
+    },
     "coordinates": {
       "longitude": 15.8741313,
       "latitude": 49.2167497
@@ -1285,7 +1853,15 @@
     "imageId": "a5f497f3-ffa3-48a0-c5b9-d6d7b6719e00"
   },
   {
-    "name": "Jelling Mounds",
+    "name": {
+      "en": "Jelling Mounds",
+      "zh": "耶灵古墩",
+      "fr": "Tertres de Jelling",
+      "de": "Jelling-Hügel",
+      "ja": "イェリングの墳墓群",
+      "pt": "Montes de Jelling",
+      "es": "Túmulos de Jelling"
+    },
     "coordinates": {
       "longitude": 9.4200629,
       "latitude": 55.7565271
@@ -1303,7 +1879,15 @@
     "imageId": "7fadaa7c-4a50-4dc6-05e3-cbe9c75b5e00"
   },
   {
-    "name": "Roskilde Cathedral",
+    "name": {
+      "en": "Roskilde Cathedral",
+      "zh": "罗斯基勒大教堂",
+      "fr": "Cathédrale de Roskilde",
+      "de": "Roskilde Dom",
+      "ja": "ロスキレ大聖堂",
+      "pt": "Catedral de Roskilde",
+      "es": "Catedral de Roskilde"
+    },
     "coordinates": {
       "longitude": 12.0793422,
       "latitude": 55.6428165
@@ -1322,7 +1906,15 @@
     "imageId": "09766e77-e48c-4be8-34e3-b13021526500"
   },
   {
-    "name": "Kronborg Castle",
+    "name": {
+      "en": "Kronborg Castle",
+      "zh": "克隆堡城堡",
+      "fr": "Château de Kronborg",
+      "de": "Schloss Kronborg",
+      "ja": "クロンボー城",
+      "pt": "Castelo de Kronborg",
+      "es": "Castillo de Kronborg"
+    },
     "coordinates": {
       "longitude": 12.6217427,
       "latitude": 56.0389767
@@ -1339,7 +1931,15 @@
     "imageId": "61edb7c4-6705-4dc5-3477-74f07cb6fe00"
   },
   {
-    "name": "Christiansfeld",
+    "name": {
+      "en": "Christiansfeld",
+      "zh": "克里斯蒂安斯费尔德",
+      "fr": "Christiansfeld",
+      "de": "Christiansfeld",
+      "ja": "クリスチャンスフェルト",
+      "pt": "Cristianfeld",
+      "es": "Christiansfeld"
+    },
     "coordinates": {
       "longitude": 9.4799388,
       "latitude": 55.3554049
@@ -1356,7 +1956,15 @@
     "imageId": "b87a324e-d527-4700-ca09-f1906b1e0d00"
   },
   {
-    "name": "City of Quito",
+    "name": {
+      "en": "City of Quito",
+      "zh": "基多市",
+      "fr": "Ville de Quito",
+      "de": "Stadt Quito",
+      "ja": "キト市",
+      "pt": "Cidade de Quito",
+      "es": "Ciudad de Quito"
+    },
     "coordinates": {
       "longitude": -78.5076527,
       "latitude": -0.2154767
@@ -1374,7 +1982,15 @@
     "imageId": "eec6ae5e-6fe0-4cf7-08cf-309b7296d300"
   },
   {
-    "name": "Galápagos Islands",
+    "name": {
+      "en": "Galápagos Islands",
+      "zh": "加拉帕戈斯群岛",
+      "fr": "Îles Galápagos",
+      "de": "Galapagosinseln",
+      "ja": "ガラパゴス諸島",
+      "pt": "Ilhas Galápagos",
+      "es": "Islas Galápagos"
+    },
     "coordinates": {
       "longitude": -91.1040184,
       "latitude": -0.4561107
@@ -1393,7 +2009,15 @@
     "imageId": "a2c47cbd-34df-447c-a399-35f0eeedf300"
   },
   {
-    "name": "Santa Ana de los Ríos de Cuenca",
+    "name": {
+      "en": "Santa Ana de los Ríos de Cuenca",
+      "zh": "圣安娜德洛斯里奥斯德昆卡",
+      "fr": "Santa Ana des Rivières de Cuenca",
+      "de": "Santa Ana de los Ríos de Cuenca",
+      "ja": "クエンカのサンタ・アナ・デ・ロス・リオス",
+      "pt": "Santa Ana dos Rios de Cuenca",
+      "es": "Santa Ana de los Ríos de Cuenca"
+    },
     "coordinates": {
       "longitude": -79.0047922,
       "latitude": -2.8977982
@@ -1411,7 +2035,15 @@
     "imageId": "69ecc0e3-791a-4cf8-1307-d08592edb700"
   },
   {
-    "name": "Abu Mena",
+    "name": {
+      "en": "Abu Mena",
+      "zh": "阿布米纳",
+      "fr": "Abou Mena",
+      "de": "Abu Mena",
+      "ja": "アブ・メナ",
+      "pt": "Abu Mena",
+      "es": "Abu Mena"
+    },
     "coordinates": {
       "longitude": 29.6632093,
       "latitude": 30.8407922
@@ -1428,7 +2060,15 @@
     "imageId": "7bd4dcfe-638c-4627-22fa-cb92f96fd700"
   },
   {
-    "name": "Historic Cairo",
+    "name": {
+      "en": "Historic Cairo",
+      "zh": "开罗历史区",
+      "fr": "Le Caire historique",
+      "de": "Historisches Kairo",
+      "ja": "カイロ",
+      "pt": "Cairo Histórico",
+      "es": "El Cairo histórico"
+    },
     "coordinates": {
       "longitude": 31.2591654,
       "latitude": 30.0285221
@@ -1447,7 +2087,15 @@
     "imageId": "8150f4d1-3a45-47f6-b797-97d057e23c00"
   },
   {
-    "name": "Memphis",
+    "name": {
+      "en": "Memphis",
+      "zh": "孟菲斯",
+      "fr": "Memphis",
+      "de": "Memphis",
+      "ja": "メンフィス",
+      "pt": "Mênfis",
+      "es": "Menfis"
+    },
     "coordinates": {
       "longitude": 31.1308792,
       "latitude": 29.9772291
@@ -1467,7 +2115,15 @@
     "imageId": "2d9422d1-ae58-4b88-0240-adf27135c900"
   },
   {
-    "name": "Historic Centre of Tallinn",
+    "name": {
+      "en": "Historic Centre of Tallinn",
+      "zh": "塔林老城",
+      "fr": "Centre historique de Tallinn",
+      "de": "Historisches Zentrum von Tallinn",
+      "ja": "タリンの歴史地区",
+      "pt": "Centro Histórico de Tallinn",
+      "es": "Centro Histórico de Tallin"
+    },
     "coordinates": {
       "longitude": 24.7505733,
       "latitude": 59.4365647
@@ -1485,7 +2141,15 @@
     "imageId": "6e62672e-c27e-48f4-0a2d-299895cf4300"
   },
   {
-    "name": "Old Rauma",
+    "name": {
+      "en": "Old Rauma",
+      "zh": "老劳马",
+      "fr": "Vieux Rauma",
+      "de": "Altes Rauma",
+      "ja": "オールドラウマ",
+      "pt": "Velha Rauma",
+      "es": "Antiguo Rauma"
+    },
     "coordinates": {
       "longitude": 21.5111192,
       "latitude": 61.1282037
@@ -1503,7 +2167,15 @@
     "imageId": "a7870b29-55a3-432f-ab80-3381edd00300"
   },
   {
-    "name": "Chartres Cathedral",
+    "name": {
+      "en": "Chartres Cathedral",
+      "zh": "沙特尔大教堂",
+      "fr": "Cathédrale de Chartres",
+      "de": "Kathedrale von Chartres",
+      "ja": "シャルトル大聖堂",
+      "pt": "Catedral de Chartres",
+      "es": "Catedral de Chartres"
+    },
     "coordinates": {
       "longitude": 1.4883585,
       "latitude": 48.4474925
@@ -1523,7 +2195,15 @@
     "imageId": "e03e1f74-8d9b-4b4f-8c7c-346973f92200"
   },
   {
-    "name": "Mont-Saint-Michel and its Bay",
+    "name": {
+      "en": "Mont-Saint-Michel and its Bay",
+      "zh": "圣米歇尔山及其海湾",
+      "fr": "Le Mont-Saint-Michel et sa baie",
+      "de": "Mont-Saint-Michel und seine Bucht",
+      "ja": "モン・サン＝ミシェルとその湾",
+      "pt": "Mont-Saint-Michel e sua Baía",
+      "es": "Mont-Saint-Michel y su Bahía"
+    },
     "coordinates": {
       "longitude": -1.509556,
       "latitude": 48.6329593
@@ -1541,7 +2221,15 @@
     "imageId": "a563f82e-9b39-48e2-9193-4d2cc94dfa00"
   },
   {
-    "name": "Palace and Park of Versailles",
+    "name": {
+      "en": "Palace and Park of Versailles",
+      "zh": "凡尔赌宫与公园",
+      "fr": "Palais et parc de Versailles",
+      "de": "Schloss und Park von Versailles",
+      "ja": "ヴェルサイユ宮殿と庭園",
+      "pt": "Palácio e Parque de Versalhes",
+      "es": "Palacio y Parque de Versalles"
+    },
     "coordinates": {
       "longitude": 2.1190826,
       "latitude": 48.8051551
@@ -1559,7 +2247,15 @@
     "imageId": "63fb9ce7-b851-4b1c-24c0-2efe2ea4ad00"
   },
   {
-    "name": "Vézelay",
+    "name": {
+      "en": "Vézelay",
+      "zh": "韦泽莱",
+      "fr": "Vézelay",
+      "de": "Vézelay",
+      "ja": "ヴェズレー",
+      "pt": "Vézelay",
+      "es": "Vézelay"
+    },
     "coordinates": {
       "longitude": 3.7473661,
       "latitude": 47.4661506
@@ -1578,7 +2274,15 @@
     "imageId": "f0163597-fe49-4a19-af55-2ab2e6e37700"
   },
   {
-    "name": "Amiens Cathedral",
+    "name": {
+      "en": "Amiens Cathedral",
+      "zh": "亚眠大教堂",
+      "fr": "Cathédrale d'Amiens",
+      "de": "Kathedrale von Amiens",
+      "ja": "アミアン大聖堂",
+      "pt": "Catedral de Amiens",
+      "es": "Catedral de Amiens"
+    },
     "coordinates": {
       "longitude": 2.3007696,
       "latitude": 49.8949964
@@ -1597,7 +2301,15 @@
     "imageId": "8d986f3a-0e63-4a54-9db6-b1a0dc527700"
   },
   {
-    "name": "Arles",
+    "name": {
+      "en": "Arles",
+      "zh": "阿尔勒",
+      "fr": "Arles",
+      "de": "Arles",
+      "ja": "アルル",
+      "pt": "Arles",
+      "es": "Arles"
+    },
     "coordinates": {
       "longitude": 4.6306577,
       "latitude": 43.6786243
@@ -1615,7 +2327,15 @@
     "imageId": "fcb77831-9477-43ab-5f78-611b2daf1800"
   },
   {
-    "name": "Cistercian Abbey of Fontenay",
+    "name": {
+      "en": "Cistercian Abbey of Fontenay",
+      "zh": "方丹耶修道院",
+      "fr": "Abbaye cistercienne de Fontenay",
+      "de": "Zisterzienserabtei von Fontenay",
+      "ja": "フォントネーのシトー会修道院",
+      "pt": "Abadia Cisterciense de Fontenay",
+      "es": "Abadía Cisterciense de Fontenay"
+    },
     "coordinates": {
       "longitude": 4.3883132,
       "latitude": 47.6392048
@@ -1633,7 +2353,15 @@
     "imageId": "4d076443-1892-4e75-1895-920b2f693d00"
   },
   {
-    "name": "Palace and Park of Fontainebleau",
+    "name": {
+      "en": "Palace and Park of Fontainebleau",
+      "zh": "枫丹白露宫及其公园",
+      "fr": "Palais et parc de Fontainebleau",
+      "de": "Schloss und Park von Fontainebleau",
+      "ja": "フォンテーヌブローの宮殿と公園",
+      "pt": "Palácio e Parque de Fontainebleau",
+      "es": "Palacio y Parque de Fontainebleau"
+    },
     "coordinates": {
       "longitude": 2.6973514,
       "latitude": 48.4020397
@@ -1651,7 +2379,15 @@
     "imageId": "7102bde9-8cc9-4cb8-dedf-2408a8276800"
   },
   {
-    "name": "\"Triumphal Arch\" of Orange",
+    "name": {
+      "en": "\"Triumphal Arch\" of Orange",
+      "zh": "奥朗日凯旋门",
+      "fr": "Arc de Triomphe d'Orange",
+      "de": "Triumphbogen von Orange",
+      "ja": "オランジュの凱旋門",
+      "pt": "Arco do Triunfo de Orange",
+      "es": "Arco de Triunfo de Orange"
+    },
     "coordinates": {
       "longitude": 4.8046525,
       "latitude": 44.1427064
@@ -1668,7 +2404,15 @@
     "imageId": "28bf966c-3490-4927-6752-47724feb1400"
   },
   {
-    "name": "The Great Saltworks of Salins-les-Bains",
+    "name": {
+      "en": "The Great Saltworks of Salins-les-Bains",
+      "zh": "萨兰莱班大盐场",
+      "fr": "Les Salines Royales de Salins-les-Bains",
+      "de": "Die Große Saline von Salins-les-Bains",
+      "ja": "サラン＝レ＝バンのグランド・サルヌール",
+      "pt": "As Salinas Grandes de Salins-les-Bains",
+      "es": "Las Grandes Salinas de Salins-les-Bains"
+    },
     "coordinates": {
       "longitude": 5.7777772,
       "latitude": 47.0329216
@@ -1685,7 +2429,15 @@
     "imageId": "6dff1881-db2c-4aff-031c-b7783d7b9400"
   },
   {
-    "name": "Abbey Church of Saint-Savin",
+    "name": {
+      "en": "Abbey Church of Saint-Savin",
+      "zh": "圣萨万修道院教堂",
+      "fr": "Abbaye de Saint-Savin-sur-Gartempe",
+      "de": "Abteikirche Saint-Savin",
+      "ja": "サン＝サヴァンのサン＝サヴァン修道院教会",
+      "pt": "Igreja Abacial de Saint-Savin",
+      "es": "Iglesia Abacial de Saint-Savin"
+    },
     "coordinates": {
       "longitude": 0.8652099,
       "latitude": 46.564627
@@ -1703,7 +2455,15 @@
     "imageId": "20bbc8bf-de13-4b95-b918-c805cba52700"
   },
   {
-    "name": "Place Stanislas",
+    "name": {
+      "en": "Place Stanislas",
+      "zh": "斯坦尼斯拉斯广场",
+      "fr": "Place Stanislas",
+      "de": "Stanislasplatz",
+      "ja": "スタニスラス広場",
+      "pt": "Praça Stanislas",
+      "es": "Plaza Stanislas"
+    },
     "coordinates": {
       "longitude": 6.1831188,
       "latitude": 48.6937204
@@ -1719,7 +2479,15 @@
     "imageId": "48dc73ac-c1e8-4a40-b207-5705bd615100"
   },
   {
-    "name": "Pont du Gard",
+    "name": {
+      "en": "Pont du Gard",
+      "zh": "加尔桥",
+      "fr": "Pont du Gard",
+      "de": "Pont du Gard",
+      "ja": "ポン・デュ・ガール",
+      "pt": "Ponte do Gard",
+      "es": "Puente del Gard"
+    },
     "coordinates": {
       "longitude": 4.5358412,
       "latitude": 43.9478684
@@ -1737,7 +2505,15 @@
     "imageId": "231f9cee-273a-429a-8be5-cb6570046500"
   },
   {
-    "name": "Strasbourg",
+    "name": {
+      "en": "Strasbourg",
+      "zh": "斯特拉斯堡",
+      "fr": "Strasbourg",
+      "de": "Straßburg",
+      "ja": "ストラスブール",
+      "pt": "Estrasburgo",
+      "es": "Estrasburgo"
+    },
     "coordinates": {
       "longitude": 7.7459657,
       "latitude": 48.5833577
@@ -1755,7 +2531,15 @@
     "imageId": "73eef9a0-ced4-4d4d-2982-50abeea12d00"
   },
   {
-    "name": "Basilica of Saint-Remi",
+    "name": {
+      "en": "Basilica of Saint-Remi",
+      "zh": "圣雷米大教堂",
+      "fr": "Basilique Saint-Remi",
+      "de": "Basilika Saint-Remi",
+      "ja": "サン＝レミ大聖堂",
+      "pt": "Basílica de Santo Remígio",
+      "es": "Basílica de San Remi"
+    },
     "coordinates": {
       "longitude": 4.0404824,
       "latitude": 49.2427876
@@ -1774,7 +2558,15 @@
     "imageId": "50626307-6abe-4cb5-fdad-0197ac12f000"
   },
   {
-    "name": "Paris, Banks of the Seine",
+    "name": {
+      "en": "Paris, Banks of the Seine",
+      "zh": "塞纳河畔的巴黎",
+      "fr": "Paris, rives de la Seine",
+      "de": "Paris, die Ufer der Seine",
+      "ja": "セーヌ河岸のパリ",
+      "pt": "Paris, Margens do Sena",
+      "es": "París, riberas del Sena"
+    },
     "coordinates": {
       "longitude": 2.3019064,
       "latitude": 48.863229
@@ -1794,7 +2586,15 @@
     "imageId": "b1bd21ad-c9e1-4b0f-2e15-dc7a9f8a2200"
   },
   {
-    "name": "Bourges Cathedral",
+    "name": {
+      "en": "Bourges Cathedral",
+      "zh": "布尔日大教堂",
+      "fr": "Cathédrale de Bourges",
+      "de": "Kathedrale von Bourges",
+      "ja": "ブルジュ大聖堂",
+      "pt": "Catedral de Bourges",
+      "es": "Catedral de Bourges"
+    },
     "coordinates": {
       "longitude": 2.3993469,
       "latitude": 47.0816427
@@ -1812,7 +2612,15 @@
     "imageId": "998257b2-8c58-41f2-5430-021a08f55400"
   },
   {
-    "name": "Papal Palace",
+    "name": {
+      "en": "Papal Palace",
+      "zh": "教皇宫殿",
+      "fr": "Palais des Papes",
+      "de": "Päpstlicher Palast",
+      "ja": "教皇宮殿",
+      "pt": "Palácio Papal",
+      "es": "Palacio Papal"
+    },
     "coordinates": {
       "longitude": 4.8065545,
       "latitude": 43.9507906
@@ -1830,7 +2638,15 @@
     "imageId": "74ceb9e9-fe7f-4d2e-5555-9e4b45678a00"
   },
   {
-    "name": "Historic Site of Lyon",
+    "name": {
+      "en": "Historic Site of Lyon",
+      "zh": "里昂历史遗址",
+      "fr": "Site historique de Lyon",
+      "de": "Historische Stätte von Lyon",
+      "ja": "リヨンの歴史的地区",
+      "pt": "Sítio Histórico de Lyon",
+      "es": "Sitio Histórico de Lyon"
+    },
     "coordinates": {
       "longitude": 4.8264235,
       "latitude": 45.7609989
@@ -1848,7 +2664,15 @@
     "imageId": "4a6c1c03-d785-4581-247d-09f910228900"
   },
   {
-    "name": "The Loire Valley",
+    "name": {
+      "en": "The Loire Valley",
+      "zh": "卢瓦尔河谷",
+      "fr": "Vallée de la Loire",
+      "de": "Loiretal",
+      "ja": "ロワール渓谷",
+      "pt": "Vale do Loire",
+      "es": "Valle del Loira"
+    },
     "coordinates": {
       "longitude": 1.5185295,
       "latitude": 47.6150628
@@ -1866,7 +2690,15 @@
     "imageId": "d6c20abe-2579-489a-60a3-2b29d41ab100"
   },
   {
-    "name": "Le Havre",
+    "name": {
+      "en": "Le Havre",
+      "zh": "勒阿弗尔港",
+      "fr": "Le Havre",
+      "de": "Le Havre",
+      "ja": "ル・アーヴル",
+      "pt": "Le Havre",
+      "es": "Le Havre"
+    },
     "coordinates": {
       "longitude": 0.1076511,
       "latitude": 49.4929349
@@ -1881,7 +2713,15 @@
     "imageId": "8b56c9e1-d40c-44bc-6c39-55769f883900"
   },
   {
-    "name": "Bordeaux, Port of the Moon",
+    "name": {
+      "en": "Bordeaux, Port of the Moon",
+      "zh": "波尔多月亮港",
+      "fr": "Bordeaux, Port de la Lune",
+      "de": "Bordeaux, Hafen des Mondes",
+      "ja": "ボルドー、ムーン港",
+      "pt": "Bordéus, Porto da Lua",
+      "es": "Burdeos, Puerto de la Luna"
+    },
     "coordinates": {
       "longitude": -0.5697572,
       "latitude": 44.8415796
@@ -1899,7 +2739,15 @@
     "imageId": "0676a0bd-e1f1-4827-fa0f-35c8d6bc5500"
   },
   {
-    "name": "Episcopal City of Albi",
+    "name": {
+      "en": "Episcopal City of Albi",
+      "zh": "阿尔比主教城",
+      "fr": "Cité épiscopale d'Albi",
+      "de": "Bischofsstadt Albi",
+      "ja": "アルビの司教都市",
+      "pt": "Cidade Episcopal de Albi",
+      "es": "Ciudad episcopal de Albi"
+    },
     "coordinates": {
       "longitude": 2.1437036,
       "latitude": 43.9281734
@@ -1918,7 +2766,15 @@
     "imageId": "42bd22b4-a95d-4592-5a06-50d0c3914a00"
   },
   {
-    "name": "Pitons",
+    "name": {
+      "en": "Pitons",
+      "zh": "皮通斯",
+      "fr": "Pitons",
+      "de": "Pitons",
+      "ja": "ピトンズ",
+      "pt": "Pitons de Santa Lúcia",
+      "es": "Los Pitones"
+    },
     "coordinates": {
       "longitude": 55.7191978,
       "latitude": -21.2457403
@@ -1938,7 +2794,15 @@
     "imageId": "8f71b3fb-4bdd-4b8c-0fe1-c36df9990b00"
   },
   {
-    "name": "Nice, Winter Resort Town of the Riviera",
+    "name": {
+      "en": "Nice, Winter Resort Town of the Riviera",
+      "zh": "里维埃拉的冬季胜地小镇",
+      "fr": "Belle ville de station thermale d'hiver de la Riviera",
+      "de": "Schöner Wintersportort an der Riviera",
+      "ja": "ニース、リヴィエラの冬のリゾート都市",
+      "pt": "Agradável, Cidade Turística de Inverno da Riviera",
+      "es": "Ciudad Turística Invernal de la Riviera"
+    },
     "coordinates": {
       "longitude": 7.2704617,
       "latitude": 43.6967416
@@ -1957,7 +2821,15 @@
     "imageId": "22a7cfb1-b531-407b-be88-c8af18544500"
   },
   {
-    "name": "The Maison Carrée of Nîmes",
+    "name": {
+      "en": "The Maison Carrée of Nîmes",
+      "zh": "尼姆广场府院",
+      "fr": "La Maison Carrée de Nîmes",
+      "de": "Maison Carrée von Nîmes",
+      "ja": "ニームのメゾン・カレー",
+      "pt": "Casa Quadrada de Nîmes",
+      "es": "Casa Cuadrada de Nîmes"
+    },
     "coordinates": {
       "longitude": 4.3560369,
       "latitude": 43.8384618
@@ -1975,7 +2847,15 @@
     "imageId": "f6ff130a-04dc-4000-5bce-7d77d1945600"
   },
   {
-    "name": "Speyer Cathedral",
+    "name": {
+      "en": "Speyer Cathedral",
+      "zh": "斯派尔大教堂",
+      "fr": "Cathédrale de Spire",
+      "de": "Speyerer Dom",
+      "ja": "シュパイアー大聖堂",
+      "pt": "Catedral de Speyer",
+      "es": "Catedral de Espira"
+    },
     "coordinates": {
       "longitude": 8.4409816,
       "latitude": 49.3172625
@@ -1994,7 +2874,15 @@
     "imageId": "4b0972c1-384c-4bea-b2ce-603a74840d00"
   },
   {
-    "name": "Würzburg Residence",
+    "name": {
+      "en": "Würzburg Residence",
+      "zh": "维尔茨堡宫",
+      "fr": "Résidence de Würzburg",
+      "de": "Würzburger Residenz",
+      "ja": "ヴュルツブルク・レジデンス",
+      "pt": "Residência de Würzburg",
+      "es": "Residencia de Wurzburgo"
+    },
     "coordinates": {
       "longitude": 9.9366846,
       "latitude": 49.7932445
@@ -2012,7 +2900,15 @@
     "imageId": "a5002c8d-42f4-4566-d5bf-7237cc356000"
   },
   {
-    "name": "Castles of Augustusburg and Falkenlust",
+    "name": {
+      "en": "Castles of Augustusburg and Falkenlust",
+      "zh": "奥古斯堡与福肯卢斯特宫",
+      "fr": "Châteaux d'Augustusburg et de Falkenlust",
+      "de": "Schlösser Augustusburg und Falkenlust",
+      "ja": "アウグストゥスブルクとファルケンルストの城",
+      "pt": "Castelos de Augustusburg e Falkenlust",
+      "es": "Castillos de Augustusburg y Falkenlust"
+    },
     "coordinates": {
       "longitude": 6.909496,
       "latitude": 50.8286481
@@ -2030,7 +2926,15 @@
     "imageId": "8831cdb3-5e59-4640-8075-93da53180d00"
   },
   {
-    "name": "St Michael's Church",
+    "name": {
+      "en": "St Michael's Church",
+      "zh": "圣迈克尔教堂",
+      "fr": "Église Saint-Michel",
+      "de": "St.-Michaels-Kirche",
+      "ja": "聖ミカエル教会",
+      "pt": "Igreja de São Miguel",
+      "es": "Iglesia de San Miguel"
+    },
     "coordinates": {
       "longitude": 9.9438891,
       "latitude": 52.1522771
@@ -2048,7 +2952,15 @@
     "imageId": "8f4e5129-ef14-42ce-171c-595a27d79200"
   },
   {
-    "name": "Porta Nigra",
+    "name": {
+      "en": "Porta Nigra",
+      "zh": "黑门",
+      "fr": "Porte Noire",
+      "de": "Porta Nigra",
+      "ja": "ポルタ・ニグラ",
+      "pt": "Porta Preta",
+      "es": "Porta Nigra"
+    },
     "coordinates": {
       "longitude": 6.6447101,
       "latitude": 49.7597565
@@ -2067,7 +2979,15 @@
     "imageId": "9de095a4-305d-45a0-dbb7-72a17d8dd500"
   },
   {
-    "name": "Palaces and Parks of Potsdam and Berlin",
+    "name": {
+      "en": "Palaces and Parks of Potsdam and Berlin",
+      "zh": "波茨坦和柏林的宫殿与公园",
+      "fr": "Palais et Parcs de Potsdam et Berlin",
+      "de": "Schlösser und Gärten von Potsdam und Berlin",
+      "ja": "ポツダムとベルリンの宮殿と公園",
+      "pt": "Palácios e Parques de Potsdam e Berlim",
+      "es": "Palacios y Parques de Potsdam y Berlín"
+    },
     "coordinates": {
       "longitude": 13.0386006,
       "latitude": 52.4026435
@@ -2085,7 +3005,15 @@
     "imageId": "d84c8c29-625c-4b79-d595-b5d6c14ffe00"
   },
   {
-    "name": "Völklingen Ironworks",
+    "name": {
+      "en": "Völklingen Ironworks",
+      "zh": "沃尔克林根钢铁厂",
+      "fr": "Usine sidérurgique de Völklingen",
+      "de": "Völklinger Hütte",
+      "ja": "フェルクリンゲン製鉄所",
+      "pt": "Usina Siderúrgica de Völklingen",
+      "es": "Ferrerías de Völklingen"
+    },
     "coordinates": {
       "longitude": 6.843738,
       "latitude": 49.2479547
@@ -2101,7 +3029,15 @@
     "imageId": "530aae1f-1939-48aa-c85b-aabd88976400"
   },
   {
-    "name": "Cologne Cathedral",
+    "name": {
+      "en": "Cologne Cathedral",
+      "zh": "科隆大教堂",
+      "fr": "Cathédrale de Cologne",
+      "de": "Kölner Dom",
+      "ja": "ケルン大聖堂",
+      "pt": "Catedral de Colônia",
+      "es": "Catedral de Colonia"
+    },
     "coordinates": {
       "longitude": 6.956286,
       "latitude": 50.9413651
@@ -2121,7 +3057,15 @@
     "imageId": "f8395768-759a-4fd6-6792-dee0e5521c00"
   },
   {
-    "name": "Classical Weimar",
+    "name": {
+      "en": "Classical Weimar",
+      "zh": "威玛古典遗产",
+      "fr": "Weimar classique",
+      "de": "Klassisches Weimar",
+      "ja": "古典的ワイマール",
+      "pt": "Weimar Clássica",
+      "es": "Weimar Clásico"
+    },
     "coordinates": {
       "longitude": 11.3316623,
       "latitude": 50.9795758
@@ -2139,7 +3083,15 @@
     "imageId": "5ad8f44e-533c-4d4f-959b-164b54e7db00"
   },
   {
-    "name": "Museumsinsel",
+    "name": {
+      "en": "Museumsinsel",
+      "zh": "博物馆岛",
+      "fr": "Île aux Musées",
+      "de": "Museumsinsel",
+      "ja": "ミュージアムスインゼル",
+      "pt": "Ilha dos Museus",
+      "es": "Isla de los Museos"
+    },
     "coordinates": {
       "longitude": 13.3930697,
       "latitude": 52.5226275
@@ -2156,7 +3108,15 @@
     "imageId": "a69be235-734e-4216-ebe6-6f6d7b693c00"
   },
   {
-    "name": "Historic Centres of Stralsund and Wismar",
+    "name": {
+      "en": "Historic Centres of Stralsund and Wismar",
+      "zh": "斯特拉尔松和维斯马历史中心",
+      "fr": "Centres historiques de Stralsund et de Wismar",
+      "de": "Historische Altstädte Stralsund und Wismar",
+      "ja": "シュトラールズントとヴィスマールの歴史地区",
+      "pt": "Centros Históricos de Stralsund e Wismar",
+      "es": "Centros históricos de Stralsund y Wismar"
+    },
     "coordinates": {
       "longitude": 13.0902497,
       "latitude": 54.3162992
@@ -2174,7 +3134,15 @@
     "imageId": "9905d885-22af-45e5-a3ac-835de1837700"
   },
   {
-    "name": "Speicherstadt and Kontorhaus District",
+    "name": {
+      "en": "Speicherstadt and Kontorhaus District",
+      "zh": "Speicherstadt和Kontorhaus区",
+      "fr": "Speicherstadt et quartier des Kontorhaus",
+      "de": "Speicherstadt und Kontorhausviertel mit Chilehaus",
+      "ja": "シュパイヒャーシュタットとコントアハウス地区",
+      "pt": "Distrito de Speicherstadt e Kontorhaus",
+      "es": "Distrito de Speicherstadt y Kontorhaus"
+    },
     "coordinates": {
       "longitude": 10.003565,
       "latitude": 53.5483052
@@ -2192,7 +3160,15 @@
     "imageId": "65957dc5-6bb8-4d06-ac80-f3e7dfa0c200"
   },
   {
-    "name": "Naumburg Cathedral",
+    "name": {
+      "en": "Naumburg Cathedral",
+      "zh": "纳恩堡大教堂",
+      "fr": "Cathédrale de Naumburg",
+      "de": "Naumburger Dom",
+      "ja": "ナウムブルク大聖堂",
+      "pt": "Catedral de Naumburg",
+      "es": "Catedral de Naumburg"
+    },
     "coordinates": {
       "longitude": 11.803043,
       "latitude": 51.1549978
@@ -2211,7 +3187,15 @@
     "imageId": "868fe771-3da4-491b-d401-ac7d63971000"
   },
   {
-    "name": "Paleochristian and Byzantine Monuments",
+    "name": {
+      "en": "Paleochristian and Byzantine Monuments",
+      "zh": "早期基督教和拜占庭纪念碑",
+      "fr": "Monuments paléochrétiens et byzantins",
+      "de": "Paläochristliche und byzantinische Denkmäler",
+      "ja": "古代キリスト教とビザンチンの記念物",
+      "pt": "Monumentos Paleocristãos e Bizantinos",
+      "es": "Monumentos Paleocristianos y Bizantinos"
+    },
     "coordinates": {
       "longitude": 22.9527159,
       "latitude": 40.6327901
@@ -2228,7 +3212,15 @@
     "imageId": "698cf9d0-ee98-4993-42dc-18b109b89c00"
   },
   {
-    "name": "Old Town of Corfu",
+    "name": {
+      "en": "Old Town of Corfu",
+      "zh": "科孚老城",
+      "fr": "Vieille ville de Corfou",
+      "de": "Altstadt von Korfu",
+      "ja": "コルフの旧市街",
+      "pt": "Cidade Velha de Corfu",
+      "es": "Ciudad Vieja de Corfú"
+    },
     "coordinates": {
       "longitude": 19.9235393,
       "latitude": 39.6241884
@@ -2246,7 +3238,15 @@
     "imageId": "3a69edce-4a8d-4419-022d-44ad2bda0300"
   },
   {
-    "name": "Antigua Guatemala",
+    "name": {
+      "en": "Antigua Guatemala",
+      "zh": "安提瓜危地马拉",
+      "fr": "Antigua Guatemala",
+      "de": "Antigua Guatemala",
+      "ja": "アンティグア・グアテマラ",
+      "pt": "Antígua Guatemala",
+      "es": "Antigua Guatemala"
+    },
     "coordinates": {
       "longitude": -90.7342169,
       "latitude": 14.5604212
@@ -2263,7 +3263,15 @@
     "imageId": "f1b1dcd3-326e-4857-2cec-90813e5a3300"
   },
   {
-    "name": "Tikal National Park",
+    "name": {
+      "en": "Tikal National Park",
+      "zh": "提卡尔国家公园",
+      "fr": "Parc National de Tikal",
+      "de": "Nationalpark Tikal",
+      "ja": "ティカル国立公園",
+      "pt": "Parque Nacional de Tikal",
+      "es": "Parque Nacional Tikal"
+    },
     "coordinates": {
       "longitude": -89.6235774,
       "latitude": 17.222068
@@ -2281,7 +3289,15 @@
     "imageId": "80b5c7bc-a27d-48cb-0232-8bb1d1d74100"
   },
   {
-    "name": "Ruins of Quirigua",
+    "name": {
+      "en": "Ruins of Quirigua",
+      "zh": "基利瓜遗址",
+      "fr": "Ruines de Quirigua",
+      "de": "Ruinen von Quirigua",
+      "ja": "キリグアの遺跡",
+      "pt": "Ruínas de Quiriguá",
+      "es": "Ruinas de Quiriguá"
+    },
     "coordinates": {
       "longitude": -89.0403466,
       "latitude": 15.2687564
@@ -2298,7 +3314,15 @@
     "imageId": "2e066513-71de-4d3d-9fbb-3ec9c4289000"
   },
   {
-    "name": "Tak’alik Ab’aj",
+    "name": {
+      "en": "Tak’alik Ab’aj",
+      "zh": "塔卡利克阿瓦日",
+      "fr": "Tak’alik Ab’aj",
+      "de": "Tak’alik Ab’aj",
+      "ja": "タカリク・アバージ",
+      "pt": "Tak'alik Ab'aj",
+      "es": "Tak'alik Ab'aj"
+    },
     "coordinates": {
       "longitude": -91.7336071,
       "latitude": 14.6363747
@@ -2315,7 +3339,15 @@
     "imageId": "7a21921c-38eb-4d06-8fc9-d3e5aadbe900"
   },
   {
-    "name": "Vatican City",
+    "name": {
+      "en": "Vatican City",
+      "zh": "梵蒂冈城",
+      "fr": "Cité du Vatican",
+      "de": "Vatikanstadt",
+      "ja": "バチカン市国",
+      "pt": "Cidade do Vaticano",
+      "es": "Ciudad del Vaticano"
+    },
     "coordinates": {
       "longitude": 12.4586448,
       "latitude": 41.9022194
@@ -2335,7 +3367,15 @@
     "imageId": "5df9fa24-70ec-490b-e842-51fca1a56600"
   },
   {
-    "name": "Budapest",
+    "name": {
+      "en": "Budapest",
+      "zh": "布达佩斯",
+      "fr": "Budapest",
+      "de": "Budapest",
+      "ja": "ブダペスト",
+      "pt": "Budapeste",
+      "es": "Budapest"
+    },
     "coordinates": {
       "longitude": 19.0439713,
       "latitude": 47.4975594
@@ -2354,7 +3394,15 @@
     "imageId": "ee8342f2-5e41-4151-9048-7559045ca300"
   },
   {
-    "name": "Old Village of Hollókő",
+    "name": {
+      "en": "Old Village of Hollókő",
+      "zh": "霍洛克古村",
+      "fr": "Vieux Village de Hollókő",
+      "de": "Altes Dorf Hollókő",
+      "ja": "ホローケー",
+      "pt": "Vila Velha de Hollókő",
+      "es": "Antiguo Pueblo de Hollókő"
+    },
     "coordinates": {
       "longitude": 19.5883295,
       "latitude": 47.9990599
@@ -2372,7 +3420,15 @@
     "imageId": "ae843c3b-9bf6-421c-69ea-d8a331e1c800"
   },
   {
-    "name": "Caves of Aggtelek Karst and Slovak Karst",
+    "name": {
+      "en": "Caves of Aggtelek Karst and Slovak Karst",
+      "zh": "阿盖泰勒克喀斯特和斯洛伐克喀斯特洞穴",
+      "fr": "Grottes du karst d'Aggtelek et du karst slovaque",
+      "de": "Höhlen des Aggtelek-Karst und des Slowakischen Karstes",
+      "ja": "アグテレク・カルストとスロバキア・カルストの洞窠群",
+      "pt": "Grutas do Carste de Aggtelek e Carste da Eslováquia",
+      "es": "Cuevas del karst de Aggtelek y del karst eslovaco"
+    },
     "coordinates": {
       "longitude": 20.4944412,
       "latitude": 48.4720473
@@ -2389,7 +3445,15 @@
     "imageId": "9fc9f0f2-1a7b-47d1-ac24-6fa19e1d4c00"
   },
   {
-    "name": "Millenary Benedictine Abbey of Pannonhalma",
+    "name": {
+      "en": "Millenary Benedictine Abbey of Pannonhalma",
+      "zh": "潘诺哈尔马千年本笃会修道院",
+      "fr": "Abbaye bénédictine millénaire de Pannonhalma",
+      "de": "Benediktinerabtei Pannonhalma",
+      "ja": "パンノンハルマの千年ベネディクト会修道院",
+      "pt": "Abadia Beneditina Milenar de Pannonhalma",
+      "es": "Abadía Benedictina Milenaria de Pannonhalma"
+    },
     "coordinates": {
       "longitude": 17.7600744,
       "latitude": 47.5528566
@@ -2408,7 +3472,15 @@
     "imageId": "466df96e-d824-4b67-2da0-aa39923f8d00"
   },
   {
-    "name": "Vatnajökull National Park",
+    "name": {
+      "en": "Vatnajökull National Park",
+      "zh": "瓦特纳冰川国家公园",
+      "fr": "Parc national de Vatnajökull",
+      "de": "Nationalpark Vatnajökull",
+      "ja": "バトナヨークトル国立公園",
+      "pt": "Parque Nacional de Vatnajökull",
+      "es": "Parque Nacional Vatnajökull"
+    },
     "coordinates": {
       "longitude": -16.9391117,
       "latitude": 64.0304719
@@ -2428,7 +3500,15 @@
     "imageId": "ab2b87de-8c5b-49a0-378f-190bfa165500"
   },
   {
-    "name": "Agra Fort",
+    "name": {
+      "en": "Agra Fort",
+      "zh": "阿格拉堡",
+      "fr": "Fort d'Agra",
+      "de": "Agra-Fort",
+      "ja": "アグラ城",
+      "pt": "Forte de Agra",
+      "es": "Fuerte de Agra"
+    },
     "coordinates": {
       "longitude": 78.0219004,
       "latitude": 27.1762299
@@ -2446,7 +3526,15 @@
     "imageId": "928437f2-5168-4d3e-91f0-aa47c1acda00"
   },
   {
-    "name": "Ajanta Caves",
+    "name": {
+      "en": "Ajanta Caves",
+      "zh": "亚洲塔石窟",
+      "fr": "Grottes d'Ajanta",
+      "de": "Ajanta-Höhlen",
+      "ja": "アジャンタ石窟群",
+      "pt": "Cavernas de Ajanta",
+      "es": "Cuevas de Ajanta"
+    },
     "coordinates": {
       "longitude": 75.6990336,
       "latitude": 20.551764
@@ -2466,7 +3554,15 @@
     "imageId": "5e37c07e-901d-4be1-d98b-7b95fb022900"
   },
   {
-    "name": "Ellora Caves",
+    "name": {
+      "en": "Ellora Caves",
+      "zh": "埃洛拉石窟",
+      "fr": "Grottes d'Ellora ",
+      "de": "Ellora-Höhlen",
+      "ja": "エローラ石窟群",
+      "pt": "Grutas de Ellora",
+      "es": "Cuevas de Ellora"
+    },
     "coordinates": {
       "longitude": 75.1791716,
       "latitude": 20.0238252
@@ -2485,7 +3581,15 @@
     "imageId": "7b732dc4-141c-482d-a9d2-257302185400"
   },
   {
-    "name": "Taj Mahal",
+    "name": {
+      "en": "Taj Mahal",
+      "zh": "泰姬陵",
+      "fr": "Taj Mahal",
+      "de": "Tadsch Mahal",
+      "ja": "タージ・マハル",
+      "pt": "Taj Mahal",
+      "es": "Taj Mahal"
+    },
     "coordinates": {
       "longitude": 78.0421187,
       "latitude": 27.1733248
@@ -2505,7 +3609,15 @@
     "imageId": "db657011-6932-4782-4cb0-8eb5ef38b300"
   },
   {
-    "name": "Group of Monuments at Mahabalipuram",
+    "name": {
+      "en": "Group of Monuments at Mahabalipuram",
+      "zh": "马哈巴利普兰古迹群",
+      "fr": "Groupe de monuments de Mahabalipuram",
+      "de": "Gruppe der Denkmäler in Mahabalipuram",
+      "ja": "マハーバリプラムの建造物群",
+      "pt": "Grupo de Monumentos em Mahabalipuram",
+      "es": "Grupo de Monumentos de Mahabalipuram"
+    },
     "coordinates": {
       "longitude": 80.199247,
       "latitude": 12.6165506
@@ -2522,7 +3634,15 @@
     "imageId": "78904639-396e-43f4-1b99-4f28d2112100"
   },
   {
-    "name": "Sun Temple, Konârak",
+    "name": {
+      "en": "Sun Temple, Konârak",
+      "zh": "日神庙，柯纳克",
+      "fr": "Temple du Soleil, Konârak",
+      "de": "Sonnen-Tempel, Konark",
+      "ja": "コナーラクの太陽寺院",
+      "pt": "Templo do Sol, Konarak",
+      "es": "Templo del Sol, Konarak"
+    },
     "coordinates": {
       "longitude": 86.0952276,
       "latitude": 19.8876019
@@ -2541,7 +3661,15 @@
     "imageId": "c5ff8351-85bf-41dc-bb46-d1e51591cb00"
   },
   {
-    "name": "Churches and Convents of Goa",
+    "name": {
+      "en": "Churches and Convents of Goa",
+      "zh": "果阿的教堂和修道院",
+      "fr": "Églises et couvents de Goa",
+      "de": "Kirchen und Klöster von Goa",
+      "ja": "ゴアの教会と修道院",
+      "pt": "Igrejas e Conventos de Goa",
+      "es": "Iglesias y conventos de Goa"
+    },
     "coordinates": {
       "longitude": 73.9118511,
       "latitude": 15.5025121
@@ -2558,7 +3686,15 @@
     "imageId": "4bd0d98e-da81-4280-d5bb-2e012e3a8600"
   },
   {
-    "name": "Fatehpur Sikri",
+    "name": {
+      "en": "Fatehpur Sikri",
+      "zh": "命运之城",
+      "fr": "Fatehpur Sikri",
+      "de": "Fatehpur Sikri",
+      "ja": "ファテープル・シークリー",
+      "pt": "Fatehpur Sikri",
+      "es": "Fatehpur Sikri"
+    },
     "coordinates": {
       "longitude": 77.6628414,
       "latitude": 27.0948169
@@ -2576,7 +3712,15 @@
     "imageId": "5f24fbcb-47d4-49a7-377e-5d3755c99900"
   },
   {
-    "name": "Group of Monuments at Hampi",
+    "name": {
+      "en": "Group of Monuments at Hampi",
+      "zh": "汉比遗址群",
+      "fr": "Groupe de monuments à Hampi",
+      "de": "Gruppe der Monumente in Hampi",
+      "ja": "ハンピの建造物群",
+      "pt": "Grupo de Monumentos em Hampi",
+      "es": "Conjunto de Monumentos de Hampi"
+    },
     "coordinates": {
       "longitude": 76.4596192,
       "latitude": 15.3350691
@@ -2594,7 +3738,15 @@
     "imageId": "b521cb7f-6936-4c29-f1dd-138704b0ef00"
   },
   {
-    "name": "Khajuraho Group of Monuments",
+    "name": {
+      "en": "Khajuraho Group of Monuments",
+      "zh": "卡久拉霍群碑",
+      "fr": "Groupe de monuments de Khajuraho",
+      "de": "Gruppe von Monumenten in Khajuraho",
+      "ja": "カジュラホーの建造物群",
+      "pt": "Grupo de Monumentos de Khajuraho",
+      "es": "Grupo de Monumentos de Khajuraho"
+    },
     "coordinates": {
       "longitude": 79.9200361,
       "latitude": 24.8529889
@@ -2612,7 +3764,15 @@
     "imageId": "5b9d693b-05bb-4cad-1421-a8bff0818900"
   },
   {
-    "name": "Elephanta Caves",
+    "name": {
+      "en": "Elephanta Caves",
+      "zh": "象岛石窟",
+      "fr": "Grottes d'Elephanta",
+      "de": "Elephanta-Höhlen",
+      "ja": "エレファンタ洞窟",
+      "pt": "Grutas de Elefanta",
+      "es": "Cuevas de Elefanta"
+    },
     "coordinates": {
       "longitude": 72.9316524,
       "latitude": 18.9633695
@@ -2629,7 +3789,15 @@
     "imageId": "e146ab3d-b7d8-4f2d-8711-6291c6efb500"
   },
   {
-    "name": "Great Living Chola Temples",
+    "name": {
+      "en": "Great Living Chola Temples",
+      "zh": "卓越的生活的朱罗寺庙",
+      "fr": "Grands Temples Vivants Chola",
+      "de": "Große lebende Chola-Tempel",
+      "ja": "偉大なるチョーラ朝の寺院",
+      "pt": "Grandes Templos Vivos dos Chola",
+      "es": "Grandes Templos Vivos de los Chola"
+    },
     "coordinates": {
       "longitude": 79.4494491,
       "latitude": 11.2063209
@@ -2648,7 +3816,15 @@
     "imageId": "96d6968d-cf95-445c-56a9-d8d5dbbfbf00"
   },
   {
-    "name": "Group of Monuments at Pattadakal",
+    "name": {
+      "en": "Group of Monuments at Pattadakal",
+      "zh": "帕塔达卡尔纪念碑群",
+      "fr": "Groupe de monuments de Pattadakal",
+      "de": "Gruppe von Denkmälern in Pattadakal",
+      "ja": "パッタダカルの建造物群",
+      "pt": "Grupo de Monumentos em Pattadakal",
+      "es": "Conjunto de Monumentos de Pattadakal"
+    },
     "coordinates": {
       "longitude": 75.8162164,
       "latitude": 15.9494757
@@ -2666,7 +3842,15 @@
     "imageId": "ed5a13a6-debf-4daf-3ed0-6df03d507a00"
   },
   {
-    "name": "Buddhist Monuments at Sanchi",
+    "name": {
+      "en": "Buddhist Monuments at Sanchi",
+      "zh": "佛教遗址，Sanchi",
+      "fr": "Monuments bouddhiques de Sanchi",
+      "de": "Buddhistische Monumente in Sanchi",
+      "ja": "サンチの仏教遺跡",
+      "pt": "Monumentos Budistas em Sanchi",
+      "es": "Monumentos budistas de Sanchi"
+    },
     "coordinates": {
       "longitude": 77.7397408,
       "latitude": 23.4797648
@@ -2684,7 +3868,15 @@
     "imageId": "caf6ab2f-2c6b-468f-406e-b31887c77300"
   },
   {
-    "name": "Humayun's Tomb",
+    "name": {
+      "en": "Humayun's Tomb",
+      "zh": "**Humayun's Tomb** in Simplified Chinese is translated as **“**胡马雍陵**”**.",
+      "fr": "Tombeau de Humayun",
+      "de": "Humayuns Grab",
+      "ja": "フマユーン廟",
+      "pt": "Túmulo de Humayun",
+      "es": "Tumba de Humayuna"
+    },
     "coordinates": {
       "longitude": 77.2507933,
       "latitude": 28.5922052
@@ -2702,7 +3894,15 @@
     "imageId": "ca856eee-c8e9-43e0-0f57-8d5f797bf000"
   },
   {
-    "name": "Qutb Minar and its Monuments",
+    "name": {
+      "en": "Qutb Minar and its Monuments",
+      "zh": "库图布·米纳尔及其古迹",
+      "fr": "Qutb Minar et ses monuments",
+      "de": "Qutb Minar und seine Denkmäler",
+      "ja": "クトゥブ・ミナールとその建造物群",
+      "pt": "Qutb Minar e seus Monumentos",
+      "es": "Qutb Minar y sus monumentos"
+    },
     "coordinates": {
       "longitude": 77.1850751,
       "latitude": 28.5244211
@@ -2720,7 +3920,15 @@
     "imageId": "af6258f3-6f7d-4279-93e4-ae23da109400"
   },
   {
-    "name": "Champaner-Pavagadh Archaeological Park",
+    "name": {
+      "en": "Champaner-Pavagadh Archaeological Park",
+      "zh": "占潘纳-帕瓦加德考古公园",
+      "fr": "Parc archéologique de Champaner-Pavagadh",
+      "de": "Archäologischer Park Champaner-Pavagadh",
+      "ja": "チャンパネール＝パーヴァガド遺跡公園",
+      "pt": "Parque Arqueológico de Champaner-Pavagadh",
+      "es": "Parque Arqueológico de Champaner-Pavagadh"
+    },
     "coordinates": {
       "longitude": 73.5375801,
       "latitude": 22.485844
@@ -2738,7 +3946,15 @@
     "imageId": "06b8ad51-146c-4ba7-899b-e10e7528ad00"
   },
   {
-    "name": "Chhatrapati Shivaji Terminus",
+    "name": {
+      "en": "Chhatrapati Shivaji Terminus",
+      "zh": "查特拉帕蒂·希瓦吉·车站",
+      "fr": "Gare Chhatrapati Shivaji",
+      "de": "Chhatrapati Shivaji Terminus",
+      "ja": "チャトラパティー・シヴァージー・ターミナス",
+      "pt": "Terminal Chhatrapati Shivaji",
+      "es": "Estación Chhatrapati Shivaji"
+    },
     "coordinates": {
       "longitude": 72.8346952,
       "latitude": 18.939829
@@ -2756,7 +3972,15 @@
     "imageId": "72f5eed1-f045-4337-381e-8a789f7ee900"
   },
   {
-    "name": "Red Fort Complex",
+    "name": {
+      "en": "Red Fort Complex",
+      "zh": "红堡建筑群",
+      "fr": "Complexe du Fort Rouge",
+      "de": "Rotes Fort-Komplex",
+      "ja": "レッド・フォート・コンプレックス",
+      "pt": "Complexo do Forte Vermelho",
+      "es": "Complejo del Fuerte Rojo"
+    },
     "coordinates": {
       "longitude": 77.2370774,
       "latitude": 28.6560319
@@ -2773,7 +3997,15 @@
     "imageId": "40643801-7455-41b4-16e2-0fa6a6fb6700"
   },
   {
-    "name": "Rani-ki-Vav",
+    "name": {
+      "en": "Rani-ki-Vav",
+      "zh": "兰尼婆婆井",
+      "fr": "Rani-ki-Vav",
+      "de": "Rani-ki-Vav",
+      "ja": "ラーニ・キ・ヴァヴ",
+      "pt": "Rani-ki-Vav",
+      "es": "Rani-ki-Vav"
+    },
     "coordinates": {
       "longitude": 72.1019711,
       "latitude": 23.858895
@@ -2791,7 +4023,15 @@
     "imageId": "62aa5097-db26-4727-7648-ba447b407f00"
   },
   {
-    "name": "Archaeological Site of Nalanda Mahavihara",
+    "name": {
+      "en": "Archaeological Site of Nalanda Mahavihara",
+      "zh": "那烂陀大寺遗址",
+      "fr": "Site archéologique de Nalanda Mahavihara",
+      "de": "Archäologische Stätte von Nalanda Mahavihara",
+      "ja": "ナーランダ大僧院の考古遺跡",
+      "pt": "Sítio Arqueológico de Nalanda Mahavihara",
+      "es": "Sitio Arqueológico de Nalanda Mahavihara"
+    },
     "coordinates": {
       "longitude": 85.4423173,
       "latitude": 25.1353972
@@ -2808,7 +4048,15 @@
     "imageId": "c2075853-a28b-4786-ad5e-47c5aad0a900"
   },
   {
-    "name": "Historic City of Ahmadabad",
+    "name": {
+      "en": "Historic City of Ahmadabad",
+      "zh": "艾哈迈达巴德历史城市",
+      "fr": "Cité historique d'Ahmadabad",
+      "de": "Historische Stadt Ahmadabad",
+      "ja": "アフマダーバード歴史地区",
+      "pt": "Cidade Histórica de Ahmadabad",
+      "es": "Ciudad Histórica de Ahmadabad"
+    },
     "coordinates": {
       "longitude": 72.587012,
       "latitude": 23.0237902
@@ -2826,7 +4074,15 @@
     "imageId": "92c55f7b-6656-42e8-93f8-98a33664c900"
   },
   {
-    "name": "Art Deco Ensembles of Mumbai",
+    "name": {
+      "en": "Art Deco Ensembles of Mumbai",
+      "zh": "孟买装饰艺术建筑群",
+      "fr": "Ensembles Art déco de Mumbai",
+      "de": "Art-Deco-Ensembles von Mumbai",
+      "ja": "ムンバイのアール・デコのアンサンブル",
+      "pt": "Conjuntos Art Déco de Mumbai",
+      "es": "Conjuntos Art Déco de Mumbai"
+    },
     "coordinates": {
       "longitude": 72.8349561,
       "latitude": 18.9397823
@@ -2845,7 +4101,15 @@
     "imageId": "122fcae9-9e43-4254-7417-6d9d81a64c00"
   },
   {
-    "name": "Jaipur City, Rajasthan",
+    "name": {
+      "en": "Jaipur City, Rajasthan",
+      "zh": "斋普尔城，拉贾斯坦邦",
+      "fr": "Jaipur, Rajasthan",
+      "de": "Jaipur-Stadt, Rajasthan",
+      "ja": "ジャイプル市、ラジャスタン州",
+      "pt": "Cidade de Jaipur, Rajastão",
+      "es": "Ciudad de Jaipur, Rajastán"
+    },
     "coordinates": {
       "longitude": 75.8270877,
       "latitude": 26.9238267
@@ -2862,7 +4126,15 @@
     "imageId": "9c8290b9-abb3-4c14-22cb-4b2d07d63c00"
   },
   {
-    "name": "Dholavira",
+    "name": {
+      "en": "Dholavira",
+      "zh": "德霍拉维拉",
+      "fr": "Dholavira",
+      "de": "Dholavira: Eine archäologische Stätte im Harappan-Überblick",
+      "ja": "ドロービラ",
+      "pt": "Dholavira",
+      "es": "Dholavira"
+    },
     "coordinates": {
       "longitude": 70.2130491,
       "latitude": 23.887164
@@ -2879,7 +4151,15 @@
     "imageId": "79e6a8e3-81e9-417d-f0eb-a8c26daec400"
   },
   {
-    "name": "Kakatiya Rudreshwara Temple",
+    "name": {
+      "en": "Kakatiya Rudreshwara Temple",
+      "zh": "卡卡提亚·鲁德雷什瓦拉神庙",
+      "fr": "Temple Kakatiya Rudreshwara",
+      "de": "Kakatiya-Rudreshwara-Tempel",
+      "ja": "カーカティヤ・ルドラーシュワラ寺院",
+      "pt": "Templo Kakatiya Rudreshwara",
+      "es": "Templo Kakatiya Rudreshwara"
+    },
     "coordinates": {
       "longitude": 79.9434477,
       "latitude": 18.2593105
@@ -2898,7 +4178,15 @@
     "imageId": "e2a52269-5b47-48ac-f61f-89f679a9e600"
   },
   {
-    "name": "Sacred Ensembles of the Hoysalas",
+    "name": {
+      "en": "Sacred Ensembles of the Hoysalas",
+      "zh": "浩烈沙拉王朗圣地群",
+      "fr": "Ensembles sacrés des Hoysalas",
+      "de": "Heilige Ensembles der Hoysalas",
+      "ja": "ホイサラの聖なる建造物群",
+      "pt": "Conjuntos Sagrados dos Hoysalas",
+      "es": "Conjuntos Sagrados de los Hoysalas"
+    },
     "coordinates": {
       "longitude": 76.8817686,
       "latitude": 12.275797
@@ -2917,7 +4205,15 @@
     "imageId": "9f0166a9-ad5e-47b0-1a97-7b0f2514c400"
   },
   {
-    "name": "Borobudur Temple Compounds",
+    "name": {
+      "en": "Borobudur Temple Compounds",
+      "zh": "婆罗浮屠寺院遗址",
+      "fr": "Enceintes du temple de Borobudur",
+      "de": "Tempelanlage von Borobudur",
+      "ja": "ボロブドゥール寺院遺跡群",
+      "pt": "Complexo do Templo de Borobudur",
+      "es": "Conjunto de Borobudur"
+    },
     "coordinates": {
       "longitude": 110.204473,
       "latitude": -7.6079852
@@ -2936,7 +4232,15 @@
     "imageId": "76252ee9-0263-4b03-94fa-013d9bb14b00"
   },
   {
-    "name": "Prambanan Temple Compounds",
+    "name": {
+      "en": "Prambanan Temple Compounds",
+      "zh": "巴兰班南寺庙群",
+      "fr": "Ensemble de Prambanan",
+      "de": "Prambanan-Tempelkomplexe",
+      "ja": "プランバナン寺院群",
+      "pt": "Complexo do Templo de Prambanan",
+      "es": "Conjunto de Prambanan"
+    },
     "coordinates": {
       "longitude": 110.4918633,
       "latitude": -7.7521026
@@ -2955,7 +4259,15 @@
     "imageId": "899af1a4-47f1-4b59-b10d-009c5ae8ce00"
   },
   {
-    "name": "Archaeological Ensemble of the Bend",
+    "name": {
+      "en": "Archaeological Ensemble of the Bend",
+      "zh": "本德考古遗址群",
+      "fr": "Ensemble archéologique de la Courbe",
+      "de": "Archäologisches Ensemble der Bend",
+      "ja": "ベンドの考古学的遺跡群",
+      "pt": "Conjunto Arqueológico da Curva",
+      "es": "Conjunto Arqueológico de la Curva."
+    },
     "coordinates": {
       "longitude": -6.4743131,
       "latitude": 53.6938533
@@ -2970,7 +4282,15 @@
     "imageId": "0e88a4af-6114-4acd-e9e7-35dfbd943400"
   },
   {
-    "name": "Masada",
+    "name": {
+      "en": "Masada",
+      "zh": "马萨达",
+      "fr": "Masada",
+      "de": "Masada",
+      "ja": "マサダ",
+      "pt": "Massada",
+      "es": "Masada"
+    },
     "coordinates": {
       "longitude": 35.3554391,
       "latitude": 31.3126281
@@ -2987,7 +4307,15 @@
     "imageId": "c11322f6-6ef6-4351-eadf-abaf9d38be00"
   },
   {
-    "name": "Dominican Convent of Santa Maria delle Grazie",
+    "name": {
+      "en": "Dominican Convent of Santa Maria delle Grazie",
+      "zh": "多明尼加圣玛丽亚德拉格拉齐亚修道院",
+      "fr": "Couvent dominicain de Santa Maria delle Grazie",
+      "de": "Dominikanerkloster Santa Maria delle Grazie",
+      "ja": "サンタ・マリア・デッレ・グラツィエのドミニコ会修道院",
+      "pt": "Convento Dominicano de Santa Maria delle Grazie",
+      "es": "Convento Dominicano de Santa Maria delle Grazie"
+    },
     "coordinates": {
       "longitude": 9.1702824,
       "latitude": 45.4660492
@@ -3005,7 +4333,15 @@
     "imageId": "ec0ea1b1-6982-424d-a79a-4c3af32d6400"
   },
   {
-    "name": "Historic Centre of Rome",
+    "name": {
+      "en": "Historic Centre of Rome",
+      "zh": "罗驗史遗地区",
+      "fr": "Centre historique de Rome",
+      "de": "Historisches Zentrum von Rom",
+      "ja": "ローマ歴史地区",
+      "pt": "Centro Histórico de Roma",
+      "es": "Centro Histórico de Roma"
+    },
     "coordinates": {
       "longitude": 12.4911337,
       "latitude": 41.890138
@@ -3025,7 +4361,15 @@
     "imageId": "08db91b9-07c9-4b45-3666-4b0c9cd1f600"
   },
   {
-    "name": "Historic Centre of Florence",
+    "name": {
+      "en": "Historic Centre of Florence",
+      "zh": "佛罗伦萨历史中心",
+      "fr": "Centre historique de Florence",
+      "de": "Historisches Zentrum von Florenz",
+      "ja": "フィレンツェの歴史地区",
+      "pt": "Centro Histórico de Florença",
+      "es": "Centro Histórico de Florencia"
+    },
     "coordinates": {
       "longitude": 11.2551669,
       "latitude": 43.7733843
@@ -3045,7 +4389,15 @@
     "imageId": "7d77efcb-09ac-49fc-f311-da0a50b0ec00"
   },
   {
-    "name": "Piazza del Duomo, Pisa",
+    "name": {
+      "en": "Piazza del Duomo, Pisa",
+      "zh": "比萨大教堂广场",
+      "fr": "Place du Dôme, Pise",
+      "de": "Domplatz, Pisa",
+      "ja": "ピサのドゥオーモ広場",
+      "pt": "Praça da Catedral, Pisa",
+      "es": "Plaza del Duomo, Pisa"
+    },
     "coordinates": {
       "longitude": 10.3963955,
       "latitude": 43.72248
@@ -3063,7 +4415,15 @@
     "imageId": "5c25d22f-e423-4f9f-fee9-76375a534000"
   },
   {
-    "name": "Venice and its Lagoon",
+    "name": {
+      "en": "Venice and its Lagoon",
+      "zh": "威尼斯和其泻湖",
+      "fr": "Venise et sa lagune",
+      "de": "Venedig und seine Lagune",
+      "ja": "ヴェネツィアとその潟",
+      "pt": "Veneza e sua Lagoa",
+      "es": "Venecia y su Laguna"
+    },
     "coordinates": {
       "longitude": 12.3299198,
       "latitude": 45.4360456
@@ -3084,7 +4444,15 @@
     "imageId": "d47478bd-7640-46ac-12d0-fbea5e0f6800"
   },
   {
-    "name": "Historic Centre of San Gimignano",
+    "name": {
+      "en": "Historic Centre of San Gimignano",
+      "zh": "圣吉米尼亚诺历史中心",
+      "fr": "Centre historique de San Gimignano",
+      "de": "Historisches Zentrum von San Gimignano",
+      "ja": "サン・ジミニャーノの歴史地区",
+      "pt": "Centro Histórico de San Gimignano",
+      "es": "Centro Histórico de San Gimignano"
+    },
     "coordinates": {
       "longitude": 11.0438863,
       "latitude": 43.4674055
@@ -3102,7 +4470,15 @@
     "imageId": "2c99df47-02c8-4600-3d96-775db1647500"
   },
   {
-    "name": "The Sassi",
+    "name": {
+      "en": "The Sassi",
+      "zh": "萨西",
+      "fr": "Les Sassi",
+      "de": "Die Sassi von Matera",
+      "ja": "サッシィ",
+      "pt": "Os Sassi",
+      "es": "Los Sassi"
+    },
     "coordinates": {
       "longitude": 16.6119673,
       "latitude": 40.6639621
@@ -3122,7 +4498,15 @@
     "imageId": "bd69f6e0-74f6-4576-5af4-f048cfa8fb00"
   },
   {
-    "name": "City of Vicenza",
+    "name": {
+      "en": "City of Vicenza",
+      "zh": "维琴察市",
+      "fr": "Ville de Vicence",
+      "de": "Stadt Vicenza",
+      "ja": "ヴィチェンツァ市",
+      "pt": "Cidade de Vicenza",
+      "es": "Ciudad de Vicenza"
+    },
     "coordinates": {
       "longitude": 11.5469381,
       "latitude": 45.5466116
@@ -3139,7 +4523,15 @@
     "imageId": "e8d64415-e00c-407c-049e-11956dfb0a00"
   },
   {
-    "name": "Ferrara",
+    "name": {
+      "en": "Ferrara",
+      "zh": "费拉拉",
+      "fr": "Ferrare",
+      "de": "Ferrara, Stadt der Renaissance und ihres Podeltas",
+      "ja": "フェラーラ",
+      "pt": "Ferrara",
+      "es": "Ferrara, ciudad del Renacimiento, y su delta del Po"
+    },
     "coordinates": {
       "longitude": 11.6185631,
       "latitude": 44.8375225
@@ -3157,7 +4549,15 @@
     "imageId": "ac09ad27-843d-49b3-9b99-f883618ef500"
   },
   {
-    "name": "Historic Centre of Naples",
+    "name": {
+      "en": "Historic Centre of Naples",
+      "zh": "那不勒斯历史中心",
+      "fr": "Centre historique de Naples",
+      "de": "Historisches Zentrum von Neapel",
+      "ja": "ナポリの歴史地区",
+      "pt": "Centro Histórico de Nápoles",
+      "es": "Centro Histórico de Nápoles"
+    },
     "coordinates": {
       "longitude": 14.2492669,
       "latitude": 40.8361364
@@ -3175,7 +4575,15 @@
     "imageId": "aa017917-f3ab-42c5-48a8-d531ae034f00"
   },
   {
-    "name": "Historic Centre of Siena",
+    "name": {
+      "en": "Historic Centre of Siena",
+      "zh": "锡耶纳历史中心",
+      "fr": "Centre historique de Sienne",
+      "de": "Historisches Zentrum von Siena",
+      "ja": "シエナの歴史地区",
+      "pt": "Centro Histórico de Siena",
+      "es": "Centro Histórico de Siena"
+    },
     "coordinates": {
       "longitude": 11.3312788,
       "latitude": 43.3187503
@@ -3193,7 +4601,15 @@
     "imageId": "d4a331fb-c823-41ec-e652-042f56f68900"
   },
   {
-    "name": "Castel del Monte",
+    "name": {
+      "en": "Castel del Monte",
+      "zh": "卡斯泰尔德尔蒙特堡",
+      "fr": "Château du Mont",
+      "de": "Burg Castel del Monte",
+      "ja": "カステル・デル・モンテ",
+      "pt": "Castelo del Monte",
+      "es": "Castillo del Monte"
+    },
     "coordinates": {
       "longitude": 16.2719367,
       "latitude": 41.08474
@@ -3211,7 +4627,15 @@
     "imageId": "0240732c-8298-4b43-3da8-5ed6184b8b00"
   },
   {
-    "name": "Early Christian Monuments of Ravenna",
+    "name": {
+      "en": "Early Christian Monuments of Ravenna",
+      "zh": "拉文纳早期基着教堂群",
+      "fr": "Monuments paléochrétiens de Ravenne",
+      "de": "Frühchristliche Monumente von Ravenna",
+      "ja": "ラヴェンナの初期キリスト教建造物",
+      "pt": "Monumentos Cristãos Primitivos de Ravenna",
+      "es": "Monumentos Paleocristianos de Rávena"
+    },
     "coordinates": {
       "longitude": 12.1968883,
       "latitude": 44.4206146
@@ -3230,7 +4654,15 @@
     "imageId": "b05e3b41-0ee8-474f-1beb-01f876479f00"
   },
   {
-    "name": "Historic Centre of the City of Pienza",
+    "name": {
+      "en": "Historic Centre of the City of Pienza",
+      "zh": "皮恩扎市历史中心",
+      "fr": "Centre historique de la ville de Pienza.",
+      "de": "Historisches Zentrum der Stadt Pienza",
+      "ja": "ピエンツァ市の歴史地区",
+      "pt": "Centro Histórico da Cidade de Pienza",
+      "es": "Centro Histórico de la Ciudad de Pienza"
+    },
     "coordinates": {
       "longitude": 11.6789481,
       "latitude": 43.0766098
@@ -3248,7 +4680,15 @@
     "imageId": "c8d389b2-e0d1-455d-5dc2-3f7c5e4b2a00"
   },
   {
-    "name": "The Trulli of Alberobello",
+    "name": {
+      "en": "The Trulli of Alberobello",
+      "zh": "阿尔贝罗贝洛的特鲁利",
+      "fr": "Les Trulli d'Alberobello",
+      "de": "Die Trulli von Alberobello",
+      "ja": "アルベロベッロのトゥルッリ",
+      "pt": "Trulli de Alberobello",
+      "es": "Los Trulli de Alberobello"
+    },
     "coordinates": {
       "longitude": 17.2361342,
       "latitude": 40.7815499
@@ -3267,7 +4707,15 @@
     "imageId": "22e44502-f893-4d6f-c549-a12490956200"
   },
   {
-    "name": "18th-Century Royal Palace at Caserta",
+    "name": {
+      "en": "18th-Century Royal Palace at Caserta",
+      "zh": "卡塞塔皇宫",
+      "fr": "Palais royal de Caserte du XVIIIe siècle",
+      "de": "Königlicher Palast von Caserta",
+      "ja": "カゼルタの王宮",
+      "pt": "Palácio Real de Caserta do Século XVIII",
+      "es": "Palacio Real de Caserta del siglo XVIII"
+    },
     "coordinates": {
       "longitude": 14.3270483,
       "latitude": 41.0720064
@@ -3285,7 +4733,15 @@
     "imageId": "7e6df49c-0780-4831-47d0-8886bfc78400"
   },
   {
-    "name": "Archaeological Area of Agrigento",
+    "name": {
+      "en": "Archaeological Area of Agrigento",
+      "zh": "农业景区的阿格里真托",
+      "fr": "Zone archéologique d’Agrigente",
+      "de": "Archäologisches Gebiet von Agrigent",
+      "ja": "アグリジェントの考古遺跡群",
+      "pt": "Área Arqueológica de Agrigento",
+      "es": "Zona Arqueológica de Agrigento"
+    },
     "coordinates": {
       "longitude": 13.5915709,
       "latitude": 37.2974606
@@ -3302,7 +4758,15 @@
     "imageId": "20915e3f-c0c7-40d2-f43a-e9a8b36a6200"
   },
   {
-    "name": "Archaeological Areas of Pompei",
+    "name": {
+      "en": "Archaeological Areas of Pompei",
+      "zh": "庞贝考古区",
+      "fr": "Zones archéologiques de Pompéi",
+      "de": "Archäologische Stätten von Pompeji",
+      "ja": "ポンペイの考古遺跡",
+      "pt": "Áreas Arqueológicas de Pompeia",
+      "es": "Zonas Arqueológicas de Pompeya"
+    },
     "coordinates": {
       "longitude": 14.4849732,
       "latitude": 40.7490709
@@ -3319,7 +4783,15 @@
     "imageId": "29af0dcc-5995-49b1-a593-f772f96c8a00"
   },
   {
-    "name": "Botanical Garden",
+    "name": {
+      "en": "Botanical Garden",
+      "zh": "植物园",
+      "fr": "Jardin Botanique",
+      "de": "Botanischer Garten",
+      "ja": "植物園",
+      "pt": "Jardim Botânico",
+      "es": "Jardín Botánico"
+    },
     "coordinates": {
       "longitude": 11.8807303,
       "latitude": 45.3991441
@@ -3335,7 +4807,15 @@
     "imageId": "fbc82224-c0be-48dc-d028-2614922e3e00"
   },
   {
-    "name": "Torre Civica and Piazza Grande",
+    "name": {
+      "en": "Torre Civica and Piazza Grande",
+      "zh": "托雷·奇维卡与大广场",
+      "fr": "Tour Civique et Piazza Grande",
+      "de": "Ziviler Turm und Großer Platz",
+      "ja": "トッレ・チヴィカとピアッズァ・グランデ",
+      "pt": "Torre Cívica e Piazza Grande",
+      "es": "Torre Cívica y Piazza Grande"
+    },
     "coordinates": {
       "longitude": 10.9255447,
       "latitude": 44.6457822
@@ -3354,7 +4834,15 @@
     "imageId": "e3efc48b-85f4-4aab-86f3-ae7c004df600"
   },
   {
-    "name": "Costiera Amalfitana",
+    "name": {
+      "en": "Costiera Amalfitana",
+      "zh": "阿马尔菲海岸",
+      "fr": "Côte amalfitaine",
+      "de": "Amalfiküste",
+      "ja": "アマルフィ海岸",
+      "pt": "Costa Amalfitana",
+      "es": "Costa Amalfitana"
+    },
     "coordinates": {
       "longitude": 14.6068495,
       "latitude": 40.6330359
@@ -3371,7 +4859,15 @@
     "imageId": "5e0eaa16-f319-4375-7add-ad946e711300"
   },
   {
-    "name": "Residences of the Royal House of Savoy",
+    "name": {
+      "en": "Residences of the Royal House of Savoy",
+      "zh": "萨伏依王室居所",
+      "fr": "Résidences de la Maison Royale de Savoie",
+      "de": "Residenzen des Königshauses Savoyen",
+      "ja": "サヴォイア王家の王宮群",
+      "pt": "Residências da Casa Real de Saboia",
+      "es": "Residencias de la Casa Real de Saboya"
+    },
     "coordinates": {
       "longitude": 7.6055851,
       "latitude": 44.9962433
@@ -3390,7 +4886,15 @@
     "imageId": "fcf33c9c-9bb4-4d48-9680-3260f1f8a700"
   },
   {
-    "name": "Archaeological Area of Aquileia",
+    "name": {
+      "en": "Archaeological Area of Aquileia",
+      "zh": "阿奎莱亚考古区",
+      "fr": "Zone archéologique d'Aquilée",
+      "de": "Archäologisches Gebiet von Aquileia",
+      "ja": "アクイレイアの考古遺跡群",
+      "pt": "Área Arqueológica de Aquileia",
+      "es": "Zona Arqueológica de Aquileia"
+    },
     "coordinates": {
       "longitude": 13.3662019,
       "latitude": 45.7730941
@@ -3407,7 +4911,15 @@
     "imageId": "5f991d13-289b-4215-2030-371375c27800"
   },
   {
-    "name": "Cilento and Vallo di Diano National Park",
+    "name": {
+      "en": "Cilento and Vallo di Diano National Park",
+      "zh": "切伦托与迪亚诺山谷国家公园",
+      "fr": "Parc national du Cilento et du Val de Diano",
+      "de": "Nationalpark Cilento und Vallo di Diano",
+      "ja": "チレントとヴァッロ・ディ・ディアーノ国立公園",
+      "pt": "Parque Nacional do Cilento e Vallo di Diano",
+      "es": "Parque Nacional del Cilento y Valle de Diano"
+    },
     "coordinates": {
       "longitude": 15.0058906,
       "latitude": 40.4245017
@@ -3425,7 +4937,15 @@
     "imageId": "20030439-61ea-4109-baa8-3d5dc62b0600"
   },
   {
-    "name": "Villa Adriana",
+    "name": {
+      "en": "Villa Adriana",
+      "zh": "哈德良别墅",
+      "fr": "Villa Adrienne",
+      "de": "Villa Adriana",
+      "ja": "ヴィラ・アドリアーナ",
+      "pt": "Vila Adriana",
+      "es": "Villa Adriana"
+    },
     "coordinates": {
       "longitude": 12.7755806,
       "latitude": 41.9422689
@@ -3442,7 +4962,15 @@
     "imageId": "4a0d18e0-f593-469b-d928-b79c02131800"
   },
   {
-    "name": "Assisi",
+    "name": {
+      "en": "Assisi",
+      "zh": "阿西西",
+      "fr": "Assise",
+      "de": "Assisi",
+      "ja": "アッシジ",
+      "pt": "Assis",
+      "es": "Asís"
+    },
     "coordinates": {
       "longitude": 12.6068628,
       "latitude": 43.0742542
@@ -3460,7 +4988,15 @@
     "imageId": "5f63908a-55c4-482c-2666-c72ce5711f00"
   },
   {
-    "name": "City of Verona",
+    "name": {
+      "en": "City of Verona",
+      "zh": "维罗纳市",
+      "fr": "Cité de Vérone",
+      "de": "Stadt Verona",
+      "ja": "ヴェローナ市",
+      "pt": "Cidade de Verona",
+      "es": "Ciudad de Verona"
+    },
     "coordinates": {
       "longitude": 10.9932263,
       "latitude": 45.4389257
@@ -3477,7 +5013,15 @@
     "imageId": "669c6543-2fab-4dfb-3db0-96fc8db06900"
   },
   {
-    "name": "Villa d'Este",
+    "name": {
+      "en": "Villa d'Este",
+      "zh": "别墅德埃斯特",
+      "fr": "Villa d'Este",
+      "de": "Villa d’Este",
+      "ja": "ヴィッラ・デステ",
+      "pt": "Vila d'Este",
+      "es": "Villa de Este"
+    },
     "coordinates": {
       "longitude": 12.7947021,
       "latitude": 41.9630073
@@ -3493,7 +5037,15 @@
     "imageId": "07242381-5da1-438b-7edb-7f88580bfa00"
   },
   {
-    "name": "Late Baroque Towns of the Val di Noto",
+    "name": {
+      "en": "Late Baroque Towns of the Val di Noto",
+      "zh": "巴洛克晚期的瓦尔迪诺托镇",
+      "fr": "Villes tardives baroques du Val di Noto",
+      "de": "Spätbarocke Städte des Val di Noto",
+      "ja": "ヴァル・ディ・ノートの後期バロック様式の町群",
+      "pt": "Cidades Tardias do Barroco do Val di Noto",
+      "es": "Ciudades Tardobarrocas del Val di Noto"
+    },
     "coordinates": {
       "longitude": 15.070583,
       "latitude": 36.8909311
@@ -3512,7 +5064,15 @@
     "imageId": "44a08a39-8fdf-4eba-c155-c92333b33800"
   },
   {
-    "name": "Mantua and Sabbioneta",
+    "name": {
+      "en": "Mantua and Sabbioneta",
+      "zh": "曼托瓦和萨比奥内塔",
+      "fr": "Mantoue et Sabbioneta",
+      "de": "Mantua und Sabbioneta",
+      "ja": "マントヴァとサッビオネータ",
+      "pt": "Mântua e Sabbioneta",
+      "es": "Mantua y Sabbioneta"
+    },
     "coordinates": {
       "longitude": 10.7969509,
       "latitude": 45.1603091
@@ -3530,7 +5090,15 @@
     "imageId": "74b89e57-743b-47bb-f868-5cdaf79b3e00"
   },
   {
-    "name": "The Dolomites",
+    "name": {
+      "en": "The Dolomites",
+      "zh": "多洛米蒂山脉",
+      "fr": "Les Dolomites",
+      "de": "Dolomiten",
+      "ja": "ドロミテ山群",
+      "pt": "Dolomitas",
+      "es": "Los Dolomitas"
+    },
     "coordinates": {
       "longitude": 12.4825325,
       "latitude": 46.3956943
@@ -3549,7 +5117,15 @@
     "imageId": "480ac885-3a8d-4a9b-0121-c5ebc8ea5600"
   },
   {
-    "name": "Mount Etna",
+    "name": {
+      "en": "Mount Etna",
+      "zh": "埃特纳山",
+      "fr": "Mont Etna",
+      "de": "Ätna",
+      "ja": "エトナ山",
+      "pt": "Monte Etna",
+      "es": "Monte Etna"
+    },
     "coordinates": {
       "longitude": 14.9934239,
       "latitude": 37.7523411
@@ -3567,7 +5143,15 @@
     "imageId": "8c1d8f3c-9e0e-4b06-a037-b7e8436f7300"
   },
   {
-    "name": "Arab-Norman Palermo",
+    "name": {
+      "en": "Arab-Norman Palermo",
+      "zh": "阿拉伯-诺曼帕勒莫",
+      "fr": "Palerme arabo-normande",
+      "de": "Arabisch-Normannisches Palermo",
+      "ja": "アラブ＝ノルマン朝のパレルモ",
+      "pt": "Palermo Árabe-Normando",
+      "es": "Palermo Árabe-Normando"
+    },
     "coordinates": {
       "longitude": 14.0225098,
       "latitude": 38.039915
@@ -3586,7 +5170,15 @@
     "imageId": "17d2f2f7-474c-4ec1-03c0-cfd9ac786800"
   },
   {
-    "name": "The Porticoes of Bologna",
+    "name": {
+      "en": "The Porticoes of Bologna",
+      "zh": "博洛尼亚的廊柱",
+      "fr": "Les portiques de Bologne",
+      "de": "Die Portiken von Bologna",
+      "ja": "ボローニャのポルティコ",
+      "pt": "Pórticos de Bolonha",
+      "es": "Los Pórticos de Bolonia"
+    },
     "coordinates": {
       "longitude": 11.3434041,
       "latitude": 44.4914064
@@ -3604,7 +5196,15 @@
     "imageId": "f6eb239c-8ba5-4e9d-117a-994ea71bfc00"
   },
   {
-    "name": "Shirakawa-go",
+    "name": {
+      "en": "Shirakawa-go",
+      "zh": "白川郷",
+      "fr": "Shirakawa-go",
+      "de": "Shirakawa-go",
+      "ja": "白川郷",
+      "pt": "Shirakawa-go",
+      "es": "Shirakawa-go"
+    },
     "coordinates": {
       "longitude": 136.9010642,
       "latitude": 36.2552915
@@ -3622,7 +5222,15 @@
     "imageId": "5f84ca08-5c72-475a-daed-070cda50cd00"
   },
   {
-    "name": "Hiroshima Peace Memorial",
+    "name": {
+      "en": "Hiroshima Peace Memorial",
+      "zh": "广岛和平纪念碑",
+      "fr": "Mémorial de la Paix d'Hiroshima",
+      "de": "Hiroshima-Friedensdenkmal",
+      "ja": "広島平和記念碑",
+      "pt": "Memorial da Paz de Hiroshima",
+      "es": "Memorial de la Paz de Hiroshima"
+    },
     "coordinates": {
       "longitude": 132.4538534,
       "latitude": 34.3954169
@@ -3639,7 +5247,15 @@
     "imageId": "780de45c-f67c-4e88-8618-1bc5ec1ad800"
   },
   {
-    "name": "Itsukushima Shinto Shrine",
+    "name": {
+      "en": "Itsukushima Shinto Shrine",
+      "zh": "厳島神社",
+      "fr": "Sanctuaire shinto d'Itsukushima",
+      "de": "Itsukushima-Schrein",
+      "ja": "厳島神社",
+      "pt": "Santuário Xintoísta de Itsukushima",
+      "es": "Santuario sintoísta de Itsukushima"
+    },
     "coordinates": {
       "longitude": 132.319029,
       "latitude": 34.2964918
@@ -3657,7 +5273,15 @@
     "imageId": "b2983ae9-b57a-439b-87a3-1ba5c940af00"
   },
   {
-    "name": "Historic Monuments of Ancient Nara",
+    "name": {
+      "en": "Historic Monuments of Ancient Nara",
+      "zh": "古都奈良的历史遗迹",
+      "fr": "Monuments historiques de l'ancienne Nara",
+      "de": "Historische Denkmäler des alten Nara",
+      "ja": "古都奈良の文化財",
+      "pt": "Monumentos Históricos da Antiga Nara",
+      "es": "Monumentos históricos de la antigua Nara"
+    },
     "coordinates": {
       "longitude": 135.7842937,
       "latitude": 34.6686033
@@ -3675,7 +5299,15 @@
     "imageId": "7cff1105-cfdd-49e1-e328-f68af71c7800"
   },
   {
-    "name": "Iwami Ginzan Silver Mine",
+    "name": {
+      "en": "Iwami Ginzan Silver Mine",
+      "zh": "石见银山",
+      "fr": "Mine d’argent d’Iwami Ginzan",
+      "de": "Iwami-Ginzan-Silbermine",
+      "ja": "石見銀山",
+      "pt": "Mina de Prata de Iwami Ginzan",
+      "es": "Mina de Plata de Iwami Ginzan"
+    },
     "coordinates": {
       "longitude": 132.4391143,
       "latitude": 35.1054248
@@ -3691,7 +5323,15 @@
     "imageId": "bd641efc-64d8-407d-81d9-05f9e872e800"
   },
   {
-    "name": "Ogasawara Islands",
+    "name": {
+      "en": "Ogasawara Islands",
+      "zh": "小笠原群岛",
+      "fr": "Îles Ogasawara",
+      "de": "Ogasawara-Inseln",
+      "ja": "小笠原諸島",
+      "pt": "Ilhas Ogasawara",
+      "es": "Islas Ogasawara"
+    },
     "coordinates": {
       "longitude": 142.1757541,
       "latitude": 27.0379246
@@ -3709,7 +5349,15 @@
     "imageId": "ae07c017-0ced-4c59-d404-93a146527300"
   },
   {
-    "name": "Fujisan",
+    "name": {
+      "en": "Fujisan",
+      "zh": "富士山",
+      "fr": "Mont Fuji",
+      "de": "Fujisan",
+      "ja": "富士山",
+      "pt": "Monte Fuji",
+      "es": "Monte Fuji"
+    },
     "coordinates": {
       "longitude": 138.8419821,
       "latitude": 35.4072348
@@ -3727,7 +5375,15 @@
     "imageId": "0d656a60-c7f0-4a1b-8ea4-ffb60f5b5b00"
   },
   {
-    "name": "Tomioka Silk Mill and Related Sites",
+    "name": {
+      "en": "Tomioka Silk Mill and Related Sites",
+      "zh": "富岡製糸場及相关遗址",
+      "fr": "Manufacture de soie de Tomioka et sites associés",
+      "de": "Tomioka-Seidenfabrik und zugehörige Stätten",
+      "ja": "富岡製糸場と関連遺産群",
+      "pt": "Fábrica de Seda de Tomioka e Sítios Relacionados",
+      "es": "Sitio de la Seda de Tomioka y sitios relacionados"
+    },
     "coordinates": {
       "longitude": 138.8874953,
       "latitude": 36.2551523
@@ -3745,7 +5401,15 @@
     "imageId": "7ee390ea-cffc-4fd0-c946-cddfcfadde00"
   },
   {
-    "name": "Sites of Japan’s Meiji Industrial Revolution",
+    "name": {
+      "en": "Sites of Japan’s Meiji Industrial Revolution",
+      "zh": "明治日本的工业革命遗址",
+      "fr": "Sites de la révolution industrielle de l’ère Meiji au Japon",
+      "de": "Stätten der Meiji-Industriellen Revolution in Japan",
+      "ja": "明治日本の産業革命遺産",
+      "pt": "Sítios da Revolução Industrial de Meiji do Japão",
+      "es": "Lugares de la Revolución Industrial Meiji de Japón"
+    },
     "coordinates": {
       "longitude": 129.737383,
       "latitude": 32.626101
@@ -3762,7 +5426,15 @@
     "imageId": "7f50c4f0-7174-42b9-d51c-d973a61ddf00"
   },
   {
-    "name": "Hidden Christian Sites in Nagasaki",
+    "name": {
+      "en": "Hidden Christian Sites in Nagasaki",
+      "zh": "长崎的隐藏基督教遗址",
+      "fr": "Sites chrétiens cachés de Nagasaki",
+      "de": "Versteckte christliche Stätten in Nagasaki",
+      "ja": "長崎の潜伏キリシタン関連遺産",
+      "pt": "Sítios Cristãos Ocultos em Nagasaki",
+      "es": "Sitios Cristianos Ocultos de Nagasaki"
+    },
     "coordinates": {
       "longitude": 129.8697495,
       "latitude": 32.7345908
@@ -3780,7 +5452,15 @@
     "imageId": "5c749b6a-e6e8-4dcc-6c8f-a303bdffb700"
   },
   {
-    "name": "Quseir Amra",
+    "name": {
+      "en": "Quseir Amra",
+      "zh": "Quseir Amra",
+      "fr": "Qusair Amra",
+      "de": "Qusair Amra",
+      "ja": "クセイル・アムラ",
+      "pt": "Qusair Amra",
+      "es": "Qusair Amra"
+    },
     "coordinates": {
       "longitude": 36.5873685,
       "latitude": 31.8018511
@@ -3797,7 +5477,15 @@
     "imageId": "2c82f2bd-c15a-4891-f0e6-ce6571aeae00"
   },
   {
-    "name": "Um er-Rasas",
+    "name": {
+      "en": "Um er-Rasas",
+      "zh": "乌姆拉萨斯",
+      "fr": "Oum er-Rassas",
+      "de": "Um er-Rasas",
+      "ja": "ウム・エル＝ラサス",
+      "pt": "Um er-Rasas",
+      "es": "Um er-Rasas"
+    },
     "coordinates": {
       "longitude": 35.9204174,
       "latitude": 31.500512
@@ -3815,7 +5503,15 @@
     "imageId": "b8b93ba4-3cbf-4230-a1b5-e30c4efd1d00"
   },
   {
-    "name": "Bethany Beyond the Jordan",
+    "name": {
+      "en": "Bethany Beyond the Jordan",
+      "zh": "约旦河东伯提尼",
+      "fr": "Béthanie-au-delà-du-Jourdain",
+      "de": "Bethanien jenseits des Jordans",
+      "ja": "ベタニア・ヨルダン川",
+      "pt": "Betânia Além do Jordão",
+      "es": "Betania más allá del Jordán"
+    },
     "coordinates": {
       "longitude": 35.5501665,
       "latitude": 31.8372884
@@ -3833,7 +5529,15 @@
     "imageId": "13ea3157-0d12-4536-ce20-feb9931bdf00"
   },
   {
-    "name": "Fort Jesus of Mombasa",
+    "name": {
+      "en": "Fort Jesus of Mombasa",
+      "zh": "蒙巴萨耶稣堡",
+      "fr": "Fort Jésus de Mombasa",
+      "de": "Festung Jesus von Mombasa",
+      "ja": "モンバサのジーザス要塞",
+      "pt": "Forte Jesus de Mombaça",
+      "es": "Fuerte Jesús de Mombasa"
+    },
     "coordinates": {
       "longitude": 39.6794024,
       "latitude": -4.0620053
@@ -3851,7 +5555,15 @@
     "imageId": "a0fb09fd-ce3c-49d9-fbe9-be78e97bfe00"
   },
   {
-    "name": "Sulaiman-Too Sacred Mountain",
+    "name": {
+      "en": "Sulaiman-Too Sacred Mountain",
+      "zh": "苏莱曼山",
+      "fr": "Montagne sacrée de Sulaiman-Too",
+      "de": "Sulaiman-Too Heiliger Berg",
+      "ja": "スレイマン・トー聖山",
+      "pt": "Montanha Sagrada de Sulaiman-Too",
+      "es": "Montaña Sagrada de Sulaiman-Too"
+    },
     "coordinates": {
       "longitude": 72.790557,
       "latitude": 40.5304761
@@ -3868,7 +5580,15 @@
     "imageId": "bf8ab190-082f-4f67-8974-4d0033585d00"
   },
   {
-    "name": "Town of Luang Prabang",
+    "name": {
+      "en": "Town of Luang Prabang",
+      "zh": "琅勃拉邦镇",
+      "fr": "Ville de Luang Prabang",
+      "de": "Stadt Luang Prabang",
+      "ja": "ルアンパバーンの町",
+      "pt": "Cidade de Luang Prabang",
+      "es": "Pueblo de Luang Prabang"
+    },
     "coordinates": {
       "longitude": 102.1368272,
       "latitude": 19.8917135
@@ -3885,7 +5605,15 @@
     "imageId": "12bab3bd-8ff0-4687-bba6-eb4c79ca2500"
   },
   {
-    "name": "Historic Centre of Riga",
+    "name": {
+      "en": "Historic Centre of Riga",
+      "zh": "里加历史中心",
+      "fr": "Centre historique de Riga",
+      "de": "Historisches Zentrum von Riga",
+      "ja": "リガ歴史地区",
+      "pt": "Centro Histórico de Riga",
+      "es": "Centro Histórico de Riga"
+    },
     "coordinates": {
       "longitude": 24.1067505,
       "latitude": 56.9475765
@@ -3904,7 +5632,15 @@
     "imageId": "c95db17b-9a80-4fb8-db0b-8d98d7eb4000"
   },
   {
-    "name": "Old town of Kuldīga",
+    "name": {
+      "en": "Old town of Kuldīga",
+      "zh": "库尔迪加老城",
+      "fr": "Vieille ville de Kuldīga",
+      "de": "Altstadt von Kuldīga",
+      "ja": "クルディガの旧市街",
+      "pt": "Centro Histórico de Kuldīga",
+      "es": "Casco antiguo de Kuldīga"
+    },
     "coordinates": {
       "longitude": 21.9708978,
       "latitude": 56.9680201
@@ -3922,7 +5658,15 @@
     "imageId": "8fc82534-9873-4f97-bd22-e547bd8e1f00"
   },
   {
-    "name": "Baalbek",
+    "name": {
+      "en": "Baalbek",
+      "zh": "巴尔贝克",
+      "fr": "Baalbek",
+      "de": "Baalbek",
+      "ja": "バールベック",
+      "pt": "Baalbek",
+      "es": "Baalbek"
+    },
     "coordinates": {
       "longitude": 36.2033393,
       "latitude": 34.0060044
@@ -3940,7 +5684,15 @@
     "imageId": "a9ca2a2e-6f69-4e6f-893b-0b7d97993900"
   },
   {
-    "name": "Byblos",
+    "name": {
+      "en": "Byblos",
+      "zh": "杰贝尔",
+      "fr": "Byblos",
+      "de": "Byblos",
+      "ja": "ビブロス",
+      "pt": "Biblos",
+      "es": "Biblos"
+    },
     "coordinates": {
       "longitude": 35.6450561,
       "latitude": 34.1192863
@@ -3958,7 +5710,15 @@
     "imageId": "ec16a066-4c28-4d26-b08e-e163f1bd2300"
   },
   {
-    "name": "Tyre",
+    "name": {
+      "en": "Tyre",
+      "zh": "推尔古城",
+      "fr": "Tyr",
+      "de": "Tyros",
+      "ja": "ティルの古代都市",
+      "pt": "Tiro",
+      "es": "Tiro"
+    },
     "coordinates": {
       "longitude": 35.1962991,
       "latitude": 33.2692019
@@ -3976,7 +5736,15 @@
     "imageId": "81725183-bc72-46fc-73d6-0ab16f045a00"
   },
   {
-    "name": "Vilnius Historic Centre",
+    "name": {
+      "en": "Vilnius Historic Centre",
+      "zh": "维尔纽斯历受中心",
+      "fr": "Centre historique de Vilnius",
+      "de": "Historisches Zentrum von Vilnius",
+      "ja": "ヴィリニュス歴史地区",
+      "pt": "Centro Histórico de Vilnius",
+      "es": "Centro Histórico de Vilna"
+    },
     "coordinates": {
       "longitude": 25.2879513,
       "latitude": 54.6851552
@@ -3994,7 +5762,15 @@
     "imageId": "7ba7d20f-6a4e-4896-1af3-c9c22a0d7e00"
   },
   {
-    "name": "Kernavė Archaeological Site",
+    "name": {
+      "en": "Kernavė Archaeological Site",
+      "zh": "科尔纳维考古遗址",
+      "fr": "Site archéologique de Kernavė",
+      "de": "Archäologische Stätte von Kernavė",
+      "ja": "ケルナヴェの考古遺跡",
+      "pt": "Sítio Arqueológico de Kernavė",
+      "es": "Sitio Arqueológico de Kernavė"
+    },
     "coordinates": {
       "longitude": 24.8510409,
       "latitude": 54.8833158
@@ -4010,7 +5786,15 @@
     "imageId": "1636aa14-069a-4d2a-11f2-c2f614b46f00"
   },
   {
-    "name": "Kinabalu Park",
+    "name": {
+      "en": "Kinabalu Park",
+      "zh": "神山公园",
+      "fr": "Parc de Kinabalu",
+      "de": "Kinabalu-Park",
+      "ja": "キナバル公園",
+      "pt": "Parque Kinabalu",
+      "es": "Parque Kinabalu"
+    },
     "coordinates": {
       "longitude": 116.5603848,
       "latitude": 6.0717906
@@ -4028,7 +5812,15 @@
     "imageId": "1350807e-2082-4987-f136-73694058e200"
   },
   {
-    "name": "Melaka and George Town",
+    "name": {
+      "en": "Melaka and George Town",
+      "zh": "马六甲和乔治市",
+      "fr": "Melaka et George Town",
+      "de": "Melaka und George Town",
+      "ja": "マラッカとジョージタウン",
+      "pt": "Melaka e George Town",
+      "es": "Melaka y George Town"
+    },
     "coordinates": {
       "longitude": 102.2490605,
       "latitude": 2.194333
@@ -4045,7 +5837,15 @@
     "imageId": "cfbad1bd-bc36-427d-0277-95597cf2a100"
   },
   {
-    "name": "Old Towns of Djenné",
+    "name": {
+      "en": "Old Towns of Djenné",
+      "zh": "杰内古镇",
+      "fr": "Villes anciennes de Djenné",
+      "de": "Altstädte von Djenné",
+      "ja": "ジェンネの古い町",
+      "pt": "Cidades Velhas de Djenné",
+      "es": "Ciudades Antiguas de Djenné"
+    },
     "coordinates": {
       "longitude": -4.5558367,
       "latitude": 13.9048328
@@ -4064,7 +5864,15 @@
     "imageId": "c8501d05-f6ce-41a7-bae6-7d968de8d100"
   },
   {
-    "name": "Timbuktu",
+    "name": {
+      "en": "Timbuktu",
+      "zh": "廷巴克图",
+      "fr": "Tombouctou",
+      "de": "Timbuktu\n",
+      "ja": "ティンブクトゥ",
+      "pt": "Tombuctu",
+      "es": "Tombuctú"
+    },
     "coordinates": {
       "longitude": -3.005559,
       "latitude": 16.7758305
@@ -4081,7 +5889,15 @@
     "imageId": "62e3b4aa-276e-43eb-97d1-0fd5e4f25500"
   },
   {
-    "name": "Tomb of Askia",
+    "name": {
+      "en": "Tomb of Askia",
+      "zh": "阿斯基亚陵墓",
+      "fr": "Tombeau d'Askia",
+      "de": "Grab des Askia",
+      "ja": "アスキアの墓",
+      "pt": "Túmulo de Askia",
+      "es": "Tumba de Askia"
+    },
     "coordinates": {
       "longitude": -0.0447989,
       "latitude": 16.2894147
@@ -4099,7 +5915,15 @@
     "imageId": "108af3e8-0cf0-49cb-3db6-983d08654d00"
   },
   {
-    "name": "City of Valletta",
+    "name": {
+      "en": "City of Valletta",
+      "zh": "瓦莱塔城",
+      "fr": "Cité de La Valette",
+      "de": "Stadt Valletta",
+      "ja": "ヴァレッタ市",
+      "pt": "Cidade de Valletta",
+      "es": "Ciudad de La Valeta"
+    },
     "coordinates": {
       "longitude": 14.5107319,
       "latitude": 35.8990271
@@ -4116,7 +5940,15 @@
     "imageId": "567749e9-91bb-439f-4864-b5fadacb9b00"
   },
   {
-    "name": "Ħal Saflieni Hypogeum",
+    "name": {
+      "en": "Ħal Saflieni Hypogeum",
+      "zh": "萨夫利耐地下古墓",
+      "fr": "Hypogée de Ħal Saflieni",
+      "de": "Hypogäum von Ħal-Saflieni",
+      "ja": "Ħal・サフリエニ地下墓地",
+      "pt": "Hipogeu de Ħal Saflieni",
+      "es": "Hipogeo de Ħal Saflieni"
+    },
     "coordinates": {
       "longitude": 14.5068981,
       "latitude": 35.8695636
@@ -4135,7 +5967,15 @@
     "imageId": "5ed540bc-2946-45e0-0277-086bf6d1a700"
   },
   {
-    "name": "Megalithic Temples of Malta",
+    "name": {
+      "en": "Megalithic Temples of Malta",
+      "zh": "马耳他巨石神庙",
+      "fr": "Temples mégalithiques de Malte",
+      "de": "Megalithische Tempel von Malta",
+      "ja": "マルタの巨石神殿",
+      "pt": "Templos Megalíticos de Malta",
+      "es": "Templos Megalíticos de Malta"
+    },
     "coordinates": {
       "longitude": 14.5119057,
       "latitude": 35.8692278
@@ -4153,7 +5993,15 @@
     "imageId": "61a96155-053e-436f-cbde-64d6fa155e00"
   },
   {
-    "name": "Historic Centre of Mexico City",
+    "name": {
+      "en": "Historic Centre of Mexico City",
+      "zh": "墨西哥城历史中心",
+      "fr": "Centre historique de Mexico City",
+      "de": "Historisches Zentrum von Mexiko-Stadt",
+      "ja": "メキシコシティの歴史地区",
+      "pt": "Centro Histórico da Cidade do México",
+      "es": "Centro Histórico de la Ciudad de México"
+    },
     "coordinates": {
       "longitude": -99.1414179,
       "latitude": 19.4343793
@@ -4171,7 +6019,15 @@
     "imageId": "38a3f17b-a711-4a7a-5496-2ab1b1105f00"
   },
   {
-    "name": "Archaeological Site of Monte Albán",
+    "name": {
+      "en": "Archaeological Site of Monte Albán",
+      "zh": "蒙特阿尔班考古遗址",
+      "fr": "Site archéologique de Monte Albán",
+      "de": "Archäologische Stätte von Monte Albán",
+      "ja": "モンテ・アルバンの考古遺跡",
+      "pt": "Sítio Arqueológico de Monte Albán",
+      "es": "Zona Arqueológica de Monte Albán"
+    },
     "coordinates": {
       "longitude": -96.7678385,
       "latitude": 17.042965
@@ -4189,7 +6045,15 @@
     "imageId": "903de160-a174-4387-395d-1cd11aa31600"
   },
   {
-    "name": "Historic Centre of Puebla",
+    "name": {
+      "en": "Historic Centre of Puebla",
+      "zh": "普埃布拉历史中心",
+      "fr": "Centre historique de Puebla",
+      "de": "Historisches Zentrum von Puebla",
+      "ja": "プエブラ歴史地区",
+      "pt": "Centro Histórico de Puebla",
+      "es": "Centro Histórico de Puebla"
+    },
     "coordinates": {
       "longitude": -98.1992495,
       "latitude": 19.0433662
@@ -4206,7 +6070,15 @@
     "imageId": "62154a5d-3abf-43c2-8bba-285453971e00"
   },
   {
-    "name": "Pre-Hispanic City of Palenque",
+    "name": {
+      "en": "Pre-Hispanic City of Palenque",
+      "zh": "帕伦克古城",
+      "fr": "Cité préhispanique de Palenque",
+      "de": "Prähispanische Stadt Palenque",
+      "ja": "先史時代のパレンケ市",
+      "pt": "Cidade Pré-Hispânica de Palenque",
+      "es": "Ciudad Prehispánica de Palenque"
+    },
     "coordinates": {
       "longitude": -92.0466624,
       "latitude": 17.4843521
@@ -4223,7 +6095,15 @@
     "imageId": "1385d290-1fc5-4166-7d64-a72f9e2bfa00"
   },
   {
-    "name": "Pre-Hispanic City of Teotihuacan",
+    "name": {
+      "en": "Pre-Hispanic City of Teotihuacan",
+      "zh": "特奥蒂瓦坎古城",
+      "fr": "Cité préhispanique de Teotihuacan",
+      "de": "Prähispanische Stadt Teotihuacán",
+      "ja": "テオティワカンの古代都市",
+      "pt": "Cidade Pré-Hispânica de Teotihuacan",
+      "es": "Ciudad Prehispánica de Teotihuacán"
+    },
     "coordinates": {
       "longitude": -98.8459817,
       "latitude": 19.6930596
@@ -4241,7 +6121,15 @@
     "imageId": "803d3bea-9c68-4fc9-2cb9-4ebe5e0b0800"
   },
   {
-    "name": "Sian Ka'an",
+    "name": {
+      "en": "Sian Ka'an",
+      "zh": "西安卡安",
+      "fr": "Sian Ka'an",
+      "de": "Sian Ka’an",
+      "ja": "シアン・カアン",
+      "pt": "Sian Ka'an",
+      "es": "Sian Ka'an"
+    },
     "coordinates": {
       "longitude": -87.4812586,
       "latitude": 19.2733134
@@ -4259,7 +6147,15 @@
     "imageId": "620fd097-5bc6-4a38-4129-e3872a335300"
   },
   {
-    "name": "Historic Town of Guanajuato",
+    "name": {
+      "en": "Historic Town of Guanajuato",
+      "zh": "瓜纳华托历史城区",
+      "fr": "Ville historique de Guanajuato",
+      "de": "Historische Stadt Guanajuato",
+      "ja": "グアナファトの歴史的町",
+      "pt": "Cidade Histórica de Guanajuato",
+      "es": "Ciudad Histórica de Guanajuato"
+    },
     "coordinates": {
       "longitude": -101.2542231,
       "latitude": 21.0161783
@@ -4277,7 +6173,15 @@
     "imageId": "582911e9-d07e-4115-c6b5-683833a96300"
   },
   {
-    "name": "Pre-Hispanic City of Chichen-Itza",
+    "name": {
+      "en": "Pre-Hispanic City of Chichen-Itza",
+      "zh": "奇琴伊察古城",
+      "fr": "Cité préhispanique de Chichen-Itza",
+      "de": "Prähispanische Stadt Chichen-Itza",
+      "ja": "先コロンブス期のチチェン・イッツァの都市",
+      "pt": "Cidade Pré-Hispânica de Chichen-Itza",
+      "es": "Ciudad Prehispánica de Chichen-Itzá"
+    },
     "coordinates": {
       "longitude": -88.5691498,
       "latitude": 20.6831378
@@ -4295,7 +6199,15 @@
     "imageId": "5e523b5b-c408-487a-e235-3ac83b490100"
   },
   {
-    "name": "Historic Centre of Morelia",
+    "name": {
+      "en": "Historic Centre of Morelia",
+      "zh": "莫雷利亚历史中心",
+      "fr": "Centre historique de Morelia",
+      "de": "Historisches Zentrum von Morelia",
+      "ja": "モレリア歴史地区",
+      "pt": "Centro Histórico de Morelia",
+      "es": "Centro Histórico de Morelia"
+    },
     "coordinates": {
       "longitude": -101.1916819,
       "latitude": 19.7021172
@@ -4312,7 +6224,15 @@
     "imageId": "1312ab0c-32a9-41b0-bb96-58663c898f00"
   },
   {
-    "name": "El Tajin",
+    "name": {
+      "en": "El Tajin",
+      "zh": "埃尔塔辛",
+      "fr": "El Tajín",
+      "de": "El Tajín",
+      "ja": "エル・タヒン",
+      "pt": "El Tajín",
+      "es": "El Tajín"
+    },
     "coordinates": {
       "longitude": -97.3776668,
       "latitude": 20.4478185
@@ -4330,7 +6250,15 @@
     "imageId": "3020f865-0144-49e6-98b1-330c07c5d100"
   },
   {
-    "name": "Historic Centre of Zacatecas",
+    "name": {
+      "en": "Historic Centre of Zacatecas",
+      "zh": "萨卡特卡斯历史中心",
+      "fr": "Centre historique de Zacatecas",
+      "de": "Historisches Zentrum von Zacatecas",
+      "ja": "サカテカスの歴史地区",
+      "pt": "Centro Histórico de Zacatecas",
+      "es": "Centro Histórico de Zacatecas"
+    },
     "coordinates": {
       "longitude": -102.5725514,
       "latitude": 22.7756599
@@ -4348,7 +6276,15 @@
     "imageId": "7c01ce26-f6df-43d3-d843-ad09477a1400"
   },
   {
-    "name": "Historic Monuments Zone of Querétaro",
+    "name": {
+      "en": "Historic Monuments Zone of Querétaro",
+      "zh": "克雷塔罗历史古迹区",
+      "fr": "Zone des monuments historiques de Querétaro",
+      "de": "Historische Denkmalzone von Querétaro",
+      "ja": "ケレタロの歴史的建造物地区",
+      "pt": "Zona de Monumentos Históricos de Querétaro",
+      "es": "Zona de Monumentos Históricos de Querétaro"
+    },
     "coordinates": {
       "longitude": -100.391486,
       "latitude": 20.5917279
@@ -4365,7 +6301,15 @@
     "imageId": "9d5bb909-cf10-4dbd-13d0-566db6cb2f00"
   },
   {
-    "name": "Pre-Hispanic Town of Uxmal",
+    "name": {
+      "en": "Pre-Hispanic Town of Uxmal",
+      "zh": "乌斯玛尔古城",
+      "fr": "Ville préhispanique d'Uxmal",
+      "de": "Prähispanische Stadt Uxmal",
+      "ja": "ウシュマルの先コロンブス期の町",
+      "pt": "Cidade Pré-Hispânica de Uxmal",
+      "es": "Pueblo prehispánico de Uxmal"
+    },
     "coordinates": {
       "longitude": -89.7701629,
       "latitude": 20.3609097
@@ -4383,7 +6327,15 @@
     "imageId": "3f072eb7-024a-42dc-f1b9-513ff181fd00"
   },
   {
-    "name": "Hospicio Cabañas",
+    "name": {
+      "en": "Hospicio Cabañas",
+      "zh": "卡巴尼亚斯救济院",
+      "fr": "Hospice Cabañas",
+      "de": "Hospicio Cabañas",
+      "ja": "オスピシオ・カバニャス",
+      "pt": "Hospício Cabañas",
+      "es": "Hospicio Cabañas"
+    },
     "coordinates": {
       "longitude": -103.338896,
       "latitude": 20.6768533
@@ -4400,7 +6352,15 @@
     "imageId": "fe686ecd-130b-4dfb-540c-8916fe358900"
   },
   {
-    "name": "Archaeological Zone of Paquimé",
+    "name": {
+      "en": "Archaeological Zone of Paquimé",
+      "zh": "帕奇梅考古区",
+      "fr": "Zone archéologique de Paquimé",
+      "de": "Archäologische Zone von Paquimé",
+      "ja": "パキメの考古遺跡群",
+      "pt": "Zona Arqueológica de Paquimé",
+      "es": "Zona Arqueológica de Paquimé"
+    },
     "coordinates": {
       "longitude": -107.9468201,
       "latitude": 30.3669259
@@ -4417,7 +6377,15 @@
     "imageId": "e42526a7-ff7a-4ecc-e1b7-e453e9f0ff00"
   },
   {
-    "name": "Historic Monuments Zone of Tlacotalpan",
+    "name": {
+      "en": "Historic Monuments Zone of Tlacotalpan",
+      "zh": "特拉科塔尔潘历史古迹区",
+      "fr": "Zone des monuments historiques de Tlacotalpan.",
+      "de": "Historische Denkmalzone von Tlacotalpan",
+      "ja": "トラコタルパンの歴史的建造物地帯",
+      "pt": "Zona de Monumentos Históricos de Tlacotalpan",
+      "es": "Zona de Monumentos Históricos de Tlacotalpan"
+    },
     "coordinates": {
       "longitude": -95.6615016,
       "latitude": 18.6123067
@@ -4434,7 +6402,15 @@
     "imageId": "1a6a8e47-78c2-489e-df97-ab83b4a4b100"
   },
   {
-    "name": "Xochicalco",
+    "name": {
+      "en": "Xochicalco",
+      "zh": "索奇卡尔科",
+      "fr": "Xochicalco",
+      "de": "Xochicalco",
+      "ja": "ソチカルコ",
+      "pt": "Xochicalco",
+      "es": "Xochicalco"
+    },
     "coordinates": {
       "longitude": -99.2963574,
       "latitude": 18.8025807
@@ -4452,7 +6428,15 @@
     "imageId": "fbf972f7-68a2-4aa2-8b68-3c3924a34f00"
   },
   {
-    "name": "Historic Fortified Town of Campeche",
+    "name": {
+      "en": "Historic Fortified Town of Campeche",
+      "zh": "坎佩切历史堡垒城",
+      "fr": "Ville historique fortifiée de Campeche",
+      "de": "Historische Befestigte Stadt von Campeche",
+      "ja": "カンペチェの歴史的要塞都市",
+      "pt": "Cidade Histórica Fortificada de Campeche",
+      "es": "Ciudad Histórica Fortificada de Campeche"
+    },
     "coordinates": {
       "longitude": -90.5371856,
       "latitude": 19.8462555
@@ -4469,7 +6453,15 @@
     "imageId": "5a6339db-a0c6-4ba2-ac7f-5808c9ac0d00"
   },
   {
-    "name": "Ancient Maya City",
+    "name": {
+      "en": "Ancient Maya City",
+      "zh": "古代玛雅城",
+      "fr": "Cité maya ancienne",
+      "de": "Antike Maya-Stadt",
+      "ja": "古代マヤの都市",
+      "pt": "Cidade Antiga Maia",
+      "es": "Ciudad Antigua Maya"
+    },
     "coordinates": {
       "longitude": -89.4669783,
       "latitude": 18.5180486
@@ -4489,7 +6481,15 @@
     "imageId": "0e51b627-5f5a-4295-4cad-923a75f1e700"
   },
   {
-    "name": "The Universidad Nacional Autónoma de México",
+    "name": {
+      "en": "The Universidad Nacional Autónoma de México",
+      "zh": "墨西哥国立自治大学",
+      "fr": "Université Nationale Autonome du Mexique",
+      "de": "Nationale Autonome Universität von Mexiko",
+      "ja": "メキシコ国立自治大学",
+      "pt": "Universidade Nacional Autônoma do México",
+      "es": "Universidad Nacional Autónoma de México"
+    },
     "coordinates": {
       "longitude": -99.1873672,
       "latitude": 19.3326899
@@ -4506,7 +6506,15 @@
     "imageId": "094f49d3-7625-4543-7b91-68213c4a3f00"
   },
   {
-    "name": "Protective town of San Miguel",
+    "name": {
+      "en": "Protective town of San Miguel",
+      "zh": "圣米格尔堡镇",
+      "fr": "Ville protégée de San Miguel",
+      "de": "Schutzhafte Stadt von San Miguel",
+      "ja": "サン・ミゲルの要塞都市",
+      "pt": "Vila Protegida de San Miguel",
+      "es": "Pueblo Protector de San Miguel"
+    },
     "coordinates": {
       "longitude": -100.7437707,
       "latitude": 20.9139776
@@ -4524,7 +6532,15 @@
     "imageId": "7ea9e35e-8260-44bd-a339-e28c74b20700"
   },
   {
-    "name": "Padre Tembleque Hydraulic System",
+    "name": {
+      "en": "Padre Tembleque Hydraulic System",
+      "zh": "特母莱克水利系统",
+      "fr": "Système hydraulique de Padre Tembleque",
+      "de": "Hydraulisches System von Padre Tembleque",
+      "ja": "パドレ・テンブレケ水利システム",
+      "pt": "Sistema Hidráulico de Padre Tembleque",
+      "es": "Sistema Hidráulico del Acueducto del Padre Tembleque"
+    },
     "coordinates": {
       "longitude": -98.6623967,
       "latitude": 19.8343623
@@ -4544,7 +6560,15 @@
     "imageId": "c8031f09-820c-48fa-633c-5ef64b485600"
   },
   {
-    "name": "Tehuacán-Cuicatlán Valley",
+    "name": {
+      "en": "Tehuacán-Cuicatlán Valley",
+      "zh": "特瓦坎-奎卡特兰山谷",
+      "fr": "Vallée de Tehuacán-Cuicatlán",
+      "de": "Tehuacán-Cuicatlán-Tal",
+      "ja": "テワカン＝クイカトラン渓谷",
+      "pt": "Vale de Tehuacán-Cuicatlán",
+      "es": "Valle de Tehuacán-Cuicatlán"
+    },
     "coordinates": {
       "longitude": -97.4619416,
       "latitude": 18.3341168
@@ -4563,7 +6587,15 @@
     "imageId": "49a813c5-8121-4b5c-0461-ceaf13f6dc00"
   },
   {
-    "name": "Uvs Nuur Basin",
+    "name": {
+      "en": "Uvs Nuur Basin",
+      "zh": "乌布苏湖盆地",
+      "fr": "Bassin de l'Uvs Nuur",
+      "de": "Uvs-Nuur-Becken",
+      "ja": "ウブス・ヌール盆地",
+      "pt": "Bacia do Uvs Nuur",
+      "es": "Cuenca del Uvs Nuur"
+    },
     "coordinates": {
       "longitude": 92.3921202,
       "latitude": 50.1198038
@@ -4581,7 +6613,15 @@
     "imageId": "50ed1921-eb5c-4a93-9b99-de4a90b1f100"
   },
   {
-    "name": "Historic Area of Willemstad",
+    "name": {
+      "en": "Historic Area of Willemstad",
+      "zh": "威廉斯塔德历史区",
+      "fr": "Zone historique de Willemstad",
+      "de": "Historisches Gebiet von Willemstad",
+      "ja": "ウィレムスタッド歴史地区",
+      "pt": "Área Histórica de Willemstad",
+      "es": "Área Histórica de Willemstad"
+    },
     "coordinates": {
       "longitude": -68.9265016,
       "latitude": 12.1023109
@@ -4600,7 +6640,15 @@
     "imageId": "40079625-7b3c-44e5-1dd8-b4a8ff8cef00"
   },
   {
-    "name": "D.F. Wouda Steam Pumping Station",
+    "name": {
+      "en": "D.F. Wouda Steam Pumping Station",
+      "zh": "沃达蒸汽泵站",
+      "fr": "Station de pompage à vapeur D.F. Wouda",
+      "de": "D.F. Wouda Dampfpumpwerk",
+      "ja": "D.F.ウーダ蒸気揚水場",
+      "pt": "Estação de Bombeamento a Vapor D.F. Wouda",
+      "es": "Estación de Bombeo de Vapor D.F. Wouda"
+    },
     "coordinates": {
       "longitude": 5.6792088,
       "latitude": 52.8461201
@@ -4617,7 +6665,15 @@
     "imageId": "e4afb343-5d31-49b0-c521-c7dbad185900"
   },
   {
-    "name": "Rietveld Schröderhuis",
+    "name": {
+      "en": "Rietveld Schröderhuis",
+      "zh": "里特费尔德·施勒德之家",
+      "fr": "Maison Schröder Rietveld",
+      "de": "Rietveld-Schröder-Haus",
+      "ja": "リートフェルト・シュレーダー邸",
+      "pt": "Casa Rietveld Schröder",
+      "es": "Casa Rietveld Schröder"
+    },
     "coordinates": {
       "longitude": 5.1475756,
       "latitude": 52.0851259
@@ -4634,7 +6690,15 @@
     "imageId": "1d8653e5-f1f3-4656-7569-c8d5f5eec500"
   },
   {
-    "name": "Van Nellefabriek",
+    "name": {
+      "en": "Van Nellefabriek",
+      "zh": "范内勒工厂",
+      "fr": "Usine Van Nelle",
+      "de": "Van-Nelle-Fabrik",
+      "ja": "バン・ネレ工場",
+      "pt": "Fábrica Van Nelle",
+      "es": "Fábrica Van Nelle"
+    },
     "coordinates": {
       "longitude": 4.433817,
       "latitude": 51.9232077
@@ -4650,7 +6714,15 @@
     "imageId": "1db108e3-1041-440d-4f3c-b616bccc9100"
   },
   {
-    "name": "León Cathedral",
+    "name": {
+      "en": "León Cathedral",
+      "zh": "莱昂大教堂",
+      "fr": "Cathédrale de León",
+      "de": "Dom zu León",
+      "ja": "レオン大聧堂",
+      "pt": "Catedral de León",
+      "es": "Catedral de León"
+    },
     "coordinates": {
       "longitude": -5.5675015,
       "latitude": 42.5993411
@@ -4669,7 +6741,15 @@
     "imageId": "f25012c8-f303-44f0-e3a1-36e5e1683c00"
   },
   {
-    "name": "Sukur Cultural Landscape",
+    "name": {
+      "en": "Sukur Cultural Landscape",
+      "zh": "苏库尔文化景观",
+      "fr": "Paysage culturel de Sukur",
+      "de": "Sukur Kulturlandschaft",
+      "ja": "スクール文化的景観",
+      "pt": "Paisagem Cultural de Sukur",
+      "es": "Paisaje Cultural de Sukur"
+    },
     "coordinates": {
       "longitude": 13.5688521,
       "latitude": 10.7368298
@@ -4687,7 +6767,15 @@
     "imageId": "bf1b4808-b225-445b-42ac-66021df84d00"
   },
   {
-    "name": "Osun-Osogbo Sacred Grove",
+    "name": {
+      "en": "Osun-Osogbo Sacred Grove",
+      "zh": "奥苏奥索戈保护区",
+      "fr": "Forêt sacrée d’Osun-Osogbo",
+      "de": "Heiliger Hain von Osun-Osogbo",
+      "ja": "オスン＝オソゴボの聖なる森",
+      "pt": "Bosque Sagrado de Osun-Osogbo",
+      "es": "Santuario Sagrado de Osun-Osogbo"
+    },
     "coordinates": {
       "longitude": 4.5485367,
       "latitude": 7.7568812
@@ -4706,7 +6794,15 @@
     "imageId": "1e4bfc4d-d712-4f0a-5762-98d73f150b00"
   },
   {
-    "name": "Bryggen",
+    "name": {
+      "en": "Bryggen",
+      "zh": "布吕根",
+      "fr": "Bryggen",
+      "de": "Bryggen",
+      "ja": "ブリッゲン",
+      "pt": "Bryggen",
+      "es": "Bryggen"
+    },
     "coordinates": {
       "longitude": 5.3228129,
       "latitude": 60.39708
@@ -4724,7 +6820,15 @@
     "imageId": "b88ee78c-ccca-4806-62b8-e5335ddfcc00"
   },
   {
-    "name": "Røros Mining Town",
+    "name": {
+      "en": "Røros Mining Town",
+      "zh": "卢卢斯矿业城",
+      "fr": "Ville minière de Røros",
+      "de": "Bergstadt Røros",
+      "ja": "レーロス鉱山町",
+      "pt": "Cidade Mineira de Røros",
+      "es": "Pueblo Minero de Røros"
+    },
     "coordinates": {
       "longitude": 11.3883266,
       "latitude": 62.5770212
@@ -4742,7 +6846,15 @@
     "imageId": "1366eeeb-9057-416e-a8f1-15f7d012b700"
   },
   {
-    "name": "Vegaøyan",
+    "name": {
+      "en": "Vegaøyan",
+      "zh": "韦加群岛",
+      "fr": "Archipel de Vega",
+      "de": "Vegaøyan – Weltnaturerbe",
+      "ja": "ヴェガ島群",
+      "pt": "Ilhas Vega",
+      "es": "Islas Vega"
+    },
     "coordinates": {
       "longitude": 12.0162244,
       "latitude": 65.6553283
@@ -4758,7 +6870,15 @@
     "imageId": "9c7930dd-11cb-4090-8cdf-188cb75e9b00"
   },
   {
-    "name": "West Norwegian Fjords",
+    "name": {
+      "en": "West Norwegian Fjords",
+      "zh": "西挪威峡湾",
+      "fr": "Fjords de l'Ouest de la Norvège",
+      "de": "Westnorwegische Fjorde",
+      "ja": "ヴェスト・ノルウェーのフィヨルド",
+      "pt": "Fiordes do Oeste da Noruega",
+      "es": "Fiordos Occidentales de Noruega"
+    },
     "coordinates": {
       "longitude": 6.8669843,
       "latitude": 60.9198926
@@ -4779,7 +6899,15 @@
     "imageId": "b961acf1-6a44-4002-8238-c4b1a99b5000"
   },
   {
-    "name": "Rjukan-Notodden Industrial Heritage Site",
+    "name": {
+      "en": "Rjukan-Notodden Industrial Heritage Site",
+      "zh": "瑞坎-诺托登工业遗产地",
+      "fr": "Site du patrimoine industriel de Rjukan-Notodden",
+      "de": "Rjukan-Notodden Industriekulturerbe",
+      "ja": "リューカン＝ノートデン産業遺産群",
+      "pt": "Sítio Industrial de Rjukan-Notodden",
+      "es": "Sitio del Patrimonio Industrial de Rjukan-Notodden"
+    },
     "coordinates": {
       "longitude": 8.5936146,
       "latitude": 59.8771071
@@ -4796,7 +6924,15 @@
     "imageId": "e639ee68-d19d-41c1-65cc-448582cc5500"
   },
   {
-    "name": "Fort and Shalamar Gardens in Lahore",
+    "name": {
+      "en": "Fort and Shalamar Gardens in Lahore",
+      "zh": "拉合尔的古堡与沙拉玛尔花园",
+      "fr": "Fort et jardins de Shalimar à Lahore",
+      "de": "Festung und Shalamar-Gärten in Lahore",
+      "ja": "ラホールの城とシャーラマール庭園",
+      "pt": "Forte e Jardins de Shalamar em Lahore",
+      "es": "Fuerte y Jardines de Shalamar en Lahore"
+    },
     "coordinates": {
       "longitude": 74.3824739,
       "latitude": 31.5871286
@@ -4813,7 +6949,15 @@
     "imageId": "b7a02bdc-a91a-492f-6089-5a5e62fe6700"
   },
   {
-    "name": "Rohtas Fort",
+    "name": {
+      "en": "Rohtas Fort",
+      "zh": "罗塔斯堡垒",
+      "fr": "Fort de Rohtas",
+      "de": "Rohtas-Festung",
+      "ja": "ローハタス要塞",
+      "pt": "Forte de Rohtas",
+      "es": "Fortaleza de Rohtas"
+    },
     "coordinates": {
       "longitude": 73.5736172,
       "latitude": 32.96253
@@ -4829,7 +6973,15 @@
     "imageId": "dcdd2c05-f83d-461b-1b9b-d3318413fd00"
   },
   {
-    "name": "Birthplace of Jesus",
+    "name": {
+      "en": "Birthplace of Jesus",
+      "zh": "耶稣诞生地",
+      "fr": "Lieu de naissance de Jésus",
+      "de": "Geburtsstätte Jesu",
+      "ja": "イエスの生誕地",
+      "pt": "Local de Nascimento de Jesus",
+      "es": "Lugar de nacimiento de Jesús"
+    },
     "coordinates": {
       "longitude": 35.2063518,
       "latitude": 31.704478
@@ -4847,7 +6999,15 @@
     "imageId": "bd18ceb3-05d5-4b4c-59d0-d7cb1bb60d00"
   },
   {
-    "name": "City of Cuzco",
+    "name": {
+      "en": "City of Cuzco",
+      "zh": "库斯科市",
+      "fr": "Ville de Cuzco",
+      "de": "Stadt Cusco",
+      "ja": "クスコ市",
+      "pt": "Cidade de Cusco",
+      "es": "Ciudad de Cuzco"
+    },
     "coordinates": {
       "longitude": -71.9790044,
       "latitude": -13.5170954
@@ -4864,7 +7024,15 @@
     "imageId": "b9f36d63-89f6-4ee3-5906-df066987cd00"
   },
   {
-    "name": "Machu Picchu",
+    "name": {
+      "en": "Machu Picchu",
+      "zh": "马丘比丘",
+      "fr": "Machu Picchu",
+      "de": "Machu Picchu",
+      "ja": "マチュピチュ",
+      "pt": "Machu Picchu",
+      "es": "Machu Picchu"
+    },
     "coordinates": {
       "longitude": -72.5450911,
       "latitude": -13.1632226
@@ -4885,7 +7053,15 @@
     "imageId": "912bfb64-a161-4955-6ee7-f3581836b800"
   },
   {
-    "name": "Historic Centre of Lima",
+    "name": {
+      "en": "Historic Centre of Lima",
+      "zh": "利马历史中心",
+      "fr": "Centre historique de Lima",
+      "de": "Historisches Zentrum von Lima",
+      "ja": "リマの歴史地区",
+      "pt": "Centro Histórico de Lima",
+      "es": "Centro Histórico de Lima"
+    },
     "coordinates": {
       "longitude": -77.0307603,
       "latitude": -12.045818
@@ -4901,7 +7077,15 @@
     "imageId": "331b6bf1-81a1-4f0f-cb0c-02bede8b8900"
   },
   {
-    "name": "Historical Centre of the City of Arequipa",
+    "name": {
+      "en": "Historical Centre of the City of Arequipa",
+      "zh": "阿雷基帕市历史中心",
+      "fr": "Centre historique de la ville d’Arequipa",
+      "de": "Historisches Zentrum der Stadt Arequipa",
+      "ja": "アレキパ市の歴史地区",
+      "pt": "Centro Histórico da Cidade de Arequipa",
+      "es": "Centro Histórico de la Ciudad de Arequipa"
+    },
     "coordinates": {
       "longitude": -71.5368371,
       "latitude": -16.3985086
@@ -4918,7 +7102,15 @@
     "imageId": "af09a4dd-89f2-4899-e0b6-80cbf791bb00"
   },
   {
-    "name": "Baroque Churches of the Philippines",
+    "name": {
+      "en": "Baroque Churches of the Philippines",
+      "zh": "菲律宾巴洛克教堂",
+      "fr": "Églises baroques des Philippines",
+      "de": "Barockkirchen der Philippinen",
+      "ja": "フィリピンのバロック教会群",
+      "pt": "Igrejas Barrocas das Filipinas",
+      "es": "Iglesias barrocas de Filipinas"
+    },
     "coordinates": {
       "longitude": 122.2359033,
       "latitude": 10.6422836
@@ -4936,7 +7128,15 @@
     "imageId": "a7c50e2e-3beb-453f-dfb3-0120ab468600"
   },
   {
-    "name": "Historic City of Vigan",
+    "name": {
+      "en": "Historic City of Vigan",
+      "zh": "维甘历史城",
+      "fr": "Cité historique de Vigan",
+      "de": "Historische Stadt Vigan",
+      "ja": "ビガン歴史地区",
+      "pt": "Cidade Histórica de Vigan",
+      "es": "Ciudad Histórica de Vigan"
+    },
     "coordinates": {
       "longitude": 120.3888046,
       "latitude": 17.5715039
@@ -4953,7 +7153,15 @@
     "imageId": "621084b8-aacc-4048-6b5c-2c805e009100"
   },
   {
-    "name": "Puerto-Princesa Subterranean River",
+    "name": {
+      "en": "Puerto-Princesa Subterranean River",
+      "zh": "波多黎各地下河国家公园",
+      "fr": "Rivière souterraine de Puerto-Princesa",
+      "de": "Puerto-Princesa-Unterirdischer Fluss",
+      "ja": "プエルトプリンセサ地下川",
+      "pt": "Rio Subterrâneo de Puerto-Princesa",
+      "es": "Río Subterráneo de Puerto Princesa"
+    },
     "coordinates": {
       "longitude": 118.9259751,
       "latitude": 10.1992223
@@ -4971,7 +7179,15 @@
     "imageId": "4dc653fb-9cbf-4d5e-c5eb-623c09b43000"
   },
   {
-    "name": "Historic Centre of Kraków",
+    "name": {
+      "en": "Historic Centre of Kraków",
+      "zh": "克拉科夫历史中心",
+      "fr": "Centre historique de Cracovie",
+      "de": "Historisches Zentrum von Krakau",
+      "ja": "クラクフ歴史地区",
+      "pt": "Centro Histórico de Cracóvia",
+      "es": "Centro Histórico de Cracovia"
+    },
     "coordinates": {
       "longitude": 19.9380817,
       "latitude": 50.0613397
@@ -4988,7 +7204,15 @@
     "imageId": "1b63c6c1-c371-44aa-d469-866080843500"
   },
   {
-    "name": "Auschwitz Birkenau",
+    "name": {
+      "en": "Auschwitz Birkenau",
+      "zh": "奥斯威辛-比克瑙",
+      "fr": "Auschwitz Birkenau",
+      "de": "Auschwitz-Birkenau",
+      "ja": "アウシュヴィッツ＝ビルケナウ",
+      "pt": "Auschwitz Birkenau",
+      "es": "Auschwitz Birkenau"
+    },
     "coordinates": {
       "longitude": 19.1811033,
       "latitude": 50.0345865
@@ -5004,7 +7228,15 @@
     "imageId": "16c50b46-9b18-4341-0125-159c54ef2500"
   },
   {
-    "name": "Historic Centre of Warsaw",
+    "name": {
+      "en": "Historic Centre of Warsaw",
+      "zh": "华沙历史中心",
+      "fr": "Centre historique de Varsovie",
+      "de": "Historisches Zentrum von Warschau",
+      "ja": "ワルシャワ歴史地区",
+      "pt": "Centro Histórico de Varsóvia",
+      "es": "Centro Histórico de Varsovia"
+    },
     "coordinates": {
       "longitude": 21.0121604,
       "latitude": 52.249755
@@ -5021,7 +7253,15 @@
     "imageId": "b1c90646-72ee-4b27-4c83-29562f60ba00"
   },
   {
-    "name": "Old City of Zamość",
+    "name": {
+      "en": "Old City of Zamość",
+      "zh": "扎莫希奇老城",
+      "fr": "Vieille ville de Zamość",
+      "de": "Altstadt von Zamość",
+      "ja": "ザモシチの旧市街",
+      "pt": "Cidade Velha de Zamość",
+      "es": "Ciudad Vieja de Zamość"
+    },
     "coordinates": {
       "longitude": 23.2524007,
       "latitude": 50.7171036
@@ -5039,7 +7279,15 @@
     "imageId": "c05ed2c5-944c-46da-b299-0aa87d3d6800"
   },
   {
-    "name": "Castle of the Teutonic Order in Malbork",
+    "name": {
+      "en": "Castle of the Teutonic Order in Malbork",
+      "zh": "条顿骑士团马尔堡城堡",
+      "fr": "Château de l'ordre Teutonique à Malbork",
+      "de": "Ordensburg Marienburg in Malbork",
+      "ja": "ドイツ騎士団マルボルク城",
+      "pt": "Castelo da Ordem Teutônica em Malbork",
+      "es": "Castillo de la Orden Teutónica en Malbork"
+    },
     "coordinates": {
       "longitude": 19.0293806,
       "latitude": 54.0396062
@@ -5057,7 +7305,15 @@
     "imageId": "af5fdcd4-f6f4-451a-b6d6-33e303958400"
   },
   {
-    "name": "Medieval Town of Toruń",
+    "name": {
+      "en": "Medieval Town of Toruń",
+      "zh": "托伦中世纪城镇",
+      "fr": "Ville médiévale de Toruń",
+      "de": "Mittelalterliche Stadt Toruń",
+      "ja": "中世都市トルン",
+      "pt": "Cidade Medieval de Toruń",
+      "es": "Ciudad Medieval de Toruń"
+    },
     "coordinates": {
       "longitude": 18.6038043,
       "latitude": 53.0105186
@@ -5074,7 +7330,15 @@
     "imageId": "e307a232-b429-4cfc-c914-4641ba10cc00"
   },
   {
-    "name": "Churches of Peace in Jawor and Świdnica",
+    "name": {
+      "en": "Churches of Peace in Jawor and Świdnica",
+      "zh": "雅沃尔和希维德尼察和平教堂",
+      "fr": "Églises de la Paix à Jawor et Świdnica",
+      "de": "Friedenskirchen in Jawor und Świdnica",
+      "ja": "ヤヴォルとシフィドニツァの平和教会",
+      "pt": "Igrejas da Paz em Jawor e Świdnica",
+      "es": "Iglesias de la Paz en Jawor y Świdnica."
+    },
     "coordinates": {
       "longitude": 16.4917248,
       "latitude": 50.846499
@@ -5093,7 +7357,15 @@
     "imageId": "d9e470bb-f5e2-4387-486e-e9249d8dc200"
   },
   {
-    "name": "Centennial Hall in Wrocław",
+    "name": {
+      "en": "Centennial Hall in Wrocław",
+      "zh": "世纪馆",
+      "fr": "Salle du Centenaire à Wrocław",
+      "de": "Jahrhunderthalle in Breslau",
+      "ja": "ヴロツワフの世紀ホール",
+      "pt": "Centro de Congressos de Wrocław",
+      "es": "Centenario de Wrocław"
+    },
     "coordinates": {
       "longitude": 17.076079,
       "latitude": 51.1073351
@@ -5109,7 +7381,15 @@
     "imageId": "731e7084-216f-4e71-3f80-1cbcd1b26c00"
   },
   {
-    "name": "Convent of Christ in Tomar",
+    "name": {
+      "en": "Convent of Christ in Tomar",
+      "zh": "基督修道院",
+      "fr": "Couvent du Christ à Tomar",
+      "de": "Christuskloster in Tomar",
+      "ja": "トマールのキリスト修道院",
+      "pt": "Convento de Cristo em Tomar",
+      "es": "Convento de Cristo en Tomar"
+    },
     "coordinates": {
       "longitude": -8.4189955,
       "latitude": 39.6034086
@@ -5126,7 +7406,15 @@
     "imageId": "364eb313-b79c-40f6-7531-f2c395076300"
   },
   {
-    "name": "Monastery of Batalha",
+    "name": {
+      "en": "Monastery of Batalha",
+      "zh": "巴塔利亚修道院",
+      "fr": "Monastère de Batalha",
+      "de": "Kloster Batalha",
+      "ja": "バターリャ修道院",
+      "pt": "Mosteiro da Batalha",
+      "es": "Monasterio de Batalha"
+    },
     "coordinates": {
       "longitude": -8.8248399,
       "latitude": 39.6591808
@@ -5142,7 +7430,15 @@
     "imageId": "cdfce925-b639-46b2-2aec-96a93fa0e000"
   },
   {
-    "name": "Monastery of the Hieronymites",
+    "name": {
+      "en": "Monastery of the Hieronymites",
+      "zh": "杰罗尼莫斯修道院",
+      "fr": "Monastère des Hiéronymites",
+      "de": "Hieronymitenkloster",
+      "ja": "エロニモ修道院",
+      "pt": "Mosteiro dos Jerónimos",
+      "es": "Monasterio de los Jerónimos"
+    },
     "coordinates": {
       "longitude": -9.2151275,
       "latitude": 38.6920544
@@ -5158,7 +7454,15 @@
     "imageId": "4e50086c-b2a0-4c8b-62e5-c7fa9cba0d00"
   },
   {
-    "name": "Historic Centre of Évora",
+    "name": {
+      "en": "Historic Centre of Évora",
+      "zh": "埃武拉历史中心",
+      "fr": "Centre historique d'Évora",
+      "de": "Historisches Zentrum von Évora",
+      "ja": "エヴォラの歴史地区",
+      "pt": "Centro Histórico de Évora",
+      "es": "Centro Histórico de Évora"
+    },
     "coordinates": {
       "longitude": -7.907355,
       "latitude": 38.5723415
@@ -5174,7 +7478,15 @@
     "imageId": "ce841f14-cca7-4127-4151-1081fd24d200"
   },
   {
-    "name": "Monastery of Alcobaça",
+    "name": {
+      "en": "Monastery of Alcobaça",
+      "zh": "阿尔科巴萨修道院",
+      "fr": "Monastère d'Alcobaça",
+      "de": "Kloster Alcobaça",
+      "ja": "アルコバッサの修道院",
+      "pt": "Mosteiro de Alcobaça",
+      "es": "Monasterio de Alcobaça"
+    },
     "coordinates": {
       "longitude": -8.980994,
       "latitude": 39.5484199
@@ -5190,7 +7502,15 @@
     "imageId": "0dc709b1-bb2c-4ba4-0430-b13ccf601b00"
   },
   {
-    "name": "Cultural Landscape of Sintra",
+    "name": {
+      "en": "Cultural Landscape of Sintra",
+      "zh": "辛特拉的文化景观",
+      "fr": "Paysage culturel de Sintra",
+      "de": "Kulturlandschaft von Sintra",
+      "ja": "シントラの文化的景観",
+      "pt": "Paisagem Cultural de Sintra",
+      "es": "Paisaje Cultural de Sintra"
+    },
     "coordinates": {
       "longitude": -9.3903492,
       "latitude": 38.7875875
@@ -5206,7 +7526,15 @@
     "imageId": "4f275179-5da6-44ea-8a91-c1d520316100"
   },
   {
-    "name": "Historic Centre of Oporto",
+    "name": {
+      "en": "Historic Centre of Oporto",
+      "zh": "波尔图历史中心",
+      "fr": "Centre historique de Porto",
+      "de": "Historisches Zentrum von Porto",
+      "ja": "オポルトの歴史地区",
+      "pt": "Centro Histórico do Porto",
+      "es": "Centro Histórico de Oporto"
+    },
     "coordinates": {
       "longitude": -8.6084254,
       "latitude": 41.1410909
@@ -5222,7 +7550,15 @@
     "imageId": "483623b1-de58-4973-cd92-d68e238bfb00"
   },
   {
-    "name": "Historic Centre of Guimarães",
+    "name": {
+      "en": "Historic Centre of Guimarães",
+      "zh": "吉马良斯历史中心",
+      "fr": "Centre historique de Guimarães",
+      "de": "Historisches Zentrum von Guimarães",
+      "ja": "ギマランイス歴史地区",
+      "pt": "Centro Histórico de Guimarães",
+      "es": "Centro Histórico de Guimarães"
+    },
     "coordinates": {
       "longitude": -8.2899462,
       "latitude": 41.4481772
@@ -5239,7 +7575,15 @@
     "imageId": "ffe63bf0-b511-434b-ab11-bc0ccf335d00"
   },
   {
-    "name": "University of Coimbra",
+    "name": {
+      "en": "University of Coimbra",
+      "zh": "科英布拉大学",
+      "fr": "Université de Coimbra",
+      "de": "Universität Coimbra",
+      "ja": "コインブラ大学",
+      "pt": "Universidade de Coimbra",
+      "es": "Universidad de Coímbra"
+    },
     "coordinates": {
       "longitude": -8.4260631,
       "latitude": 40.2069593
@@ -5255,7 +7599,15 @@
     "imageId": "128c2139-82ad-4811-22bb-31b240509b00"
   },
   {
-    "name": "Royal Building of Mafra",
+    "name": {
+      "en": "Royal Building of Mafra",
+      "zh": "马夫拉皇家建筑",
+      "fr": "Palais national de Mafra",
+      "de": "Königliches Bauwerk von Mafra",
+      "ja": "マフラの王立建造物",
+      "pt": "Palácio Nacional de Mafra",
+      "es": "Real Edificio de Mafra"
+    },
     "coordinates": {
       "longitude": -9.3278204,
       "latitude": 38.9368917
@@ -5270,7 +7622,15 @@
     "imageId": "fb7d5642-0cae-47c8-e7a2-368427550b00"
   },
   {
-    "name": "Bom Jesus do Monte",
+    "name": {
+      "en": "Bom Jesus do Monte",
+      "zh": "圣山耶稣圣地",
+      "fr": "Bon Jésus du Mont",
+      "de": "Bom Jesus do Monte",
+      "ja": "ボン・ジェズス・ド・モンテ",
+      "pt": "Bom Jesus do Monte",
+      "es": "Bom Jesus del Monte"
+    },
     "coordinates": {
       "longitude": -8.379328,
       "latitude": 41.5544643
@@ -5288,7 +7648,15 @@
     "imageId": "9abd795d-f6ec-40bf-861a-9cc48e3a4e00"
   },
   {
-    "name": "Monastery of Horezu",
+    "name": {
+      "en": "Monastery of Horezu",
+      "zh": "霍列祖修道院",
+      "fr": "Monastère de Horezu",
+      "de": "Kloster Horezu",
+      "ja": "ホレズ修道院",
+      "pt": "Mosteiro de Horezu",
+      "es": "Monasterio de Horezu"
+    },
     "coordinates": {
       "longitude": 24.0070973,
       "latitude": 45.1697431
@@ -5304,7 +7672,15 @@
     "imageId": "a7a6ffbb-827c-439f-f057-fd22cd818600"
   },
   {
-    "name": "Historic Centre of Sighişoara",
+    "name": {
+      "en": "Historic Centre of Sighişoara",
+      "zh": "锡吉什瓦拉历又中心",
+      "fr": "Centre historique de Sighişoara",
+      "de": "Historisches Zentrum von Sighişoara",
+      "ja": "シギショアラの歴史的中心部",
+      "pt": "Centro Histórico de Sighişoara",
+      "es": "Centro Histórico de Sighişoara"
+    },
     "coordinates": {
       "longitude": 24.7923949,
       "latitude": 46.2200836
@@ -5322,7 +7698,15 @@
     "imageId": "878aa253-8b82-421b-015b-679724a07600"
   },
   {
-    "name": "Wooden Churches of Maramureş",
+    "name": {
+      "en": "Wooden Churches of Maramureş",
+      "zh": "马拉穆列什木制教堂",
+      "fr": "Églises en bois de Maramureș",
+      "de": "Holzkirchen von Maramureș",
+      "ja": "マラムレシュ地方の木造教会群",
+      "pt": "Igrejas de Madeira de Maramureş",
+      "es": "Iglesias de madera de Maramureş"
+    },
     "coordinates": {
       "longitude": 24.236249,
       "latitude": 47.6760906
@@ -5340,7 +7724,15 @@
     "imageId": "68876a6e-0351-4897-c0c5-cb556a045900"
   },
   {
-    "name": "Historic Centre of Saint Petersburg",
+    "name": {
+      "en": "Historic Centre of Saint Petersburg",
+      "zh": "圣彼得堡历史中心",
+      "fr": "Centre historique de Saint-Pétersbourg",
+      "de": "Historisches Zentrum von Sankt Petersburg",
+      "ja": "サンクトペテルブルク歴史地区",
+      "pt": "Centro Histórico de São Petersburgo",
+      "es": "Centro Histórico de San Petersburgo"
+    },
     "coordinates": {
       "longitude": 30.3150082,
       "latitude": 59.9396142
@@ -5357,7 +7749,15 @@
     "imageId": "ef7a2a45-a7bb-4b2c-7c8f-b50a27a10400"
   },
   {
-    "name": "Kremlin and Red Square",
+    "name": {
+      "en": "Kremlin and Red Square",
+      "zh": "克里姆林宫和红场",
+      "fr": "Kremlin et Place Rouge",
+      "de": "Kreml und Roter Platz",
+      "ja": "クレムリンと赤の広場",
+      "pt": "Kremlin e Praça Vermelha",
+      "es": "El Kremlin y la Plaza Roja"
+    },
     "coordinates": {
       "longitude": 37.6195891,
       "latitude": 55.7543666
@@ -5375,7 +7775,15 @@
     "imageId": "7d924afc-0723-495d-9dcc-90f91fc9b400"
   },
   {
-    "name": "The Trinity Sergius Lavra",
+    "name": {
+      "en": "The Trinity Sergius Lavra",
+      "zh": "特罗伊茨克谢尔吉圣三一修道院",
+      "fr": "La Laure de la Trinité-Saint-Serge",
+      "de": "Dreifaltigkeitskloster Sergius Lavra",
+      "ja": "トロイツェ・セルギイ大修道院",
+      "pt": "Trindade-São Sérgio Lavra",
+      "es": "Monasterio de la Trinidad y San Sergio"
+    },
     "coordinates": {
       "longitude": 38.12945,
       "latitude": 56.3102092
@@ -5393,7 +7801,15 @@
     "imageId": "09c129ae-2d57-4fbc-b58d-8930e5316b00"
   },
   {
-    "name": "Church of the Ascension",
+    "name": {
+      "en": "Church of the Ascension",
+      "zh": "升天教堂",
+      "fr": "Église de l'Ascension",
+      "de": "Kirche der Himmelfahrt",
+      "ja": "昇天教会",
+      "pt": "Igreja da Ascensão",
+      "es": "Iglesia de la Ascensión"
+    },
     "coordinates": {
       "longitude": 37.6715627,
       "latitude": 55.667136
@@ -5411,7 +7827,15 @@
     "imageId": "018f26ab-2690-4723-3886-9089f1c67600"
   },
   {
-    "name": "Lake Baikal",
+    "name": {
+      "en": "Lake Baikal",
+      "zh": "贝加尔湖",
+      "fr": "Lac Baïkal",
+      "de": "Baikalsee",
+      "ja": "バイカル湖",
+      "pt": "Lago Baikal",
+      "es": "Lago Baikal"
+    },
     "coordinates": {
       "longitude": 108.8679581,
       "latitude": 53.5988495
@@ -5429,7 +7853,15 @@
     "imageId": "f3e0199a-4df2-4ae9-2ce4-f9c9e7300b00"
   },
   {
-    "name": "Kazan Kremlin",
+    "name": {
+      "en": "Kazan Kremlin",
+      "zh": "喀山克里姆林宫",
+      "fr": "Kremlin de Kazan",
+      "de": "Kreml von Kasan",
+      "ja": "カザン・クレムリン",
+      "pt": "Kremlin de Kazan",
+      "es": "Kremlin de Kazán"
+    },
     "coordinates": {
       "longitude": 49.1067545,
       "latitude": 55.7994703
@@ -5446,7 +7878,15 @@
     "imageId": "98447c3c-d6b2-4c1d-3996-1d5789c91200"
   },
   {
-    "name": "Derbent",
+    "name": {
+      "en": "Derbent",
+      "zh": "德尔本特",
+      "fr": "Derbent",
+      "de": "Derbent",
+      "ja": "デルベント",
+      "pt": "Derbent",
+      "es": "Derbent"
+    },
     "coordinates": {
       "longitude": 48.2753087,
       "latitude": 42.0523679
@@ -5463,7 +7903,15 @@
     "imageId": "a93969a1-dc9b-463f-a6aa-70a85e1f1c00"
   },
   {
-    "name": "Historical Centre of the City of Yaroslavl",
+    "name": {
+      "en": "Historical Centre of the City of Yaroslavl",
+      "zh": "雅罗斯拉夫尔市历史中心",
+      "fr": "Centre historique de la ville de Yaroslavl",
+      "de": "Historisches Zentrum der Stadt Jaroslawl",
+      "ja": "ヤロスラヴリ市の歴史地区",
+      "pt": "Centro Histórico da Cidade de Yaroslavl",
+      "es": "Centro histórico de la ciudad de Yaroslavl"
+    },
     "coordinates": {
       "longitude": 37.6176193,
       "latitude": 55.7504388
@@ -5480,7 +7928,15 @@
     "imageId": "34087cd3-727f-4b9c-aae1-b3539f4dac00"
   },
   {
-    "name": "Island of Saint-Louis",
+    "name": {
+      "en": "Island of Saint-Louis",
+      "zh": "圣路易岛",
+      "fr": "Île de Saint-Louis",
+      "de": "Insel Saint-Louis",
+      "ja": "サン＝ルイ島",
+      "pt": "Ilha de Saint-Louis",
+      "es": "Isla de San Luis"
+    },
     "coordinates": {
       "longitude": -16.506712,
       "latitude": 16.0260322
@@ -5497,7 +7953,15 @@
     "imageId": "bcb04b05-60b0-4585-09bf-20bba3832b00"
   },
   {
-    "name": "Singapore Botanic Gardens",
+    "name": {
+      "en": "Singapore Botanic Gardens",
+      "zh": "新加坏植物园",
+      "fr": "Jardins Botaniques de Singapour",
+      "de": "Singapur Botanische Gärten",
+      "ja": "シンガポール植物園",
+      "pt": "Jardins Botânicos de Singapura",
+      "es": "Jardines Botánicos de Singapur"
+    },
     "coordinates": {
       "longitude": 103.8150813,
       "latitude": 1.3135419
@@ -5515,7 +7979,15 @@
     "imageId": "017b34d5-6349-48fe-f059-b5ec1efc6e00"
   },
   {
-    "name": "Bardejov Town Conservation Reserve",
+    "name": {
+      "en": "Bardejov Town Conservation Reserve",
+      "zh": "巴尔代约夫镇历史保护区",
+      "fr": "Réserve de conservation de la ville de Bardejov",
+      "de": "Städtisches Reservat Bardejov",
+      "ja": "バルデヨフ歴史地区",
+      "pt": "Reserva de Conservação da Cidade de Bardejov",
+      "es": "Reserva de Conservación de la Ciudad de Bardejov"
+    },
     "coordinates": {
       "longitude": 21.276135,
       "latitude": 49.2922549
@@ -5532,7 +8004,15 @@
     "imageId": "0ee89044-c171-4b41-6da2-5692982ab000"
   },
   {
-    "name": "Barberton Makhonjwa Mountains",
+    "name": {
+      "en": "Barberton Makhonjwa Mountains",
+      "zh": "巴尔伯顿马孔加山",
+      "fr": "Montagnes de Barberton Makhonjwa",
+      "de": "Barberton-Makhonjwa-Gebirge",
+      "ja": "バーバートン・マコンジュワ山地",
+      "pt": "Montanhas Barberton Makhonjwa",
+      "es": "Montañas Barberton Makhonjwa"
+    },
     "coordinates": {
       "longitude": 31.0321098,
       "latitude": -25.7990531
@@ -5549,7 +8029,15 @@
     "imageId": "9444c767-cf05-4030-3b97-3b65a4ddb700"
   },
   {
-    "name": "Jongmyo Shrine",
+    "name": {
+      "en": "Jongmyo Shrine",
+      "zh": "宗庙",
+      "fr": "Sanctuaire de Jongmyo",
+      "de": "Jongmyo-Schrein",
+      "ja": "宗廟",
+      "pt": "Santuário de Jongmyo",
+      "es": "Santuario de Jongmyo"
+    },
     "coordinates": {
       "longitude": 126.9938201,
       "latitude": 37.5745981
@@ -5567,7 +8055,15 @@
     "imageId": "cc759d98-2e33-4f8b-29c4-bb8341d9ca00"
   },
   {
-    "name": "Changdeokgung Palace Complex",
+    "name": {
+      "en": "Changdeokgung Palace Complex",
+      "zh": "昌德宫_complex",
+      "fr": "Complexe du palais de Changdeokgung",
+      "de": "Changdeokgung-Palastanlage",
+      "ja": "昌徳宮",
+      "pt": "Complexo do Palácio de Changdeokgung",
+      "es": "Complejo del Palacio de Changdeokgung"
+    },
     "coordinates": {
       "longitude": 126.9912057,
       "latitude": 37.5786602
@@ -5584,7 +8080,15 @@
     "imageId": "7e445306-c857-47ee-50a7-029641295100"
   },
   {
-    "name": "Hwaseong Fortress",
+    "name": {
+      "en": "Hwaseong Fortress",
+      "zh": "华城城池",
+      "fr": "Forteresse de Hwaseong",
+      "de": "Festung Hwaseong",
+      "ja": "華城城砦",
+      "pt": "Fortaleza de Hwaseong",
+      "es": "Fortaleza de Hwaseong"
+    },
     "coordinates": {
       "longitude": 127.009789,
       "latitude": 37.2855928
@@ -5601,7 +8105,15 @@
     "imageId": "5aff2b86-43dd-4b56-e8d5-45b356c86600"
   },
   {
-    "name": "Gochang",
+    "name": {
+      "en": "Gochang",
+      "zh": "高敞",
+      "fr": "Gochang",
+      "de": "Gochang",
+      "ja": "高敞",
+      "pt": "Gochang",
+      "es": "Gochang"
+    },
     "coordinates": {
       "longitude": 126.4374944,
       "latitude": 37.7735667
@@ -5618,7 +8130,15 @@
     "imageId": "c66fca98-06aa-48ae-4e7c-0111d57c1b00"
   },
   {
-    "name": "Namhansanseong",
+    "name": {
+      "en": "Namhansanseong",
+      "zh": "南汉山城",
+      "fr": "Forteresse de Namhansanseong",
+      "de": "Namhansanseong Weltkulturerbe",
+      "ja": "南漢山城",
+      "pt": "Fortaleza de Namhansanseong",
+      "es": "Namhansanseong"
+    },
     "coordinates": {
       "longitude": 127.1817956,
       "latitude": 37.4788574
@@ -5635,7 +8155,15 @@
     "imageId": "6f874c30-9b6f-4465-36e4-2a8d9418e000"
   },
   {
-    "name": "Burgos Cathedral",
+    "name": {
+      "en": "Burgos Cathedral",
+      "zh": "布尔戈斯大教堂",
+      "fr": "Cathédrale de Burgos",
+      "de": "Burgos-Kathedrale",
+      "ja": "ブルゴス大聖堂",
+      "pt": "Catedral de Burgos",
+      "es": "Catedral de Burgos"
+    },
     "coordinates": {
       "longitude": -3.7037611,
       "latitude": 42.3400777
@@ -5653,7 +8181,15 @@
     "imageId": "2d37d4f0-afab-4905-f585-4c4722d81700"
   },
   {
-    "name": "Historic Centre of Cordoba",
+    "name": {
+      "en": "Historic Centre of Cordoba",
+      "zh": "科尔多瓦历史中心",
+      "fr": "Centre historique de Cordoue",
+      "de": "Historisches Zentrum von Córdoba",
+      "ja": "コルドバの歴史地区",
+      "pt": "Centro Histórico de Córdoba",
+      "es": "Centro Histórico de Córdoba"
+    },
     "coordinates": {
       "longitude": -4.7797973,
       "latitude": 37.8791717
@@ -5671,7 +8207,15 @@
     "imageId": "17e0e1c4-793f-46e3-d7a3-9656f49cfc00"
   },
   {
-    "name": "Monastery and Site of the Escurial",
+    "name": {
+      "en": "Monastery and Site of the Escurial",
+      "zh": "埃斯库里亚尔修道院和遗址",
+      "fr": "Monastère et site de l'Escurial",
+      "de": "Klosteranlage und Standort von El Escorial",
+      "ja": "修道院とエスクリアルの場所",
+      "pt": "Mosteiro e Sítio do Escorial",
+      "es": "Monasterio y Sitio de El Escorial"
+    },
     "coordinates": {
       "longitude": -4.149667,
       "latitude": 40.5893086
@@ -5687,7 +8231,15 @@
     "imageId": "24e7bc6b-f589-424d-f427-c862a673ca00"
   },
   {
-    "name": "Works of Antoni Gaudí",
+    "name": {
+      "en": "Works of Antoni Gaudí",
+      "zh": "安东尼·高迪的作品",
+      "fr": "Œuvres d'Antoni Gaudí",
+      "de": "Werke von Antoni Gaudí",
+      "ja": "アントニ・ガウディの作品",
+      "pt": "Obras de Antoni Gaudí",
+      "es": "Obras de Antoni Gaudí"
+    },
     "coordinates": {
       "longitude": 2.1737108,
       "latitude": 41.4031069
@@ -5707,7 +8259,15 @@
     "imageId": "9abee6c6-c550-49ed-4f12-62e04c5af600"
   },
   {
-    "name": "Monuments of Oviedo",
+    "name": {
+      "en": "Monuments of Oviedo",
+      "zh": "奥维耶多的纪念碑",
+      "fr": "Monuments d’Oviedo",
+      "de": "Denkmäler von Oviedo",
+      "ja": "オビエドの建造物",
+      "pt": "Monumentos de Oviedo",
+      "es": "Monumentos de Oviedo"
+    },
     "coordinates": {
       "longitude": -5.865459,
       "latitude": 43.3792337
@@ -5724,7 +8284,15 @@
     "imageId": "3b714788-bed0-44c6-d2f9-a16d25d62c00"
   },
   {
-    "name": "Old Town of Segovia",
+    "name": {
+      "en": "Old Town of Segovia",
+      "zh": "塞戈维亚老城",
+      "fr": "Vieille ville de Ségovie",
+      "de": "Altstadt von Segovia",
+      "ja": "セゴビアの旧市街",
+      "pt": "Cidade Velha de Segóvia",
+      "es": "Ciudad Antigua de Segovia"
+    },
     "coordinates": {
       "longitude": -4.1173291,
       "latitude": 40.9480587
@@ -5742,7 +8310,15 @@
     "imageId": "497986e3-b9c5-4e23-81c6-e62e7d45c500"
   },
   {
-    "name": "Cathedral, Alcázar and Archivo de Indias",
+    "name": {
+      "en": "Cathedral, Alcázar and Archivo de Indias",
+      "zh": "大教堂、阿尔卡萨尔和印第安档案馆",
+      "fr": "Cathédrale, Alcázar et Archivo de Indias",
+      "de": "Kathedrale, Alcázar und Archivo de Indias",
+      "ja": "大聖堂、アルカサル、インディアス史料館",
+      "pt": "Catedral, Alcázar e Arquivo das Índias",
+      "es": "Catedral, Alcázar y Archivo de Indias"
+    },
     "coordinates": {
       "longitude": -5.994048,
       "latitude": 37.3857378
@@ -5760,7 +8336,15 @@
     "imageId": "309bcfcc-0e5f-4920-bbff-1d34b0038f00"
   },
   {
-    "name": "Salamanca",
+    "name": {
+      "en": "Salamanca",
+      "zh": "萨拉曼卡",
+      "fr": "Salamanque",
+      "de": "Salamanca",
+      "ja": "サラマンカ",
+      "pt": "Salamanca",
+      "es": "Salamanca es un nombre de Patrimonio Mundial."
+    },
     "coordinates": {
       "longitude": -5.6663075,
       "latitude": 40.9599849
@@ -5778,7 +8362,15 @@
     "imageId": "6cfb15bc-bdd6-463d-8e4b-d004480daf00"
   },
   {
-    "name": "Poblet Monastery",
+    "name": {
+      "en": "Poblet Monastery",
+      "zh": "波布莱特修道院",
+      "fr": "Monastère de Poblet",
+      "de": "Kloster Poblet",
+      "ja": "ポブレット修道院",
+      "pt": "Mosteiro de Poblet",
+      "es": "Monasterio de Poblet"
+    },
     "coordinates": {
       "longitude": 1.0817577,
       "latitude": 41.3805115
@@ -5796,7 +8388,15 @@
     "imageId": "05d99f06-830a-4969-97e0-cce537e52100"
   },
   {
-    "name": "Santa María de Guadalupe",
+    "name": {
+      "en": "Santa María de Guadalupe",
+      "zh": "圣玛丽亚-瓜达卢佩",
+      "fr": "Sainte-Marie de Guadalupe",
+      "de": "Santa María de Guadalupe",
+      "ja": "サンタ・マリア・デ・グアダルーペ",
+      "pt": "Santa Maria de Guadalupe",
+      "es": "Santa María de Guadalupe"
+    },
     "coordinates": {
       "longitude": -5.3272997,
       "latitude": 39.4519511
@@ -5814,7 +8414,15 @@
     "imageId": "5a861c61-1563-4171-903e-70d3c0bd9b00"
   },
   {
-    "name": "La Lonja de la Seda de Valencia",
+    "name": {
+      "en": "La Lonja de la Seda de Valencia",
+      "zh": "瓦伦西亚丝绸交易所",
+      "fr": "La Lonja de la Seda de Valence",
+      "de": "Seidenbörse von Valencia",
+      "ja": "バレンシアのシルク交易所",
+      "pt": "A Lonja da Seda de Valência",
+      "es": "La Lonja de la Seda de Valencia"
+    },
     "coordinates": {
       "longitude": -0.3788394,
       "latitude": 39.4741166
@@ -5831,7 +8439,15 @@
     "imageId": "5e31c7da-7581-4064-79f7-0d6a80a73500"
   },
   {
-    "name": "Pyrénées",
+    "name": {
+      "en": "Pyrénées",
+      "zh": "比利牛斯山",
+      "fr": "Pyrénées",
+      "de": "Pyrenäen",
+      "ja": "ピレネー山脈",
+      "pt": "Pirenéus",
+      "es": "Pirineos"
+    },
     "coordinates": {
       "longitude": 0.0515394,
       "latitude": 42.5496978
@@ -5848,7 +8464,15 @@
     "imageId": "03534348-ea6d-454a-1075-da611d18e400"
   },
   {
-    "name": "Alcalá de Henares",
+    "name": {
+      "en": "Alcalá de Henares",
+      "zh": "阿尔卡拉德埃纳雷斯",
+      "fr": "Alcalá de Henares est un patrimoine mondial",
+      "de": "Alcalá de Henares Weltkulturerbe",
+      "ja": "アルカラ・デ・エナレス",
+      "pt": "Alcalá de Henares",
+      "es": "Alcalá de Henares"
+    },
     "coordinates": {
       "longitude": -3.3633464,
       "latitude": 40.4833153
@@ -5865,7 +8489,15 @@
     "imageId": "a199dcbc-e8ff-49e5-d921-4a972a651700"
   },
   {
-    "name": "Archaeological Ensemble of Tarraco",
+    "name": {
+      "en": "Archaeological Ensemble of Tarraco",
+      "zh": "塔拉戈考古群",
+      "fr": "Ensemble archéologique de Tarraco",
+      "de": "Archäologisches Ensemble von Tarraco",
+      "ja": "タラコの考古学的遺跡群",
+      "pt": "Conjunto Arqueológico de Tarraco",
+      "es": "Conjunto Arqueológico de Tarraco"
+    },
     "coordinates": {
       "longitude": 1.2584881,
       "latitude": 41.1144443
@@ -5881,7 +8513,15 @@
     "imageId": "a0965c91-1b02-41ab-4582-77874a5d7300"
   },
   {
-    "name": "Archaeological Site of Atapuerca",
+    "name": {
+      "en": "Archaeological Site of Atapuerca",
+      "zh": "阿塔普埃卡考古遗址",
+      "fr": "Site archéologique d'Atapuerca",
+      "de": "Archäologische Fundstätte Atapuerca",
+      "ja": "アタプエルカの考古遺跡",
+      "pt": "Sítio Arqueológico de Atapuerca",
+      "es": "Sitio Arqueológico de Atapuerca"
+    },
     "coordinates": {
       "longitude": -3.5199679,
       "latitude": 42.3514514
@@ -5898,7 +8538,15 @@
     "imageId": "3cc4187b-03df-4457-5fa6-2651465d5f00"
   },
   {
-    "name": "Palmeral of Elche",
+    "name": {
+      "en": "Palmeral of Elche",
+      "zh": "艾尔切棕榈园",
+      "fr": "Palmeraie d'Elche",
+      "de": "Palmengarten von Elche",
+      "ja": "エルチェのパルメラル",
+      "pt": "Palmeiral de Elche",
+      "es": "Palmeral de Elche"
+    },
     "coordinates": {
       "longitude": -0.6968263,
       "latitude": 38.2697763
@@ -5914,7 +8562,15 @@
     "imageId": "de91ea50-e1aa-4198-300f-07457a42a400"
   },
   {
-    "name": "Roman Walls of Lugo",
+    "name": {
+      "en": "Roman Walls of Lugo",
+      "zh": "卢戈罗马城墙",
+      "fr": "Murailles romaines de Lugo",
+      "de": "Römische Mauer von Lugo",
+      "ja": "ルーゴのローマ城壁",
+      "pt": "Muralhas Romanas de Lugo",
+      "es": "Murallas Romanas de Lugo"
+    },
     "coordinates": {
       "longitude": -7.5594252,
       "latitude": 43.0087809
@@ -5931,7 +8587,15 @@
     "imageId": "84f64f10-b031-4d62-ecda-3287e2d39200"
   },
   {
-    "name": "Aranjuez Cultural Landscape",
+    "name": {
+      "en": "Aranjuez Cultural Landscape",
+      "zh": "阿兰胡埃斯文化风景区",
+      "fr": "Paysage culturel d’Aranjuez",
+      "de": "Kulturlandschaft Aranjuez",
+      "ja": "アランフェスの文化的景観",
+      "pt": "Paisagem Cultural de Aranjuez",
+      "es": "Paisaje Cultural de Aranjuez"
+    },
     "coordinates": {
       "longitude": -3.6105973,
       "latitude": 40.0365037
@@ -5947,7 +8611,15 @@
     "imageId": "d70ae944-c744-41d0-0721-c33e03f56a00"
   },
   {
-    "name": "Baeza",
+    "name": {
+      "en": "Baeza",
+      "zh": "巴埃萨",
+      "fr": "Baeza",
+      "de": "Baeza",
+      "ja": "バエサ",
+      "pt": "Baeza",
+      "es": "Baeza"
+    },
     "coordinates": {
       "longitude": -3.4689516,
       "latitude": 37.9906274
@@ -5965,7 +8637,15 @@
     "imageId": "856cf1df-ffcd-498a-84b2-8bb9b7823500"
   },
   {
-    "name": "Vizcaya Bridge",
+    "name": {
+      "en": "Vizcaya Bridge",
+      "zh": "毕斯开吊桥",
+      "fr": "Pont de Vizcaya",
+      "de": "Vizcaya-Brücke",
+      "ja": "ビスカヤ橋",
+      "pt": "Ponte de Vizcaya",
+      "es": "Puente de Vizcaya"
+    },
     "coordinates": {
       "longitude": -3.0156708,
       "latitude": 43.3230805
@@ -5982,7 +8662,15 @@
     "imageId": "dd110439-21c3-495b-1e72-7a850de54b00"
   },
   {
-    "name": "Teide National Park",
+    "name": {
+      "en": "Teide National Park",
+      "zh": "特奈德国家公园",
+      "fr": "Parc national du Teide",
+      "de": "Nationalpark Teide",
+      "ja": "テイデ国立公園",
+      "pt": "Parque Nacional do Teide",
+      "es": "Parque Nacional del Teide"
+    },
     "coordinates": {
       "longitude": -16.6199777,
       "latitude": 28.2553381
@@ -6000,7 +8688,15 @@
     "imageId": "f01e8606-4307-413c-6ddd-c9a49ec7da00"
   },
   {
-    "name": "Tower of Hercules",
+    "name": {
+      "en": "Tower of Hercules",
+      "zh": "赫拉克勒斯塔楼",
+      "fr": "Tour d'Hercule",
+      "de": "Turm des Herkules",
+      "ja": "ヘラクレスの塔",
+      "pt": "Torre de Hércules",
+      "es": "Torre de Hércules"
+    },
     "coordinates": {
       "longitude": -8.4059819,
       "latitude": 43.3861455
@@ -6017,7 +8713,15 @@
     "imageId": "29762727-4185-41c1-9ec8-3c9f55675b00"
   },
   {
-    "name": "Heritage of Mercury",
+    "name": {
+      "en": "Heritage of Mercury",
+      "zh": "水银遗产",
+      "fr": "Patrimoine du mercure",
+      "de": "Das Erbe des Quecksilbers",
+      "ja": "水銀の遺産アルマデンとイドリヤ",
+      "pt": "Património do Mercúrio",
+      "es": "Patrimonio del Mercurio"
+    },
     "coordinates": {
       "longitude": 14.02256,
       "latitude": 45.9998089
@@ -6033,7 +8737,15 @@
     "imageId": "6a2e076e-308a-43c9-3ffe-ebb9fe415400"
   },
   {
-    "name": "Antequera Dolmens Site",
+    "name": {
+      "en": "Antequera Dolmens Site",
+      "zh": "安特凯拉克墩遗址",
+      "fr": "Site des dolmens d’Antequera",
+      "de": "Dolmen von Antequera",
+      "ja": "アンテケーラのドルメン遺跡",
+      "pt": "Sítio dos Dólmenes de Antequera",
+      "es": "Sitio de los Dólmenes de Antequera"
+    },
     "coordinates": {
       "longitude": -4.5482771,
       "latitude": 37.0241995
@@ -6049,7 +8761,15 @@
     "imageId": "520404bb-9cc6-4347-26f7-d2f09231bc00"
   },
   {
-    "name": "Medina Azahara",
+    "name": {
+      "en": "Medina Azahara",
+      "zh": "麦地那扎哈拉",
+      "fr": "Médina Azahara",
+      "de": "Medina Azahara",
+      "ja": "メディナ・アザハラ",
+      "pt": "Medina Azahara",
+      "es": "Medina Azahara"
+    },
     "coordinates": {
       "longitude": -4.8682717,
       "latitude": 37.886231
@@ -6067,7 +8787,15 @@
     "imageId": "0af741b4-b685-4dec-da63-550aea140f00"
   },
   {
-    "name": "Paseo del Prado and Buen Retiro",
+    "name": {
+      "en": "Paseo del Prado and Buen Retiro",
+      "zh": "普拉多大道和布恩·雷蒂罗公园",
+      "fr": "Paseo del Prado et Buen Retiro",
+      "de": "Paseo del Prado und Buen Retiro",
+      "ja": "プラド通りとブエン・レティロ公國",
+      "pt": "Paseo del Prado e Buen Retiro",
+      "es": "Paseo del Prado y Buen Retiro"
+    },
     "coordinates": {
       "longitude": -3.6930377,
       "latitude": 40.4195403
@@ -6085,7 +8813,15 @@
     "imageId": "7a32a0ac-373f-490f-f510-6e9ea68a2a00"
   },
   {
-    "name": "Engelsberg Ironworks",
+    "name": {
+      "en": "Engelsberg Ironworks",
+      "zh": "恩格斯贝里铁厂",
+      "fr": "Hauts Fourneaux d'Engelsberg",
+      "de": "Engelsbergs Bruk",
+      "ja": "エンゲルスベリ製鉄所",
+      "pt": "Fábrica de Ferro de Engelsberg",
+      "es": "Herrería de Engelsberg"
+    },
     "coordinates": {
       "longitude": 16.0101134,
       "latitude": 59.9672243
@@ -6101,7 +8837,15 @@
     "imageId": "90c27ff1-74d0-41e7-81ac-0f61e022a900"
   },
   {
-    "name": "Skogskyrkogården",
+    "name": {
+      "en": "Skogskyrkogården",
+      "zh": "林地公墓",
+      "fr": "Cimetière boisé",
+      "de": "Waldfriedhof",
+      "ja": "スコグスキルコゴーデン",
+      "pt": "Cemitério da Floresta",
+      "es": "Cementerio del Bosque"
+    },
     "coordinates": {
       "longitude": 18.1026413,
       "latitude": 59.2713974
@@ -6118,7 +8862,15 @@
     "imageId": "8c6d31d6-2c44-4f9f-c2d2-510eb50b2300"
   },
   {
-    "name": "Visby",
+    "name": {
+      "en": "Visby",
+      "zh": "维斯比",
+      "fr": "Visby, patrimoine mondial",
+      "de": "Visby",
+      "ja": "ビスビー市街",
+      "pt": "Visby",
+      "es": "Visby"
+    },
     "coordinates": {
       "longitude": 18.2951415,
       "latitude": 57.6422272
@@ -6134,7 +8886,15 @@
     "imageId": "7a23a3e1-d143-42bf-bff1-70c5c21f3200"
   },
   {
-    "name": "Church Town of Gammelstad",
+    "name": {
+      "en": "Church Town of Gammelstad",
+      "zh": "冈瑟尔斯塔德教堂镇",
+      "fr": "Ville Église de Gammelstad",
+      "de": "Kirchstadt Gammelstad",
+      "ja": "ガンメルスタードの教会村",
+      "pt": "Cidade-Igreja de Gammelstad",
+      "es": "Pueblo Iglesia de Gammelstad"
+    },
     "coordinates": {
       "longitude": 22.02846,
       "latitude": 65.6460796
@@ -6152,7 +8912,15 @@
     "imageId": "1ebd0274-9e92-49f0-833b-fc6431168c00"
   },
   {
-    "name": "The Great Copper Mountain",
+    "name": {
+      "en": "The Great Copper Mountain",
+      "zh": "大铜山",
+      "fr": "Le Grand Mont de Cuivre",
+      "de": "Großer Kupferberg",
+      "ja": "大銅山",
+      "pt": "Grande Montanha de Cobre",
+      "es": "La Gran Montaña de Cobre"
+    },
     "coordinates": {
       "longitude": 15.6153378,
       "latitude": 60.6002261
@@ -6167,7 +8935,15 @@
     "imageId": "bf147cce-4a51-4659-a835-f582e7d24b00"
   },
   {
-    "name": "Grimeton Radio Station",
+    "name": {
+      "en": "Grimeton Radio Station",
+      "zh": "格里梅顿无线电站",
+      "fr": "Station radiophonique de Grimeton",
+      "de": "Grimeton Radiostation",
+      "ja": "グリメトン無線局",
+      "pt": "Estação de Rádio Grimeton",
+      "es": "Estación de Radio de Grimeton"
+    },
     "coordinates": {
       "longitude": 12.4039001,
       "latitude": 57.1138978
@@ -6183,7 +8959,15 @@
     "imageId": "3227a2dc-8d01-47ba-f8b6-f0a0155c8a00"
   },
   {
-    "name": "Abbey of St Gall",
+    "name": {
+      "en": "Abbey of St Gall",
+      "zh": "圣加仑修道院",
+      "fr": "Abbaye de Saint-Gall",
+      "de": "Stift Sankt Gallen",
+      "ja": "ザンクト・ガレンの修道院",
+      "pt": "Abadia de São Galo",
+      "es": "Abadía de San Gall"
+    },
     "coordinates": {
       "longitude": 9.3779464,
       "latitude": 47.4236562
@@ -6201,7 +8985,15 @@
     "imageId": "92946e59-f616-439f-4935-bd3a5ef0e400"
   },
   {
-    "name": "Benedictine Convent of St John",
+    "name": {
+      "en": "Benedictine Convent of St John",
+      "zh": "圣约翰本笃会修道院",
+      "fr": "Couvent bénédictin de Saint-Jean",
+      "de": "Benediktinerinnenkloster St. Johann",
+      "ja": "ベネディクト会聖ヨハネ修道院",
+      "pt": "Convento Beneditino de São João",
+      "es": "Convento Benedictino de San Juan"
+    },
     "coordinates": {
       "longitude": 10.4495103,
       "latitude": 46.6295017
@@ -6219,7 +9011,15 @@
     "imageId": "8efc3106-4b47-46a2-c620-e27b25a8dc00"
   },
   {
-    "name": "Berne",
+    "name": {
+      "en": "Berne",
+      "zh": "伯尔尼",
+      "fr": "Berne",
+      "de": "Bern",
+      "ja": "ベルン",
+      "pt": "Berna",
+      "es": "Berna"
+    },
     "coordinates": {
       "longitude": 7.4559034,
       "latitude": 46.9486418
@@ -6237,7 +9037,15 @@
     "imageId": "f0baa3b6-c84c-48ab-9f11-5bb460e96d00"
   },
   {
-    "name": "Swiss Alps Jungfrau-Aletsch",
+    "name": {
+      "en": "Swiss Alps Jungfrau-Aletsch",
+      "zh": "瑞士阿尔卑斯山少女峰-阿莱奇",
+      "fr": "Alpes suisses Jungfrau-Aletsch",
+      "de": "Schweizer Alpen Jungfrau-Aletsch",
+      "ja": "スイスアルプス ユングフラウ-アレッチ",
+      "pt": "Alpes Suíços Jungfrau-Aletsch",
+      "es": "Alpes Suizos Jungfrau-Aletsch"
+    },
     "coordinates": {
       "longitude": 7.9917116,
       "latitude": 46.3809557
@@ -6256,7 +9064,15 @@
     "imageId": "527a0e0b-6827-4afd-bafd-2e34512b6e00"
   },
   {
-    "name": "Lavaux",
+    "name": {
+      "en": "Lavaux",
+      "zh": "洛桑葡萄园风景区",
+      "fr": "Lavaux, vignoble en terrasses",
+      "de": "Lavaux",
+      "ja": "ラヴォー",
+      "pt": "Lavaux",
+      "es": "Lavaux"
+    },
     "coordinates": {
       "longitude": 6.7377944,
       "latitude": 46.4912708
@@ -6273,7 +9089,15 @@
     "imageId": "a418858d-e608-4501-0ec4-c5e18ba4be00"
   },
   {
-    "name": "Ayutthaya",
+    "name": {
+      "en": "Ayutthaya",
+      "zh": "大城遗址",
+      "fr": "Ayutthaya",
+      "de": "Ayutthaya",
+      "ja": "アユタヤ",
+      "pt": "Ayutália",
+      "es": "Ayutaya"
+    },
     "coordinates": {
       "longitude": 100.5674852,
       "latitude": 14.3567321
@@ -6292,7 +9116,15 @@
     "imageId": "acde72f7-4225-48d8-1c89-8908edc75c00"
   },
   {
-    "name": "Historic Town of Sukhothai",
+    "name": {
+      "en": "Historic Town of Sukhothai",
+      "zh": "素可泰历史城",
+      "fr": "Ville historique de Sukhothai",
+      "de": "Historische Stadt Sukhothai",
+      "ja": "スコータイ歴史都市",
+      "pt": "Cidade Histórica de Sukhothai",
+      "es": "Ciudad Histórica de Sukhothai"
+    },
     "coordinates": {
       "longitude": 99.7018386,
       "latitude": 17.0198459
@@ -6310,7 +9142,15 @@
     "imageId": "5af22e50-844e-4ad0-2b52-4365abdc7800"
   },
   {
-    "name": "Amphitheatre of El Jem",
+    "name": {
+      "en": "Amphitheatre of El Jem",
+      "zh": "艾尔杰姆竞技场",
+      "fr": "Amphithéâtre d'El Jem",
+      "de": "Amphitheater von El Jem",
+      "ja": "エル・ジェムの円形闘技場",
+      "pt": "Anfiteatro de El Jem",
+      "es": "Anfiteatro de El Jem"
+    },
     "coordinates": {
       "longitude": 10.7068892,
       "latitude": 35.2964457
@@ -6328,7 +9168,15 @@
     "imageId": "91f937bd-1846-4e9f-16e6-ab6d2c1fb100"
   },
   {
-    "name": "Ichkeul National Park",
+    "name": {
+      "en": "Ichkeul National Park",
+      "zh": "伊奇库勒国家公园",
+      "fr": "Parc national de l'Ichkeul",
+      "de": "Nationalpark Ichkeul",
+      "ja": "イクケル国立公園",
+      "pt": "Parque Nacional de Ichkeul",
+      "es": "Parque Nacional Ichkeul"
+    },
     "coordinates": {
       "longitude": 9.6841276,
       "latitude": 37.1385068
@@ -6348,7 +9196,15 @@
     "imageId": "9ff64dc0-a387-4568-1c60-2b5242517400"
   },
   {
-    "name": "Kerkouane",
+    "name": {
+      "en": "Kerkouane",
+      "zh": "克尔库安",
+      "fr": "Kerkouane",
+      "de": "Kerkouane",
+      "ja": "ケルクアン",
+      "pt": "Kerkuane",
+      "es": "Kerkuán"
+    },
     "coordinates": {
       "longitude": 11.0862671,
       "latitude": 36.95618
@@ -6364,7 +9220,15 @@
     "imageId": "4d5caecd-fcd3-4aca-be68-666045c0c500"
   },
   {
-    "name": "Dougga",
+    "name": {
+      "en": "Dougga",
+      "zh": "杜加",
+      "fr": "Dougga",
+      "de": "Dougga",
+      "ja": "ドゥッガ",
+      "pt": "Duga",
+      "es": "Dougga"
+    },
     "coordinates": {
       "longitude": 9.2182375,
       "latitude": 36.4226516
@@ -6382,7 +9246,15 @@
     "imageId": "37e44b88-c397-4265-1f55-3cbdb2125500"
   },
   {
-    "name": "Nemrut Dağ",
+    "name": {
+      "en": "Nemrut Dağ",
+      "zh": "尼姆鲁特山",
+      "fr": "Mont Nemrut",
+      "de": "Nemrut Dağ",
+      "ja": "ネムルト・ダーグ",
+      "pt": "Monte Nemrut",
+      "es": "Monte Nemrut"
+    },
     "coordinates": {
       "longitude": 38.7400176,
       "latitude": 37.9800691
@@ -6400,7 +9272,15 @@
     "imageId": "fc7d0f80-ce2e-4f2c-3b4a-37f7eb0d6d00"
   },
   {
-    "name": "Selimiye Mosque",
+    "name": {
+      "en": "Selimiye Mosque",
+      "zh": "塞利米耶清真寺",
+      "fr": "Mosquée Selimiye",
+      "de": "Selimiye-Moschee",
+      "ja": "セリミエ・モスク",
+      "pt": "Mesquita de Selimiye",
+      "es": "Mezquita de Selimiye"
+    },
     "coordinates": {
       "longitude": 26.5603427,
       "latitude": 41.6770964
@@ -6419,7 +9299,15 @@
     "imageId": "ef48e88f-f05e-45d6-4dc4-d6abbbe44300"
   },
   {
-    "name": "Kiev",
+    "name": {
+      "en": "Kiev",
+      "zh": "基辅",
+      "fr": "Kiev",
+      "de": "Kiew",
+      "ja": "キエフ",
+      "pt": "Kiev",
+      "es": "Kiev"
+    },
     "coordinates": {
       "longitude": 30.556668,
       "latitude": 50.4351251
@@ -6437,7 +9325,15 @@
     "imageId": "d5aebf6b-bfa6-45d8-dd89-1ce71314b700"
   },
   {
-    "name": "Residence of Bukovinian and Dalmatian Metropolitans",
+    "name": {
+      "en": "Residence of Bukovinian and Dalmatian Metropolitans",
+      "zh": "布科维纳和达尔马提亚大主教官邸",
+      "fr": "Résidence des métropolitains de Bucovine et de Dalmatie",
+      "de": "Residenz der Bukowinaer und Dalmatinischen Metropoliten",
+      "ja": "ブコヴィナおよびダルマチアの大主教の邸宅",
+      "pt": "Residência dos Metropolitanos da Bucovina e Dalmácia",
+      "es": "Residencia de los Metropolitanos de Bucovina y Dalmacia."
+    },
     "coordinates": {
       "longitude": 25.9247187,
       "latitude": 48.296832
@@ -6454,7 +9350,15 @@
     "imageId": "b4e5dde8-07f7-41c9-ea4d-885b538fcc00"
   },
   {
-    "name": "Odesa",
+    "name": {
+      "en": "Odesa",
+      "zh": "敖德萨",
+      "fr": "Odessa",
+      "de": "Odessa",
+      "ja": "オデッサ",
+      "pt": "Odesa",
+      "es": "Odesa"
+    },
     "coordinates": {
       "longitude": 30.7409611,
       "latitude": 46.4839078
@@ -6470,7 +9374,15 @@
     "imageId": "3d117047-7376-4386-5e72-23240e2bda00"
   },
   {
-    "name": "Durham Castle and Cathedral",
+    "name": {
+      "en": "Durham Castle and Cathedral",
+      "zh": "达勒姆城堡和大教堂",
+      "fr": "Château et Cathédrale de Durham",
+      "de": "Durham Castle und Kathedrale",
+      "ja": "ダラム城と大聖堂",
+      "pt": "Castelo e Catedral de Durham",
+      "es": "Castillo y Catedral de Durham"
+    },
     "coordinates": {
       "longitude": -1.576312,
       "latitude": 54.7734803
@@ -6488,7 +9400,15 @@
     "imageId": "69a7dbfe-bf89-4e44-b29e-98e9a755fc00"
   },
   {
-    "name": "Stonehenge",
+    "name": {
+      "en": "Stonehenge",
+      "zh": "巨石阵",
+      "fr": "Stonehenge",
+      "de": "Stonehenge",
+      "ja": "ストーンヘンジ",
+      "pt": "Stonehenge",
+      "es": "Stonehenge"
+    },
     "coordinates": {
       "longitude": -1.8262146,
       "latitude": 51.1788898
@@ -6505,7 +9425,15 @@
     "imageId": "ff52c0b2-34e1-413c-2c6e-0ccc0d0e3c00"
   },
   {
-    "name": "Studley Royal Park",
+    "name": {
+      "en": "Studley Royal Park",
+      "zh": "斯塔德利皇家公园",
+      "fr": "Parc de Studley Royal",
+      "de": "Studley Royal Park",
+      "ja": "スタッドリー・ロイヤル公園",
+      "pt": "Parque Studley Royal",
+      "es": "Parque de Studley Royal"
+    },
     "coordinates": {
       "longitude": -1.5815247,
       "latitude": 54.1095936
@@ -6522,7 +9450,15 @@
     "imageId": "948365f9-5a77-44ef-5362-fc7ce7710b00"
   },
   {
-    "name": "Blenheim Palace",
+    "name": {
+      "en": "Blenheim Palace",
+      "zh": "布伦海姆宫",
+      "fr": "Palais de Blenheim",
+      "de": "Schloss Blenheim",
+      "ja": "ブレナム宮殿",
+      "pt": "Palácio de Blenheim",
+      "es": "Palacio de Blenheim"
+    },
     "coordinates": {
       "longitude": -1.3615725,
       "latitude": 51.8420099
@@ -6539,7 +9475,15 @@
     "imageId": "be527a94-e02d-4de8-6527-f93b28b78f00"
   },
   {
-    "name": "City of Bath",
+    "name": {
+      "en": "City of Bath",
+      "zh": "巴斯市",
+      "fr": "Cité de Bath",
+      "de": "Stadt Bath",
+      "ja": "バース市",
+      "pt": "Cidade de Bath",
+      "es": "Ciudad de Bath"
+    },
     "coordinates": {
       "longitude": -2.3640467,
       "latitude": 51.3856397
@@ -6556,7 +9500,15 @@
     "imageId": "bf0912ca-1771-400d-6401-524d6a8aa600"
   },
   {
-    "name": "Westminster Abbey",
+    "name": {
+      "en": "Westminster Abbey",
+      "zh": "威斯敏斯特教堂",
+      "fr": "Abbaye de Westminster",
+      "de": "Westminsterabtei",
+      "ja": "ウェストミンスター寺院",
+      "pt": "Abadia de Westminster",
+      "es": "Abadía de Westminster"
+    },
     "coordinates": {
       "longitude": -0.1262079,
       "latitude": 51.4989522
@@ -6573,7 +9525,15 @@
     "imageId": "f2099690-f409-4b2f-95c5-dfa189947c00"
   },
   {
-    "name": "St Augustine's Abbey",
+    "name": {
+      "en": "St Augustine's Abbey",
+      "zh": "圣奥古斯丁修道院",
+      "fr": "Abbaye de Saint-Augustin",
+      "de": "St. Augustins Abtei",
+      "ja": "セント・オーガスティン修道院",
+      "pt": "Abadia de Santo Agostinho",
+      "es": "Abadía de San Agustín"
+    },
     "coordinates": {
       "longitude": 1.0883984,
       "latitude": 51.2781535
@@ -6590,7 +9550,15 @@
     "imageId": "5d3936a8-84cf-4e04-e510-254807924100"
   },
   {
-    "name": "Old and New Towns of Edinburgh",
+    "name": {
+      "en": "Old and New Towns of Edinburgh",
+      "zh": "爱丁堡老城与新城",
+      "fr": "Vieux et Nouveau quartiers d'Édimbourg",
+      "de": "Altstadt und Neustadt von Edinburgh",
+      "ja": "エディンバラの旧市街と新市街",
+      "pt": "Cidades Velha e Nova de Edimburgo",
+      "es": "Ciudades Vieja y Nueva de Edimburgo"
+    },
     "coordinates": {
       "longitude": -3.1919034,
       "latitude": 55.94955
@@ -6610,7 +9578,15 @@
     "imageId": "b86d6920-ffc2-447e-a301-fb864622cd00"
   },
   {
-    "name": "Maritime Greenwich",
+    "name": {
+      "en": "Maritime Greenwich",
+      "zh": "格林威治海事",
+      "fr": "Greenwich maritime",
+      "de": "Maritimes Greenwich",
+      "ja": "マリタイム・グリニッジ",
+      "pt": "Greenwich Marítimo",
+      "es": "Greenwich Marítimo"
+    },
     "coordinates": {
       "longitude": -0.0059472,
       "latitude": 51.4837171
@@ -6628,7 +9604,15 @@
     "imageId": "750417ae-9ce4-459e-1396-2214ccafb100"
   },
   {
-    "name": "Historic Town of St George",
+    "name": {
+      "en": "Historic Town of St George",
+      "zh": "圣乔治历史城",
+      "fr": "Ville historique de Saint-George",
+      "de": "Historische Stadt St. George",
+      "ja": "セントジョージ歴史地区",
+      "pt": "Cidade Histórica de St. George",
+      "es": "Ciudad Histórica de San Jorge"
+    },
     "coordinates": {
       "longitude": -64.6739872,
       "latitude": 32.3776397
@@ -6645,7 +9629,15 @@
     "imageId": "fe791949-6bba-4579-0d83-139ca58d4700"
   },
   {
-    "name": "Derwent Valley Mills",
+    "name": {
+      "en": "Derwent Valley Mills",
+      "zh": "德文特河谷磨坊",
+      "fr": "Vallée de Derwent Mills",
+      "de": "Derwent Valley Mills",
+      "ja": "ダーウェント・バレー・ミルズ",
+      "pt": "Vales dos Moinhos Derwent",
+      "es": "Molinos del Valle de Derwent"
+    },
     "coordinates": {
       "longitude": -1.4848926,
       "latitude": 53.0285476
@@ -6662,7 +9654,15 @@
     "imageId": "e12e89d7-2d50-4584-d710-35f2d38a7300"
   },
   {
-    "name": "New Lanark",
+    "name": {
+      "en": "New Lanark",
+      "zh": "新兰纳克",
+      "fr": "Nouveau Lanark",
+      "de": "Neu-Lanark",
+      "ja": "ニューラナーク",
+      "pt": "Novo Lanark",
+      "es": "Nuevo Lanark"
+    },
     "coordinates": {
       "longitude": -3.7848334,
       "latitude": 55.6649118
@@ -6678,7 +9678,15 @@
     "imageId": "54226d5a-c81f-4fb5-51a5-3dbfc7389000"
   },
   {
-    "name": "Saltaire",
+    "name": {
+      "en": "Saltaire",
+      "zh": "萨尔塔尔",
+      "fr": "Saltaire",
+      "de": "Saltaire Weltkulturerbe",
+      "ja": "サルテア",
+      "pt": "Saltaire",
+      "es": "Saltaire"
+    },
     "coordinates": {
       "longitude": -1.7894388,
       "latitude": 53.8389406
@@ -6696,7 +9704,15 @@
     "imageId": "c40c1c67-799a-4731-fe54-917753232000"
   },
   {
-    "name": "Liverpool",
+    "name": {
+      "en": "Liverpool",
+      "zh": "利物浦",
+      "fr": "Liverpool, patrimoine mondial",
+      "de": "Liverpool-Weltnaturerbe",
+      "ja": "リバプール",
+      "pt": "Liverpool Patrimônio Mundial",
+      "es": "Liverpool, Patrimonio Mundial"
+    },
     "coordinates": {
       "longitude": -2.9969793,
       "latitude": 53.4040352
@@ -6712,7 +9728,15 @@
     "imageId": "61d16e17-2167-4c23-58e0-1940076d7c00"
   },
   {
-    "name": "Pontcysyllte Aqueduct and Canal",
+    "name": {
+      "en": "Pontcysyllte Aqueduct and Canal",
+      "zh": "龐特库赛特运河和高架桥",
+      "fr": "Pontcysyllte, aqueduc et canal",
+      "de": "Pontcysyllte-Aquädukt und Kanal",
+      "ja": "ポントカサステ渡河橋と運河",
+      "pt": "Aqueduto e Canal de Pontcysyllte",
+      "es": "Acueducto y Canal de Pontcysyllte"
+    },
     "coordinates": {
       "longitude": -3.0877458,
       "latitude": 52.9706545
@@ -6729,7 +9753,15 @@
     "imageId": "2bfd84c2-b784-43ea-95d1-9b39df707600"
   },
   {
-    "name": "The Forth Bridge",
+    "name": {
+      "en": "The Forth Bridge",
+      "zh": "福斯桥",
+      "fr": "Le pont du Forth",
+      "de": "Die Forth-Brücke",
+      "ja": "フォース橋",
+      "pt": "Ponte de Forth",
+      "es": "Puente de Forth"
+    },
     "coordinates": {
       "longitude": -3.3929237,
       "latitude": 56.0078877
@@ -6746,7 +9778,15 @@
     "imageId": "c4e31a17-a293-495e-0092-b345dbeb5c00"
   },
   {
-    "name": "The Slate Landscape of Northwest Wales",
+    "name": {
+      "en": "The Slate Landscape of Northwest Wales",
+      "zh": "西北威尔士页岩景观",
+      "fr": "Le Paysage d'ardoise du nord-ouest du Pays de Galles",
+      "de": "Die Schieferlandschaft von Nordwest-Wales",
+      "ja": "北ウェールズのスレート景観",
+      "pt": "Paisagem de Ardósia do Noroeste do País de Gales",
+      "es": "Paisaje de Pizarra del Noroeste de Gales"
+    },
     "coordinates": {
       "longitude": -4.0289121,
       "latitude": 53.1097716
@@ -6763,7 +9803,15 @@
     "imageId": "a899ad45-75ab-401f-c82f-e8d91bb61600"
   },
   {
-    "name": "Mesa Verde National Park",
+    "name": {
+      "en": "Mesa Verde National Park",
+      "zh": "梅萨维尔德国家公园",
+      "fr": "Parc national de Mesa Verde",
+      "de": "Mesa Verde Nationalpark",
+      "ja": "メサ・ヴェルデ国立公園",
+      "pt": "Parque Nacional de Mesa Verde",
+      "es": "Parque Nacional Mesa Verde"
+    },
     "coordinates": {
       "longitude": -108.464293,
       "latitude": 37.1616631
@@ -6782,7 +9830,15 @@
     "imageId": "fb775633-dd83-4f34-c9d5-3991b8bdc100"
   },
   {
-    "name": "Grand Canyon National Park",
+    "name": {
+      "en": "Grand Canyon National Park",
+      "zh": "大峡谷国家公园",
+      "fr": "Parc national du Grand Canyon",
+      "de": "Grand-Canyon-Nationalpark",
+      "ja": "グランドキャニオン国立公園",
+      "pt": "Parque Nacional do Grand Canyon",
+      "es": "Parque Nacional del Gran Cañón"
+    },
     "coordinates": {
       "longitude": -112.4942978,
       "latitude": 36.3020339
@@ -6803,7 +9859,15 @@
     "imageId": "932587c9-c430-4dbe-af0f-e64c6c0f4200"
   },
   {
-    "name": "Statue of Liberty",
+    "name": {
+      "en": "Statue of Liberty",
+      "zh": "自由女神像",
+      "fr": "Statue de la Liberté",
+      "de": "Freiheitsstatue",
+      "ja": "自由の女神像",
+      "pt": "Estátua da Liberdade",
+      "es": "Estatua de la Libertad"
+    },
     "coordinates": {
       "longitude": -74.0438353,
       "latitude": 40.6887695
@@ -6822,7 +9886,15 @@
     "imageId": "a36d7346-dcf6-4166-349b-73887df31300"
   },
   {
-    "name": "Waterton Glacier International Peace Park",
+    "name": {
+      "en": "Waterton Glacier International Peace Park",
+      "zh": "沃特顿-冰川国际和平公园",
+      "fr": "Parc International de la Paix Waterton-Glacier",
+      "de": "Waterton-Glacier Internationaler Friedenspark",
+      "ja": "ウォータートン・グレイシャー国際平和自然公園",
+      "pt": "Parque Internacional da Paz Waterton-Glacier",
+      "es": "Parque Internacional de la Paz Waterton-Glacier"
+    },
     "coordinates": {
       "longitude": -113.9074341,
       "latitude": 49.0525964
@@ -6837,7 +9909,15 @@
     "imageId": "a92efdee-3d99-4fbf-b64e-be74ebdf6000\\"
   },
   {
-    "name": "Architecture of Frank Lloyd Wright",
+    "name": {
+      "en": "Architecture of Frank Lloyd Wright",
+      "zh": "弗兰克·劳埃德·赖特的建筑",
+      "fr": "L’œuvre architecturale de Frank Lloyd Wright",
+      "de": "Architektur von Frank Lloyd Wright",
+      "ja": "フランク・ロイド・ライトの建築作品",
+      "pt": "Arquitetura de Frank Lloyd Wright",
+      "es": "Arquitectura de Frank Lloyd Wright"
+    },
     "coordinates": {
       "longitude": -73.9594836,
       "latitude": 40.7828468
@@ -6853,7 +9933,15 @@
     "imageId": "2a32f321-caa2-43bd-bed3-4131d3593d00"
   },
   {
-    "name": "Church of Atlántida",
+    "name": {
+      "en": "Church of Atlántida",
+      "zh": "阿特兰蒂达教堂",
+      "fr": "Église de l'Atlántida",
+      "de": "Kirche von Atlántida ",
+      "ja": "アトランティダ教会",
+      "pt": "Igreja de Atlántida",
+      "es": "Iglesia de Atlántida"
+    },
     "coordinates": {
       "longitude": -55.7664587,
       "latitude": -34.7436201
