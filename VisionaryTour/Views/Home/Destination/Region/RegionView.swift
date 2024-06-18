@@ -65,7 +65,7 @@ struct RegionView: View {
     private func createNavigationLink(for region: Region, name: String, imageId: String) -> some View {
         NavigationLink {
             LandmarkListView(
-                navigationTitle: region.rawValue,
+                navigationTitle: LocalizedStringKey(region.rawValue),
                 immersiveViewModel: immersiveViewModel,
                 landmarks: filterLandmarks(landmarks: viewModel.landmarks, by: .region(region)),
                 showImmersiveSpace: $showImmersiveSpace

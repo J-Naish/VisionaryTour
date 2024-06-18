@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkListView: View {
-    var navigationTitle: String
+    var navigationTitle: LocalizedStringKey
     var immersiveViewModel: ImmersiveViewModel
     
     var landmarks: [Landmark]
