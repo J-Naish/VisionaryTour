@@ -13,7 +13,6 @@ struct Landmark: Identifiable, Codable, Hashable {
     var coordinates: Coordinates
     var isFavorite: Bool
     var country: Country
-    var state: String
     var description: String
     var categories: [Category]
     var panoId: String
