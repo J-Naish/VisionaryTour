@@ -35,6 +35,7 @@ struct ListItemView: View {
                     Text(landmark.name[language] ?? landmark.name.en)
                         .font(.largeTitle)
                         .lineLimit(1)
+                        .truncationMode(.tail)
                     Text(LocalizedStringKey(landmark.country.rawValue))
                         .fontWeight(.bold)
                         .opacity(0.7)
