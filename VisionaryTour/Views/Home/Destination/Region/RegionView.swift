@@ -80,7 +80,7 @@ struct RegionView: View {
                 }
                 .frame(width: 420, height: 200)
 
-                Text(name)
+                Text(LocalizedStringKey(name))
                     .font(.extraLargeTitle)
                     .padding(.leading, 32)
                     .padding(.bottom, 16)
