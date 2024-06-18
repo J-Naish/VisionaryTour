@@ -25,8 +25,14 @@ struct MapViewRepresentable: UIViewRepresentable {
             return webView
         }
         
+        // get language code en, ja, fr, de, zh, pt, es
+        let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
+        
         // set api key in html
-        htmlString = htmlString.replacingOccurrences(of: "GOOGLE_MAPS_API_KEY", with: apiKey)
+        htmlString = htmlString
+            .replacingOccurrences(of: "GOOGLE_MAPS_API_KEY", with: apiKey)
+            .replacingOccurrences(of: "LOCALE", with: languageCode)
+        
         
         let baseURL = html.deletingLastPathComponent()
         
