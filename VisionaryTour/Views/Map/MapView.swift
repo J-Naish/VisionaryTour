@@ -39,7 +39,7 @@ struct MapView: View {
                         self.position = cameraPosition
                         showImmersiveSpace = true
                     }) {
-                        Text("Open Immersive View")
+                        Text("Open Panorama")
                             .frame(width: 240)
                             .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
                     }

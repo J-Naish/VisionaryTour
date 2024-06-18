@@ -41,7 +41,7 @@ struct LandmarkDetailView: View {
                         self.position = cameraPosition
                         showImmersiveSpace = true
                     }) {
-                        Text("Open Immersive View")
+                        Text("Open Panorama")
                             .frame(width: 240)
                     }
                 }
