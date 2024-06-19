@@ -11,12 +11,42 @@ import MapKit
 import RealityKit
 import WebKit
 
+extension String {
+    func containsIgnoringCase(_ find: String) -> Bool {
+        return self.range(of: find, options: .caseInsensitive) != nil
+    }
+}
 
 class ViewModel: ObservableObject {
     
     // MARK: landmark data
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     
+    // function to search landmarks
+    func searchLandmark(_ searchText: String) -> [Landmark] {
+        let lowercasedSearchText = searchText.lowercased()
+        
+        return landmarks.filter { landmark in
+            let nameContains = landmark.name.en.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.zh.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.fr.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.de.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.ja.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.pt.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.name.es.containsIgnoringCase(lowercasedSearchText)
+            let descriptionContains = landmark.description.en.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.zh.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.fr.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.de.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.ja.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.pt.containsIgnoringCase(lowercasedSearchText) ||
+                landmark.description.es.containsIgnoringCase(lowercasedSearchText)
+            
+            let countryContains = landmark.country.rawValue.containsIgnoringCase(lowercasedSearchText)
+                    
+            return nameContains || descriptionContains || countryContains
+        }
+    }
     
     
     // MARK: map web view data

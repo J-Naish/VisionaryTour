@@ -55,13 +55,17 @@ struct HomeView: View {
             }
         } detail: {
             NavigationStack {
-                switch selectedItem {
-                case .discover:
-                    DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                case .region:
-                    RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                case .list:
-                    ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                if searchText.isEmpty {
+                    switch selectedItem {
+                    case .discover:
+                        DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                    case .region:
+                        RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                    case .list:
+                        ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                    }
+                } else {
+                    LandmarkListView(navigationTitle: "", immersiveViewModel: immersiveViewModel, landmarks: viewModel.searchLandmark(searchText), showImmersiveSpace: $showImmersiveSpace)
                 }
             }
         }
