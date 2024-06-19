@@ -11,9 +11,8 @@ import MapKit
 struct Landmark: Identifiable, Codable, Hashable {
     var name: Localization
     var coordinates: Coordinates
-    var isFavorite: Bool
     var country: Country
-    var description: String
+    var description: Localization
     var categories: [Category]
     var panoId: String
     var imageId: String

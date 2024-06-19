@@ -37,7 +37,7 @@ struct LandmarkDescriptionView: View {
                     .font(.title)
                     .padding(.bottom, 16)
                 
-                Text(landmark.description)
+                Text(landmark.description[language] ?? landmark.description.en)
             }
             .padding(.bottom, 48)
         }
