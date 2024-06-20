@@ -12,11 +12,8 @@ struct Loading: View {
     var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
-        if immersiveViewModel.progress < 1.0 {
-            ZStack {
-                Color(hex: "#808080", opacity: 0.3)
-                    .blur(radius: 20)
-                
+        if immersiveViewModel.progress < 1.0 && immersiveViewModel.progress >= 0 {
+            SmallWindow() {
                 VStack {
                     ProgressView(value: immersiveViewModel.progress)
                         .scaleEffect(2.0)
@@ -26,11 +23,43 @@ struct Loading: View {
                         .font(.largeTitle)
                 }
             }
-            .frame(width: 400, height: 240)
-            .clipShape(RoundedRectangle(cornerRadius: 24))
+        } else if immersiveViewModel.showError {
+            
+            SmallWindow() {
+                VStack {
+                    Text(LocalizedStringKey("Something went wrong."))
+                        .font(.title)
+                        .padding(.bottom, 24)
+                        .foregroundColor(.red)
+                    Text(LocalizedStringKey("Please try again later"))
+                    Text(LocalizedStringKey("or choose another place."))
+                }
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+                    withAnimation {
+                        immersiveViewModel.showError = false
+                    }
+                }
+            }
         }
     }
 }
+
+fileprivate struct SmallWindow<Content: View>: View {
+    let content: () -> Content
+    
+    var body: some View {
+        ZStack {
+            Color(hex: "#808080", opacity: 0.3)
+                .blur(radius: 20)
+            content()
+        }
+        .frame(width: 400, height: 240)
+        .clipShape(RoundedRectangle(cornerRadius: 24))
+    }
+}
+
 
 #Preview {
     Loading(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))

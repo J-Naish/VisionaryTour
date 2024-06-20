@@ -24,6 +24,8 @@ class ImmersiveViewModel {
     }
     
     var progress: Double = 1.0
+    
+    var showError: Bool = false
 
     private let width = 4096
     private let height = 2048
@@ -111,6 +113,9 @@ class ImmersiveViewModel {
 
     
     private func fetchImage(panoId: String) async throws -> UIImage {
+
+        showError = false
+
         var images: [UIImage] = []
         
         let yNum = 4
@@ -126,6 +131,10 @@ class ImmersiveViewModel {
             URLQueryItem(name: "zoom", value: "\(3)")
         ]
         baseUrl.append(queryItems: paramsCommon)
+        
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForRequest = 10
+        let session = URLSession(configuration: configuration)
 
         for y in 0 ..< yNum {
             for x in 0 ..< xNum {
@@ -137,16 +146,22 @@ class ImmersiveViewModel {
                 _url.append(queryItems: params)
 
                 let request = URLRequest(url: _url)
-                let (data, response) = try await URLSession.shared.data(for: request)
-                guard let httpResponse = response as? HTTPURLResponse,
-                      (200...299).contains(httpResponse.statusCode) else {
+                do {
+                    let (data, response) = try await session.data(for: request)
+                    guard let httpResponse = response as? HTTPURLResponse,
+                          (200...299).contains(httpResponse.statusCode) else {
+                        throw APIError.networkError
+                    }
+                    
+                    if let image = UIImage(data: data) {
+                        images.append(image)
+                        fetchedImages += 1
+                        progress = Double(fetchedImages) / Double(totalImages)
+                    }
+                } catch {
+                    progress = 1.0
+                    showError = true
                     throw APIError.networkError
-                }
-
-                if let image = UIImage(data: data) {
-                    images.append(image)
-                    fetchedImages += 1
-                    progress = Double(fetchedImages) / Double(totalImages)
                 }
             }
         }
