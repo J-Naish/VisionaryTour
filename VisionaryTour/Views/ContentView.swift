@@ -26,29 +26,35 @@ struct ContentView: View {
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
     
+    @StateObject var networkDetector = NetworkDetector()
+    
     var body: some View {
         
-        TabView(selection: $selection) {
-            HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                .tabItem {
-                    Label("Home", systemImage: "house")
-                }
-                .tag(Tab.home)
-            
-            MapView(showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
-                .tabItem {
-                    Label("Map", systemImage: "mappin.and.ellipse")
-                }
-                .tag(Tab.map)
-        }
-        .onChange(of: showImmersiveSpace) { _, newValue in
-            Task {
-                if newValue {
-                    await openImmersiveSpace(id: "ImmersiveSpace")
-                } else {
-                    await dismissImmersiveSpace()
+        if networkDetector.isConnected {
+            TabView(selection: $selection) {
+                HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                    .tag(Tab.home)
+                
+                MapView(showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
+                    .tabItem {
+                        Label("Map", systemImage: "mappin.and.ellipse")
+                    }
+                    .tag(Tab.map)
+            }
+            .onChange(of: showImmersiveSpace) { _, newValue in
+                Task {
+                    if newValue {
+                        await openImmersiveSpace(id: "ImmersiveSpace")
+                    } else {
+                        await dismissImmersiveSpace()
+                    }
                 }
             }
+        } else {
+            NoInternetConnectionView()
         }
     }
 }
