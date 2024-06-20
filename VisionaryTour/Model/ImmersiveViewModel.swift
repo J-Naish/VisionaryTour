@@ -12,8 +12,6 @@ import RealityKit
 
 @Observable
 class ImmersiveViewModel {
-    
-    let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
 
     var selectedPlaceInfo: PlaceInfo {
         didSet {
