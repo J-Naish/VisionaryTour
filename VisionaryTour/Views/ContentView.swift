@@ -28,6 +28,8 @@ struct ContentView: View {
     
     @StateObject var networkDetector = NetworkDetector()
     
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some View {
         
         if networkDetector.isConnected {
@@ -43,6 +45,12 @@ struct ContentView: View {
                         Label("Map", systemImage: "mappin.and.ellipse")
                     }
                     .tag(Tab.map)
+            }
+            .onChange(of: scenePhase) { phase, _ in
+                print(phase)
+                if phase == .inactive || phase == .background {
+                    showImmersiveSpace = false
+                }
             }
             .onChange(of: showImmersiveSpace) { _, newValue in
                 Task {
