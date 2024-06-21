@@ -39,6 +39,15 @@ struct LandmarkDetailView: View {
                         Text("Open Panorama")
                             .frame(width: 240)
                     }
+                    .padding(.bottom, 16)
+                    
+                    Button(action: {
+                        showImmersiveSpace = false
+                    }) {
+                        Text("Close Panorama")
+                            .frame(width: 240)
+                    }
+                    .disabled(!showImmersiveSpace)
                 }
                 .padding(.trailing, 16)
             }

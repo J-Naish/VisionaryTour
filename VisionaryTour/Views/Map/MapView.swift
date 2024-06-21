@@ -29,16 +29,26 @@ struct MapView: View {
                             leading: MapControlButton(isMapSelected: $isMapSelected, viewModel: viewModel),
                             trailing: ZoomControlButton(viewModel: viewModel)
                         )
-                    Button(action: {
-                        immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
-                        immersiveViewModel.progress = 0.0
-                        showImmersiveSpace = true
-                    }) {
-                        Text("Open Panorama")
-                            .frame(width: 240)
-                            .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
+                    HStack(spacing: 32) {
+                        Button(action: {
+                            immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
+                            immersiveViewModel.progress = 0.0
+                            showImmersiveSpace = true
+                        }) {
+                            Text("Open Panorama")
+                                .frame(width: 240)
+                                .foregroundColor(viewModel.pinnedPlace.panoId == nil ? .red : .white)
+                        }
+                        .disabled(viewModel.pinnedPlace.panoId == nil)
+                        
+                        Button(action: {
+                            showImmersiveSpace = false
+                        }) {
+                            Text("Close Panorama")
+                                .frame(width: 240)
+                        }
+                        .disabled(!showImmersiveSpace)
                     }
-                    .disabled(viewModel.pinnedPlace.panoId == nil)
                     .padding(.bottom, 24)
                 }
             }
