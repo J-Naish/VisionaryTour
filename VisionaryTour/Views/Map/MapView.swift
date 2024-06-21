@@ -13,8 +13,6 @@ struct MapView: View {
     @State private var searchText = ""
     @State private var isMapSelected = true
     
-    @State private var position: MapCameraPosition = .automatic
-    
     @Binding var showImmersiveSpace: Bool
     
     var immersiveViewModel: ImmersiveViewModel
@@ -34,9 +32,6 @@ struct MapView: View {
                     Button(action: {
                         immersiveViewModel.selectedPlaceInfo = viewModel.pinnedPlace
                         immersiveViewModel.progress = 0.0
-                        let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
-                        let cameraPosition = MapCameraPosition.camera(camera)
-                        self.position = cameraPosition
                         showImmersiveSpace = true
                     }) {
                         Text("Open Panorama")

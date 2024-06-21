@@ -16,8 +16,6 @@ struct LandmarkDetailView: View {
         PlaceInfo(locationCoordinate: CLLocationCoordinate2DMake(landmark.coordinates.latitude, landmark.coordinates.longitude), panoId: landmark.panoId)
     }
     
-    @State private var position: MapCameraPosition = .automatic
-    
     @Binding var showImmersiveSpace: Bool
     
     var body: some View {
@@ -36,9 +34,6 @@ struct LandmarkDetailView: View {
                     Button(action: {
                         immersiveViewModel.selectedPlaceInfo = landmark.placeInfo
                         immersiveViewModel.progress = 0.0
-                        let camera = MapCamera(centerCoordinate: immersiveViewModel.selectedPlaceInfo.locationCoordinate, distance: 400, heading: 0, pitch: 60)
-                        let cameraPosition = MapCameraPosition.camera(camera)
-                        self.position = cameraPosition
                         showImmersiveSpace = true
                     }) {
                         Text("Open Panorama")
