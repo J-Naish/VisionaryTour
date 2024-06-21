@@ -11,11 +11,6 @@ import MapKit
 import RealityKit
 import WebKit
 
-extension String {
-    func containsIgnoringCase(_ find: String) -> Bool {
-        return self.range(of: find, options: .caseInsensitive) != nil
-    }
-}
 
 class ViewModel: ObservableObject {
     

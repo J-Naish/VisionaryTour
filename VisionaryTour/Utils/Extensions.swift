@@ -29,6 +29,10 @@ extension String {
         let hashString = String(format: "%08X%08X%08X%08X", hash & 0xFFFFFFFF, (hash >> 32) & 0xFFFFFFFF, (hash >> 64) & 0xFFFFFFFF, (hash >> 96) & 0xFFFFFFFF)
         return UUID(uuidString: hashString)?.uuidString ?? UUID().uuidString
     }
+    
+    func containsIgnoringCase(_ find: String) -> Bool {
+        return self.range(of: find, options: .caseInsensitive) != nil
+    }
 }
 
 extension Color {
