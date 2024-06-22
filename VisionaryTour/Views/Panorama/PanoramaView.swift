@@ -17,10 +17,8 @@ struct PanoramaView: View {
             let contentEntity = immersiveViewModel.setupContentEntity()
             content.add(contentEntity)
         }
-        .onChange(of: immersiveViewModel.selectedPlaceInfo) { newValue, _ in
-            Task {
-                try? await immersiveViewModel.setSnapshot()
-            }
+        .task {
+            try? await immersiveViewModel.setSnapshot()
         }
     }
 }
