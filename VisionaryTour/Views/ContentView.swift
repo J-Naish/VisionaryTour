@@ -39,7 +39,7 @@ struct ContentView: View {
                     }
                     .tag(Tab.home)
                 
-                MapView(showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
+                MapView(viewModel: viewModel, showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
                     .tabItem {
                         Label("Map", systemImage: "mappin.and.ellipse")
                     }
