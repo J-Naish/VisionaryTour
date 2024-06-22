@@ -12,7 +12,7 @@ import RealityKit
 
 class ImmersiveViewModel: ObservableObject {
 
-    var selectedPlaceInfo: PlaceInfo {
+    @Published var selectedPlaceInfo: PlaceInfo {
         didSet {
             Task {
                 try await setSnapshot()
