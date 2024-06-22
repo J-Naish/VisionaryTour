@@ -13,7 +13,7 @@ struct MapViewRepresentable: UIViewRepresentable {
     @ObservedObject var viewModel: ViewModel
     
     // environment variable for google map api key
-    private let apiKey = ProcessInfo.processInfo.environment["GOOGLE_MAPS_API_KEY"]!
+    private let apiKey = EnvironmentVariables.googleMapsApiKey
     
     func makeUIView(context: Context) -> WKWebView {
         let webView = WKWebView(frame: .zero)

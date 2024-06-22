@@ -11,15 +11,15 @@ import SwiftUI
 struct VisionaryTourApp: App {
     @StateObject private var viewModel = ViewModel()
     
-//    @StateObject private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
+    @StateObject private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
     
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: viewModel)
+            ContentView(viewModel: viewModel, immersiveViewModel: immersiveViewModel)
         }
         
-//        ImmersiveSpace(id: "ImmersiveSpace") {
-//            PanoramaView(immersiveViewModel: immersiveViewModel)
-//        }.immersionStyle(selection: .constant(.full), in: .full)
+        ImmersiveSpace(id: "ImmersiveSpace") {
+            PanoramaView(immersiveViewModel: immersiveViewModel)
+        }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }
