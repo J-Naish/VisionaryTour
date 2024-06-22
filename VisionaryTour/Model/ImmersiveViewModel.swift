@@ -10,8 +10,7 @@ import Observation
 import MapKit
 import RealityKit
 
-@Observable
-class ImmersiveViewModel {
+class ImmersiveViewModel: ObservableObject {
 
     var selectedPlaceInfo: PlaceInfo {
         didSet {
@@ -21,9 +20,9 @@ class ImmersiveViewModel {
         }
     }
     
-    var progress: Double = 1.0
+    @Published var progress: Double = 1.0
     
-    var showError: Bool = false
+    @Published var showError: Bool = false
 
     private let width = 4096
     private let height = 2048
@@ -78,7 +77,10 @@ class ImmersiveViewModel {
     
     private func fetchImage(panoId: String) async throws -> UIImage {
 
-        showError = false
+        DispatchQueue.main.async {
+            self.showError = false
+            self.progress  = 0
+        }
 
         var images: [UIImage] = []
         
@@ -120,11 +122,13 @@ class ImmersiveViewModel {
                     if let image = UIImage(data: data) {
                         images.append(image)
                         fetchedImages += 1
-                        progress = Double(fetchedImages) / Double(totalImages)
+                        self.progress = Double(fetchedImages) / Double(totalImages)
                     }
                 } catch {
-                    progress = 1.0
-                    showError = true
+                    DispatchQueue.main.async {
+                        self.progress = 1.0
+                        self.showError = true
+                    }
                     throw APIError.networkError
                 }
             }
@@ -145,6 +149,10 @@ class ImmersiveViewModel {
             let xIndex = index % xNum
             let cgImage = image.cgImage?.cropping(to: CGRect(x: 0, y: 0, width: size, height: size))
             UIImage(cgImage: cgImage!).draw(at: CGPoint(x: CGFloat(xIndex * size), y: CGFloat(yIndex * size)))
+        }
+        
+        DispatchQueue.main.async {
+            self.progress = 1.0
         }
 
         if let uiImage = UIGraphicsGetImageFromCurrentImageContext() {

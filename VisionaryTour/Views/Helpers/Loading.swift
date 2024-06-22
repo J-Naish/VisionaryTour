@@ -9,7 +9,8 @@ import SwiftUI
 
 struct Loading: View {
     
-    var immersiveViewModel: ImmersiveViewModel
+    @ObservedObject var immersiveViewModel: ImmersiveViewModel
+    @Binding var showImmersiveSpace: Bool
     
     var body: some View {
         if immersiveViewModel.progress < 1.0 && immersiveViewModel.progress >= 0 {
@@ -36,6 +37,7 @@ struct Loading: View {
                 }
             }
             .onAppear {
+                showImmersiveSpace = false
                 DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
                     withAnimation {
                         immersiveViewModel.showError = false
@@ -62,5 +64,5 @@ fileprivate struct SmallWindow<Content: View>: View {
 
 
 #Preview {
-    Loading(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+    Loading(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
 }

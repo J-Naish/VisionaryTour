@@ -56,7 +56,7 @@ struct MapView: View {
                 viewModel.searchLocation(searchText)
             }
             
-            Loading(immersiveViewModel: immersiveViewModel)
+            Loading(immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
             
         }
     }

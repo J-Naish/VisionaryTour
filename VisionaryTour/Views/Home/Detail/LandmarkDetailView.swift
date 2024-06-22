@@ -53,7 +53,7 @@ struct LandmarkDetailView: View {
             }
             .padding(.horizontal, 24)
             
-            Loading(immersiveViewModel: immersiveViewModel)
+            Loading(immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
         }
     }
 }
