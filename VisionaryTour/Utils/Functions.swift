@@ -44,7 +44,7 @@ func filterLandmarks(landmarks: [Landmark], by filterCase: FilterCase) -> [Landm
 }
 
 func getImageURL(imageId: String) -> URL {
-    let apiKey = ProcessInfo.processInfo.environment["CLOUDFLARE_API_KEY"]!
+    let apiKey = EnvironmentVariables.cloudflareApiKey
     let imageUrlString = "https://imagedelivery.net/\(apiKey)/\(imageId)/public"
     guard let url = URL(string: imageUrlString) else {
         fatalError("Invalid URL string")
