@@ -12,9 +12,9 @@ struct MapView: View {
     @State private var searchText = ""
     @State private var isMapSelected = true
     
-    @Binding var showImmersiveSpace: Bool
+//    @Binding var showImmersiveSpace: Bool
     
-    var immersiveViewModel: ImmersiveViewModel
+//    var immersiveViewModel: ImmersiveViewModel
     
     var body: some View {
         
@@ -62,8 +62,8 @@ struct MapView: View {
     }
 }
 
-struct MapView_Previews: PreviewProvider {
-    static var previews: some View {
-        MapView(viewModel: ViewModel(), showImmersiveSpace: .constant(false), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
-    }
-}
+//struct MapView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MapView(viewModel: ViewModel(), showImmersiveSpace: .constant(false), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+//    }
+//}
