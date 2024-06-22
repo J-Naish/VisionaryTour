@@ -154,26 +154,6 @@ class ImmersiveViewModel {
         }
     }
     
-    
-//    func reset() {
-//        contentEntity = Entity()
-//        
-//        if let modelEntity = self.modelEntity {
-//            modelEntity.removeFromParent()
-//        }
-//        modelEntity = nil
-//        
-//        snapshotImage = .init()
-//        
-//        progress = 1.0
-//        
-//        showError = false
-//        
-////        _ = setupContentEntity()
-//        
-//        print("complete reset")
-//    }
-    
 }
 
 
