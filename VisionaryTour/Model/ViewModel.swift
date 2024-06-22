@@ -7,7 +7,6 @@
 
 import Foundation
 import Observation
-import MapKit
 import RealityKit
 import WebKit
 

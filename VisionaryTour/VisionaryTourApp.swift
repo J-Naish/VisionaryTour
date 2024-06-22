@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import MapKit
 
 @main
 struct VisionaryTourApp: App {

@@ -7,7 +7,6 @@
 
 import SwiftUI
 import RealityKit
-import MapKit
 
 struct PanoramaView: View {
     

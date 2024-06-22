@@ -8,7 +8,6 @@
 import SwiftUI
 import RealityKit
 import RealityKitContent
-import MapKit
 
 struct ContentView: View {
     
@@ -68,5 +67,4 @@ struct ContentView: View {
 
 #Preview(windowStyle: .automatic) {
     ContentView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
-//        .environment(\.locale, .init(identifier: "ja"))
 }
