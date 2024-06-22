@@ -33,11 +33,11 @@ struct ContentView: View {
         
         if networkDetector.isConnected {
             TabView(selection: $selection) {
-                HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    .tabItem {
-                        Label("Home", systemImage: "house")
-                    }
-                    .tag(Tab.home)
+//                HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
+//                    .tabItem {
+//                        Label("Home", systemImage: "house")
+//                    }
+//                    .tag(Tab.home)
                 
                 MapView(viewModel: viewModel, showImmersiveSpace: $showImmersiveSpace, immersiveViewModel: immersiveViewModel)
                     .tabItem {
