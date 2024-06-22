@@ -26,9 +26,7 @@ struct HomeView: View {
         NavigationSplitView {
             List(Selection.allCases, id: \.self) { item in
                 NavigationLink(value: item) {
-                    HStack {
-                        Text(item.rawValue)
-                    }
+                    Text(item.rawValue)
                 }
                 .navigationTitle("Home")
                 .tag(item)
