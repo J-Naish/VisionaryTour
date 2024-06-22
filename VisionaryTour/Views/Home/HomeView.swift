@@ -54,18 +54,29 @@ struct HomeView: View {
         } detail: {
             NavigationStack {
                 if searchText.isEmpty {
-                    switch selectedItem {
-                    case .discover:
-                        DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    case .region:
-                        RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    case .list:
-                        ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    }
+                    selectedView
                 } else {
                     LandmarkListView(navigationTitle: "", immersiveViewModel: immersiveViewModel, landmarks: viewModel.searchLandmark(searchText), showImmersiveSpace: $showImmersiveSpace)
                 }
             }
+        }
+    }
+    
+    @ViewBuilder
+    private var selectedView: some View {
+        switch selectedItem {
+        case .discover:
+            DiscoverView(viewModel: viewModel,
+                         immersiveViewModel: immersiveViewModel,
+                         showImmersiveSpace: $showImmersiveSpace)
+        case .region:
+            RegionView(viewModel: viewModel,
+                       immersiveViewModel: immersiveViewModel,
+                       showImmersiveSpace: $showImmersiveSpace)
+        case .list:
+            ListView(landmarks: viewModel.landmarks,
+                     immersiveViewModel: immersiveViewModel,
+                     showImmersiveSpace: $showImmersiveSpace)
         }
     }
 }
