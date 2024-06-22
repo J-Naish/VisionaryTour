@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct VisionaryTourApp: App {
-    @State private var viewModel = ViewModel()
+    @StateObject private var viewModel = ViewModel()
     
-    @State private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
+    @StateObject private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
     
     var body: some Scene {
         WindowGroup {
