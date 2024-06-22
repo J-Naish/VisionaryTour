@@ -11,11 +11,11 @@ import RealityKitContent
 
 struct ContentView: View {
     
-    @State private var selection: Tab = .home
-    enum Tab {
-        case home
-        case map
-    }
+//    @State private var selection: Tab = .home
+//    enum Tab {
+//        case home
+//        case map
+//    }
     
     var viewModel: ViewModel
     
@@ -32,7 +32,7 @@ struct ContentView: View {
     var body: some View {
         
 //        if networkDetector.isConnected {
-            TabView(selection: $selection) {
+//            TabView(selection: $selection) {
 //                HomeView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
 //                    .tabItem {
 //                        Label("Home", systemImage: "house")
@@ -43,7 +43,7 @@ struct ContentView: View {
                     .tabItem {
                         Label("Map", systemImage: "mappin.and.ellipse")
                     }
-                    .tag(Tab.map)
+//                    .tag(Tab.map)
 //            }
 //            .onChange(of: scenePhase) { phase, _ in
 //                if phase == .inactive || phase == .background {
@@ -61,7 +61,7 @@ struct ContentView: View {
 //            }
 //        } else {
 //            NoInternetConnectionView()
-        }
+//        }
     }
 }
 

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct MapView: View {
     @StateObject var viewModel: ViewModel
-    @State private var searchText = ""
-    @State private var isMapSelected = true
+//    @State private var searchText = ""
+//    @State private var isMapSelected = true
     
 //    @Binding var showImmersiveSpace: Bool
     
