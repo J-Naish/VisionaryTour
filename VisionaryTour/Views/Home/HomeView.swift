@@ -26,9 +26,7 @@ struct HomeView: View {
         NavigationSplitView {
             List(Selection.allCases, id: \.self) { item in
                 NavigationLink(value: item) {
-                    HStack {
-                        Text(item.rawValue)
-                    }
+                    Text(item.rawValue)
                 }
                 .navigationTitle("Home")
                 .tag(item)
@@ -56,23 +54,34 @@ struct HomeView: View {
         } detail: {
             NavigationStack {
                 if searchText.isEmpty {
-                    switch selectedItem {
-                    case .discover:
-                        DiscoverView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    case .region:
-                        RegionView(viewModel: viewModel, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    case .list:
-                        ListView(landmarks: viewModel.landmarks, immersiveViewModel: immersiveViewModel, showImmersiveSpace: $showImmersiveSpace)
-                    }
+                    selectedView
                 } else {
                     LandmarkListView(navigationTitle: "", immersiveViewModel: immersiveViewModel, landmarks: viewModel.searchLandmark(searchText), showImmersiveSpace: $showImmersiveSpace)
                 }
             }
         }
     }
+    
+    @ViewBuilder
+    private var selectedView: some View {
+        switch selectedItem {
+        case .discover:
+            DiscoverView(viewModel: viewModel,
+                         immersiveViewModel: immersiveViewModel,
+                         showImmersiveSpace: $showImmersiveSpace)
+        case .region:
+            RegionView(viewModel: viewModel,
+                       immersiveViewModel: immersiveViewModel,
+                       showImmersiveSpace: $showImmersiveSpace)
+        case .list:
+            ListView(landmarks: viewModel.landmarks,
+                     immersiveViewModel: immersiveViewModel,
+                     showImmersiveSpace: $showImmersiveSpace)
+        }
+    }
 }
 
-struct DiscoverView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView(viewModel: ViewModel(), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace), showImmersiveSpace: .constant(false))
     }

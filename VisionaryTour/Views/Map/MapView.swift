@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MapView: View {
-    @StateObject private var viewModel = ViewModel()
+    @StateObject var viewModel: ViewModel
     @State private var searchText = ""
     @State private var isMapSelected = true
     
@@ -64,6 +64,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(showImmersiveSpace: .constant(false), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+        MapView(viewModel: ViewModel(), showImmersiveSpace: .constant(false), immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
     }
 }

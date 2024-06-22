@@ -14,7 +14,7 @@ import WebKit
 class ViewModel: ObservableObject {
     
     // MARK: landmark data
-    @Published var landmarks: [Landmark] = load("landmarkData.json")
+    var landmarks: [Landmark] = load("landmarkData.json")
     
     // function to search landmarks
     func searchLandmark(_ searchText: String) -> [Landmark] {

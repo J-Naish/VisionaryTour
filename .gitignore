@@ -40,3 +40,4 @@ playground.xcworkspace
 .build/
 
 *.xcworkspace
+VisionaryTour/Config.xcconfig
