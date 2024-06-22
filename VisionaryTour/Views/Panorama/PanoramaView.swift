@@ -13,8 +13,6 @@ struct PanoramaView: View {
     
     var immersiveViewModel: ImmersiveViewModel
     
-    @Environment(\.scenePhase) private var scenePhase
-    
     var body: some View {
         RealityView { content in
             let contentEntity = immersiveViewModel.setupContentEntity()
@@ -25,9 +23,6 @@ struct PanoramaView: View {
                 try? await immersiveViewModel.setSnapshot()
             }
         }
-//        .onChange(of: scenePhase) { phase, _ in
-//            immersiveViewModel.reset()
-//        }
     }
 }
 

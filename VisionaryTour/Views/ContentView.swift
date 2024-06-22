@@ -47,7 +47,6 @@ struct ContentView: View {
                     .tag(Tab.map)
             }
             .onChange(of: scenePhase) { phase, _ in
-                print(phase)
                 if phase == .inactive || phase == .background {
                     showImmersiveSpace = false
                 }

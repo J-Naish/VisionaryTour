@@ -10,7 +10,7 @@ import MapKit
 
 @main
 struct VisionaryTourApp: App {
-    @StateObject private var viewModel = ViewModel()
+    @State private var viewModel = ViewModel()
     
     @State private var immersiveViewModel = ImmersiveViewModel(placeInfo: defaultPlace)
     
