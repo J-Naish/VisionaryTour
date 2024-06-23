@@ -1,0 +1,15 @@
+//
+//  Config.xcconfig
+//  VisionaryTour
+//
+//  Created by JinNash on 2024/06/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = VisionaryTour
+APP_BUNDLE_ID = test.VisionaryTour
+
+GOOGLE_MAPS_API_KEY = AIzaSyAvpSdjr7ps7DgaAtIEu7qrSrvuOBz2SJQ
+CLOUDFLARE_API_KEY = gANSDth7fqRGkliLRFOJFg
