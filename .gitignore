@@ -17,8 +17,8 @@ xcuserdata/
 
 *.xcuserstate
 
-*.xcodeproj/
-*.xcworkspace/
+# *.xcodeproj/
+# *.xcworkspace/
 
 ## Other
 *.moved-aside
