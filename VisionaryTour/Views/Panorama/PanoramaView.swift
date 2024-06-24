@@ -14,8 +14,7 @@ struct PanoramaView: View {
     
     var body: some View {
         RealityView { content in
-            let contentEntity = immersiveViewModel.setupContentEntity()
-            content.add(contentEntity)
+            content.add(immersiveViewModel.setupContentEntity())
         }
         .task {
             try? await immersiveViewModel.setSnapshot()
@@ -25,4 +24,5 @@ struct PanoramaView: View {
 
 #Preview {
     PanoramaView(immersiveViewModel: ImmersiveViewModel(placeInfo: defaultPlace))
+        .previewLayout(.sizeThatFits)
 }
